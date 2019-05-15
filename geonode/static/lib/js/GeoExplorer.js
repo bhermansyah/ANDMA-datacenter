@@ -35369,8 +35369,8 @@ GeoExt.data.PrintProvider = Ext.extend(Ext.util.Observable, {
         if (!this.url) {
             return;
         }
-        // var url = this.url + "info.json";
-        var url = getServerUrl() + 'static/info.json';
+        var url = this.url + "info.json";
+        // var url = getServerUrl() + 'static/info.json';
         Ext.Ajax.request({
             url: url,
             method: "GET",
