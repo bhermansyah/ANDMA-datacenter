@@ -45,6 +45,8 @@ from vectorformats.Formats.Format import Format
 
 import pandas as pd
 
+from django.conf import settings
+
 def include_section(section, includes, excludes):
 	"""
 	check whether section is included or not
@@ -547,7 +549,7 @@ def getEarthquake(request, filterLock, flag, code, includes=[], excludes=[], eq_
 			response['Buildings']= tempData['total_buildings']
 			response['settlement']= tempData['settlements']
 
-		url = 'http://asdc.immap.org/geoapi/geteqevents/?dateofevent__gte=2015-09-08&_dc=1473243793279'
+		url = getattr(settings, 'SITEURL').rstrip('/') + '/geoapi/geteqevents/?dateofevent__gte=2015-09-08&_dc=1473243793279'
 		req = urllib2.Request(url)
 		req.add_unredirected_header('User-Agent', 'Custom User-Agent')
 		fh = urllib2.urlopen(req)

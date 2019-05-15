@@ -1,6 +1,7 @@
 import urllib
 import hashlib
 
+from django.conf import settings
 
 from django import template
 from django.utils.translation import ugettext as _
@@ -96,3 +97,9 @@ def render_avatar(avatar, size=AVATAR_DEFAULT_SIZE):
         avatar.create_thumbnail(size)
     return """<img src="%s" alt="%s" />""" % (
         avatar.avatar_url(size), str(avatar))
+
+
+@cache_result
+@register.simple_tag
+def settings_value(name):
+    return getattr(settings, name, "")

@@ -35026,8 +35026,8 @@ GeoExt.data.PrintProvider = Ext.extend(Ext.util.Observable, {
         }, this);
 
         Ext.each(encodedLayers, function(layer){
-            if (layer.baseURL == "http://asdc.immap.org/geoserver/gwc/service/wms")
-                layer.baseURL = "http://asdc.immap.org/geoserver/wms";
+            if (layer.baseURL == getServerUrl() + "geoserver/gwc/service/wms")
+                layer.baseURL = getServerUrl() + "geoserver/wms";
         });
 
         // console.log(encodedLayers);
@@ -35370,7 +35370,7 @@ GeoExt.data.PrintProvider = Ext.extend(Ext.util.Observable, {
             return;
         }
         // var url = this.url + "info.json";
-        var url = 'http://asdc.immap.org/static/info.json';
+        var url = getServerUrl() + 'static/info.json';
         Ext.Ajax.request({
             url: url,
             method: "GET",
@@ -51112,10 +51112,9 @@ gxp.Viewer = Ext.extend(Ext.util.Observable, {
     /** initiate to collect the avalaible GWC layers from ASDC geoserver.
      */
     initGWCAvalaible : function(){
-
         var conn = new Ext.data.Connection;
         conn.request({
-          url: 'http://asdc.immap.org/static/gwclayers.xml',
+          url: getServerUrl() + 'geoserver/gwc/rest/layers', //'/static/gwclayers.xml',
           scope:this,
           callback: function(options, success, response)
           {
@@ -51394,47 +51393,20 @@ gxp.Viewer = Ext.extend(Ext.util.Observable, {
                             baseRecords.push(record);
                         } else {
                             // console.log(this.gwcAvailable);
-
-                            if (!!~this.gwcAvailable.indexOf(record.json.name)){
-                                var tempUrls = [
-                                    'http://asdc.immap.org/geoserver/gwc/service/wms',
-                                    'http://map1.asdc.immap.org/geoserver/gwc/service/wms',
-                                    'http://map2.asdc.immap.org/geoserver/gwc/service/wms',
-                                    'http://map3.asdc.immap.org/geoserver/gwc/service/wms',
-                                    'http://map4.asdc.immap.org/geoserver/gwc/service/wms',
-                                    'http://map5.asdc.immap.org/geoserver/gwc/service/wms',
-                                    'http://map6.asdc.immap.org/geoserver/gwc/service/wms',
-                                    'http://map7.asdc.immap.org/geoserver/gwc/service/wms',
-                                    'http://map8.asdc.immap.org/geoserver/gwc/service/wms'
-                                ]
-                                record.data.layer.url = tempUrls;
-                            }
-                            // if (source.url == 'http://asdc.immap.org/geoserver/wms' && record.json.tiled && record.json.cached){
-                            // if (source.url == 'http://asdc.immap.org/geoserver/wms'){
-                                // var tempUrls = [
-                                //     'http://asdc.immap.org/geoserver/gwc/service/wms',
-                                //     'http://map1.asdc.immap.org/geoserver/gwc/service/wms',
-                                //     'http://map2.asdc.immap.org/geoserver/gwc/service/wms',
-                                //     'http://map3.asdc.immap.org/geoserver/gwc/service/wms',
-                                //     'http://map4.asdc.immap.org/geoserver/gwc/service/wms',
-                                //     'http://map5.asdc.immap.org/geoserver/gwc/service/wms',
-                                //     'http://map6.asdc.immap.org/geoserver/gwc/service/wms',
-                                //     'http://map7.asdc.immap.org/geoserver/gwc/service/wms',
-                                //     'http://map8.asdc.immap.org/geoserver/gwc/service/wms'
-                                // ]
+                            // console.log(record.data.layer);
+                            // if (!!~this.gwcAvailable.indexOf(record.json.name)){
                             //     var tempUrls = [
-                            //         'http://asdc.immap.org/geoserver/wms',
-                            //         'http://map1.asdc.immap.org/geoserver/wms',
-                            //         'http://map2.asdc.immap.org/geoserver/wms',
-                            //         'http://map3.asdc.immap.org/geoserver/wms',
-                            //         'http://map4.asdc.immap.org/geoserver/wms',
-                            //         'http://map5.asdc.immap.org/geoserver/wms',
-                            //         'http://map6.asdc.immap.org/geoserver/wms',
-                            //         'http://map7.asdc.immap.org/geoserver/wms',
-                            //         'http://map8.asdc.immap.org/geoserver/wms'
+                            //         'http://asdc.immap.org/geoserver/gwc/service/wms',
+                            //         'http://map1.asdc.immap.org/geoserver/gwc/service/wms',
+                            //         'http://map2.asdc.immap.org/geoserver/gwc/service/wms',
+                            //         'http://map3.asdc.immap.org/geoserver/gwc/service/wms',
+                            //         'http://map4.asdc.immap.org/geoserver/gwc/service/wms',
+                            //         'http://map5.asdc.immap.org/geoserver/gwc/service/wms',
+                            //         'http://map6.asdc.immap.org/geoserver/gwc/service/wms',
+                            //         'http://map7.asdc.immap.org/geoserver/gwc/service/wms',
+                            //         'http://map8.asdc.immap.org/geoserver/gwc/service/wms'
                             //     ]
                             //     record.data.layer.url = tempUrls;
-                            //     // console.log(record.data.layer.url);
                             // }
                             overlayRecords.push(record);
                         }
@@ -91425,7 +91397,7 @@ GeoExplorer.Composer = Ext.extend(GeoExplorer, {
        });
 
        var hiddenLayer = new OpenLayers.Layer.WMS("afg_ppla",
-            "http://asdc.immap.org/geoserver/wms",
+            getServerUrl() + "geoserver/wms",
             {'layers': 'geonode:afg_ppla', transparent: true, format: 'image/png8', styles:'polygon_nothing'},
             {isBaseLayer: false, displayInLayerSwitcher: false, opacity: 0}
         );
@@ -91438,7 +91410,7 @@ GeoExplorer.Composer = Ext.extend(GeoExplorer, {
                 "default": styleANDMA
             }),
             protocol: new OpenLayers.Protocol.HTTP({
-                url: "http://asdc.immap.org/geoserver/wfs",
+                url: getServerUrl() + "geoserver/wfs",
                 format: new OpenLayers.Format.GeoJSON(),
                 params: {
                     service: "WFS",
@@ -91647,7 +91619,7 @@ GeoExplorer.Composer = Ext.extend(GeoExplorer, {
             }],
             proxy: new GeoExt.data.ProtocolProxy({
                 protocol: new OpenLayers.Protocol.HTTP({
-                    url: "http://asdc.immap.org/geoserver/wfs",
+                    url: getServerUrl() + "geoserver/wfs",
                     format: new OpenLayers.Format.GeoJSON(),
                     params: {
                         service: "WFS",
@@ -91773,7 +91745,7 @@ GeoExplorer.Composer = Ext.extend(GeoExplorer, {
             }],
             proxy: new GeoExt.data.ProtocolProxy({
                 protocol: new OpenLayers.Protocol.HTTP({
-                    url: "http://asdc.immap.org/geoserver/wfs",
+                    url: getServerUrl() + "geoserver/wfs",
                     format: new OpenLayers.Format.GeoJSON(),
                     params: {
                         service: "WFS",
@@ -91799,7 +91771,7 @@ GeoExplorer.Composer = Ext.extend(GeoExplorer, {
             }],
             proxy: new GeoExt.data.ProtocolProxy({
                 protocol: new OpenLayers.Protocol.HTTP({
-                    url: "http://asdc.immap.org/geoserver/wfs",
+                    url: getServerUrl() + "geoserver/wfs",
                     format: new OpenLayers.Format.GeoJSON(),
                     params: {
                         service: "WFS",
@@ -91826,7 +91798,7 @@ GeoExplorer.Composer = Ext.extend(GeoExplorer, {
             }],
             proxy: new GeoExt.data.ProtocolProxy({
                 protocol: new OpenLayers.Protocol.HTTP({
-                    url: "http://asdc.immap.org/geoserver/wfs",
+                    url: getServerUrl() + "geoserver/wfs",
                     format: new OpenLayers.Format.GeoJSON(),
                     params: {
                         service: "WFS",

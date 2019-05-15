@@ -153,7 +153,7 @@ LANG_INFO = dict(django.conf.locale.LANG_INFO.items() + EXTRA_LANG_INFO.items())
 django.conf.locale.LANG_INFO = LANG_INFO
 
 # Languages using BiDi (right-to-left) layout
-LANGUAGES_BIDI = global_settings.LANGUAGES_BIDI + ("prs","ps",)
+LANGUAGES_BIDI = tuple(global_settings.LANGUAGES_BIDI) + ("prs","ps")
 
 AUTH_USER_MODEL = 'people.Profile'
 
@@ -303,7 +303,7 @@ INSTALLED_APPS = (
     # added by boedy
     'south',
     'bootstrap3',
-    'bootstrap3_datetime',
+    # 'bootstrap3_datetime',
 
     # Theme
     "pinax_theme_bootstrap_account",
@@ -363,7 +363,7 @@ LOGGING = {
     'handlers': {
         'null': {
             'level': 'ERROR',
-            'class': 'django.utils.log.NullHandler',
+            'class': 'logging.NullHandler',
         },
         'console': {
             'level': 'ERROR',
@@ -964,7 +964,7 @@ djcelery.setup_loader()
 try:
     from local_settings import *  # noqa
 except ImportError:
-    pass
+    print('Unable to load local_settings.py:')
 
 
 #for windows users check if they didn't set GEOS and GDAL in local_settings.py

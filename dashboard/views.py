@@ -168,7 +168,7 @@ def dashboard_detail(request):
 
 	if 'pdf' in request.GET:
 		try:
-			domainpath = 'asdc.immap.org'+request.META.get('PATH_INFO')
+			domainpath = getattr(settings, 'SITEURL').rstrip('/') + request.META.get('PATH_INFO')
 			date_string = dateformat.format(date.today(), "Y-m-d")
 
 			# create an API client instance
@@ -179,9 +179,9 @@ def dashboard_detail(request):
 			# client.setPageMargins('1in', '1in', '1in', '1in')
 			client.setVerticalMargin("0.75in")
 			client.setHorizontalMargin("0.25in")
-			client.setHeaderUrl('http://asdc.immap.org/static/'+v2_folder+'rep_header_vector.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+request.user.first_name+' '+request.user.last_name+'&cust_title=&organization='+request.user.organization+'&isodate='+date_string+'&'+headerparam)
+			client.setHeaderUrl(str(domainpath) + 'static/'+v2_folder+'rep_header_vector.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+request.user.first_name+' '+request.user.last_name+'&cust_title=&organization='+request.user.organization+'&isodate='+date_string+'&'+headerparam)
 			# convert a web page and store the generated PDF to a variable
-			pdf = client.convertURI('http://'+str(domainpath)+'print?'+request.META.get('QUERY_STRING')+'&user='+str(request.user.id)+'&'+bodyparam)
+			pdf = client.convertURI(str(domainpath)+'print?'+request.META.get('QUERY_STRING')+'&user='+str(request.user.id)+'&'+bodyparam)
 			 # set HTTP response headers
 			response = HttpResponse(mimetype="application/pdf")
 			response["Cache-Control"] = "no-cache"
