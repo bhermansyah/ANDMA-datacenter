@@ -233,6 +233,11 @@ function init_echarts() {
 
 	var theme = {
 		color: [
+				// indigo theme
+				// '#30388a', '#ff8327'
+				// '#6976c4', '#4453ae', '#394692'
+				// '#ccd0eb', '#9ea2d1', '#7376b6', '#494c9b', '#1a237e'
+				'#b0b7e0', '#7d83c1', '#4e52a0', '#1a237e'
 			  // '#c3272b', '#c93756', '#8e44ad', '#317589', '#003171',
 			  // rainbow
 			  // '#800026', '#bd0026', '#e31a1c', '#fc4e2a',
@@ -254,7 +259,7 @@ function init_echarts() {
 			  // '#f75c4c',    '#ff6c5c',    '#ff7c6c'
 
 			  // neon theme
-			  '#ffaaab', '#ff6264', '#d13c3e', '#b92527'
+			//   '#ffaaab', '#ff6264', '#d13c3e', '#b92527'
 
 			  // elmo
 			  // '#edd382', '#fc9e4f', '#e24e1b', '#f2f3ae'
@@ -447,7 +452,7 @@ function init_echarts() {
 
   	var colorReversed= {
   		normal:{
-  			color: '#b92527'
+  			color: '#30388a'
   		}
   	}
 
@@ -463,7 +468,7 @@ function init_echarts() {
   		}
   	};
 
-  	colorDonutDefault = ['#b92527', '#ccc'];
+  	colorDonutDefault = ['#30388a', '#ccc'];
 
   	var colorFloodLikelihood = 
   		function (value, params) {
@@ -6058,7 +6063,7 @@ function init_leaflet(){
 		legend_num_arr = setLegendSeries(val_collection);
 		// console.log(legend_num_arr);
 
-		val_theme = 'YlOrRd';
+		val_theme = 'Blues';
 		var getChroma = chroma.scale(val_theme).classes(legend_num_arr).out("hex");
 
 		legend = createLegend();
@@ -6601,7 +6606,7 @@ function init_leaflet(){
 		legend_num_arr = setLegendSeries(val_collection);
 		// console.log(legend_num_arr);
 
-		val_theme = 'YlOrRd';
+		val_theme = 'Blues';
 		var getChroma = chroma.scale(val_theme).classes(legend_num_arr).out("hex");
 
 	    legend = createLegend();
@@ -7604,7 +7609,7 @@ function init_leaflet(){
         sumValueProp($('.lvl_choice .fforecast_checkbox_flash_pop :checkbox:enabled'));
     	legend_num_arr = setLegendSeries(val_collection);
 
-    	val_theme = 'YlOrRd';
+    	val_theme = 'Blues';
     	var getChroma = chroma.scale(val_theme).classes(legend_num_arr).out("hex");
 
         legend = createLegend();
@@ -7967,7 +7972,7 @@ function init_leaflet(){
 		changeValueProp(layer_selected);
 		legend_num_arr = setLegendSeries(val_collection);
 
-		val_theme = 'YlOrRd';
+		val_theme = 'Blues';
 		var getChroma = chroma.scale(val_theme).classes(legend_num_arr).out("hex");
 
 		legend = createLegend();
@@ -8213,7 +8218,7 @@ function init_leaflet(){
         sumValueProp($('.lvl_choice .aforecast_checkbox_pop :checkbox:enabled'));
     	legend_num_arr = setLegendSeries(val_collection);
 
-    	val_theme = 'YlOrRd';
+    	val_theme = 'Blues';
     	var getChroma = chroma.scale(val_theme).classes(legend_num_arr).out("hex");
 
 		legend = createLegend();
@@ -8409,7 +8414,7 @@ function init_leaflet(){
 		sumValueProp($('.lvl_choice .arisk_checkbox_pop :checkbox:enabled'));
 		legend_num_arr = setLegendSeries(val_collection);
 
-		val_theme = 'YlOrRd';
+		val_theme = 'Blues';
 		var getChroma = chroma.scale(val_theme).classes(legend_num_arr).out("hex");
 
 		legend = createLegend();
@@ -8716,7 +8721,7 @@ function init_leaflet(){
 
     	legend_num_arr = setLegendSeries(val_collection);
 
-    	val_theme = 'YlOrRd';
+    	val_theme = 'Blues';
     	var getChroma = chroma.scale(val_theme).classes(legend_num_arr).out("hex");
 
 		legend = createLegend();
@@ -9190,7 +9195,7 @@ function init_leaflet(){
 
 	    legend_num_arr = setLegendSeries(val_collection);
 
-	    val_theme = 'YlOrRd';
+	    val_theme = 'Blues';
 	    var getChroma = chroma.scale(val_theme).classes(legend_num_arr).out("hex");
 
 	    legend = createLegend();
@@ -9580,7 +9585,7 @@ function init_leaflet(){
 
 		legend_num_arr = setLegendSeries(val_collection);
 
-		val_theme = 'YlOrRd';
+		val_theme = 'Blues';
 		var getChroma = chroma.scale(val_theme).classes(legend_num_arr).out("hex");
 
 	    legend = createLegend();
@@ -9891,7 +9896,7 @@ function init_leaflet(){
 		changeValueProp(layer_selected);
 		legend_num_arr = setLegendSeries(val_collection);
 
-		val_theme = 'YlOrRd';
+		val_theme = 'Blues';
 		var getChroma = chroma.scale(val_theme).classes(legend_num_arr).out("hex");
 
 		legend = createLegend();

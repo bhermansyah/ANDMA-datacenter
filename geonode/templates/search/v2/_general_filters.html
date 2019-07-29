@@ -31,7 +31,7 @@
                   <div ng-show="category.show" class="parentCat">
                     <ul class="list-unstyled" style="padding-left: 15px;">
                       <li ng-repeat="item in category.children" ng-if="item.count > 0">
-                        <div class="checkbox checkbox-red"> 
+                        <div class="checkbox checkbox-indigo"> 
                           <label><input type="checkbox" data-value="{{ item.identifier }}" data-filter="category__identifier__in" ng-click="multiple_choice_listener($event)">{{ item.gn_description | limitTo: 25 }}{{ item.gn_description.length > 25 ? '...' : ''}}
                           </label> 
                           <span class="badge {% endverbatim %}pull-right{% verbatim %}">{{ item.count }}</span>
@@ -65,7 +65,7 @@
           <ul class="list-unstyled"> 
             {% verbatim %}
             <li ng-repeat="keyword in keywords" ng-if="keyword.count > 0"> 
-              <div class="checkbox checkbox-red"> 
+              <div class="checkbox checkbox-indigo"> 
                 <label><input type="checkbox" data-value="{{ keyword.slug }}" data-filter="keywords__slug__in" ng-click="multiple_choice_listener($event)">{{ keyword.name }}
                 </label> 
                 <span class="badge {% endverbatim %}pull-right{% verbatim %}">{{ keyword.count }}</span>

@@ -18,7 +18,7 @@
             {% verbatim %}
             <div ng-repeat="region in regions" ng-if="region.children.length > 0" >
               <li ng-repeat="item in region.children" ng-if="item.count > 0 || item.children.length > 0">
-                <div class="checkbox checkbox-red"> 
+                <div class="checkbox checkbox-indigo"> 
                   <label>
                     <input type="checkbox" data-value="{{ item.name }}" data-filter="regions__name__in" ng-click="multiple_choice_listener($event)">{{ item.name }}
                   </label> 
@@ -34,7 +34,7 @@
                   <div ng-show="item.show" ng-if="item.children.length > 0" class="childProv">
                     <ul class="list-unstyled">
                       <li ng-repeat="entity in item.children" ng-if="entity.count > 0">
-                        <div class="checkbox checkbox-red"> 
+                        <div class="checkbox checkbox-indigo"> 
                           <label><input type="checkbox" data-value="{{ entity.name }}" data-filter="regions__name__in" ng-click="multiple_choice_listener($event)">{{ entity.name }}
                           </label> 
                           <span class="badge {% endverbatim %}pull-right{% verbatim %}">{{ entity.count }}</span>

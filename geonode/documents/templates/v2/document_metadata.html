@@ -18,8 +18,8 @@
     <h2 class="page-title">{% trans "Edit Metadata" %}</h2>
   </div> 
   <div class="row">
-    <div class="col-md-8">
-      <p class="lead">
+    <div class="col-md-8 col-md-push-2">
+      <p class="lead center">
           {% trans "Editing details for" %} {{ document.title }}
       </p>
       <form class="form-horizontal" action="{% url "document_metadata" document.id %}" method="POST">
@@ -39,7 +39,7 @@
           </div>
         {% endif %}
           <div class="form-actions" style="margin:5px;text-align:right;">
-            <div class="clearfix bg-line-bottom-custom">
+            <div class="clearfix">
               <!-- <button type="submit" value="{% trans "Update" %}" class="btn btn-secondary float-right">{% trans "Update" %}</button> -->
               <input type="submit" class="btn btn-primary float-right" value="{% trans "Update" %}"/>
             </div>
@@ -78,7 +78,7 @@
           {% endautoescape %}
         </fieldset>
         <div class="form-actions" style="margin:5px;text-align:right;">
-          <div class="clearfix bg-line-top-custom">
+          <div class="clearfix">
             <!-- <button type="submit" value="{% trans "Update" %}" class="btn btn-secondary float-right">{% trans "Update" %}</button> -->
             <input type="submit" class="btn btn-primary float-right" value="{% trans "Update" %}"/>
           </div>

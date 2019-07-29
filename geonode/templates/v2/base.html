@@ -312,20 +312,32 @@
                     <form class="center" action="{% url "account_login" %}?next={{ request.path }}" method="post" id="form-login">
                         {% csrf_token %}
                         <fieldset class="login-form">
-                            <!-- Username -->
-                            <div class="form-group group-login">
+                            <div class="form-group">
+                                <div class="pull-right">
+                                    <a href="{% url 'forgot_username' %}">{% trans "Forgot Username" %}</a>
+                                </div>
+                                <input id="id_username" class="form-control" name="username" placeholder="{% trans "Username" %}" type="text" />
+                            </div>
+                            <div class="form-group">
+                                <div class="pull-right">
+                                    <a href="{% url 'account_password_reset' %}">{% trans "Forgot Password" %}</a>
+                                </div>
+                                <input id="id_password" class="form-control" name="password" placeholder="{% trans "Password" %}" type="password" />
+                            </div>
+
+                            <!-- <div class="form-group group-login">
                                 <input type="text" id="id_username" name="username" placeholder="{% trans 'Username' %}" class="login-input">
                                 <div class="login-forgot">
                                     <a href="{% url 'forgot_username' %}">{% trans "Forgot?" %}</a>
                                 </div>
                             </div>
-                            <!-- Password-->
                             <div class="form-group group-login">
                                 <input type="password" id="id_password" name="password" placeholder="{% trans 'Password' %}" class="login-input">
                                 <div class="login-forgot">
                                     <a href="{% url 'account_password_reset' %}">{% trans "Forgot?" %}</a>
                                 </div>
-                            </div>
+                            </div> -->
+
                             <div class="form-group" style="text-align: left;">
                                 <div class="checkbox">
                                     <label><input type="checkbox"> {% trans "Remember Me" %}</label>

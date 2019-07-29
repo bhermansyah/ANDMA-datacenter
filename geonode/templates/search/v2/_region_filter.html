@@ -14,7 +14,7 @@
           {% verbatim %}
           <div id="collapse_Country">
             <li ng-repeat="region in regions">
-              <div class="checkbox checkbox-red"> 
+              <div class="checkbox checkbox-indigo"> 
                 <label><input type="checkbox" data-value="{{ region.name }}" data-filter="regions__name__in" ng-click="multiple_choice_listener($event)">{{ region.name }}
                 </label> 
                 <span class="badge {% endverbatim %}pull-right{% verbatim %}">{{ region.count }}</span>

@@ -223,6 +223,10 @@
         font-size: 8px;
     }
 
+    .tile_count .tile_stats_count .count{
+        color:  #f57c00!important;
+    }
+
     .checkbox input[type="checkbox"] {
         /*width: 17px;*/
         /*height: 17px;*/
@@ -269,9 +273,18 @@
         background: #d9534f !important;
     }
 
+    .checkbox-indigo input[type="checkbox"]::before{
+        color: #fff;
+        background: #30388a !important;
+    }
+
     .checkbox-white input[type="checkbox"]::before{
-        color: #a72b1f;
+        color: #30388a;
         background: #fff !important;
+    }
+
+    .nav-pills>li.active>a{
+        background-color: #30388a !important;
     }
 
     /*table, th, td {

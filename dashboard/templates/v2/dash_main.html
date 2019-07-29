@@ -1145,7 +1145,7 @@
 	                    	    <div id="indicatorType" class="panel-body child-checkbox">
 	                    	    	{% get_current_language_bidi as LANGUAGE_BIDI %}
 	                    	    		{% for item in main_type_child %}
-	                    	    		<div class="checkbox checkbox-red {{ LANGUAGE_BIDI | yesno:'rtl, ltr' }}">
+	                    	    		<div class="checkbox checkbox-indigo {{ LANGUAGE_BIDI | yesno:'rtl, ltr' }}">
 	                    	    			<label>
 	                    	    				<input id="type{{ forloop.counter0 }}" name="main_type_select[]" type="checkbox" class="checkIncident" value="{{ item.main_type }}" {% if item.main_type in incident_type %}checked=true{% endif %}>
 	                    	    				 {{ item.main_type }} ({{item.count}} incidents)

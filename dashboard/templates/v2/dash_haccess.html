@@ -61,10 +61,10 @@
 
 	                    			    <label for="themes">Pick a theme :</label>
 	                    			    <div id="themes">
-	                    			        <button class="theme active" data-btn="YlOrRd"></button>
+	                    			        <button class="theme" data-btn="YlOrRd"></button>
 	                    			        <button class="theme" data-btn="PuRd"></button>
 	                    			        <button class="theme" data-btn="GnBu"></button>
-	                    			        <button class="theme" data-btn="Blues"></button>
+	                    			        <button class="theme active" data-btn="Blues"></button>
 	                    			        <button class="theme" data-btn="BuGn"></button>
 	                    			        <button class="theme" data-btn="BuPu"></button>
 	                    			        <button class="theme" data-btn="Greens"></button>
@@ -129,7 +129,7 @@
 	                    	    	<!-- <div class="col-md-6 col-xs-6 col-sm-6"> -->
 	                    	    	{% get_current_language_bidi as LANGUAGE_BIDI %}
 	                    	    		{% for item in main_type_child %}
-	                    	    		<div class="checkbox checkbox-red {{ LANGUAGE_BIDI | yesno:'rtl, ltr' }}">
+	                    	    		<div class="checkbox checkbox-indigo {{ LANGUAGE_BIDI | yesno:'rtl, ltr' }}">
 	                    	    			<label>
 	                    	    				<input id="type{{ forloop.counter0 }}" name="main_type_select[]" type="checkbox" class="checkIncident" value="{{ item.main_type }}" {% if item.main_type in incident_type %}checked=true{% endif %}>
 	                    	    				 {{ item.main_type }} ({{item.count}} incidents)
@@ -140,7 +140,7 @@
 	                    	    			</label> -->
 	                    	    		</div>
 	                    	    		{% endfor %}
-	                    	    		<!-- <div class="checkbox checkbox-red">
+	                    	    		<!-- <div class="checkbox checkbox-indigo">
 	                    	    			<label>
 	                    	    				<input type="checkbox" class="checkIncident styled" value="Attack" checked="" />Attack
 	                    	    			</label>
@@ -376,7 +376,7 @@
 	                    	    <div id="indicatorTarget" class="panel-body child-checkbox">
 	                    	    	<!-- <div class="col-md-6 col-xs-6 col-sm-6"> -->
 	                    	    		{% for item in main_target_child %}
-	                    	    		<div class="checkbox checkbox-red {{ LANGUAGE_BIDI | yesno:'rtl, ltr' }}">
+	                    	    		<div class="checkbox checkbox-indigo {{ LANGUAGE_BIDI | yesno:'rtl, ltr' }}">
 	                    	    			<label>
 	                    	    				<input id="target{{ forloop.counter0 }}" name="main_target_select[]" type="checkbox" class="checkTarget" value="{{ item.main_target }}" {% if item.main_target in incident_target %}checked=true{% endif %} /> {{ item.main_target }} ({{item.count}} incidents)
 	                    	    			</label>

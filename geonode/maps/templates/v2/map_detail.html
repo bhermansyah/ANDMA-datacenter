@@ -60,7 +60,7 @@
           </div>
           <div class="product-info-panel" style="margin: 0 -15px;">
             {% include "v2/_actions.html" %}
-            <div class="tab-content" style="background-color: #fff; border-top: 4px solid #a72b1f;">
+            <div class="tab-content">
               {% include "v2/resourcebase_info_panel.html" %}
               <div id="rate" class="tab-pane fade">
                   <table class="table">
@@ -87,13 +87,13 @@
             <div class="product-details-side">
               <div class="product-info" style="padding: 0;">
                 <div class="product-map-editor">
-                  <ul class="nav nav-tabs" style="text-align: center; background-color: #f5f5f5;">
+                  <ul class="nav nav-tabs">
                       <li class="active"><a data-toggle="tab" href="#rel_layers">{% trans "Map Layers" %}</a></li>
                       {% if documents.count > 0 %}
                       <li class="active"><a data-toggle="tab" href="#rel_docs">{% trans "Related Document" %}</a></li>
                       {% endif %}
                   </ul>
-                  <div class="tab-content" style="height: 250px; padding: 10px 15px; background-color: #fff; overflow-y: auto; border-top: 4px solid #a72b1f;">
+                  <div class="tab-content">
                       <div id="rel_layers" class="tab-pane fade in active" style="margin-top: 15px;">
                         <p>{% trans "List of layers used by this map:" %}</p>
                         <ul class="list-unstyled">
