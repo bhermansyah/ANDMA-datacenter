@@ -3170,8 +3170,7 @@ html[dir=rtl] .item .carousel-caption{
 }
 
 .tile_count .tile_stats_count .count{
-    /* color:  var(--secondary-text)!important; */
-    color:  var(--primary-text)!important;
+    color:  var(--secondary-text)!important;
 }
 
 .red {
