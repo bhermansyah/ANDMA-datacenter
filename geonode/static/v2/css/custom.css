@@ -6,12 +6,15 @@
     --black: #333;
     --light-indigo: #f6f7fc;
     --primary-bg: #30388a;
+    --lighter-primary-bg: #9fa8da;
     --light-primary-bg: #e8eaf6;
     --darken-primary-bg: #131a5d;
     --primary-text: #30388a;
     --secondary-bg: #ff8327;
     --lighten-secondary-bg: #ff9800;
+    --very-light-secondary-bg: #ffca28;
     --secondary-text: #f57c00;
+    --darken-secondary-text : #ff5722;
 }
 
 body
@@ -1368,12 +1371,14 @@ body>section#slide-show
 
 .overlay {
   position: absolute;
-  bottom: -11px;
-  left: -15px;
+  bottom: -10px;
+  left: -13px;
   /*right: 0;*/
   background-color: var(--darken-primary-bg);
+  background-color: var(--very-light-secondary-bg);
   overflow: hidden;
-  width: 108.5%;
+  /* width: 108.5%; */
+  width: calc(100% + 26px);
   height: 0;
   transition: .5s ease;
 }
@@ -1415,7 +1420,9 @@ img#SnowLegend.snapshot-legend{
     margin-bottom: 3px;
     /*margin: 0;
     padding: 0;*/
-    color: #ff6d00;
+    /* color: #ff6d00; */
+    color: var(--darken-secondary-text);
+    /* color: var(--primary-text); */
     /*color: var(--white);*/
 }
 
@@ -1913,7 +1920,8 @@ textarea#message
 
 #footer #gototop:hover
 {
-    background: #2b2b2b;
+    /* background: #2b2b2b; */
+    background-color: var(--secondary-bg);
     text-decoration: none;
 }
 
@@ -2146,7 +2154,8 @@ a:active,
 .navbar-upper /*.navbar-inner*/
 {
     margin-bottom: 0px;
-    background: #fff!important;
+    background-color: var(--white);
+    /* background-color: var(--primary-bg); */
     border: 0;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -2227,6 +2236,7 @@ nav #logo2 {
 .navbar-brand-immap h1
 {
     color: #535353;
+    /* color: var(--white); */
     font: normal 600 12px/40px "futura-pt", sans-serif;
     letter-spacing: 0.5px;
     /*text-align: left;*/
@@ -2274,6 +2284,8 @@ nav.navbar-upper .nav>li>a
     padding-top: 10px;
     padding-bottom: 10px;
     color: #333;
+    /* color: var(--primary-text); */
+    /* color: var(--white); */
     font-family: "Fjalla One", Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
@@ -2353,9 +2365,12 @@ nav .navbar-upper .dropdown-menu:before
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-    -webkit-box-shadow: none;
+    /* -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    box-shadow: none;
+    box-shadow: none; */
+    -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
     padding: 0;
     border: 0;
 }
@@ -2458,6 +2473,11 @@ select.language>select:active.language>select:hover.language{
     background: #a80e00;
     color: var(--white);
 }*/
+
+.navbar-right>.dropdown>.dropdown-menu,
+.navbar-right>.dropdown:hover>.dropdown-menu{
+    margin-top: 10px;
+}
 
 /*User Profile*/
 
