@@ -71,7 +71,8 @@ function getUserLogo(){
 }
 
 function getServerUrl(){
-    return '{% settings_value "SITEURL" %}';
+    return '{{GEOSERVER_DOMAIN}}';
+    // return '{% settings_value "SITEURL" %}';
 }
 
 
