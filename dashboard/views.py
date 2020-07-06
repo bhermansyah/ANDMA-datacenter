@@ -206,7 +206,7 @@ def dashboard_detail(request):
 			    'margin-bottom':10,
 			    'margin-top':30,
 			    # 'viewport-size':'800x600',
-			    'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/'+v2_folder+'rep_header.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+request.user.first_name+' '+request.user.last_name+'&cust_title=&organization='+request.user.organization+'&'+headerparam,
+			    'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/'+v2_folder+'rep_header.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+request.user.first_name or ''+' '+request.user.last_name or ''+'&cust_title=&organization='+request.user.organization or ''+'&'+headerparam,
 			    # 'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/rep_header(v2).html?name='+request.user.first_name+'-'+request.user.last_name+'&cust_title=&organization='+request.user.organization,
 			    # 'lowquality':'-'
 			    # 'disable-smart-shrinking':'-',
