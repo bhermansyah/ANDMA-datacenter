@@ -60,14 +60,14 @@ def common(request):
 		flag = request.GET['flag']
 
 	if 'pdf' in request.GET:
-		mapCode = '700'
+        mapCode = settings.MATRIX_DEFAULT_MAP_CODE
 		map_obj = _resolve_map(request, mapCode, 'base.view_resourcebase', _PERMISSION_MSG_VIEW)
 		px = get_object_or_404(Profile, id=request.GET['user'])
 		# print px
 		queryset = matrix(user=px,resourceid=map_obj,action='Dashboard PDF '+request.GET['page'])
 		queryset.save()
 	else:
-		mapCode = '700'
+        mapCode = settings.MATRIX_DEFAULT_MAP_CODE
 		map_obj = _resolve_map(request, mapCode, 'base.view_resourcebase', _PERMISSION_MSG_VIEW)
 		queryset = matrix(user=request.user,resourceid=map_obj,action='Dashboard '+request.GET['page'])
 		queryset.save()
