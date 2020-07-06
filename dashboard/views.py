@@ -123,12 +123,14 @@ def common(request):
 	            return obj.strftime("%Y-%m-%d %H:%M:%S")
 	        elif obj.__class__.__name__  == "Decimal":
 	            return float(obj)
+	        elif obj.__class__.__name__  == "int64":
+	            return str(obj)
 	        else:
 	            print 'not converted to json:', obj.__class__.__name__
 	            # return {} # convert un-json-able object to empty object
 	            return 'not converted to json: %s' % (obj.__class__.__name__) # convert un-json-able object to empty object
 
-	response['jsondata'] = json.dumps(response, cls = CustomEncoder)
+	response['jsondata'] = json.dumps(response, skipkeys=True, cls = CustomEncoder)
 
 	return response
 
