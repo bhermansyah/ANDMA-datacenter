@@ -60,14 +60,14 @@ def common(request):
 		flag = request.GET['flag']
 
 	if 'pdf' in request.GET:
-        mapCode = settings.MATRIX_DEFAULT_MAP_CODE
+		mapCode = settings.MATRIX_DEFAULT_MAP_CODE
 		map_obj = _resolve_map(request, mapCode, 'base.view_resourcebase', _PERMISSION_MSG_VIEW)
 		px = get_object_or_404(Profile, id=request.GET['user'])
 		# print px
 		queryset = matrix(user=px,resourceid=map_obj,action='Dashboard PDF '+request.GET['page'])
 		queryset.save()
 	else:
-        mapCode = settings.MATRIX_DEFAULT_MAP_CODE
+		mapCode = settings.MATRIX_DEFAULT_MAP_CODE
 		map_obj = _resolve_map(request, mapCode, 'base.view_resourcebase', _PERMISSION_MSG_VIEW)
 		queryset = matrix(user=request.user,resourceid=map_obj,action='Dashboard '+request.GET['page'])
 		queryset.save()
@@ -114,21 +114,21 @@ def common(request):
 		response['checked'] = filter(None, request.GET['_checked'].split(","))
 
 	class CustomEncoder(json.JSONEncoder):
-	    def default(self, obj):
-	        if obj.__class__.__name__  == "GeoValuesQuerySet":
-	            return list(obj)
-	        elif obj.__class__.__name__  == "date":
-	            return obj.strftime("%Y-%m-%d")
-	        elif obj.__class__.__name__  == "datetime":
-	            return obj.strftime("%Y-%m-%d %H:%M:%S")
-	        elif obj.__class__.__name__  == "Decimal":
-	            return float(obj)
-	        elif obj.__class__.__name__  == "int64":
-	            return str(obj)
-	        else:
-	            print 'not converted to json:', obj.__class__.__name__
-	            # return {} # convert un-json-able object to empty object
-	            return 'not converted to json: %s' % (obj.__class__.__name__) # convert un-json-able object to empty object
+		def default(self, obj):
+			if obj.__class__.__name__  == "GeoValuesQuerySet":
+				return list(obj)
+			elif obj.__class__.__name__  == "date":
+				return obj.strftime("%Y-%m-%d")
+			elif obj.__class__.__name__  == "datetime":
+				return obj.strftime("%Y-%m-%d %H:%M:%S")
+			elif obj.__class__.__name__  == "Decimal":
+				return float(obj)
+			elif obj.__class__.__name__  == "int64":
+				return str(obj)
+			else:
+				print 'not converted to json:', obj.__class__.__name__
+				# return {} # convert un-json-able object to empty object
+				return 'not converted to json: %s' % (obj.__class__.__name__) # convert un-json-able object to empty object
 
 	response['jsondata'] = json.dumps(response, skipkeys=True, cls = CustomEncoder)
 
@@ -148,25 +148,25 @@ def dashboard_detail(request):
 	bodyparam = urllib.urlencode(bodyparam_dict)
 
 	def set_query_parameter(url, param_name, param_value):
-	    """Given a URL, set or replace a query parameter and return the
-	    modified URL.
+		"""Given a URL, set or replace a query parameter and return the
+		modified URL.
 
-	    >>> set_query_parameter('http://example.com?foo=bar&biz=baz', 'foo', 'stuff')
-	    'http://example.com?foo=stuff&biz=baz'
+		>>> set_query_parameter('http://example.com?foo=bar&biz=baz', 'foo', 'stuff')
+		'http://example.com?foo=stuff&biz=baz'
 
-	    """
-	    scheme, netloc, path, query_string, fragment = urlsplit(url)
-	    query_params = parse_qs(query_string)
+		"""
+		scheme, netloc, path, query_string, fragment = urlsplit(url)
+		query_params = parse_qs(query_string)
 
-	    query_params[param_name] = [param_value]
-	    new_query_string = urllib.urlencode(query_params, doseq=True)
+		query_params[param_name] = [param_value]
+		new_query_string = urllib.urlencode(query_params, doseq=True)
 
-	    return urlunsplit((scheme, netloc, path, new_query_string, fragment))
+		return urlunsplit((scheme, netloc, path, new_query_string, fragment))
 
 	# add '?page=baseline' to url if none exist
 	if not request.GET.get('page'):
-	    currenturl = request.build_absolute_uri()
-	    return redirect(set_query_parameter(currenturl, 'page', 'baseline'))
+		currenturl = request.build_absolute_uri()
+		return redirect(set_query_parameter(currenturl, 'page', 'baseline'))
 
 	if 'pdf' in request.GET:
 		try:
@@ -196,28 +196,28 @@ def dashboard_detail(request):
 
 		except pdfcrowd.Error, why:
 			options = {
-			    'quiet': '',
-			    'page-size': 'A4',
+				'quiet': '',
+				'page-size': 'A4',
 				'page-width': '2480px',
 				'page-height': '3508px',
 				'dpi':300,
-			    # 'margin-left': 10,
-			    # 'margin-right': 10,
-			    'margin-bottom':10,
-			    'margin-top':30,
-			    # 'viewport-size':'800x600',
-			    'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/'+v2_folder+'rep_header.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+request.user.first_name or ''+' '+request.user.last_name or ''+'&cust_title=&organization='+request.user.organization or ''+'&'+headerparam,
-			    # 'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/rep_header(v2).html?name='+request.user.first_name+'-'+request.user.last_name+'&cust_title=&organization='+request.user.organization,
-			    # 'lowquality':'-'
-			    # 'disable-smart-shrinking':'-',
-			    # 'print-media-type':'-',
-			    # 'no-stop-slow-scripts':'-',
-			    # 'enable-javascript':'-',
-			    # 'javascript-delay': 30000,
-			    # 'window-status': 'ready',
+				# 'margin-left': 10,
+				# 'margin-right': 10,
+				'margin-bottom':10,
+				'margin-top':30,
+				# 'viewport-size':'800x600',
+				'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/'+v2_folder+'rep_header.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+request.user.first_name or ''+' '+request.user.last_name or ''+'&cust_title=&organization='+request.user.organization or ''+'&'+headerparam,
+				# 'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/rep_header(v2).html?name='+request.user.first_name+'-'+request.user.last_name+'&cust_title=&organization='+request.user.organization,
+				# 'lowquality':'-'
+				# 'disable-smart-shrinking':'-',
+				# 'print-media-type':'-',
+				# 'no-stop-slow-scripts':'-',
+				# 'enable-javascript':'-',
+				# 'javascript-delay': 30000,
+				# 'window-status': 'ready',
 			}
 			if re.match('^/v2', request.path):
-			    options['viewport-size'] = '1240x800'
+				options['viewport-size'] = '1240x800'
 			domainpath = request.META.get('HTTP_HOST')+request.META.get('PATH_INFO')
 			url = 'http://'+str(domainpath)+'print?'+request.META.get('QUERY_STRING')+'&user='+str(request.user.id)+'&'+bodyparam
 			pdf = pdfkit.from_url(url, False, options=options)
@@ -317,25 +317,25 @@ def dashboard_multiple(request):
 
 	except pdfcrowd.Error, why:
 		options = {
-		    'quiet': '',
-		    'page-size': 'A4',
+			'quiet': '',
+			'page-size': 'A4',
 			'page-width': '2550px',
 			'page-height': '3300px',
 			'dpi':300,
-		    # 'margin-left': 10,
-		    # 'margin-right': 10,
-		    'margin-bottom':10,
-		    'margin-top':30,
-		    # 'viewport-size':'800x600',
-		    'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/'+v2_folder+'rep_header.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+request.user.first_name+' '+request.user.last_name+'&cust_title='+quote(data['mapTitle'].encode('utf-8'))+'&organization='+request.user.organization+'&'+headerparam,
+			# 'margin-left': 10,
+			# 'margin-right': 10,
+			'margin-bottom':10,
+			'margin-top':30,
+			# 'viewport-size':'800x600',
+			'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/'+v2_folder+'rep_header.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+request.user.first_name+' '+request.user.last_name+'&cust_title='+quote(data['mapTitle'].encode('utf-8'))+'&organization='+request.user.organization+'&'+headerparam,
 			# 'lowquality':'-',
-		    # 'disable-smart-shrinking':'-',
-		    # 'print-media-type':'-',
-		    # 'no-stop-slow-scripts':'-',
-		    # 'enable-javascript':'-',
-		    'javascript-delay': 25000,
-		    # 'window-status': 'ready',
-		    'encoding': "UTF-8",
+			# 'disable-smart-shrinking':'-',
+			# 'print-media-type':'-',
+			# 'no-stop-slow-scripts':'-',
+			# 'enable-javascript':'-',
+			'javascript-delay': 25000,
+			# 'window-status': 'ready',
+			'encoding': "UTF-8",
 		}
 
 		# f = urllib.request.urlopen(data['mapUrl']).read()
@@ -368,7 +368,7 @@ def downloadPDFFile(request):
 	with open(getattr(settings, 'PRINT_CACHE_PATH')+request.GET['filename'], 'r') as pdf:
 		response = HttpResponse(pdf.read(),content_type='application/pdf')
 		response['Content-Disposition'] = 'attachment; filename="'+quote(request.GET['filenameoutput'].encode('utf-8'))+'.pdf"'
-        return response
+		return response
 
 def classmarkerRedirect(request):
 	return redirect('https://www.classmarker.com/online-test/start/?quiz=mft579f02fe604fb&cm_user_id='+request.user.username+'&cm_fn='+request.user.first_name+'&cm_ln='+request.user.last_name+'&cm_e='+request.user.email)
