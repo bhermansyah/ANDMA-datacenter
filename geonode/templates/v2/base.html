@@ -71,6 +71,7 @@
   </head>
 
   <body class="{% block body_class %}{% endblock %}" {% block body_extra_attr %}{% endblock %}>
+    
     {% block header %}
     <!-- Navbar -->
     <nav class="navbar navbar-fixed-top navbar-upper">
@@ -86,7 +87,8 @@
                   </a> -->
                   <a id="logo2" class="navbar-brand-immap" href="{% url 'v2:home' %}">
                     <img src="{{ STATIC_URL }}v2/images/ANDMA.png">
-                    <h1 class="webTitle">{% trans "Afghanistan Spatial Data Center" %}</h1>
+                    <!-- <h1 class="webTitle">{% trans "Afghanistan Spatial Data Center" %}</h1> -->
+                    <h1 class="webTitle">{% trans "Afghanistan Natural Hazard Data Center" %}</h1>
                   </a>
                 </div>
             </div>
