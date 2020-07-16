@@ -34925,6 +34925,7 @@ GeoExt.data.PrintProvider = Ext.extend(Ext.util.Observable, {
             "text":"Humanitarian access",
             "leaf":false,
             "expanded" : false,
+            "hidden" : true,
             "url":"?page=security&pdf=true",
             "children":[
                 {
@@ -94053,7 +94054,7 @@ GeoExplorer.Composer = Ext.extend(GeoExplorer, {
             collapsed: true,
             width: 320,
             layout: 'accordion',
-            items:[statisticsPanel, finderToolsPanel,securityAnalysisModulePanel,securityModuleEntriesPanel],
+            items:[statisticsPanel, finderToolsPanel,securityAnalysisModulePanel],
             listeners: {
                 collapse: function (){
                     filtercontrol.deactivate();
@@ -94295,6 +94296,7 @@ GeoExplorer.Composer = Ext.extend(GeoExplorer, {
             toggleGroup: "interaction",
             disabled: false,
             pressed: false,
+            hidden: true,
             toggleHandler: function(){
                 if (this.pressed){
                     Ext.getCmp('east').expand();
@@ -94317,6 +94319,7 @@ GeoExplorer.Composer = Ext.extend(GeoExplorer, {
             toggleGroup: "interaction",
             disabled: false,
             pressed: false,
+            hidden: true,
             toggleHandler: function(){
                 if (this.pressed){
                     Ext.getCmp('east').expand();
