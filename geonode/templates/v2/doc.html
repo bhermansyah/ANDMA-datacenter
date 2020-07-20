@@ -27,11 +27,58 @@
 
 	<!-- Documentation -->
 	<section id="doc" class="container">
-		<div class="center">
-            <p style="text-transform: uppercase;font-size: xx-large;vertical-align: middle;line-height: 50vh;">
-                Under Construction
-            </p>
-        </div>
+		<div class="row">
+			<div class="col-md-6">
+				<h3>{% trans "Documentation" %}</h3>
+				<p>{% trans "Please find the documentation on the right hand side. This is a living document and presently must be considered as draft. At present sections of flood forecasting and population estimates must be revised as these have been extensively updated and/or refined, as well as new functionalities must be added." %}
+				<br>
+				<br>Current Version: Documentation ASDC (Afghanistan Spatial Data Center)
+				<br>Data and Methodologies - V0.9 - Emlyn Hagen, iMMAP (September 2016)
+				<br>None of the items in this document can be copied or edited</p>
+				<p>
+					{% trans "A detailed overview of the following core capabilities of the ASDC can be found at:" %}
+				</p>
+				<ul>
+					<li>
+						Flooding: <a href="http://www.afghanistanflooding.org">www.afghanistanflooding.org</a> or 
+						<a href="{% url 'flooding_publication' %}">click here</a>
+					</li>
+					<li>
+						Earthquakes: <a href="http://www.afghanistanearthquakes.org">www.afghanistanearthquakes.org</a> or 
+						<a href="{% url 'earthquake_publication' %}">click here</a>
+					</li>
+					<li>
+						Avalanches: <a href="http://www.afghanistanavalanches.org">www.afghanistanavalanches.org</a> or 
+						<a href="{% url 'avalanche_publication' %}">click here</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<center>
+					<iframe src="https://docs.google.com/viewer?srcid=0BzBdhyC69O7NVlg3bDU0SnZoenM&pid=explorer&efh=false&a=v&  chrome=false&embedded=true" style="width:460px; height:600px;" frameborder="0"></iframe>
+				</center>
+			</div>
+		</div>
+
+		<p>&nbsp;</p>
+
+		<!-- <div class="row"> -->
+			<h3>{% trans "Videos" %}</h3>
+			<p>{% trans "To facilitate better communication, a Youtube channel has been made to host basic instruction videos on the functionalities of the Afghanistan Spatial Data Center (asdc.immap.org). The instruction videos can be found on YouTube and on the ASDC (available in Dari and English). Currently, there are 11 training videos, in total 1 ½ hours of material." %}
+			</p>
+			<a href="https://www.youtube.com/channel/UCkd_swrFk9vN81s9SQ3fKgg">{% trans "Go to Youtube Channel" %}</a>
+			<p>&nbsp;</p>
+		<!-- </div> -->
+		<div class="col-md-12 panel-custom" style="align-items: stretch; padding: 0; margin: 15px 0; height: 500px;">
+	        <video id="myPlayerID"
+	          data-account="3676484087001"
+	          data-player="04ac0699-ca6b-449b-a2b6-0f14b4a7893b"
+	          data-embed="default"
+	          class="video-js" controls
+	          data-setup='{"example_option":true}'>
+	        </video>
+		    <ol class="vjs-playlist"></ol>
+		</div>
 	</section>
 
 
