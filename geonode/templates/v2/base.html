@@ -51,18 +51,21 @@
         <link href="{{ STATIC_URL }}geonode/css/font-awesome-rtl.css" rel="stylesheet" />
         {% endif %}
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}v2/css/custom.css?ver=1007">
-
+        
         <!-- If you'd like to support IE8 -->
         <!-- <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
         <link href="{{ STATIC_URL }}geonode/css/ext-compatibility.css" rel="stylesheet" />
         <!-- <link href="{{ STATIC_URL }}geonode/css/base.css" rel="stylesheet" /> -->
         <!-- <link href="{{ STATIC_URL }}lib/css/custom.css" rel="stylesheet" /> -->
-
+        
         <style type="text/css">[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}
         </style>
 
+        {% block extra_head_dashboard %}
+        {% endblock extra_head_dashboard%}
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}v2/css/custom.css?ver=1007">
 
         {% block extra_head %}
         {% endblock %}
@@ -419,6 +422,8 @@
     <script src="{{ STATIC_URL }}geonode/js/utils/utils.js"></script>
     <script src="{{ STATIC_URL }}geonode/js/base/base.js"></script>
     {% include 'autocomplete_light/static.html' %}
+    {% block dashboard_script %}
+    {% endblock dashboard_script %}
     {% block extra_script %}
     {% endblock extra_script %}
     <script type="text/javascript">

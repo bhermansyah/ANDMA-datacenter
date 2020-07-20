@@ -1,4 +1,4 @@
-{% extends "v2/custombase.html" %}
+{% extends "v2/base_dashboard.html" %}
 {% load i18n %}
 {% load url from future %}
 
@@ -26,37 +26,36 @@
 
 {% block body_outer %}
 
-<!-- <iframe name="iframe1" width="100%" height="800" src="http://reporthub.immap.org/#/immap/drr/baseline/afghanistan" frameborder="no" scrolling="yes"></iframe> -->
 	{% include "v2/links.html" %}
-    <!-- <div id="" class="container"> -->
-    	{% if request.GET.page == 'baseline' %}
-    		{% include "v2/dash_baseline.html" %}
-    	{% elif request.GET.page == 'floodforecast' %}
-    		{% include "v2/dash_fforecast.html" %}
-    	{% elif request.GET.page == 'floodrisk' %}
-    		{% include "v2/dash_frisk.html" %}
-    	{% elif request.GET.page == 'avalancherisk' %}
-    		{% include "v2/dash_arisk.html" %}
-    	{% elif request.GET.page == 'avalcheforecast' %}
-    		{% include "v2/dash_aforecast.html" %}
-    	{% elif request.GET.page == 'accessibility' %}
-    		{% include "v2/dash_accessibility.html" %}
-    	{% elif request.GET.page == 'earthquake' %}
-    		{% include "v2/dash_earthquake.html" %}
-    	{% elif request.GET.page == 'security' %}
-    		{% include "v2/dash_haccess.html" %}
-		  {% elif request.GET.page == 'naturaldisaster' %}
-    		{% include "v2/dash_ndisaster.html" %}
-      {% elif request.GET.page == 'weather' %}
+    {% if request.GET.page == 'baseline' %}
+        {% include "v2/dash_baseline.html" %}
+    {% elif request.GET.page == 'floodforecast' %}
+        {% include "v2/dash_fforecast.html" %}
+    {% elif request.GET.page == 'floodrisk' %}
+        {% include "v2/dash_frisk.html" %}
+    {% elif request.GET.page == 'avalancherisk' %}
+        {% include "v2/dash_arisk.html" %}
+    {% elif request.GET.page == 'avalcheforecast' %}
+        {% include "v2/dash_aforecast.html" %}
+    {% elif request.GET.page == 'accessibility' %}
+        {% include "v2/dash_accessibility.html" %}
+    {% elif request.GET.page == 'earthquake' %}
+        {% include "v2/dash_earthquake.html" %}
+    {% comment %}
+    {#% elif request.GET.page == 'security' %}
+        {#% include "v2/dash_haccess.html" %}
+    {% endcomment %}
+    {% elif request.GET.page == 'naturaldisaster' %}
+        {% include "v2/dash_ndisaster.html" %}
+    {% elif request.GET.page == 'weather' %}
         {% include "v2/dash_weather.html" %}
-      {% elif request.GET.page == 'landslide' %}
+    {% elif request.GET.page == 'landslide' %}
         {% include "v2/dash_landslide.html" %}
-      {% elif request.GET.page == 'drought' %}
+    {% elif request.GET.page == 'drought' %}
         {% include "v2/dash_drought.html" %}
-      {% elif request.GET.page == 'main' %}
+    {% elif request.GET.page == 'main' %}
         {% include "v2/dash_main.html" %}
-    	{% endif %}
-    <!-- </div> -->
+    {% endif %}
 
-
+    {% block other_content %}{% endblock other_content %}
 {% endblock body_outer %}
