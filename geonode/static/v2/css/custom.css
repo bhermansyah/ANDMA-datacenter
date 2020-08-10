@@ -5951,3 +5951,9 @@ input#villageIDSearchForm.x-form-text.x-form-field.x-form-focus {
 .webTitle {
     margin-left: 15px;
 }
+
+@media (min-width: 768px){
+    .vertical-center{
+        margin-top: 10vh; margin-bottom: 20vh;
+    }
+}

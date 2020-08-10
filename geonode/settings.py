@@ -340,6 +340,7 @@ INSTALLED_APPS = (
     'userstatistics',
     'pushnotif',
 
+    'widget_tweaks',
     'deliverynotes'
 
 ) + GEONODE_APPS
@@ -491,7 +492,8 @@ ACCOUNT_EMAIL_CONFIRMATION_REQUIRED = False
 ACCOUNT_APPROVAL_REQUIRED = False
 
 # Email for users to contact admins.
-THEME_ACCOUNT_CONTACT_EMAIL = 'admin@example.com'
+# THEME_ACCOUNT_CONTACT_EMAIL = 'admin@example.com'
+THEME_ACCOUNT_CONTACT_EMAIL = 'afghanistan@immap.org'
 
 #
 # Test Settings
