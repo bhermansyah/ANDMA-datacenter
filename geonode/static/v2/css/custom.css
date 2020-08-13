@@ -5957,3 +5957,7 @@ input#villageIDSearchForm.x-form-text.x-form-field.x-form-focus {
         margin-top: 10vh; margin-bottom: 20vh;
     }
 }
+
+.min-height-empty{
+    min-height: 55vh;
+}
