@@ -924,7 +924,7 @@ input[type="search"]:focus{
 }
 
 /*Chart*/
-.ch-size, .ch-size-fforecast, .ch-size-pie{
+.ch-size, .ch-size-fforecast, .ch-size-pie, .ch-size-bar-landcover, .ch-size-bar-landslide{
     height: 370px;
     width: auto;
 }
@@ -1390,15 +1390,20 @@ body>section#slide-show
 
 img.snapshot-legend{
   position: absolute !important;
-  width: 13%;
-  height: 25%;
+  width: auto;
+  height: 30%;
   right: 0px;
   bottom: 0px
 }
 
 img#SnowLegend.snapshot-legend{
-    width: 30%;
-    height: 40%;
+    width: auto;
+    height: 43%;
+}
+
+img#eqLegend.snapshot-legend{
+    width: auto;
+    height: 50%;
 }
 
 .detail {

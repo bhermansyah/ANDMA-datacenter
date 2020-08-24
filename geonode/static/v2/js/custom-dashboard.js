@@ -2598,7 +2598,8 @@ function init_echarts() {
 				series: [{
 					name: 'Area',
 					type: 'pie',
-					radius: ['35%', '55%'],
+					radius: ['30%', '45%'],
+					center: ['50%', '60%'],
 					itemStyle: {
 						normal: {
 							label: {
@@ -2675,7 +2676,8 @@ function init_echarts() {
 				series: [{
 					name: 'Area',
 					type: 'pie',
-					radius: ['35%', '55%'],
+					radius: ['30%', '45%'],
+					center: ['50%', '40%'],
 					itemStyle: {
 						normal: {
 							label: {
@@ -2752,7 +2754,8 @@ function init_echarts() {
 				series: [{
 					name: 'Area',
 					type: 'pie',
-					radius: ['35%', '55%'],
+					radius: ['30%', '45%'],
+					center: ['50%', '60%'],
 					itemStyle: {
 						normal: {
 							label: {
@@ -2760,7 +2763,9 @@ function init_echarts() {
 								formatter: humanizePie
 							},
 							labelLine: {
-								show: true
+								show: true,
+								length: 20,
+								length2: 5
 							}
 						},
 						emphasis: {
@@ -2829,7 +2834,8 @@ function init_echarts() {
   				series: [{
 					name: 'Area',
 					type: 'pie',
-					radius: ['35%', '55%'],
+					radius: ['30%', '45%'],
+					center: ['50%', '60%'],
 					itemStyle: {
 						normal: {
 							label: {
@@ -2906,7 +2912,8 @@ function init_echarts() {
   				series: [{
 					name: 'Area',
 					type: 'pie',
-					radius: ['35%', '55%'],
+					radius: ['30%', '45%'],
+					center: ['50%', '60%'],
 					itemStyle: {
 						normal: {
 							label: {
@@ -2994,6 +3001,7 @@ function init_echarts() {
 				xAxis: [{
 					type: 'value',
 					boundaryGap: [0, 0.01],
+					splitNumber: 2,
 					axisLabel:{
 						rotate: 30,
 						formatter: humanizeFormatter
@@ -3070,6 +3078,7 @@ function init_echarts() {
 				xAxis: [{
 					type: 'value',
 					boundaryGap: [0, 0.01],
+					splitNumber: 2,
 					axisLabel:{
 						rotate: 30,
 						formatter: humanizeFormatter
@@ -3146,6 +3155,7 @@ function init_echarts() {
 				xAxis: [{
 					type: 'value',
 					boundaryGap: [0, 0.01],
+					splitNumber: 2,
 					axisLabel:{
 						rotate: 30,
 						formatter: humanizeFormatter
@@ -3222,6 +3232,7 @@ function init_echarts() {
 				xAxis: [{
 					type: 'value',
 					boundaryGap: [0, 0.01],
+					splitNumber: 2,
 					axisLabel:{
 						rotate: 30,
 						formatter: humanizeFormatter
@@ -3300,6 +3311,7 @@ function init_echarts() {
 				xAxis: [{
 					type: 'value',
 					boundaryGap: [0, 0.01],
+					splitNumber: 2,
 					axisLabel:{
 						rotate: 30,
 						formatter: humanizeFormatter
