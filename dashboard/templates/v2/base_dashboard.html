@@ -22,12 +22,14 @@
     <link rel="stylesheet" href="{{ STATIC_URL }}v2/css/leaflet.css"/>
     <!-- Easy Button Leaflet -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.EasyButton/2.3.0/easy-button.css">
+    {% endblock extra_head_dashboard_custom %}
+{% endblock extra_head_dashboard%}
 
+{% block extra_head %}
     {% if 'print' in request.build_absolute_uri %}
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}v2/css/print.css?ver=140619">
     {% endif %}
-    {% endblock extra_head_dashboard_custom %}
-{% endblock extra_head_dashboard%}
+{% endblock extra_head %}
 
 {% block extra_loading %}
     <div class="se-pre-con hidden-print">
