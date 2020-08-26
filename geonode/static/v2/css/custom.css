@@ -3477,8 +3477,9 @@ input[type="radio"] .styled:checked + label::after {
     /*width: 17px;*/
     /*height: 17px;*/
     position: relative;
-    appearance: none;
+    /* appearance: none; */
     border-radius: 0.25em;
+    margin-right: 6px;
 }
 
 .checkbox input[type="checkbox"]::after {
@@ -4694,6 +4695,14 @@ a.morelink {
     outline: -webkit-focus-ring-color auto 5px;
 }
 
+form label {
+    margin-right: 0;
+}
+
+#permission_form .select2-container{
+    width: auto;
+    min-width: 165px;
+}
 
 
 /*Map Details*/
