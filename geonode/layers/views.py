@@ -322,6 +322,10 @@ def layer_detail(request, layername, template='layers/layer_detail.html'):
 
 @login_required
 def layer_metadata(request, layername, template='layers/layer_metadata.html'):
+    # ubah
+    if (request.resolver_match.namespace == 'v2'): template = 'v2/layer_metadata.html'
+    # /ubah
+
     layer = _resolve_layer(
         request,
         layername,
