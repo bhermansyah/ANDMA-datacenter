@@ -55,7 +55,7 @@
         <!-- If you'd like to support IE8 -->
         <!-- <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
         <link href="{{ STATIC_URL }}geonode/css/ext-compatibility.css" rel="stylesheet" />
-        <!-- <link href="{{ STATIC_URL }}geonode/css/base.css" rel="stylesheet" /> -->
+        <link href="{{ STATIC_URL }}geonode/css/base.css" rel="stylesheet" />
         <!-- <link href="{{ STATIC_URL }}lib/css/custom.css" rel="stylesheet" /> -->
         
         <style type="text/css">[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}
@@ -65,7 +65,7 @@
         {% endblock extra_head_dashboard%}
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}v2/css/custom.css?ver=1108">
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}v2/css/custom.css?ver=2608">
 
         {% block extra_head %}
         {% endblock %}
@@ -393,6 +393,10 @@
 
     <!-- Time Ago -->
     <script src="{{ STATIC_URL }}v2/js/jquery.timeago.js"></script>
+
+    <!-- jQuery Ajax -->
+    <script src="{{ STATIC_URL }}v2/js/jquery.ajaxprogress.js"></script>
+    <script src="{{ STATIC_URL }}v2/js/jquery.ajaxQueue.min.js"></script>
 
     <!-- jQuery Marquee -->
     <script src="{{ STATIC_URL }}v2/js/jquery.marquee.min.js"></script>
