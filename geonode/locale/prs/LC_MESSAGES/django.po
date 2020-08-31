@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-19 10:13+0430\n"
+"POT-Creation-Date: 2020-08-31 15:35+0430\n"
 "PO-Revision-Date: 2020-07-19 10:05+0430\n"
 "Last-Translator: asdc.immap.org\n"
 "Language-Team: asdc.immap.org\n"
@@ -507,7 +507,7 @@ msgstr "درخواست برای دانلود یک منبع ارسال شد"
 #: .\base\templates\base\_resourcebase_contact_snippet.html:3
 #: .\templates\500.html:151 .\templates\base.html:173
 #: .\templates\base.html.py:240 .\templates\v2\about.html:13
-#: .\templates\v2\about.html.py:21 .\templates\v2\base.html:148
+#: .\templates\v2\about.html.py:21 .\templates\v2\base.html:151
 msgid "About"
 msgstr "در باره"
 
@@ -713,27 +713,22 @@ msgstr "نوع نمایش مکانی"
 #: .\base\templates\v2\_resourcebase_snippet.html:260
 #: .\base\templates\v2\_resourcebase_snippet.html:263
 #: .\base\templates\v2\_resourcebase_snippet.html:269
-#, fuzzy
 msgid "View"
 msgstr "نمایش ها"
 
 #: .\base\templates\v2\_resourcebase_snippet.html:249
-#, fuzzy
 msgid "Keywords :"
 msgstr "کلید واژه ها:"
 
 #: .\base\templates\v2\_resourcebase_snippet.html:266
-#, fuzzy
 msgid "Details"
 msgstr "نمایش جزییات"
 
 #: .\base\templates\v2\_resourcebase_snippet.html:272
-#, fuzzy
 msgid "Create Map"
 msgstr "ایجاد یک نقشه"
 
 #: .\base\templates\v2\resourcebase_info_panel.html:17
-#, fuzzy
 msgid "Subtitle"
 msgstr "عنوان فرعی"
 
@@ -1138,7 +1133,7 @@ msgstr "آپلود اسناد"
 #: .\people\templates\people\_profile_filters.html:6
 #: .\people\templates\v2\_profile_filters.html:6
 #: .\social\templates\social\activity_list.html:22 .\templates\500.html:58
-#: .\templates\v2\base.html:121
+#: .\templates\v2\base.html:124
 msgid "Maps"
 msgstr "نقشه ها"
 
@@ -1147,8 +1142,8 @@ msgstr "نقشه ها"
 #: .\templates\index.html:25 .\templates\index.html.py:86
 #: .\templates\index.html:107 .\templates\index.html.py:516
 #: .\templates\index.html:607 .\templates\video.html:63
-#: .\templates\video.html.py:154 .\templates\v2\base.html:124
-#: .\templates\v2\doc.html:71 .\templates\v2\doc.html.py:162
+#: .\templates\video.html.py:154 .\templates\v2\base.html:127
+#: .\templates\v2\doc.html:118 .\templates\v2\doc.html.py:209
 #: .\templates\v2\index.html:34 .\templates\v2\index.html.py:91
 #: .\templates\v2\index.html:205
 msgid "Static Maps"
@@ -1167,7 +1162,6 @@ msgid "votes"
 msgstr ""
 
 #: .\documents\templates\v2\document_detail.html:120
-#, fuzzy
 msgid "Related Resource"
 msgstr "منبع خارجی"
 
@@ -1354,7 +1348,7 @@ msgstr "همه"
 #: .\services\templates\services\service_detail.html:64
 #: .\social\templates\social\activity_list.html:21 .\templates\500.html:55
 #: .\templates\base.html:152 .\templates\index.html:78
-#: .\templates\index.html.py:97 .\templates\v2\base.html:118
+#: .\templates\index.html.py:97 .\templates\v2\base.html:121
 #: .\templates\v2\index.html:83
 msgid "Layers"
 msgstr "لایه ها"
@@ -1779,7 +1773,7 @@ msgstr "یک امتیاز به یک لایه داده شد بود"
 
 #: .\layers\templates\layers\layer_change_poc.html:5
 #: .\layers\templates\v2\layer_change_poc.html:5 .\templates\base.html:146
-#: .\templates\v2\base.html:112
+#: .\templates\v2\base.html:115
 msgid "Home"
 msgstr "صفحه اصلی"
 
@@ -1797,7 +1791,7 @@ msgstr "اختصاص یک نقطه جدید تماس به لایه های ذیل
 
 #: .\layers\templates\layers\layer_change_poc.html:17
 #: .\layers\templates\v2\layer_change_poc.html:17
-#: .\people\templates\people\forgot_username_form.html:15
+#: .\people\templates\people\forgot_username_form.html:39
 #: .\people\templates\v2\forgot_username_form.html:15
 #: .\people\templates\v2\forgot_usr.html:45
 msgid "Submit"
@@ -1975,7 +1969,7 @@ msgstr "جستجوی لایه ها"
 #: .\layers\templates\v2\upload\layer_upload.html:22
 #: .\layers\templates\v2\upload\layer_upload.html:30 .\templates\500.html:216
 #: .\templates\base.html:314 .\templates\search\v2\_search_content.html:124
-#: .\templates\v2\base.html:170
+#: .\templates\v2\base.html:173
 msgid "Upload Layers"
 msgstr "آپلود لایه ها"
 
@@ -2581,22 +2575,18 @@ msgid "now"
 msgstr "حالا"
 
 #: .\layers\templates\v2\layer_detail.html:116
-#, fuzzy
 msgid "Rate this Layer"
 msgstr "به این لایه نظر دهید"
 
 #: .\layers\templates\v2\layer_detail.html:146
-#, fuzzy
 msgid "Related Maps"
 msgstr "ایجاد یک نقشه"
 
 #: .\layers\templates\v2\layer_detail.html:148
-#, fuzzy
 msgid "Related Documents"
 msgstr "تعویض سند"
 
 #: .\layers\templates\v2\layer_detail.html:191
-#, fuzzy
 msgid "This layer currently is not used in any maps."
 msgstr "این لایه در حال حاضر در هیچ نقشه استفاده نشده است."
 
@@ -2670,7 +2660,6 @@ msgid "Publish Map WMS"
 msgstr "انتشار نقشه WMS"
 
 #: .\layers\templates\v2\upload\layer_upload.html:79
-#, fuzzy
 msgid "Choose files"
 msgstr "انتخاب کاربران ..."
 
@@ -3009,18 +2998,16 @@ msgstr "GeoExplorer"
 #: .\maps\templates\v2\map_detail.html:27 .\maps\templates\v2\map_list.html:16
 #: .\templates\base.html:155 .\templates\index.html:36
 #: .\templates\index.html.py:82 .\templates\index.html:102
-#: .\templates\v2\base.html:127 .\templates\v2\index.html:45
+#: .\templates\v2\base.html:130 .\templates\v2\index.html:45
 #: .\templates\v2\index.html.py:87
 msgid "Interactive Maps"
 msgstr "نقشه های تعاملی (فعال)"
 
 #: .\maps\templates\v2\map_detail.html:93
-#, fuzzy
 msgid "Related Document"
 msgstr "تعویض سند"
 
 #: .\maps\templates\v2\map_detail.html:98
-#, fuzzy
 msgid "List of layers used by this map:"
 msgstr "فهرست اسناد مربوط به این نقشه:"
 
@@ -3135,7 +3122,7 @@ msgid "name of the responsible organization"
 msgstr "نام سازمان مسئول"
 
 #: .\people\models.py:51 .\templates\500.html:218 .\templates\base.html:316
-#: .\templates\v2\base.html:172 .\templates\v2\base.html.py:173
+#: .\templates\v2\base.html:175 .\templates\v2\base.html.py:176
 msgid "Profile"
 msgstr "نمایه"
 
@@ -3219,17 +3206,14 @@ msgstr ""
 "بکار میروند (با یک فاصله یا کامه جدا شده است)"
 
 #: .\people\models.py:102 .\people\models.py:107
-#, fuzzy
 msgid "Organisation acronym"
 msgstr "نام سازمان"
 
 #: .\people\models.py:109 .\people\models.py:113
-#, fuzzy
 msgid "Organisation Type"
 msgstr "نام سازمان"
 
 #: .\people\models.py:115 .\people\models.py:120
-#, fuzzy
 msgid "Organisation Name Status"
 msgstr "نام سازمان"
 
@@ -3265,20 +3249,19 @@ msgstr "بدون گروپ"
 msgid "All contents"
 msgstr "همه محتویات"
 
-#: .\people\templates\people\forgot_username_form.html:6
+#: .\people\templates\people\forgot_username_form.html:11
+#: .\people\templates\people\forgot_username_form.html:15
 #: .\people\templates\v2\forgot_username_form.html:6
-#: .\people\templates\v2\forgot_usr.html:11 .\templates\v2\base.html:318
+#: .\people\templates\v2\forgot_usr.html:11 .\templates\v2\base.html:321
 msgid "Forgot Username"
 msgstr "نام کاربری را فراموش کرده اید"
 
-#: .\people\templates\people\forgot_username_form.html:10
-#: .\people\templates\v2\forgot_username_form.html:10
+#: .\people\templates\people\forgot_username_form.html:27
 msgid ""
-"Enter your email address and click the submit button. <br />Your username "
-"will be sent to you."
+"Submit your email linked to ANHDC and we will send your username to you."
 msgstr ""
-" ایمیل آدرس خود را وارد و دکمه ارسال را کلیک کنید. <br /> نام کاربری شما "
-"خواهد ارسال شد."
+"ایمیل آدرس خود را در پایین وارد کنید، به خاطر اجازه تنظیم مجدد ما بر شما "
+"ایمیل میکنیم"
 
 #: .\people\templates\people\profile_create.html:8
 #: .\people\templates\people\profile_create.html:14
@@ -3375,7 +3358,7 @@ msgstr "فعالیت های من"
 
 #: .\people\templates\people\profile_detail.html:97
 #: .\people\templates\v2\profile_detail.html:97 .\templates\500.html:222
-#: .\templates\base.html:320 .\templates\v2\base.html:188
+#: .\templates\base.html:320 .\templates\v2\base.html:191
 msgid "Notifications"
 msgstr "اطلاعیه ها"
 
@@ -3383,32 +3366,32 @@ msgstr "اطلاعیه ها"
 #: .\people\templates\v2\profile_detail.html:100 .\templates\500.html:225
 #: .\templates\base.html:323 .\templates\announcements\announcement_list.html:6
 #: .\templates\announcements\announcement_list.html:13
-#: .\templates\v2\base.html:191
+#: .\templates\v2\base.html:194
 msgid "Announcements"
 msgstr "اعلانات"
 
 #: .\people\templates\people\profile_detail.html:105
 #: .\people\templates\v2\profile_detail.html:105
 #: .\services\templates\services\service_list.html:9 .\templates\500.html:228
-#: .\templates\base.html:326 .\templates\v2\base.html:194
+#: .\templates\base.html:326 .\templates\v2\base.html:197
 msgid "Remote Services"
 msgstr "خدمات از راه دور"
 
 #: .\people\templates\people\profile_detail.html:106
 #: .\people\templates\v2\profile_detail.html:106 .\templates\500.html:229
-#: .\templates\base.html:327 .\templates\v2\base.html:195
+#: .\templates\base.html:327 .\templates\v2\base.html:198
 msgid "Invite User"
 msgstr "دعوت  کاربر"
 
 #: .\people\templates\people\profile_detail.html:107
 #: .\people\templates\v2\profile_detail.html:107 .\templates\500.html:231
-#: .\templates\base.html:329 .\templates\v2\base.html:197
+#: .\templates\base.html:329 .\templates\v2\base.html:200
 msgid "GeoServer"
 msgstr "GeoServer"
 
 #: .\people\templates\people\profile_detail.html:110
 #: .\people\templates\v2\profile_detail.html:110 .\templates\500.html:234
-#: .\templates\base.html:333 .\templates\v2\base.html:201
+#: .\templates\base.html:333 .\templates\v2\base.html:204
 msgid "Admin"
 msgstr "مدیر سایت"
 
@@ -3449,6 +3432,14 @@ msgstr "آپدیت پروفایل"
 #: .\templates\base.html:163
 msgid "People"
 msgstr "مردم"
+
+#: .\people\templates\v2\forgot_username_form.html:10
+msgid ""
+"Enter your email address and click the submit button. <br />Your username "
+"will be sent to you."
+msgstr ""
+" ایمیل آدرس خود را وارد و دکمه ارسال را کلیک کنید. <br /> نام کاربری شما "
+"خواهد ارسال شد."
 
 #: .\people\templates\v2\forgot_usr.html:31
 msgid "Submit your email linked to ASDC and we will send your username to you."
@@ -3747,7 +3738,7 @@ msgstr "راجستر"
 #: .\templates\500.html:100 .\templates\500.html.py:200
 #: .\templates\base.html:105 .\templates\base.html.py:107
 #: .\templates\base.html:279 .\templates\base.html.py:297
-#: .\templates\v2\base.html:371
+#: .\templates\v2\base.html:374
 msgid "Sign in"
 msgstr "وارد شدن"
 
@@ -3792,39 +3783,39 @@ msgstr "توسعه دهندگان"
 
 #: .\templates\500.html:188 .\templates\500.html.py:189
 #: .\templates\base.html:285 .\templates\base.html.py:286
-#: .\templates\v2\base.html:320 .\templates\v2\base.html.py:330
-#: .\templates\v2\base.html:359
+#: .\templates\v2\base.html:323 .\templates\v2\base.html.py:333
+#: .\templates\v2\base.html:362
 msgid "Username"
 msgstr "نام کاربری"
 
 #: .\templates\500.html:192 .\templates\base.html:289
-#: .\templates\v2\base.html:326 .\templates\v2\base.html.py:336
-#: .\templates\v2\base.html:360
+#: .\templates\v2\base.html:329 .\templates\v2\base.html.py:339
+#: .\templates\v2\base.html:363
 msgid "Password"
 msgstr "رمز عبور"
 
 #: .\templates\500.html:196 .\templates\base.html:293
-#: .\templates\v2\base.html:344 .\templates\v2\base.html.py:365
+#: .\templates\v2\base.html:347 .\templates\v2\base.html.py:368
 msgid "Remember Me"
 msgstr "بخاطر بسپار"
 
 #: .\templates\500.html:212 .\templates\base.html:310
-#: .\templates\v2\base.html:81
+#: .\templates\v2\base.html:84
 msgid "Menu"
 msgstr "فهرست"
 
 #: .\templates\500.html:219 .\templates\base.html:317
-#: .\templates\v2\base.html:175
+#: .\templates\v2\base.html:178
 msgid "Recent Activity"
 msgstr "فعالیت اخیر"
 
 #: .\templates\500.html:220 .\templates\base.html:318
-#: .\templates\user_messages\inbox.html:15 .\templates\v2\base.html:174
+#: .\templates\user_messages\inbox.html:15 .\templates\v2\base.html:177
 msgid "Inbox"
 msgstr "دریافت ها"
 
 #: .\templates\500.html:239 .\templates\base.html:338
-#: .\templates\v2\base.html:206
+#: .\templates\v2\base.html:209
 msgid "Help"
 msgstr "کمک"
 
@@ -3832,12 +3823,12 @@ msgstr "کمک"
 #: .\templates\account\logout.html:6 .\templates\account\logout.html.py:12
 #: .\templates\account\logout.html:17 .\templates\account\v2\logout.html:6
 #: .\templates\account\v2\logout.html:12 .\templates\account\v2\logout.html:17
-#: .\templates\v2\base.html:210
+#: .\templates\v2\base.html:213
 msgid "Log out"
 msgstr "خارج شدن"
 
 #: .\templates\500.html:280 .\templates\base.html:380
-#: .\templates\v2\base.html:430
+#: .\templates\v2\base.html:435
 msgid "Type your search here ..."
 msgstr "جستجوی خود را اینجا بنویسید ..."
 
@@ -3890,7 +3881,6 @@ msgid "Submit Comment"
 msgstr "ارسال نظر"
 
 #: .\templates\_deliverynotes.html:28 .\templates\v2\_comments.html:28
-#, fuzzy
 msgid "Posted by"
 msgstr "طراحی شده توسط"
 
@@ -3962,10 +3952,11 @@ msgstr "انتخاب گروه ها ..."
 
 #: .\templates\about.html:4 .\templates\about.html.py:17
 #: .\templates\training.html:4 .\templates\v2\about.html:4
+#: .\templates\v2\about.html.py:31
 msgid "About ASDC"
 msgstr "درباره ASDC"
 
-#: .\templates\about.html:19
+#: .\templates\about.html:19 .\templates\v2\about.html:35
 msgid ""
 "The Afghanistan Spatial Data Center (ASDC) is developed by iMMAP in "
 "Afghanistan. It is part of the iMMAP Disaster Risk Reduction Program, which "
@@ -3977,7 +3968,7 @@ msgstr ""
 "برای توسعه بین المللی ایالات متحده (USAID) و اداره همکاری به حوادث بیرونی "
 "ایالات متحده (OFDA) تمویل میشود ."
 
-#: .\templates\about.html:22
+#: .\templates\about.html:22 .\templates\v2\about.html:36
 msgid ""
 "The Disaster Risk Reduction (DRR) program is a scientific program that "
 "supports the humanitarian community with critical information to aid "
@@ -3996,7 +3987,7 @@ msgstr ""
 "حوادث طبیعی )iMMAP تمویل میشود توسط USAID و اماده است برای استفاده "
 "روزانه  .      "
 
-#: .\templates\about.html:25
+#: .\templates\about.html:25 .\templates\v2\about.html:37
 msgid ""
 "The information provided on ASDC are especially useful in regards to "
 "prediction, emergency response, M&E and planning purposes."
@@ -4016,44 +4007,44 @@ msgstr "بروشور ASDC - صفحه اول  "
 msgid "iMMAP in Afghanistan - Snapshot"
 msgstr " iMMAP در افغانستان - تصویر کلی "
 
-#: .\templates\about.html:66
+#: .\templates\about.html:66 .\templates\v2\about.html:59
 msgid "Main available information"
 msgstr "معلومات مهم قابل دسترس"
 
-#: .\templates\about.html:67
+#: .\templates\about.html:67 .\templates\v2\about.html:61
 msgid "Population estimates at village level"
 msgstr "تخمین نفوس در سطح قریه جات"
 
-#: .\templates\about.html:69
+#: .\templates\about.html:69 .\templates\v2\about.html:63
 msgid "Flood risk areas and population/landcover type at risk"
 msgstr "مناطق و نفوس در معرض خطر سیلاب / نوع  پوشش زمین در معرض خطر"
 
-#: .\templates\about.html:70
+#: .\templates\about.html:70 .\templates\v2\about.html:64
 msgid "Avalanche risk areas and population at risk"
 msgstr "مناطق و نفوس در معرض خطر برف کوچ  "
 
-#: .\templates\about.html:71
+#: .\templates\about.html:71 .\templates\v2\about.html:65
 msgid "Humanitarian Access for entire Afghanistan, mapped daily"
 msgstr ""
 "روزانه دسترسی بشردوستانه(حوادث امنیتی) در سراسر افغانستان نقشه برداری میشود "
 
-#: .\templates\about.html:73
+#: .\templates\about.html:73 .\templates\v2\about.html:67
 msgid "More than 135.000 incidents on record (since 2008)"
 msgstr "بیش از 135.000 حوادث ضبط شده  (از سال 2008)"
 
-#: .\templates\about.html:74
+#: .\templates\about.html:74 .\templates\v2\about.html:68
 msgid "Can be filtered by date/incident type/area and target type."
 msgstr "میتوان فیلتر بر اساس تاریخ / نوع حادثه / منطقه و نوع هدف."
 
-#: .\templates\about.html:76
+#: .\templates\about.html:76 .\templates\v2\about.html:70
 msgid "GSM coverage"
 msgstr "پوشش خدمات موبایل  GSM"
 
-#: .\templates\about.html:77
+#: .\templates\about.html:77 .\templates\v2\about.html:71
 msgid "Accessibility. Travel time and distance between points of interest:"
 msgstr "دسترسی. زمان و فاصله سفر در بین نقاط مورد علاقه:"
 
-#: .\templates\about.html:79
+#: .\templates\about.html:79 .\templates\v2\about.html:73
 msgid ""
 "e.g. How many million persons can reach the hospital within one-hour travel "
 "time (at nationwide/province/district/sub area)"
@@ -4061,7 +4052,7 @@ msgstr ""
 "به عنوان مثال،در یک ساعت سفر چند میلیون نفر می توانند به شفاخانه برسند (در "
 "سراسر کشور / ولایت/ ولسوالی / ساحات فرعی) برسد"
 
-#: .\templates\about.html:80
+#: .\templates\about.html:80 .\templates\v2\about.html:74
 msgid ""
 "e.g. For each village which is the nearest hospital, airport or "
 "administrative centre how far is it and how long does it take to travel there"
@@ -4075,7 +4066,7 @@ msgid ""
 "following):"
 msgstr "پیش بینی (از جمله برآورد نفوس در معرض خطر برای هر یک از موارد ذیل ):"
 
-#: .\templates\about.html:86
+#: .\templates\about.html:86 .\templates\v2\about.html:82
 msgid "Every hour the Flash Flood Risk is estimated valid for the next 6 hours"
 msgstr ""
 "ساعت وار خطر سیلاب ناگهانی توسط باران شدید تخمین شده و در 6 ساعت آینده باقی "
@@ -4087,19 +4078,19 @@ msgid ""
 "(GLOFAS) days"
 msgstr "هر 6 ساعت خطر سیلاب دریایی برای 4 روز آینده تخمین میشود"
 
-#: .\templates\about.html:88
+#: .\templates\about.html:88 .\templates\v2\about.html:84
 msgid "Every day the snow cover and snow depth is estimated"
 msgstr "روزانه پوشش برف و عمق برف تخمین میشود"
 
-#: .\templates\about.html:89
+#: .\templates\about.html:89 .\templates\v2\about.html:85
 msgid "Once a day the avalanche risk based on snow cover and depth is assessed"
 msgstr "روز یک بار خطر برف کوچ نظر به پوشش وعمق برف ارزیابی میشود"
 
-#: .\templates\about.html:90
+#: .\templates\about.html:90 .\templates\v2\about.html:86
 msgid "Earthquake data is being monitored every 5 minutes"
 msgstr "ارقام زلزله در هر 5 دقیقه به نمایش گذاشته میشود "
 
-#: .\templates\about.html:91
+#: .\templates\about.html:91 .\templates\v2\about.html:87
 msgid ""
 "+5M Earthquakes estimates on population shake intensity (approx. 1 1/2 hours "
 "after event)"
@@ -4111,11 +4102,11 @@ msgstr ""
 msgid "DRR Core Team"
 msgstr "تیم اصلی DRR"
 
-#: .\templates\about.html:103
+#: .\templates\about.html:103 .\templates\v2\about.html:118
 msgid "Program Manager and Science Officer"
 msgstr "مدیر برنامه و مدیر علمی"
 
-#: .\templates\about.html:104
+#: .\templates\about.html:104 .\templates\v2\about.html:119
 msgid ""
 "Dr. Emlyn Hagen has led the development of the ASDC conceptually and "
 "scientifically. At one hand creating the various unique data sets utilised "
@@ -4127,7 +4118,7 @@ msgstr ""
 "توسط  پروژه، و از دیگر سو  در ایجاد روش علمی برای پیش بینی و آمار و ارقام "
 "کوشش های زیاد نموده است "
 
-#: .\templates\about.html:106
+#: .\templates\about.html:106 .\templates\v2\about.html:127
 msgid "GeoNode Developer"
 msgstr "توسعه دهنده GeoNode"
 
@@ -4147,7 +4138,7 @@ msgstr ""
 "میشود. علاوه بر این، مجموعه اطلاعات پیشرفته توسط آقای بودی هیرمنسیا  ایجاد "
 "شده است."
 
-#: .\templates\about.html:109
+#: .\templates\about.html:109 .\templates\v2\about.html:138
 msgid "Information Management Officer - Training and Outreach"
 msgstr "مدیر تنظیم معلومات - آموزش و توسعه"
 
@@ -4168,23 +4159,24 @@ msgstr "مرکز ارقام مکانی افغانستان"
 
 #: .\templates\base.html:149 .\templates\index.html:532
 #: .\templates\index.html.py:623 .\templates\video.html:79
-#: .\templates\video.html.py:170 .\templates\v2\base.html:115
-#: .\templates\v2\doc.html:87 .\templates\v2\doc.html.py:178
+#: .\templates\video.html.py:170 .\templates\v2\base.html:118
+#: .\templates\v2\doc.html:134 .\templates\v2\doc.html.py:225
 msgid "Dashboard"
 msgstr "مجموعه اطلاعات"
 
 #: .\templates\base.html:169 .\templates\base.html.py:171
 #: .\templates\base.html:175 .\templates\documentation.html:4
 #: .\templates\documentation.html.py:9 .\templates\v2\about.html:18
-#: .\templates\v2\base.html:132 .\templates\v2\disclaimer.html:18
+#: .\templates\v2\base.html:135 .\templates\v2\disclaimer.html:18
 #: .\templates\v2\doc.html:4 .\templates\v2\doc.html.py:18
-#: .\templates\v2\partners.html:18 .\templates\v2\training.html:18
+#: .\templates\v2\doc.html:32 .\templates\v2\partners.html:18
+#: .\templates\v2\training.html:18
 msgid "Documentation"
 msgstr "مستندات"
 
 #: .\templates\base.html:174 .\templates\disclaimer.html:4
 #: .\templates\disclaimer.html.py:8 .\templates\video.html:4
-#: .\templates\v2\base.html:151 .\templates\v2\disclaimer.html:4
+#: .\templates\v2\base.html:154 .\templates\v2\disclaimer.html:4
 #: .\templates\v2\disclaimer.html.py:13 .\templates\v2\disclaimer.html:21
 msgid "Disclaimer"
 msgstr "رفع مسئولیت"
@@ -4193,11 +4185,11 @@ msgstr "رفع مسئولیت"
 msgid "Partners"
 msgstr "همکاران(شریک ها)"
 
-#: .\templates\base.html:177
+#: .\templates\base.html:177 .\templates\v2\doc.html:66
 msgid "Videos"
 msgstr "ویدیوها"
 
-#: .\templates\base.html:178 .\templates\v2\base.html:141
+#: .\templates\base.html:178 .\templates\v2\base.html:144
 #: .\templates\v2\training.html:4 .\templates\v2\training.html.py:13
 #: .\templates\v2\training.html:21
 msgid "Training"
@@ -4207,11 +4199,11 @@ msgstr "آموزش"
 msgid "Developed by iMMAP"
 msgstr "توسعه یافته توسط iMMAP"
 
-#: .\templates\base.html:243 .\templates\v2\base.html:270
+#: .\templates\base.html:243
 msgid "iMMAP"
 msgstr "iMMAP"
 
-#: .\templates\base.html:332 .\templates\v2\base.html:200
+#: .\templates\base.html:332 .\templates\v2\base.html:203
 msgid "User Statistics"
 msgstr ""
 
@@ -4427,7 +4419,7 @@ msgstr "تصویرهای کوچک ذخیره شده از طریق WMTS:"
 msgid "1. Introduction"
 msgstr "1. معرفی"
 
-#: .\templates\disclaimer.html:12
+#: .\templates\disclaimer.html:12 .\templates\v2\disclaimer.html:31
 msgid ""
 "iMMAP in Afghanistan is funded by The United States Agency for International "
 "Development (USAID)/ Office of U.S. Foreign Disaster Assistance (OFDA)."
@@ -4436,7 +4428,7 @@ msgstr ""
 "متحده (USAID) / اداره همکاری به حوادث بیرونی ایالات متحده  (OFDA) تمویل "
 "میشود."
 
-#: .\templates\disclaimer.html:13
+#: .\templates\disclaimer.html:13 .\templates\v2\disclaimer.html:33
 msgid ""
 "The Afghanistan Spatial Data Center is part of the iMMAP Disaster Risk "
 "Reduction (DRR) Program, which is a USAID/OFDA funded project to provide DRR "
@@ -4451,7 +4443,7 @@ msgstr ""
 msgid "1.1       Data Disclaimer"
 msgstr "1.1 رفع مسئولیت ارقام"
 
-#: .\templates\disclaimer.html:17
+#: .\templates\disclaimer.html:17 .\templates\v2\disclaimer.html:40
 msgid ""
 "The Afghanistan Spatial Data Center Data/Maps were created by the iMMAP DRR "
 "program. Some flaws and limitations of the data are described in this "
@@ -4480,7 +4472,7 @@ msgstr ""
 msgid "1.2       Limitation of Warranties and Liability"
 msgstr "1.2 محدودیت ضمانت نامه و مسئولیت ها"
 
-#: .\templates\disclaimer.html:21
+#: .\templates\disclaimer.html:21 .\templates\v2\disclaimer.html:47
 msgid ""
 "The information, maps and documentation is provided &quot;AS IS&quot; "
 "without any other warranties or conditions, express or implied, including, "
@@ -4501,7 +4493,7 @@ msgstr ""
 "تجاری و یا اقتصادی. iMMAP نباید مسئول برای ادعاهای اشخاص ثالث باشد\n"
 "."
 
-#: .\templates\disclaimer.html:22
+#: .\templates\disclaimer.html:22 .\templates\v2\disclaimer.html:49
 msgid ""
 "The data, boundaries and names and the designations used on this map do not "
 "imply official endorsement or acceptance by iMMAP or USAID/OFDA."
@@ -4509,7 +4501,7 @@ msgstr ""
 "اطلاعات ، ارقام ، مرزها ، نام و نامگذاریهای استفاده شده در این نقشه به این "
 "مفهوم نیست که  توسط iMMAP یا USAID / OFDA موافقت رسمی پذیرفته شده باشد "
 
-#: .\templates\disclaimer.html:23
+#: .\templates\disclaimer.html:23 .\templates\v2\disclaimer.html:51
 msgid ""
 "Though all efforts have been made to ensure the accuracy of the data and "
 "maps, the same should not be construed as a statement of law or used for any "
@@ -4530,7 +4522,7 @@ msgstr ""
 msgid "1.3       Distribution/Redistribution Policy"
 msgstr "1.3 پخش و نشر / پخش و نشر مجدد پالیسی "
 
-#: .\templates\disclaimer.html:27
+#: .\templates\disclaimer.html:27 .\templates\v2\disclaimer.html:58
 msgid ""
 "Any hardcopy or softcopy maps or published data derived from this map shall "
 "clearly indicate their source with the citation in formation found within "
@@ -4548,7 +4540,7 @@ msgstr ""
 "ارقام های الکترونیکی، نقشه های دیجیتالی، و یا دیگر نقشه های کاغذی. iMMAP "
 "تمام حق دیگر را در روی نقشه محفوظ دانسته. "
 
-#: .\templates\disclaimer.html:28
+#: .\templates\disclaimer.html:28 .\templates\v2\disclaimer.html:60
 msgid ""
 "Any replication, transfer, sale, lease, or transmittal of the original map "
 "to any third party without value added, with no mention of the source or "
@@ -4573,7 +4565,7 @@ msgstr ""
 msgid "1.4       Citing and Reference"
 msgstr "1.4 استناد و ماخذ"
 
-#: .\templates\disclaimer.html:32
+#: .\templates\disclaimer.html:32 .\templates\v2\disclaimer.html:67
 msgid ""
 "When using the data/maps or referring to it, the Afghanistan Spatial Data "
 "Center should be referred to as following:"
@@ -4581,7 +4573,7 @@ msgstr ""
 "هنگام استفاده از ارقام / نقشه ها و یا رجوع به آن، مرکز ارقام مکانی "
 "افغانستان  باید به عنوان ذیل رجوع کرد:"
 
-#: .\templates\disclaimer.html:33
+#: .\templates\disclaimer.html:33 .\templates\v2\disclaimer.html:69
 msgid ""
 "ASDC iMMAP (2016). Afghanistan Spatial Data Center. iMMAP 1300 Pennsylvania "
 "Avenue NW Suite 470 Washington, DC 20004 USA."
@@ -4589,7 +4581,7 @@ msgstr ""
 "ASDC iMMAP (2016). مرکز ارقام مکانی افغانستان . iMMAP 1300 جاده پنسیلوانیا "
 "شمال غربی سوئیت 470 واشنگتن، دی سی 20004 ایالات متحده است."
 
-#: .\templates\disclaimer.html:34
+#: .\templates\disclaimer.html:34 .\templates\v2\disclaimer.html:71
 msgid ""
 "When using a particular data source(s), use the source reference of each one "
 "source, see data layers for more information. E.g."
@@ -4597,7 +4589,7 @@ msgstr ""
 "هنگام استفاده از ارقام / نقشه ها و یا رجوع به آن، مرکز ارقام مکانی "
 "افغانستان  باید به عنوان ذیل رجوع کرد:"
 
-#: .\templates\disclaimer.html:35
+#: .\templates\disclaimer.html:35 .\templates\v2\disclaimer.html:73
 msgid ""
 "Mohadjer, S., Strube, T., Ehlers, T.A., Bendick, R., (2015). Central Asia "
 "Fault Database."
@@ -4605,7 +4597,7 @@ msgstr ""
 " .Mohadjer, S., Strube, T., Ehlers, T.A., Bendick, R., (2015)پایگاه اطلاعات  "
 "شکستگی های آسیای مرکزی  "
 
-#: .\templates\disclaimer.html:36
+#: .\templates\disclaimer.html:36 .\templates\v2\disclaimer.html:75
 msgid ""
 "Emlyn Hagen, NC3A (2008). Afghanistan Flood Hazard Map v.2. 1:100 000. From "
 "NATO Consultation, Command and Control Agency, CAT-6, Geo Team.  NATO C3 "
@@ -4615,7 +4607,7 @@ msgstr ""
 "کنترول انجمن ناتو , CAT-6, Geo Team.  NATO C3 Agency, The Hague, November "
 "2008"
 
-#: .\templates\disclaimer.html:37
+#: .\templates\disclaimer.html:37 .\templates\v2\disclaimer.html:77
 msgid ""
 "Emlyn Hagen, iMMAP and IMS NSIDC 2006-2015 (2015). Afghanistan average snow "
 "and ice cover Jan-Dec 2006-2015."
@@ -5037,142 +5029,142 @@ msgid "See users"
 msgstr "مشاهده کاربران"
 
 #: .\templates\index.html:491 .\templates\video.html:38
-#: .\templates\v2\doc.html:46
+#: .\templates\v2\doc.html:93
 msgid "Segment 1: English Version"
 msgstr "بخش 1: نسخه انگلیسی  "
 
 #: .\templates\index.html:492 .\templates\index.html.py:583
 #: .\templates\video.html:39 .\templates\video.html.py:130
-#: .\templates\v2\doc.html:47 .\templates\v2\doc.html.py:138
+#: .\templates\v2\doc.html:94 .\templates\v2\doc.html.py:185
 msgid "Statistics Tool"
 msgstr "افزار ساحوی"
 
 #: .\templates\index.html:499 .\templates\video.html:46
-#: .\templates\v2\doc.html:54
+#: .\templates\v2\doc.html:101
 msgid "Segment 2: English Version"
 msgstr "بخش 2: نسخه انگلیسی  "
 
 #: .\templates\index.html:500 .\templates\index.html.py:591
 #: .\templates\video.html:47 .\templates\video.html.py:138
-#: .\templates\v2\doc.html:55 .\templates\v2\doc.html.py:146
+#: .\templates\v2\doc.html:102 .\templates\v2\doc.html.py:193
 msgid "Settlement Inspector"
 msgstr "مفتش قریه جات"
 
 #: .\templates\index.html:507 .\templates\video.html:54
-#: .\templates\v2\doc.html:62
+#: .\templates\v2\doc.html:109
 msgid "Segment 3: English Version"
 msgstr "بخش 3: نسخه انگلیسی  "
 
 #: .\templates\index.html:508 .\templates\index.html.py:599
 #: .\templates\video.html:55 .\templates\video.html.py:146
-#: .\templates\v2\doc.html:63 .\templates\v2\doc.html.py:154
+#: .\templates\v2\doc.html:110 .\templates\v2\doc.html.py:201
 msgid "Finder Tool"
 msgstr "افزار جستجو"
 
 #: .\templates\index.html:515 .\templates\video.html:62
-#: .\templates\v2\doc.html:70
+#: .\templates\v2\doc.html:117
 msgid "Segment 4: English Version"
 msgstr "بخش 4: نسخه انگلیسی  "
 
 #: .\templates\index.html:523 .\templates\video.html:70
-#: .\templates\v2\doc.html:78
+#: .\templates\v2\doc.html:125
 msgid "Segment 5: English Version"
 msgstr "بخش 5: نسخه انگلیسی  "
 
 #: .\templates\index.html:524 .\templates\index.html.py:615
 #: .\templates\video.html:71 .\templates\video.html.py:162
-#: .\templates\v2\doc.html:79 .\templates\v2\doc.html.py:170
+#: .\templates\v2\doc.html:126 .\templates\v2\doc.html.py:217
 msgid "Earthquakes"
 msgstr "زلزله ها"
 
 #: .\templates\index.html:531 .\templates\video.html:78
-#: .\templates\v2\doc.html:86
+#: .\templates\v2\doc.html:133
 msgid "Segment 6: English Version"
 msgstr "بخش 6: نسخه انگلیسی  "
 
 #: .\templates\index.html:539 .\templates\video.html:86
-#: .\templates\v2\doc.html:94
+#: .\templates\v2\doc.html:141
 msgid "Segment 7: English Version"
 msgstr "بخش 7: نسخه انگلیسی  "
 
 #: .\templates\index.html:540 .\templates\index.html.py:631
 #: .\templates\video.html:87 .\templates\video.html.py:178
-#: .\templates\v2\doc.html:95 .\templates\v2\doc.html.py:186
+#: .\templates\v2\doc.html:142 .\templates\v2\doc.html.py:233
 msgid "Printing"
 msgstr "چاپ"
 
 #: .\templates\index.html:547 .\templates\video.html:94
-#: .\templates\v2\doc.html:102
+#: .\templates\v2\doc.html:149
 msgid "Segment 8: English Version"
 msgstr "بخش 8: نسخه انگلیسی  "
 
 #: .\templates\index.html:548 .\templates\video.html:95
-#: .\templates\v2\doc.html:103
+#: .\templates\v2\doc.html:150
 msgid "Security Overview"
 msgstr "مرور کلی امنیت"
 
 #: .\templates\index.html:555 .\templates\video.html:102
-#: .\templates\v2\doc.html:110
+#: .\templates\v2\doc.html:157
 msgid "Segment 9: English Version"
 msgstr "بخش 9: نسخه انگلیسی  "
 
 #: .\templates\index.html:556 .\templates\video.html:103
-#: .\templates\v2\doc.html:111
+#: .\templates\v2\doc.html:158
 msgid "GSM Coverage"
 msgstr " پوشش خدمات موبایل GSM"
 
 #: .\templates\index.html:563 .\templates\video.html:110
-#: .\templates\v2\doc.html:118
+#: .\templates\v2\doc.html:165
 msgid "Segment 10: English Version"
 msgstr "بخش 10: نسخه انگلیسی  "
 
 #: .\templates\index.html:564 .\templates\video.html:111
-#: .\templates\v2\doc.html:119
+#: .\templates\v2\doc.html:166
 msgid "Earthquake Hazard Risk"
 msgstr "خطر زلزله"
 
 #: .\templates\index.html:571 .\templates\video.html:118
-#: .\templates\v2\doc.html:126
+#: .\templates\v2\doc.html:173
 msgid "Segment 11: English Version"
 msgstr "بخش 11: نسخه انگلیسی  "
 
 #: .\templates\index.html:572 .\templates\video.html:119
-#: .\templates\v2\doc.html:127
+#: .\templates\v2\doc.html:174
 msgid "General Information - Certification"
 msgstr "اطلاعات عمومی - تصدیق نامه "
 
 #: .\templates\index.html:582 .\templates\video.html:129
-#: .\templates\v2\doc.html:137
+#: .\templates\v2\doc.html:184
 msgid "Segment 1: Dari Version"
 msgstr "بخش 1: نسخه دری "
 
 #: .\templates\index.html:590 .\templates\video.html:137
-#: .\templates\v2\doc.html:145
+#: .\templates\v2\doc.html:192
 msgid "Segment 2: Dari Version"
 msgstr "بخش 2: نسخه دری "
 
 #: .\templates\index.html:598 .\templates\video.html:145
-#: .\templates\v2\doc.html:153
+#: .\templates\v2\doc.html:200
 msgid "Segment 3: Dari Version"
 msgstr "بخش 3: نسخه دری "
 
 #: .\templates\index.html:606 .\templates\video.html:153
-#: .\templates\v2\doc.html:161
+#: .\templates\v2\doc.html:208
 msgid "Segment 4: Dari Version"
 msgstr "بخش 4: نسخه دری "
 
 #: .\templates\index.html:614 .\templates\video.html:161
-#: .\templates\v2\doc.html:169
+#: .\templates\v2\doc.html:216
 msgid "Segment 5: Dari Version"
 msgstr "بخش 5: نسخه دری "
 
 #: .\templates\index.html:622 .\templates\video.html:169
-#: .\templates\v2\doc.html:177
+#: .\templates\v2\doc.html:224
 msgid "Segment 6: Dari Version"
 msgstr "بخش 6: نسخه دری "
 
 #: .\templates\index.html:630 .\templates\video.html:177
-#: .\templates\v2\doc.html:185
+#: .\templates\v2\doc.html:232
 msgid "Segment 7: Dari Version"
 msgstr "بخش 7: نسخه دری "
 
@@ -5184,11 +5176,11 @@ msgstr "شرکای و ارائه دهندگان اطلاعات"
 msgid "About Afghanistan Spatial Data Center."
 msgstr "در باره مرکز ارقام مکانی افغانستان"
 
-#: .\templates\partners.html:11
+#: .\templates\partners.html:11 .\templates\v2\partners.html:31
 msgid "Data Providers and Partners"
 msgstr "ارائه دهندگان اطلاعات و شرکای"
 
-#: .\templates\partners.html:12
+#: .\templates\partners.html:12 .\templates\v2\partners.html:32
 msgid ""
 "This list provides an insight in the main partners who have provided or are "
 "providing essential data."
@@ -5201,17 +5193,17 @@ msgid ""
 "For each of the organisations the main contributions for the ASDC are listed."
 msgstr "برای هر یک از سازمان ها کمک های عمده که برای ASDC کردند ذکر شده است."
 
-#: .\templates\partners.html:14
+#: .\templates\partners.html:14 .\templates\v2\partners.html:34
 msgid ""
 "Homepage | Photo credit to Bob McKerrow, description:  Teshkan Valley, "
 "Badakhshan"
 msgstr "صفحه اصلی : عکس از باب میکیرو  Bob McKerrow : دره تشکان، بدخشان"
 
-#: .\templates\partners.html:20
+#: .\templates\partners.html:20 .\templates\v2\partners.html:42
 msgid "World Meteorological Organization (WMO) and Hydrologic Research Center"
 msgstr "سازمان جهانی هواشناسی (WMO) و مرکز تحقیقات هایدرولوژیک"
 
-#: .\templates\partners.html:21
+#: .\templates\partners.html:21 .\templates\v2\partners.html:43
 msgid "Flash Flood Guidiance System (FFGS) from Hydrologic Research Center"
 msgstr "سیستم هدایت سیلاب ناگهانی (FFGS) از مرکز تحقیقات هایدرولوژیک"
 
@@ -5223,14 +5215,14 @@ msgstr ""
 "ارقام و آمار WMO برای پیش بینی سیلاب ها استفاده می شود، و همچنین ارائه دهنده "
 "ارقام آب معادل برف که برای محاسبه عمق برف مورد استفاده میشود "
 
-#: .\templates\partners.html:30
+#: .\templates\partners.html:30 .\templates\v2\partners.html:52
 msgid ""
 "National Oceanic and Atmospheric Administration (NOAA) - National Snow and "
 "Ice Data Center (NSIDC)"
 msgstr ""
 "سازمان سراسری اقیانوسی و جوی (NOAA) - مرکز سراسری ارقام برف و یخ (NSIDC)"
 
-#: .\templates\partners.html:31
+#: .\templates\partners.html:31 .\templates\v2\partners.html:53
 msgid ""
 "NSIDC data is used to calculate the daily snow coverage and avalanche risk. "
 "It was also used to calculate the historic snow average per month."
@@ -5238,7 +5230,7 @@ msgstr ""
 "ارقام NSIDC  برای محاسبه روزانه پوشش برف و خطر برف کوچ استفاده شده. همچنین "
 "برای محاسبه  تاریخچه اوسط برف در هر ماه استفاده میشود."
 
-#: .\templates\partners.html:32
+#: .\templates\partners.html:32 .\templates\v2\partners.html:55
 msgid ""
 "Global Flood Monitoring System (GFMS) is supported by NOAA and is an "
 "essential component of the flood prediction system"
@@ -5246,11 +5238,11 @@ msgstr ""
 "سیستم نظارت جهانی سیلاب (GFMS) توسط NOAA حمایت میشود که یکی از عمده ترین "
 "سیستم پیش بینی سیلاب میباشد "
 
-#: .\templates\partners.html:40
+#: .\templates\partners.html:40 .\templates\v2\partners.html:62
 msgid "United States Geological Survey (USGS)"
 msgstr " سازمان زمین شناسی ایالات متحده (USGS)"
 
-#: .\templates\partners.html:41
+#: .\templates\partners.html:41 .\templates\v2\partners.html:63
 msgid ""
 "USGS Earthquake monitoring program, provides the historical earthquake data, "
 "latest epicentre data and shakemaps."
@@ -5258,11 +5250,11 @@ msgstr ""
 "پروگرام نظارت بر زلزله USGS، تاریخچه ارقام زلزله ، آخرین اطلاعات مرکز زلزله "
 "(هپی سنتر)، نقشه های لرزش زمین را فراهم می کند ."
 
-#: .\templates\partners.html:49
+#: .\templates\partners.html:49 .\templates\v2\partners.html:73
 msgid "Oak Ridge National Laboratory"
 msgstr "لابراتوار سراسری Oak Ridge"
 
-#: .\templates\partners.html:50
+#: .\templates\partners.html:50 .\templates\v2\partners.html:74
 msgid ""
 "Provided the Landscan data, which was merged with various other datasets, to "
 "estimate population numbers at village level."
@@ -5270,11 +5262,11 @@ msgstr ""
 "ارقام اسکن زمین (LandScan) را فراهم میکند که با ست ارقام مختلف دیگر یکجا "
 "شده ، برای  برآورد تعداد جمعیت در سطح قریه جات استفاده میشود"
 
-#: .\templates\partners.html:58
+#: .\templates\partners.html:58 .\templates\v2\partners.html:81
 msgid "University Of Maryland"
 msgstr "دانشگاه مریلند (Maryland)"
 
-#: .\templates\partners.html:59
+#: .\templates\partners.html:59 .\templates\v2\partners.html:82
 msgid ""
 "Global Flood Monitoring System (GFMS) is maintained by the university of "
 "Maryland. The data is essential for one component of the river flood "
@@ -5285,11 +5277,11 @@ msgstr ""
 "برای یکی از ترکیب های پیش بینی سیلاب های دریایی در افغانستان ضروری است. NOAA "
 "و NASA شرکای دیگری است که برای ایجاد این ارقام کمک میکنند."
 
-#: .\templates\partners.html:67
+#: .\templates\partners.html:67 .\templates\v2\partners.html:89
 msgid "National Aeronautics and Space Administration (NASA)"
 msgstr "سازمان سراسری هوانوردی و فضا (NASA)"
 
-#: .\templates\partners.html:68
+#: .\templates\partners.html:68 .\templates\v2\partners.html:90
 msgid ""
 "Global Flood Monitoring System (GFMS) is maintained by the university of "
 "Maryland. The data is essential for one component of the river flood "
@@ -5300,15 +5292,15 @@ msgstr ""
 "برای یکی از ترکیب های پیش بینی سیلاب های دریایی در افغانستان ضروری است. NOAA "
 "و NASA شرکای دیگری است که برای ایجاد این ارقام کمک میکنند."
 
-#: .\templates\partners.html:69
+#: .\templates\partners.html:69 .\templates\v2\partners.html:92
 msgid "NASA also provided SRTM and ASTER data."
 msgstr "ناسا NASA همچنین ارقام SRTM و ASTER را فراهم میکنند."
 
-#: .\templates\partners.html:77
+#: .\templates\partners.html:77 .\templates\v2\partners.html:102
 msgid "United States Agency for International Development (USAID)"
 msgstr "آژانس ایالات متحده برای توسعه بین المللی ایالات متحده (USAID)"
 
-#: .\templates\partners.html:78
+#: .\templates\partners.html:78 .\templates\v2\partners.html:103
 msgid ""
 "The USAID MISTI project provided the Village Settlement database, one of the "
 "core datasets."
@@ -5316,11 +5308,11 @@ msgstr ""
 "پروژه USAID MISTI فراهم میکند دیتابیس مساکن قریه جات را که یکی از ست ارقام "
 "عمده به شمار میرود ."
 
-#: .\templates\partners.html:86
+#: .\templates\partners.html:86 .\templates\v2\partners.html:110
 msgid "Japan: Ministry of Economy, Trade and Industry (METI)"
 msgstr "جاپان : وزارت اقتصاد، تجارت و صنعت (METI)"
 
-#: .\templates\partners.html:87
+#: .\templates\partners.html:87 .\templates\v2\partners.html:111
 msgid ""
 "METI/J-System (Japan) and NASA provided the ASTER DEM data. This data is "
 "used to create hillshading, model avalanche areas, calculate slope and "
@@ -5330,7 +5322,7 @@ msgstr ""
 "استفاده شده است برای ایجاد hillshading،  مدل مناطق برف کوچ ، محاسبه میل و  "
 "پس از آن برای زمان سفر جاده ها از این ارقام استفاده میشود."
 
-#: .\templates\partners.html:88
+#: .\templates\partners.html:88 .\templates\v2\partners.html:113
 msgid ""
 "The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER). "
 "The data is used to create detailed maps of land surface temperature, "
@@ -5340,12 +5332,12 @@ msgstr ""
 "نقشه های دقیق درجه حرارت سطح زمین، قابلیت انعکاس، و ارتفاع  مورد استفاده  "
 "قرار میگیرد . "
 
-#: .\templates\partners.html:96
+#: .\templates\partners.html:96 .\templates\v2\partners.html:119
 msgid ""
 "Joint Research Commission (JRC) - Global Flood Awareness System (GloFAS)"
 msgstr "کمیسیون مشترک تحقیقات (JRC) - سیستم آگاهی سیلاب جهانی (GloFAS)"
 
-#: .\templates\partners.html:97
+#: .\templates\partners.html:97 .\templates\v2\partners.html:120
 msgid ""
 "The Global Flood Awareness System (GloFAS) data is since 2017 being used to "
 "aid with flood prediction. It has a time horizon of 30 days, of which 20 "
@@ -5353,12 +5345,17 @@ msgid ""
 "System (GloFAS), jointly developed by the European Commission and the "
 "European Centre for Medium-Range Weather Forecasts."
 msgstr ""
+"ارقام سیستم آگاهی سیلاب جهانی (GloFAS) از سال 2017 برای کمک به پیش بینی "
+"سیلاب استفاده می شود. این سیستم 30 روز افق زمانی دارد که از 20 روز آن برای "
+"پیش بینی سیل استفاده میشود. سیستم آگاهی سیلاب جهانی (GloFAS) ، به طور مشترک "
+"توسط کمیسیون اروپایی و مرکز پیش بینی آب و هوا اروپایی در محدوده متوسط توسعه "
+"یافته است."
 
-#: .\templates\partners.html:105
+#: .\templates\partners.html:105 .\templates\v2\partners.html:130
 msgid "NATO Communications and Information Agency (NCI Agency)"
 msgstr "آژانس اطلاعات و ارتباطات NATO( آژانس NCI)"
 
-#: .\templates\partners.html:106
+#: .\templates\partners.html:106 .\templates\v2\partners.html:131
 msgid ""
 "Afghanistan Flood Hazard Map was provided by NATO NCI Agency (previously "
 "NC3A), it is a crucial data set without which static flood risk and flash/"
@@ -5368,23 +5365,23 @@ msgstr ""
 "ارقام مهم است که بدون آن امکان پیشبینی خطر سیلاب های دریایی و سیلاب از اثر "
 "باران شدید امکان ندارد ."
 
-#: .\templates\partners.html:107
+#: .\templates\partners.html:107 .\templates\v2\partners.html:133
 msgid "Further data data provided are basin layer."
 msgstr "اطلاعات و ارقام بیشتر در حوضه لایه ارائه شده"
 
-#: .\templates\partners.html:115
+#: .\templates\partners.html:115 .\templates\v2\partners.html:140
 msgid "World Food Program (WFP)"
 msgstr "پروگرام غذایی جهان (WFP)"
 
-#: .\templates\partners.html:116
+#: .\templates\partners.html:116 .\templates\v2\partners.html:141
 msgid "Provided one of the initial airport datasets."
 msgstr "ارائه نموده مجموعه ارقام اولیه میدان هوایی ."
 
-#: .\templates\partners.html:124
+#: .\templates\partners.html:124 .\templates\v2\partners.html:148
 msgid "Food and Agriculture Organization of the United Nations (FAO)"
 msgstr "سازمان کشاورزی و غذای ملل متحد (FAO) "
 
-#: .\templates\partners.html:125
+#: .\templates\partners.html:125 .\templates\v2\partners.html:149
 msgid ""
 "Land cover dataset created by John Latham of FAO, were not only crucial in "
 "determining the general land cover, but also played an essential role in "
@@ -5396,11 +5393,12 @@ msgstr ""
 "در تخمین جمعیت نفوس ایفا کرده است،علاوه بر این ارقام FAO برای ارزیابی مناطق "
 "که در معرض خطر حوادث طبیعی قرار دارند استفاده می شود."
 
-#: .\templates\partners.html:133
+#: .\templates\partners.html:133 .\templates\v2\partners.html:159
 msgid "World Health Organisation (WHO)"
 msgstr "سازمان صحی جهانی (WHO)"
 
 #: .\templates\partners.html:134 .\templates\partners.html.py:170
+#: .\templates\v2\partners.html:160 .\templates\v2\partners.html.py:195
 msgid ""
 "WHO and MoPH provided the initial health facility data, which was reviewed "
 "and adjusted. This data is essential to assess accessibility."
@@ -5408,11 +5406,11 @@ msgstr ""
 "WHO و MoPH  ارقام اولیه مراکز صحی (شفاخانه) تهیه نموده که مورد بررسی و تنظیم "
 "قرار گرفته و برای ارزیابی قابلیت های دسترسی ضروری میباشد ."
 
-#: .\templates\partners.html:142
+#: .\templates\partners.html:142 .\templates\v2\partners.html:167
 msgid "Office for the Coordination of Humanitarian Affairs (OCHA)"
 msgstr "دفتر هماهنگی امور بشر دوستانه (OCHA)"
 
-#: .\templates\partners.html:143
+#: .\templates\partners.html:143 .\templates\v2\partners.html:168
 msgid ""
 "Play an essential role in coordinating, relaying information and data. Both "
 "placing these online on the various OCHA maintained portals and helping "
@@ -5422,7 +5420,7 @@ msgstr ""
 "هردوی آن از طریق آنلاین در پورتال OCHA حفظ گردیده و کمک میکند سازمان ها  را "
 "برای رسیدن به iMMAP"
 
-#: .\templates\partners.html:151
+#: .\templates\partners.html:151 .\templates\v2\partners.html:175
 msgid "International Organization for Migration (IOM)"
 msgstr "سازمان بین المللی برای مهاجرت (IOM)"
 
@@ -5434,11 +5432,11 @@ msgstr ""
 "فرم ارزیابی سریع (RAF) معلومات تاریخی را تهیه میکند که برای سنجش کردن مدل "
 "های پیش بینی استفاده میشود."
 
-#: .\templates\partners.html:160
+#: .\templates\partners.html:160 .\templates\v2\partners.html:186
 msgid "Ministry of Interior Affairs (MoIA)"
 msgstr "وزارت امور داخله (MoIA)"
 
-#: .\templates\partners.html:161
+#: .\templates\partners.html:161 .\templates\v2\partners.html:187
 msgid ""
 "Security Incident are presently mainly extracted from MoIA reports. This "
 "data is essential to assess humanitarian access. In the past there were a "
@@ -5448,15 +5446,15 @@ msgstr ""
 "استخراج شده. این ارقام برای ارزیابی دسترسی بشری ضروری است. در گذشته منابع "
 "مختلف دیگر هم بود."
 
-#: .\templates\partners.html:169
+#: .\templates\partners.html:169 .\templates\v2\partners.html:194
 msgid "Ministry of Public Health (MoPH)"
 msgstr "وزارت صحت عامه (MoPH)"
 
-#: .\templates\partners.html:178
+#: .\templates\partners.html:178 .\templates\v2\partners.html:202
 msgid "Ministry of Rural Rehabilitation and Development (MRRD)"
 msgstr "وزارت احیا و انکشاف دهات (MRRD)"
 
-#: .\templates\partners.html:179
+#: .\templates\partners.html:179 .\templates\v2\partners.html:203
 msgid ""
 "MRRD plays an essential role in infrastructural data provision, especially "
 "segments of the rural road network."
@@ -5464,11 +5462,11 @@ msgstr ""
 "وزارت احیا و انکشاف دهات نقش اساسی در ارائه اطلاعات زیربنایی ایفا می کند، به "
 "خصوص در بخش شبکه سرک های قریه جات ."
 
-#: .\templates\partners.html:187
+#: .\templates\partners.html:187 .\templates\v2\partners.html:213
 msgid "Afghan Geodesy and Cartography Head Office (AGCHO)"
 msgstr "اداره عمومی جیودیزی و کارتوگرافی افغانستان (AGCHO)"
 
-#: .\templates\partners.html:188
+#: .\templates\partners.html:188 .\templates\v2\partners.html:214
 msgid ""
 "Provision of Administrative boundaries. AGCHO and the Independent "
 "Directorate for Local Governance (IDLG) are recognised as the sole "
@@ -5480,11 +5478,11 @@ msgstr ""
 "معتبر تنها برای مسائل حقوقی و فنی مربوط به تعین حدود سرحدات اداری، ترکیب "
 "بندی، و تقسیم واحد های اداری افغانستان شناخته شده است."
 
-#: .\templates\partners.html:196
+#: .\templates\partners.html:196 .\templates\v2\partners.html:221
 msgid "Central Statistics Organization (CSO)"
 msgstr "ادارہ  احصائیه مرکزی (CSO)"
 
-#: .\templates\partners.html:197
+#: .\templates\partners.html:197 .\templates\v2\partners.html:222
 msgid ""
 "Central Statistics Organization, Afghanistan (CSO) as NSO of any other "
 "country, is the driving force behind rebuilding an effective, robust and "
@@ -5495,7 +5493,7 @@ msgstr ""
 "محرک برای بازسازی بوده که قابل اعتماد است . و برآورد جمیعت آن بسیار برای "
 "تعین و مشخص ساختن اندازه قریه جات  ضروری میباشد."
 
-#: .\templates\partners.html:205
+#: .\templates\partners.html:205 .\templates\v2\partners.html:229
 msgid ""
 "Ministry of Disaster Management and Humanitarian Affairs of Afghanistan / "
 "Afghanistan National Disaster Management Authority (ANDMA)"
@@ -5503,23 +5501,23 @@ msgstr ""
 "وزارت حوادث طبیعی و امور بشردوستانه افغانستان / اداره ملی مبارزه با حوادث "
 "افغانستان(ANDMA)"
 
-#: .\templates\partners.html:206
+#: .\templates\partners.html:206 .\templates\v2\partners.html:230
 msgid "Plays an essential role in coordinating and relaying information."
 msgstr "نقش اساسی در هماهنگی و انتقال درست اطلاعات ایفا می کند."
 
-#: .\templates\partners.html:214
+#: .\templates\partners.html:214 .\templates\v2\partners.html:240
 msgid "Danish Committee for Aid to Afghan Refugees (DACAAR)"
 msgstr "کمیته دنمارکی برای کمک به مهاجرین افغان (DACAAR)"
 
-#: .\templates\partners.html:215
+#: .\templates\partners.html:215 .\templates\v2\partners.html:241
 msgid "Has collected the most extensive water well data in Afghanistan."
 msgstr "اطلاعات جمع آوری شده که گسترده ترین چاه های آبی در افغانستان است"
 
-#: .\templates\partners.html:223
+#: .\templates\partners.html:223 .\templates\v2\partners.html:248
 msgid "OpenStreetMap (OSM)"
 msgstr "نقشه باز شهری(OSM)"
 
-#: .\templates\partners.html:224
+#: .\templates\partners.html:224 .\templates\v2\partners.html:249
 msgid ""
 "OSM provided the road network coverage in highly populated cities of "
 "Afghanistan."
@@ -5529,11 +5527,11 @@ msgstr "OSM پوشش شبکه سرک ها در شهرهای بسیار پر جم
 msgid "Share This"
 msgstr "به اشتراک گذاشتن این"
 
-#: .\templates\training.html:11
+#: .\templates\training.html:11 .\templates\v2\training.html:32
 msgid "Dedicated Training Program"
 msgstr "برنامه های آموزشی اختصاصی"
 
-#: .\templates\training.html:12
+#: .\templates\training.html:12 .\templates\v2\training.html:33
 msgid ""
 "A dedicated training program is available. Make an appointment at the iMMAP "
 "offices in Kabul for basic or in-depth training. Training sessions can exist "
@@ -5551,7 +5549,7 @@ msgid ""
 "Alternatively, 20-30 minutes telephone walkthrough training sessions are "
 "also possible."
 msgstr ""
-"آموزش ASDC به زبان انگلیسی توسط نور زنگنه یک مربی حرفه ای داده میشود. او "
+"آموزش ANHDC به زبان انگلیسی توسط نور زنگنه یک مربی حرفه ای داده میشود. او "
 "توسط دو کارمند محلی حمایت می شود. روش دیگر 30-20 دقیقه از طریق آموزشی "
 "تیلفونی نیز امکان پذیر است."
 
@@ -5568,9 +5566,9 @@ msgid ""
 "ASDC and the capability to independently advance this knowledge."
 msgstr ""
 " iMMAP برنامه دریافت تصدیقنامه کاربران حرفوی را آغاز نموده که برای توسعه "
-"آموزش ASDC از طریق تمرینات عملی بسیار مفید است نکات مهم مراحل دریافت  "
+"آموزش ANHDC از طریق تمرینات عملی بسیار مفید است نکات مهم مراحل دریافت  "
 "تصدیقنامه قابلیت پیش برد این دانش بطور مستقلانه نظر به تخصص کاربر و طراحی "
-"ASDC میباشد."
+"ANHDC میباشد."
 
 #: .\templates\training.html:25
 msgid ""
@@ -5584,9 +5582,9 @@ msgstr ""
 "(باید 75%  سوال ها پاسخ درست گفته شود) که شامل بخش های مختلف میباشد. برای "
 "کاربر های که مهارت زیاد دارند این پروسه در حدود 1 یا 2 ساعت طول میکشد، و "
 "برای کاربران که تازه آموزش دیدن بیشتر از 3 ساعت .تکمیل نمودن این پروسه با "
-"دیدن ویدیوهای آموزشی ASDC لازم است.  "
+"دیدن ویدیوهای آموزشی ANHDC لازم است.  "
 
-#: .\templates\training.html:26
+#: .\templates\training.html:26 .\templates\v2\training.html:48
 msgid ""
 "In the future, the certification will be a perquisite to access the "
 "Humanitarian Access tool/data"
@@ -5611,9 +5609,9 @@ msgid ""
 "11 training videos, totalling 1 ½ hours of material."
 msgstr ""
 "برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن ویدیوهای "
-"آموزشی از مرکز ارقام مکانی افغانستان (asdc.immap.org). ویدیوهای آموزشی را می "
-"توان در یوتیوب و در ASDC پیدا نمود. (به هردو زبان دری و انگلیسی). در حال "
-"حاضر 11 ویدیویی آموزشی، در مجموع یک و نیم ساعت میباشد موجود است ."
+"آموزشی از مرکز ارقام مکانی افغانستان (anhdc.andma.gov.af). ویدیوهای آموزشی "
+"را می توان در یوتیوب و در ASDC پیدا نمود. (به هردو زبان دری و انگلیسی). در "
+"حال حاضر 11 ویدیویی آموزشی، در مجموع یک و نیم ساعت میباشد موجود است ."
 
 #: .\templates\training.html:40
 msgid "Click here go to youtube page"
@@ -5628,31 +5626,30 @@ msgid "click here go to youtube channel"
 msgstr "برای رفتن به یوتیوب اینجا کلیک کنید"
 
 #: .\templates\account\admin_approval_sent.html:6
-#: .\templates\account\admin_approval_sent.html:9
+#: .\templates\account\admin_approval_sent.html:14
+#: .\templates\account\admin_approval_sent.html:18
 #: .\templates\account\v2\admin_approval_sent.html:6
 #: .\templates\account\v2\admin_approval_sent.html:9
 msgid "Account Pending Approval"
 msgstr "حساب منتظر تایید"
 
-#: .\templates\account\admin_approval_sent.html:11
-#: .\templates\account\v2\admin_approval_sent.html:11
+#: .\templates\account\admin_approval_sent.html:28
 #, python-format
 msgid ""
 "We have sent the administrators a notice to approve your account associated "
-"with <b>%(email)s</b>. If the account is approved, you will receive a "
+"with <b>%(email)s</b>.<br>If the account is approved, you will receive a "
 "confirmation notice."
 msgstr ""
 "ما ارسال میکنیم اطلاعیه شما را به مدیر سایت بخاطر تایید حساب تان مرتبط با <b>"
 "%(email)s</b>. اگر حساب تان تایید شد، شما یک تائیدیه دریافت خواهید کرد."
 
 #: .\templates\account\email_confirmation_sent.html:6
-#: .\templates\account\email_confirmation_sent.html:9
-#: .\templates\account\v2\email_confirmation_sent.html:6
-#: .\templates\account\v2\email_confirmation_sent.html:9
-msgid "Confirm your email address"
+#: .\templates\account\email_confirmation_sent.html:14
+#: .\templates\account\email_confirmation_sent.html:18
+msgid "Confirm Email Address"
 msgstr "تأیید ایمیل آدرس"
 
-#: .\templates\account\email_confirmation_sent.html:11
+#: .\templates\account\email_confirmation_sent.html:27
 #: .\templates\account\v2\email_confirmation_sent.html:11
 #, python-format
 msgid ""
@@ -5662,31 +5659,25 @@ msgstr ""
 "برای تأیید ما به شما یک ایمیل میفرستیم. برای نهایی شدن پروسه ثبت نام ارتباط "
 "(لینک) ذیل را دنبال کنید . <b>%(email)s</b>"
 
-#: .\templates\account\login(baru).html:7 .\templates\account\login.html:7
-#: .\templates\account\login.html.py:26 .\templates\account\v2\login.html:7
+#: .\templates\account\login.html:7 .\templates\account\login.html.py:41
+#: .\templates\account\v2\login.html:7
 msgid "Log in"
 msgstr "ورود"
 
-#: .\templates\account\login(baru).html:15
-#: .\templates\account\login(baru).html:23
-#: .\templates\account\login(baru).html:55 .\templates\v2\base.html:310
-#: .\templates\v2\base.html.py:350
+#: .\templates\account\login.html:15 .\templates\account\login.html.py:19
+#: .\templates\v2\base.html:313 .\templates\v2\base.html.py:353
 msgid "Login"
 msgstr ""
 
-#: .\templates\account\login.html:11
-msgid "Log in to an existing account"
-msgstr "ورود به حساب موجود"
-
-#: .\templates\account\login.html:22
+#: .\templates\account\login.html:37
 msgid "Forgot your username?"
 msgstr " فراموش نام کاربری ؟"
 
-#: .\templates\account\login.html:23 .\templates\v2\base.html:375
+#: .\templates\account\login.html:38 .\templates\v2\base.html:378
 msgid "Forgot your password?"
 msgstr "فراموش رمز عبور؟"
 
-#: .\templates\account\login.html:24
+#: .\templates\account\login.html:39
 msgid "Not yet registered?"
 msgstr "تا به حال  راجستر نشده اید؟"
 
@@ -5694,32 +5685,25 @@ msgstr "تا به حال  راجستر نشده اید؟"
 msgid "Are you sure you want to log out?"
 msgstr "آیا مطمئن هستید که می خواهید از سیستم خارج شوید؟"
 
-#: .\templates\account\password_reset.html:8
+#: .\templates\account\password_reset.html:9
 #: .\templates\account\v2\forgot_pass.html:8
 msgid "Password reset"
 msgstr "تنظیم مجدد رمز عبور"
 
-#: .\templates\account\password_reset.html:14
-msgid "Password Reset"
-msgstr "تنظیم مجدد رمز عبور"
+#: .\templates\account\password_reset.html:20
+#: .\templates\account\password_reset.html:24 .\templates\v2\base.html:327
+msgid "Forgot Password"
+msgstr "فراموش رمز عبور؟"
 
-#: .\templates\account\password_reset.html:18
-msgid "Forgotten your password?"
-msgstr "رمز ورود خود را فراموش کرده اید؟"
-
-#: .\templates\account\password_reset.html:19
+#: .\templates\account\password_reset.html:34
 msgid ""
-"Enter your email address below, and we'll send you an email allowing you to "
-"reset it."
+"Submit your email linked to ANHDC and we will send you an email to reset "
+"your password."
 msgstr ""
 "ایمیل آدرس خود را در پایین وارد کنید، به خاطر اجازه تنظیم مجدد ما بر شما "
 "ایمیل میکنیم"
 
-#: .\templates\account\password_reset.html:25
-msgid "Reset my password"
-msgstr "تنظیم مجدد رمز عبور من"
-
-#: .\templates\account\password_reset.html:29
+#: .\templates\account\password_reset.html:35
 #, python-format
 msgid ""
 "If you have any trouble resetting your password, contact us at <a href="
@@ -5730,13 +5714,23 @@ msgstr ""
 "\"mailto:%(THEME_ACCOUNT_CONTACT_EMAIL)s\">%(THEME_ACCOUNT_CONTACT_EMAIL)s</"
 "a>."
 
-#: .\templates\account\signup.html:7 .\templates\account\signup.html.py:14
-#: .\templates\account\signup.html:22
+#: .\templates\account\password_reset.html:42
+#: .\templates\account\v2\forgot_pass.html:19
+#: .\templates\account\v2\forgot_pass.html:27
+#: .\templates\account\v2\forgot_pass.html:52
+msgid "Reset Password"
+msgstr "تنظیم مجدد رمز عبور من"
+
+#: .\templates\account\signup.html:8 .\templates\account\signup.html.py:82
 #: .\templates\account\v2\registration.html:7
 msgid "Sign up"
 msgstr "ثبت نام"
 
-#: .\templates\account\signup.html:27
+#: .\templates\account\signup.html:15 .\templates\account\signup.html.py:19
+msgid "Sign Up"
+msgstr "ثبت نام"
+
+#: .\templates\account\signup.html:87
 #: .\templates\account\v2\registration.html:108
 msgid "Sorry, registrations are not open at this time."
 msgstr "با معذرت، صفحه ثبت نام در این زمان باز نیست"
@@ -5784,15 +5778,22 @@ msgstr ""
 msgid "[%(site_name)s] Password reset"
 msgstr "[%(site_name)s] تنظیم مجدد رمز عبور"
 
-#: .\templates\account\v2\forgot_pass.html:19
-#: .\templates\account\v2\forgot_pass.html:27
-#: .\templates\account\v2\forgot_pass.html:52
-#, fuzzy
-msgid "Reset Password"
-msgstr "تنظیم مجدد رمز عبور من"
+#: .\templates\account\v2\admin_approval_sent.html:11
+#, python-format
+msgid ""
+"We have sent the administrators a notice to approve your account associated "
+"with <b>%(email)s</b>. If the account is approved, you will receive a "
+"confirmation notice."
+msgstr ""
+"ما ارسال میکنیم اطلاعیه شما را به مدیر سایت بخاطر تایید حساب تان مرتبط با <b>"
+"%(email)s</b>. اگر حساب تان تایید شد، شما یک تائیدیه دریافت خواهید کرد."
+
+#: .\templates\account\v2\email_confirmation_sent.html:6
+#: .\templates\account\v2\email_confirmation_sent.html:9
+msgid "Confirm your email address"
+msgstr "تأیید ایمیل آدرس"
 
 #: .\templates\account\v2\forgot_pass.html:38
-#, fuzzy
 msgid ""
 "Submit your email linked to ASDC and we will send you an email to reset your "
 "password."
@@ -5815,7 +5816,6 @@ msgstr ""
 
 #: .\templates\account\v2\registration.html:16
 #: .\templates\account\v2\registration.html:24
-#, fuzzy
 msgid "Registration"
 msgstr "محدودیت ها"
 
@@ -6306,7 +6306,6 @@ msgid "Search"
 msgstr "جستجو"
 
 #: .\templates\search\v2\_general_filters.html:85
-#, fuzzy
 msgid "Date Published"
 msgstr "منتشر شده"
 
@@ -6325,7 +6324,6 @@ msgid "Provinces/District"
 msgstr ""
 
 #: .\templates\search\v2\_search_content.html:9
-#, fuzzy
 msgid "Clear all"
 msgstr "پاک"
 
@@ -6334,12 +6332,10 @@ msgid "Filter"
 msgstr ""
 
 #: .\templates\search\v2\_search_content.html:114
-#, fuzzy
 msgid "Set Permissions"
 msgstr "تنظیم مجوز"
 
 #: .\templates\search\v2\_search_view_controller.html:7
-#, fuzzy
 msgid "View as:"
 msgstr "نمایش ها"
 
@@ -6414,12 +6410,10 @@ msgid "Send Reply"
 msgstr "ارسال پاسخ"
 
 #: .\templates\v2\404.html:8
-#, fuzzy
 msgid "404, Page not found"
 msgstr "صفحه یافت نشد"
 
 #: .\templates\v2\404.html:10
-#, fuzzy
 msgid ""
 "\n"
 "      \t\t\tThe page you requested does not exist. Perhaps you are using an "
@@ -6435,12 +6429,10 @@ msgid "Rate"
 msgstr ""
 
 #: .\templates\v2\_actions.html:9
-#, fuzzy
 msgid "Comment"
 msgstr "نظریات"
 
 #: .\templates\v2\_actions.html:15 .\templates\v2\_deliverynotes.html:26
-#, fuzzy
 msgid "Delivery Notes"
 msgstr "نقطه تحویل"
 
@@ -6449,12 +6441,10 @@ msgid "Apply"
 msgstr ""
 
 #: .\templates\v2\_deliverynotes.html:40
-#, fuzzy
 msgid "Noted by"
 msgstr "متعلق به"
 
 #: .\templates\v2\_permissions.html:7
-#, fuzzy
 msgid "Privacy"
 msgstr "شخصی"
 
@@ -6466,7 +6456,6 @@ msgstr "شخصی"
 #: .\templates\v2\_permissions_simple.html:98
 #: .\templates\v2\_permissions_simple.html:123
 #: .\templates\v2\_permissions_simple.html:148
-#, fuzzy
 msgid "Following Users"
 msgstr "دنبال کردن"
 
@@ -6478,84 +6467,195 @@ msgstr "دنبال کردن"
 #: .\templates\v2\_permissions_simple.html:104
 #: .\templates\v2\_permissions_simple.html:129
 #: .\templates\v2\_permissions_simple.html:154
-#, fuzzy
 msgid "Following Groups"
 msgstr "گروپ های ذیل:"
 
 #: .\templates\v2\_permissions.html:57
 #: .\templates\v2\_permissions_simple.html:48
-#, fuzzy
 msgid "Following Users "
 msgstr "کاربران ذیل:"
 
 #: .\templates\v2\_permissions.html:63
 #: .\templates\v2\_permissions_simple.html:54
-#, fuzzy
 msgid "Following Groups "
 msgstr "گروپ های ذیل:"
 
-#: .\templates\v2\base.html:90 .\templates\v2\index.html:6
+#: .\templates\v2\about.html:79
+msgid "Prediction"
+msgstr "نسخه"
+
+#: .\templates\v2\about.html:80
+msgid "(include estimation on population at risk for each of the following):"
+msgstr "پیش بینی (از جمله برآورد نفوس در معرض خطر برای هر یک از موارد ذیل ):"
+
+#: .\templates\v2\about.html:83
+msgid ""
+"Every 6 hours the river flood risk is estimated for the next 4 (GFSM) - 20 "
+"(GLOFAS) days"
+msgstr "هر 6 ساعت خطر سیلاب دریایی برای 4 روز آینده تخمین میشود"
+
+#: .\templates\v2\about.html:112
+msgid "ASDC Core Team"
+msgstr "تیم اصلی DRR"
+
+#: .\templates\v2\about.html:128
+msgid ""
+"Mr. Budi Hermansyah has created the ASDC GeoNode portal. Which is an "
+"advanced and further development of the GeoNode supported by the World Bank. "
+"These advancements include the creation of all statistics and user "
+"interfaces, statistics, POI’s models, as well as automated data retrieval "
+"and analysis for forecasting purposes. Furthermore, an advanced dashboard "
+"has been created by Mr. Budi Hermansyah."
+msgstr ""
+"آقای بودی هیرمنسیا (Budi Hermansyah) پورتال GeoNode سایت ASDC را ایجاد کرده "
+"است. که این توسعه پیشرفته و بیشتر از GeoNode حمایت شده توسط بانک جهانی "
+"میباشد. این پیشرفت شامل ایجاد تمام آمار و روابط کاربر، آمار، مدل های POI، و "
+"همچنین به عنوان بازیابی خودکار ارقام و تجزیه و تحلیل برای اهداف پیش بینی "
+"میشود. علاوه بر این، مجموعه اطلاعات پیشرفته توسط آقای بودی هیرمنسیا  ایجاد "
+"شده است."
+
+#: .\templates\v2\about.html:130
+msgid ""
+"Currently, he is also supported by Mr. Dodi Wahyu Setiawan for back-end side "
+"while Ms. Rafinkanisa Witarayoga supporting in the front-end development of "
+"ASDC."
+msgstr ""
+"در حال حاضر ، وی همچنین توسط آقای Dodi Wahyu Setiawan برای سمت عقب پشتیبانی "
+"می شود در حالی که خانم Rafinkanisa Witarayoga در پیشرفت ASDC پشتیبانی می کند."
+
+#: .\templates\v2\about.html:139
+msgid ""
+"Carlos L. Barrio has led the dedicated training program of users on the ASDC "
+"since October 2017. He is supported by two local nationals in this effort. "
+"The training program is further supported by videos as well as a "
+"certification process."
+msgstr ""
+"نور زنگنه (Noor Zangana) برنامه های آموزشی اختصاصی ASDC را برای کاربران از "
+"جولای سال 2016 رهبری میکند . او توسط دو نفر از اتباع محلی در این وظیفه حمایت "
+"میشود. برنامه های آموزشی شامل ویدیو و همچنین صدور تصدیق نامه میباشد."
+
+#: .\templates\v2\about.html:148
+msgid ""
+"The ASDC is supported by talented Information Management Officers in Kabul, "
+"who cover a range of humanitarian sectors. A data entry staff are updating "
+"information on on a daily basis.  A development unit is based in Indonesia "
+"who ensure the continuous improvements and functionally of the ASDC."
+msgstr ""
+"ANHDC جدید توسط مدیران با استعداد مدیریت اطلاعات در کابل حمایت میشود ، که "
+"بخش وسیعی از بخش های بشردوستانه را تحت پوشش خود قرار می دهند. کارکنان ثبت "
+"ارقام بصورت روزانه اطلاعات را به روز می کنند. یک واحد توسعوی در اندونزی "
+"مستقر است که پیشرفت های مستمر و عملکرد ANHDC جدید را تضمین می کند."
+
+#: .\templates\v2\base.html:93 .\templates\v2\index.html:6
 msgid "Afghanistan Natural Hazard Data Center"
 msgstr "مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان"
 
-#: .\templates\v2\base.html:135 .\templates\v2\partners.html:13
+#: .\templates\v2\base.html:138 .\templates\v2\partners.html:13
 #: .\templates\v2\partners.html.py:21
-#, fuzzy
 msgid "Partner"
 msgstr "همکاران(شریک ها)"
 
-#: .\templates\v2\base.html:138
-#, fuzzy
+#: .\templates\v2\base.html:141
 msgid "Documentation & Videos"
 msgstr "مدارک و ویدیو ها"
 
-#: .\templates\v2\base.html:178
-#, fuzzy
+#: .\templates\v2\base.html:181
 msgid "Push Notification"
 msgstr "اطلاعیه ها"
 
-#: .\templates\v2\base.html:180
-#, fuzzy
+#: .\templates\v2\base.html:183
 msgid "Setting"
 msgstr "حذف کردن"
 
-#: .\templates\v2\base.html:182
+#: .\templates\v2\base.html:185
 msgid "Report"
 msgstr ""
 
-#: .\templates\v2\base.html:245
+#: .\templates\v2\base.html:248
 msgid "CONTACT"
 msgstr ""
 
-#: .\templates\v2\base.html:324
-#, fuzzy
-msgid "Forgot Password"
-msgstr "فراموش رمز عبور؟"
+#: .\templates\v2\base.html:273
+msgid "ANDMA"
+msgstr ""
 
-#: .\templates\v2\base.html:332 .\templates\v2\base.html.py:338
+#: .\templates\v2\base.html:335 .\templates\v2\base.html.py:341
 msgid "Forgot?"
 msgstr ""
 
-#: .\templates\v2\base.html:353 .\templates\v2\base.html.py:377
+#: .\templates\v2\base.html:356 .\templates\v2\base.html.py:380
 msgid "Not Registered? Create an account"
 msgstr ""
 
+#: .\templates\v2\disclaimer.html:30
+msgid "Introduction"
+msgstr "1. معرفی"
+
+#: .\templates\v2\disclaimer.html:39
+msgid "Data Disclaimer"
+msgstr "رفع مسئولیت"
+
+#: .\templates\v2\disclaimer.html:46
+msgid "Limitation of Warranties and Liability"
+msgstr "1.2 محدودیت ضمانت نامه و مسئولیت ها"
+
+#: .\templates\v2\disclaimer.html:57
+msgid "Distribution/Redistribution Policy"
+msgstr "1.3 پخش و نشر / پخش و نشر مجدد پالیسی "
+
+#: .\templates\v2\disclaimer.html:66
+msgid "Citing and Reference"
+msgstr "1.4 استناد و ماخذ"
+
 #: .\templates\v2\doc.html:13 .\templates\v2\doc.html.py:21
-#, fuzzy
 msgid "Documentation & Video"
 msgstr "مدارک و ویدیو ها"
 
+#: .\templates\v2\doc.html:33
+msgid ""
+"Please find the documentation on the right hand side. This is a living "
+"document and presently must be considered as draft. At present sections of "
+"flood forecasting and population estimates must be revised as these have "
+"been extensively updated and/or refined, as well as new functionalities must "
+"be added."
+msgstr ""
+"لطفا اسناد را در سمت راست پیدا کنید. این یک سند زنده است و در حال حاضر باید "
+"به عنوان پیش نویس در نظر گرفته شود. در حال حاضر بخش های پیش بینی سیل و تخمین "
+"های جمعیت باید مورد بازنگری قرار گیرند زیرا این موارد به روز شده ویا تصفیه "
+"گسترده ای شده اند ، همچنین باید عملکردهای جدیدی نیز به آن اضافه شود."
+
+#: .\templates\v2\doc.html:39
+msgid ""
+"A detailed overview of the following core capabilities of the ASDC can be "
+"found at:"
+msgstr "یک نمای مفصل از قابلیت های مهم AHNDC را می توانید در ذیل بیابید"
+
+#: .\templates\v2\doc.html:67
+msgid ""
+"To facilitate better communication, a Youtube channel has been made to host "
+"basic instruction videos on the functionalities of the Afghanistan Spatial "
+"Data Center (asdc.immap.org). The instruction videos can be found on YouTube "
+"and on the ASDC (available in Dari and English). Currently, there are 11 "
+"training videos, in total 1 ½ hours of material."
+msgstr ""
+"برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن ویدیوهای "
+"آموزشی از مرکز ارقام مکانی افغانستان (asdc.immap.org). ویدیوهای آموزشی را می "
+"توان در یوتیوب و در ANHDC پیدا نمود. (به هردو زبان دری و انگلیسی). در حال "
+"حاضر 11 ویدیویی آموزشی، در مجموع یک و نیم ساعت میباشد موجود است ."
+
+#: .\templates\v2\doc.html:69 .\templates\v2\training.html:84
+msgid "Go to Youtube Channel"
+msgstr "برای رفتن به یوتیوب اینجا کلیک کنید"
+
 #: .\templates\v2\index.html:105
-#, fuzzy
 msgid "Current Information"
 msgstr "معلومات مکمل"
 
 #: .\templates\v2\index.html:106
 msgid "Look at some of the recent information we have"
-msgstr ""
+msgstr "به برخی از اطلاعات اخیر ما نگاه کنید"
 
 #: .\templates\v2\index.html:116
-#, fuzzy
 msgid ""
 "River flood prediction are valid for 4 days and updated every 6 hours, "
 "whereas the flash floods are valid for 6 hours and updated hourly."
@@ -6566,12 +6666,10 @@ msgstr ""
 "بوده ."
 
 #: .\templates\v2\index.html:116
-#, fuzzy
 msgid "The map and statistics are updated every 6 hours."
 msgstr "هر 6 ساعت نقشه ها و آمار آپدیت میشوند ."
 
 #: .\templates\v2\index.html:127
-#, fuzzy
 msgid "Flood Prediction"
 msgstr "پیشبینی سیلاب"
 
@@ -6582,18 +6680,15 @@ msgid ""
 msgstr ""
 
 #: .\templates\v2\index.html:142
-#, fuzzy
 msgid ""
 "The map and statistics are updated on a daily basis (less than 24 hours)."
 msgstr "هر 6 ساعت نقشه ها و آمار آپدیت میشوند ."
 
 #: .\templates\v2\index.html:153
-#, fuzzy
 msgid "Avalanches Prediction"
 msgstr "پیشبینی برف کوچ"
 
 #: .\templates\v2\index.html:154
-#, fuzzy
 msgid ""
 "Click to explore the number of people potentially affected by avalanches"
 msgstr ""
@@ -6601,30 +6696,26 @@ msgstr ""
 "دارند به اساس پوشش برف و آب معادل برف (به مقیاس حوضه کوچک)"
 
 #: .\templates\v2\index.html:171
-#, fuzzy
 msgid "The map and statistics are updated 4 times a day."
 msgstr "هر 6 ساعت نقشه ها و آمار آپدیت میشوند ."
 
 #: .\templates\v2\index.html:183
-#, fuzzy
 msgid "Click to explore the current snow cover and depth"
 msgstr "برای بررسی پوشش و عمق فعلی برف این جا کلیک کنید"
 
 #: .\templates\v2\index.html:197
-#, fuzzy
 msgid "Our Latest Maps"
 msgstr "آخرین نقشه های سیلاب"
 
 #: .\templates\v2\index.html:198
 msgid "Look at some of the recent projects we have completed"
-msgstr ""
+msgstr "به برخی از پروژه های اخیر که به پایان رسانده ایم ، نگاه کنید"
 
 #: .\templates\v2\index.html:206 .\templates\v2\index.html.py:247
 msgid "Show All"
-msgstr ""
+msgstr "نمایش همه"
 
 #: .\templates\v2\index.html:246
-#, fuzzy
 msgid "Flood Maps"
 msgstr "سیلاب"
 
@@ -6633,28 +6724,376 @@ msgid ""
 "New to ANHDC? Check our documentation for having a better understanding how "
 "useful our tools are."
 msgstr ""
+"تازه وارد ANHDC هستید؟ اسناد ما را بررسی کنید تا درک بهتری از مفید بودن "
+"ابزارهای ما داشته باشید"
 
 #: .\templates\v2\index.html:293
 msgid "Watch Tutorial"
-msgstr ""
+msgstr "آموزش تماشا کنید"
 
 #: .\templates\v2\index.html:294
-#, fuzzy
 msgid "See Documentation"
 msgstr "مستندات"
 
 #: .\templates\v2\index.html:304 .\templates\v2\index.html.py:440
 msgid "OUR PARTNERS"
-msgstr ""
+msgstr "شرکای ما"
 
 #: .\templates\v2\index.html:305 .\templates\v2\index.html.py:446
 msgid "List of partner who provides either data or financial contribution."
-msgstr ""
+msgstr "لیست شریکی که یا داده یا مشارکت مالی را ارائه می دهد"
 
 #: .\templates\v2\partners.html:4
-#, fuzzy
 msgid "Partners and Data Providers"
 msgstr "شرکای و ارائه دهندگان اطلاعات"
+
+#: .\templates\v2\partners.html:33
+msgid ""
+"For each of the organisations the main contributions for the AHNDC are "
+"listed."
+msgstr "برای هر یک از سازمان ها کمک های عمده که برای ANHDC کردند ذکر شده است."
+
+#: .\templates\v2\partners.html:45
+msgid ""
+"WMO data is used for the flash flood prediction, as well as providing snow "
+"water equivalent data used to calculate snow depth"
+msgstr ""
+"ارقام و آمار WMO برای پیش بینی سیلاب ها استفاده می شود، و همچنین ارائه دهنده "
+"ارقام آب معادل برف که برای محاسبه عمق برف مورد استفاده میشود "
+
+#: .\templates\v2\partners.html:176
+msgid ""
+"Has provided historical Rapid Assessment Form (RAF) information, which is "
+"used to calibrate the prediction model."
+msgstr ""
+"فرم ارزیابی سریع (RAF) معلومات تاریخی را تهیه میکند که برای سنجش کردن مدل "
+"های پیش بینی استفاده میشود."
+
+#: .\templates\v2\partners.html:256
+msgid ""
+"Climatologies at High resolution for the Earth’s Land Surface Areas (CHELSA)"
+msgstr "اقلیم شناسی با دقت بالا برای مناطق سطح زمین:   (CHELSA)"
+
+#: .\templates\v2\partners.html:257
+msgid ""
+"CHELSA provides AHNDC with Climate and Climate Change data. CHELSA is a high "
+"resolution (30 arc sec) climate data set for the earth land surface areas "
+"currently hosted by the Swiss Federal Institute for Forest, Snow and "
+"Landscape Research WSL (Dr. Dirk N. Karger, Prof. Dr. Niklaus Zimmermann), "
+"and has been developed in coorporation with the Department of Geography of "
+"the University of Hamburg (Prof. Dr. Jürgen Böhner, Dr. Olaf Conrad, Tobias "
+"Kawohl), the University of Zurich (Dr. Michael Kessler), and the University "
+"of Göttingen (Prof. Dr. Holger Kreft)."
+msgstr ""
+"(CHELSA) ارقام در بخش تغیر اقلیم را برای سیستم ارقام مکانی افغانستان (ANHDC) "
+"تهیه میکند. CHELSA یک مجموعه ارقام اقلیم با دقت بالا (30 arc sec) برای مناطق "
+"سطح زمین میباشد که فعلا توسط انستیتوت فدرال تحقیقات جنگل ، برف و چشم انداز "
+"WSL میزبانی میشود. و با هماهنگی با گروه جغرافیا دانشگاه هامبورگ (پروفسور "
+"داکتر یورگن بوهنر ، داکتر اولاف کنراد ، توبیاس کاوهل) ، دانشگاه زوریخ (دکتر "
+"مایکل کسلر) و دانشگاه گوتینگن ( پروفسور داکتر هولگر کرفت) توسعه داده شده است."
+
+#: .\templates\v2\partners.html:267
+msgid "Ventusky"
+msgstr "ونتوسکی"
+
+#: .\templates\v2\partners.html:268
+msgid ""
+"Ventusky provides wonderfully styled access to weather forecast in the ANHDC "
+"dashboard and settlement inspector. It provides data for Afghanistan mostly "
+"from Deutsche Wetter Dienst ICON (7.5 km resolution), or alternatively from "
+"NOAA’s Global Forecast System GFS (15 km resolution). Ventusky is a product "
+"provided by InMeteo, a Czech meteorological company, in collaboration "
+"with Marek Mojzík and Martin Prantl"
+msgstr ""
+"Ventusky در داشبورد ANHDC و مفتش قریه جات ، دسترسی شگفت انگیزی به پیش بینی "
+"آب و هوا می دهد. این ارقام بیشتر برای افغانستان از Deutsche Wetter Dienst "
+"ICON (دقت 7/5 کیلومتر) یا از سیستم پیش بینی جهانی NOAA GFS (دقت 15 کیلومتر) "
+"تهیه می کند. Ventusky محصولی است که توسط InMeteo ، یک شرکت هواشناسی چک با "
+"همکاری مارک مژک و مارتین پرانتل تهیه شده است."
+
+#: .\templates\v2\partners.html:275
+msgid "European Centre for Medium-Range Weather Forecasts (ECMWF)"
+msgstr "مرکز اروپایی پیش بینی آب و هوا در محدوده متوسط (ECMWF)"
+
+#: .\templates\v2\partners.html:276
+msgid ""
+"The European Centre for Medium-Range Weather Forecasts (ECMWF) is an "
+"independent intergovernmental organisation supported by 34 states. It "
+"provides much of the input data for the GLOFAS data, in addition the ANHDC "
+"utilizes data from other partner organisations which rely on ECMWF data "
+"(weather forecast data, climate and climate change data)."
+msgstr ""
+"مرکز اروپایی پیش بینی هواشناسی در محدوده متوسط (ECMWF) یک سازمان بین دولتی "
+"مستقل است که توسط 34 ایالت حمایت می شود. این بخش بیشتر ارقام ورودی را برای "
+"ارقام  GLOFAS فراهم می کند ، علاوه بر این ، ANHDC از ارقام سایر سازمان های "
+"همکار که به ارقام ECMWF (ارقام پیش بینی هوا ، اقلیم و ارقام تغییرات آب و "
+"هوا) اعتماد دارند ، استفاده می کند."
+
+#: .\templates\v2\partners.html:283
+msgid "NOAA STAR (Satellite Applications and Research)"
+msgstr "ستاره NOAA  (برنامه ها و تحقیقات ماهواره ای)"
+
+#: .\templates\v2\partners.html:284
+msgid "Global Vegetation Health Products"
+msgstr "محصولات صحی جهانی نبات"
+
+#: .\templates\v2\partners.html:285
+msgid ""
+"The current drought risk map is based on the Vegetation Health (VH) Index, "
+"provided by NOAA. The VH products can be used as proxy data for monitoring "
+"vegetation health, drought and others. Due to the resolution and the "
+"modelling properties overestimation of risk will occur. The Global and "
+"Regional Vegetation Health (VH) is a NOAA/NESDIS system estimating "
+"vegetation health, moisture condition, thermal condition and their products. "
+"It contains Vegetation Health Indices (VHI) derived from the radiance "
+"observed by the VIIRS satellite."
+msgstr ""
+"خطرات خشکسالی فعلی بر اساس شاخص سلامت گیاهی (VH)  توسط NOAA تهیه شده است. "
+"محصولات VH می توانند به عنوان ارقام نمونه برای نظارت بر سلامت گیاهی ، "
+"خشکسالی و سایر موارد استفاده شوند. با توجه به دقت و مشخصات مدل سازی خطرات "
+"بیشتر از حد تخمین شده رخ خواهد داد. بهداشت پوشش گیاهی جهانی و منطقه ای (VH) "
+"یک سیستم NOAA / NESDIS است که سلامت پوشش گیاهی ، شرایط رطوبت ، شرایط حرارتی "
+"و محصولات آنها را تخمین می زند. این شامل شاخص های سلامت گیاهی (VHI) است که "
+"از تابش مشاهده شده توسط ماهواره VIIRS گرفته شده است"
+
+#: .\templates\v2\partners.html:294
+msgid "California University of Pennsylvania"
+msgstr "دانشگاه پنسلوانیای کالیفورنیا"
+
+#: .\templates\v2\partners.html:295
+msgid ""
+"California University of Pennsylvania has integrated parts of the ANHDC into "
+"its Geography syllabus and has become the most prolific Educational ANHDC "
+"user. Cal U uses the ANHDC to teach undergraduate students basic applied "
+"geography insights within a disaster management context. The training course "
+"is being led by Professor Dr. Thomas R. Mueller, who has taught a wide "
+"variety of courses including World Regional Geography, GIS, crime mapping, "
+"demographic analysis, and spatial models in public safety."
+msgstr ""
+"دانشگاه پنسلوانیای کالیفورنیا  بخش هایی از ANHDC را در برنامه درسی جغرافیایی "
+"خود ادغام کرده و به پربارترین استفاده کننده آموزشی AHNDC تبدیل شده است. Cal "
+"U از ANHDC برای تدریس به دانشجویان لیسانس اش درقالب جغرافیه اساسی تطبیقی با "
+"محتوای مدیریت حوادث استفاده می کند. این دوره آموزشی توسط پروفیسور داکتر "
+"توماس آر مولر رهبری می شود طوریکه ایشان کورس های متنوع زیادی را به شمول "
+"جغرافیای جهانی منطقه ای، GIS، نقشه برداری جرائم، تجزیه و تحلیل جمعیتی و "
+"الگوهای مکانی برای امنیت عمومی را آموزش داده است"
+
+#: .\templates\v2\partners.html:302
+msgid "Northeastern University"
+msgstr "دانشگاه شمال شرقی  "
+
+#: .\templates\v2\partners.html:303
+msgid ""
+"Northeastern University has integrated parts of the ANHDC into their Crisis "
+"Mapping for Humanitarian Action  syllabus. Northeastern University uses the "
+"ANHDC to teach graduate students applied geography insights within a "
+"disaster management context."
+msgstr ""
+"دانشگاه شمال شرقی یک تعداد بخش هایی ANHDC را در برنامه های نقشه برداری خطرات "
+"برای اقدامات بشردوستانه خود مورد استفاده قرار داده است. دانشگاه شمال شرقی از "
+"ANHDC برای تدریس به دانشجویان فارغ التحصیل خود با محتوای مدیریت حوادث "
+"استفاده می کند."
+
+#: .\templates\v2\training.html:34
+msgid ""
+"Workshops are conducted  by one of our international and two of our local "
+"national ANHDC experts. Therefore, the training can be delivered in both "
+"English and Dari."
+msgstr ""
+"کارگاه های آموزشی توسط یکی از متخصصان بین المللی و دو متخصص محلی محلی ASDC "
+"ما انجام می شود. بنابراین می توان آموزش را به دو زبان انگلیسی و دری ارائه "
+"داد."
+
+#: .\templates\v2\training.html:45
+msgid "ANHDC Professional User Certification program"
+msgstr ""
+"پروگرام صدور تصدیق نامه برای کاربران حرفه ای مرکز ارقام مکانی افغانستان "
+
+#: .\templates\v2\training.html:46
+msgid ""
+"iMMAP has initiated the ANHDC Professional User Certification program, which "
+"further expands the ANHDC training program with hands-on exercises. The "
+"certification highlights user proficiency with the functionalities of the "
+"ANHDC and the capability to independently advance this knowledge."
+msgstr ""
+" iMMAP برنامه دریافت تصدیقنامه کاربران حرفوی را آغاز نموده که برای توسعه "
+"آموزش ANHDC از طریق تمرینات عملی بسیار مفید است نکات مهم مراحل دریافت  "
+"تصدیقنامه قابلیت پیش برد این دانش بطور مستقلانه نظر به تخصص کاربر و طراحی "
+"ANHDC میباشد."
+
+#: .\templates\v2\training.html:47
+msgid ""
+"The certification takes place online and consist of 80 interactive questions "
+"&#40;75&#37; passing mark&#41;, tied to various scenarios. For proficient "
+"users it will take approximately 1-2 hours to complete, whereas for novice "
+"yet trained users it can take more than 3 hours. Having seen the ANHDC "
+"Training videos is a perquisite to be able to complete."
+msgstr ""
+"پروسه بدست آوردن تصدیق نامه آنلاین صورت گرفته که شامل 80 سوال عملی میباشد  "
+"(باید 75%  سوال ها پاسخ درست گفته شود) که شامل بخش های مختلف میباشد. برای "
+"کاربر های که مهارت زیاد دارند این پروسه در حدود 1 یا 2 ساعت طول میکشد، و "
+"برای کاربران که تازه آموزش دیدن بیشتر از 3 ساعت .تکمیل نمودن این پروسه با "
+"دیدن ویدیوهای آموزشی ANHDC لازم است.  "
+
+#: .\templates\v2\training.html:49
+msgid "Go to Certification Portal"
+msgstr "برای رفتن به صفحه تصدیق نامه اینجا کلیک کنید"
+
+#: .\templates\v2\training.html:60
+msgid "ANHDC University Certification Program (Introduction to ANHDC)"
+msgstr "برنامه صدور گواهینامه دانشگاه ANHDC (مقدمه ای بر ANHDC)"
+
+#: .\templates\v2\training.html:61
+msgid ""
+"In Collaboration with the California University of Pennsylvania and "
+"Northeastern University, under the guidance of Professor Dr. Thomas R. "
+"Mueller the ANHDC is providing testing/certification access to participating "
+"universities."
+msgstr ""
+"با همکاری دانشگاه کالیفرنیا پنسیلوانیا و دانشگاه شمال شرقی تحت هدایت استاد "
+"دکتر توماس آر مولر ، ANHDC امکان آزمایش / صدور تصدیق نامه را به دانشگاه های "
+"شرکت کننده ارائه می دهد."
+
+#: .\templates\v2\training.html:62
+msgid "Go to University Certification Portal"
+msgstr "برای رفتن به صفحه تصدیق نامه اینجا کلیک کنید"
+
+#: .\templates\v2\training.html:83
+msgid ""
+"To facilitate better communication, a Youtube channel has been made to host "
+"basic instruction videos on the functionalities of the Afghanistan Spatial "
+"Data Center (asdc.immap.org). The instruction videos can be found on YouTube "
+"and on the ANHDC (available in Dari and English). Currently, there are 11 "
+"training videos, in total 1 ½ hours of material."
+msgstr ""
+"برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن ویدیوهای "
+"آموزشی از مرکز ارقام مکانی افغانستان (asdc.immap.org). ویدیوهای آموزشی را می "
+"توان در یوتیوب و در ANHDC پیدا نمود. (به هردو زبان دری و انگلیسی). در حال "
+"حاضر 11 ویدیویی آموزشی، در مجموع یک و نیم ساعت میباشد موجود است ."
+
+#: .\templates\v2\training.html:108
+
+msgid "Flood Hazard Analysis using Afghanistan Natural Hazard Data Center"
+msgstr "در باره مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان"
+
+#: .\templates\v2\training.html:109
+msgid ""
+"Created by: California University of Pennsylvania Students - Adam Wells, "
+"Gabrielle Salerni, John Beattie, and Janay Myers And Thomas R. Mueller, Ph."
+"D., GISP Geography Professor"
+msgstr ""
+"ایجاد شده توسط: دانشجویان دانشگاه پنسیلوانیا در کالیفرنیا - آدام ولز ، "
+"گابریل سالرنی ، جان بتی و جانای مایرز و توماس آر مولر داکتر و پروفیسور "
+"جغرافیا GISP"
+
+#: .\templates\v2\training.html:110
+
+msgid ""
+"Give a structured overview and exercises for geospatial analysis using the "
+"ANHDC."
+msgstr ""
+"با استفاده از ANHDC جدید ، یک نمای کلی ساختار یافته و تمرین هایی را برای "
+"تجزیه و تحلیل مکان شناسی ارائه دهید."
+
+#~ msgid "About ANHDC"
+#~ msgstr "درباره ANHDC"
+
+#~ msgid ""
+#~ "The Afghanistan Natural Hazard Data Center (ANHDC) is developed by iMMAP "
+#~ "in Afghanistan. It is part of the iMMAP Disaster Risk Reduction Program, "
+#~ "which is funded by the United States Agency for International Development "
+#~ "(USAID)/Office of U.S. Foreign Disaster Assistance (OFDA)."
+#~ msgstr ""
+#~ "مرکز ارقام مکانی افغانستان (ASDC) توسط iMMAP در افغانستان توسعه یافته "
+#~ "است. این بخش iMMAP  برنامه کاهش حوادث طبیعی (DRR) است ،که توسط آژانس "
+#~ "ایالات متحده برای توسعه بین المللی ایالات متحده (USAID) و اداره همکاری به "
+#~ "حوادث بیرونی ایالات متحده (OFDA) تمویل میشود ."
+
+#~ msgid ""
+#~ "The Disaster Risk Reduction (DRR) program is a scientific program that "
+#~ "supports the humanitarian community with critical information to aid "
+#~ "decision makers in emergency response or program development. The "
+#~ "Afghanistan Natural Hazard Data Center (ANHDC) is the dissemination "
+#~ "platform for DRR data and other baseline information. At present the "
+#~ "ANHDC is the most advanced geoportal on Afghanistan containing "
+#~ "comprehensive and accurate data. The iMMAP DRR program is funded by USAID "
+#~ "and it is ready for daily usage."
+#~ msgstr ""
+#~ "برنامه کاهش حوادث طبیعی(DRR) یک برنامه علمی است که تصمیم گیرندگان جامعه "
+#~ "بشری را برای اخذ  اطلاعات مهم  برای برنامه ریزی واکنش های اضطراری  حمایت "
+#~ "میکند . مرکز ارقام مکانی افغانستان (ASDC) پلیت فرم انتشار ارقام  کاهش "
+#~ "حوادث طبیعی DRR  و سایر اطلاعات عمومی است.در حال حاضر ASDC  پیشرفته ترین "
+#~ "منبع دسترسی برای کسب اطلاعات  جامع و دقیق جغرافیایی در افغانستان است."
+#~ "برنامه DRR (کاهش حوادث طبیعی )iMMAP تمویل میشود توسط USAID و اماده است "
+#~ "برای استفاده روزانه  .      "
+
+#~ msgid ""
+#~ "The information provided on ANHDC are especially useful in regards to "
+#~ "prediction, emergency response, M&E and planning purposes."
+#~ msgstr ""
+#~ "اطلاعات ارائه شده در ASDC به خصوص در رابطه با پیش بینی، واکنش های "
+#~ "اضطراری، نظارت و ارزیابی و اهداف برنامه ریزی مفید است."
+
+#~ msgid ""
+#~ "Dr. Emlyn Hagen has led the development of the ANHDC conceptually and "
+#~ "scientifically. At one hand creating the various unique data sets "
+#~ "utilised by the project, as well as developing the scientific methodology "
+#~ "for the prediction and statistics."
+#~ msgstr ""
+#~ "داکتر ایملین هاگن (Emlyn Hagen) از نظر علمی و نظری  توسعه ASDC را رهبری "
+#~ "مینماید. او از یک سو ایجاد مجموعه ارقام های مختلف بینظیر که استفاده شده "
+#~ "توسط  پروژه، و از دیگر سو  در ایجاد روش علمی برای پیش بینی و آمار و ارقام "
+#~ "کوشش های زیاد نموده است "
+
+#~ msgid ""
+#~ "Mr. Budi Hermansyah has created the ANHDC GeoNode portal. Which is an "
+#~ "advanced and further development of the GeoNode supported by the World "
+#~ "Bank. These advancements include the creation of all statistics and user "
+#~ "interfaces, statistics, POI’s models, as well as automated data retrieval "
+#~ "and analysis for forecasting purposes. Furthermore, an advanced dashboard "
+#~ "has been created by Mr. Budi Hermansyah."
+#~ msgstr ""
+#~ "آقای بودی هیرمنسیا (Budi Hermansyah) پورتال GeoNode سایت ASDC را ایجاد "
+#~ "کرده است. که این توسعه پیشرفته و بیشتر از GeoNode حمایت شده توسط بانک "
+#~ "جهانی میباشد. این پیشرفت شامل ایجاد تمام آمار و روابط کاربر، آمار، مدل "
+#~ "های POI، و همچنین به عنوان بازیابی خودکار ارقام و تجزیه و تحلیل برای "
+#~ "اهداف پیش بینی میشود. علاوه بر این، مجموعه اطلاعات پیشرفته توسط آقای بودی "
+#~ "هیرمنسیا  ایجاد شده است."
+
+#~ msgid "Other Support"
+#~ msgstr "پشتیبانی دیگر"
+
+#~ msgid ""
+#~ "To facilitate better communication, a Youtube channel has been made to "
+#~ "host basic instruction videos on the functionalities of the Afghanistan "
+#~ "Natural Hazard Data Center (anhdc.andma.gov.af). The instruction videos "
+#~ "can be found on YouTube and on the ANHDC (available in Dari and English). "
+#~ "Currently, there are 11 training videos, in total 1 ½ hours of material."
+#~ msgstr ""
+#~ "برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن "
+#~ "ویدیوهای آموزشی از مرکز ارقام مکانی افغانستان (anhdc.andma.gov.af). "
+#~ "ویدیوهای آموزشی را می توان در یوتیوب و در ANHDC پیدا نمود. (به هردو زبان "
+#~ "دری و انگلیسی). در حال حاضر 11 ویدیویی آموزشی، در مجموع یک و نیم ساعت "
+#~ "میباشد موجود است ."
+
+#~ msgid "Log in to an existing account"
+#~ msgstr "ورود به حساب موجود"
+
+#~ msgid "Password Reset"
+#~ msgstr "تنظیم مجدد رمز عبور"
+
+#~ msgid "Forgotten your password?"
+#~ msgstr "رمز ورود خود را فراموش کرده اید؟"
+
+#~ msgid ""
+#~ "Enter your email address below, and we'll send you an email allowing you "
+#~ "to reset it."
+#~ msgstr ""
+#~ "ایمیل آدرس خود را در پایین وارد کنید، به خاطر اجازه تنظیم مجدد ما بر شما "
+#~ "ایمیل میکنیم"
+
+#~ msgid "Reset my password"
+#~ msgstr "تنظیم مجدد رمز عبور من"
 
 #~ msgid "Land cover (not simplified- do not use)"
 #~ msgstr "پوشش زمین (ساده نشده - استفاده نشود)"
