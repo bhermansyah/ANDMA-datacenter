@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-31 15:35+0430\n"
+"POT-Creation-Date: 2020-09-01 10:44+0430\n"
 "PO-Revision-Date: 2020-07-19 10:05+0430\n"
 "Last-Translator: asdc.immap.org\n"
 "Language-Team: asdc.immap.org\n"
@@ -227,7 +227,7 @@ msgstr "معلومات ارائه نشده"
 #: .\documents\templates\documents\document_metadata.html:58
 #: .\documents\templates\v2\document_metadata.html:63
 #: .\layers\templates\layers\layer_metadata.html:63
-#: .\layers\templates\v2\layer_metadata.html:63
+#: .\layers\templates\v2\layer_metadata.html:64
 #: .\maps\templates\maps\map_metadata.html:61
 #: .\maps\templates\v2\map_metadata.html:61
 msgid "Category"
@@ -506,8 +506,9 @@ msgstr "درخواست برای دانلود یک منبع ارسال شد"
 
 #: .\base\templates\base\_resourcebase_contact_snippet.html:3
 #: .\templates\500.html:151 .\templates\base.html:173
-#: .\templates\base.html.py:240 .\templates\v2\about.html:13
-#: .\templates\v2\about.html.py:21 .\templates\v2\base.html:151
+#: .\templates\base.html.py:240 .\templates\v2\about.html:4
+#: .\templates\v2\about.html.py:13 .\templates\v2\about.html:21
+#: .\templates\v2\base.html:151
 msgid "About"
 msgstr "در باره"
 
@@ -523,7 +524,7 @@ msgstr "مالک، نقطه تماس، نویسنده میتادیتا"
 #: .\documents\templates\documents\document_metadata.html:48
 #: .\documents\templates\v2\document_metadata.html:53
 #: .\layers\templates\layers\layer_metadata.html:99
-#: .\layers\templates\v2\layer_metadata.html:99
+#: .\layers\templates\v2\layer_metadata.html:100
 #: .\maps\templates\maps\map_metadata.html:51
 #: .\maps\templates\v2\map_metadata.html:51
 msgid "Point of Contact"
@@ -966,12 +967,12 @@ msgid "This document is not related to any maps or layers"
 msgstr "این سند به هیچگونه نقشه ها و یا لایه های مربوط نیست"
 
 #: .\documents\templates\documents\document_detail.html:182
-#: .\documents\templates\documents\document_upload.html:31
+#: .\documents\templates\documents\document_upload.html:50
 #: .\documents\templates\v2\document_upload.html:31
 #: .\groups\templates\groups\group_detail.html:60
 #: .\layers\templates\layers\layer_detail.html:329
 #: .\layers\templates\layers\layer_replace.html:94
-#: .\layers\templates\upload\layer_upload.html:93
+#: .\layers\templates\upload\layer_upload.html:114
 #: .\layers\templates\v2\layer_detail.html:337
 #: .\layers\templates\v2\layer_replace.html:94
 #: .\layers\templates\v2\upload\layer_upload.html:122
@@ -993,7 +994,6 @@ msgstr "تغییر مجوز سند"
 
 #: .\documents\templates\documents\document_list.html:6
 #: .\documents\templates\documents\document_metadata.html:16
-#: .\documents\templates\documents\document_upload_base.html:11
 #: .\documents\templates\v2\document_list.html:6
 #: .\documents\templates\v2\document_metadata.html:17
 #: .\documents\templates\v2\document_upload_base.html:11
@@ -1016,7 +1016,7 @@ msgstr "اسناد"
 #: .\documents\templates\documents\document_metadata.html:17
 #: .\documents\templates\v2\document_metadata.html:18
 #: .\layers\templates\layers\layer_metadata.html:12
-#: .\layers\templates\v2\layer_metadata.html:12
+#: .\layers\templates\v2\layer_metadata.html:13
 #: .\maps\templates\maps\map_metadata.html:12
 #: .\maps\templates\v2\map_metadata.html:12
 msgid "Edit Metadata"
@@ -1030,7 +1030,7 @@ msgstr "ویرایش جزئیات برای"
 #: .\documents\templates\documents\document_metadata.html:26
 #: .\documents\templates\v2\document_metadata.html:27
 #: .\layers\templates\layers\layer_metadata.html:29
-#: .\layers\templates\v2\layer_metadata.html:29
+#: .\layers\templates\v2\layer_metadata.html:30
 #: .\maps\templates\maps\map_metadata.html:29
 #: .\maps\templates\v2\map_metadata.html:29
 msgid "Error updating metadata.  Please check the following fields: "
@@ -1047,8 +1047,8 @@ msgstr "خطای آپدیت میتادیتا. لطفا ساحه های زیر ر
 #: .\groups\templates\groups\group_update.html:26
 #: .\layers\templates\layers\layer_metadata.html:51
 #: .\layers\templates\layers\layer_metadata.html:110
-#: .\layers\templates\v2\layer_metadata.html:51
-#: .\layers\templates\v2\layer_metadata.html:110
+#: .\layers\templates\v2\layer_metadata.html:52
+#: .\layers\templates\v2\layer_metadata.html:111
 #: .\maps\templates\maps\map_metadata.html:44
 #: .\maps\templates\maps\map_metadata.html:78
 #: .\maps\templates\v2\map_metadata.html:44
@@ -1059,7 +1059,7 @@ msgstr "آپدیت"
 #: .\documents\templates\documents\document_metadata.html:53
 #: .\documents\templates\v2\document_metadata.html:58
 #: .\layers\templates\layers\layer_metadata.html:104
-#: .\layers\templates\v2\layer_metadata.html:104
+#: .\layers\templates\v2\layer_metadata.html:105
 #: .\maps\templates\maps\map_metadata.html:56
 #: .\maps\templates\v2\map_metadata.html:56
 msgid "Metadata Provider"
@@ -1114,17 +1114,18 @@ msgstr "تعویض"
 #: .\documents\templates\documents\document_replace.html:27
 #: .\documents\templates\v2\document_replace.html:27
 #: .\layers\templates\layers\layer_replace.html:84
-#: .\layers\templates\upload\layer_upload.html:86
+#: .\layers\templates\upload\layer_upload.html:106
 #: .\layers\templates\v2\layer_replace.html:84
 #: .\layers\templates\v2\upload\layer_upload.html:115
 msgid "Clear"
 msgstr "پاک"
 
-#: .\documents\templates\documents\document_upload_base.html:12
+#: .\documents\templates\documents\document_upload.html:22
 #: .\documents\templates\v2\document_upload_base.html:12
 msgid "Upload Documents"
 msgstr "آپلود اسناد"
 
+#: .\documents\templates\documents\document_upload.html:26
 #: .\documents\templates\v2\document_detail.html:26
 #: .\documents\templates\v2\document_list.html:17
 #: .\groups\templates\groups\activity.html:26
@@ -1137,6 +1138,7 @@ msgstr "آپلود اسناد"
 msgid "Maps"
 msgstr "نقشه ها"
 
+#: .\documents\templates\documents\document_upload.html:27
 #: .\documents\templates\v2\document_detail.html:27
 #: .\documents\templates\v2\document_list.html:18 .\templates\base.html:158
 #: .\templates\index.html:25 .\templates\index.html.py:86
@@ -1147,6 +1149,11 @@ msgstr "نقشه ها"
 #: .\templates\v2\index.html:34 .\templates\v2\index.html.py:91
 #: .\templates\v2\index.html:205
 msgid "Static Maps"
+msgstr "نقشه های استاتیک (ساکن)"
+
+#: .\documents\templates\documents\document_upload.html:28
+#, fuzzy
+msgid "Upload Static Maps"
 msgstr "نقشه های استاتیک (ساکن)"
 
 #: .\documents\templates\v2\document_detail.html:104
@@ -1285,7 +1292,7 @@ msgstr "نشان"
 #: .\groups\models.py:37 .\layers\templates\layers\layer_detail.html:51
 #: .\layers\templates\layers\layer_metadata.html:83
 #: .\layers\templates\v2\layer_detail.html:75
-#: .\layers\templates\v2\layer_metadata.html:83
+#: .\layers\templates\v2\layer_metadata.html:84
 #: .\people\templates\people\profile_detail.html:62
 #: .\people\templates\v2\profile_detail.html:62 .\services\forms.py:27
 #: .\services\templates\services\layers_register.html:28
@@ -1340,6 +1347,7 @@ msgstr "همه"
 
 #: .\groups\templates\groups\activity.html:25
 #: .\layers\templates\layers\layer_list.html:14
+#: .\layers\templates\upload\layer_upload.html:26
 #: .\layers\templates\v2\layer_detail.html:31
 #: .\layers\templates\v2\layer_list.html:17
 #: .\layers\templates\v2\upload\layer_upload.html:27
@@ -1711,19 +1719,19 @@ msgstr "به شما اجازه داده نشده که میتادیتای این 
 msgid "You are not permitted to view this layer"
 msgstr "به شما اجازه داده نشده که این لایه را ببینید"
 
-#: .\layers\views.py:491
+#: .\layers\views.py:495
 msgid "You are attempting to replace a vector layer with a raster."
 msgstr "شما تلاش میکنید که یک لایه ویکتوری را به رستری تعویض کنید. "
 
-#: .\layers\views.py:494
+#: .\layers\views.py:498
 msgid "You are attempting to replace a raster layer with a vector."
 msgstr "شما تلاش میکنید که یک لایه رستری را به ویکتوری تعویض کنید. "
 
-#: .\layers\views.py:550
+#: .\layers\views.py:554
 msgid "Unable to delete layer"
 msgstr "قادر به حذف لایه نیستید"
 
-#: .\layers\views.py:553
+#: .\layers\views.py:557
 msgid ""
 "This layer is a member of a layer group, you must remove the layer from the "
 "group before deleting."
@@ -1805,7 +1813,7 @@ msgstr "نام مشخصه"
 #: .\layers\templates\layers\layer_detail.html:50
 #: .\layers\templates\layers\layer_metadata.html:82
 #: .\layers\templates\v2\layer_detail.html:74
-#: .\layers\templates\v2\layer_metadata.html:82
+#: .\layers\templates\v2\layer_metadata.html:83
 msgid "Label"
 msgstr "علامه"
 
@@ -1954,17 +1962,17 @@ msgstr " خدمات خارجی لایه"
 #: .\layers\templates\layers\layer_list.html:6
 #: .\layers\templates\layers\layer_metadata.html:11
 #: .\layers\templates\layers\layer_remove.html:8
-#: .\layers\templates\upload\layer_upload.html:17
 #: .\layers\templates\upload\layer_upload_base.html:11
 #: .\layers\templates\v2\layer_list.html:6
-#: .\layers\templates\v2\layer_metadata.html:11
+#: .\layers\templates\v2\layer_metadata.html:12
 #: .\layers\templates\v2\layer_remove.html:8
 #: .\layers\templates\v2\static.html:6
 msgid "Explore Layers"
 msgstr "جستجوی لایه ها"
 
 #: .\layers\templates\layers\layer_list.html:13
-#: .\layers\templates\upload\layer_upload.html:18
+#: .\layers\templates\upload\layer_upload.html:21
+#: .\layers\templates\upload\layer_upload.html:28
 #: .\layers\templates\upload\layer_upload_base.html:12
 #: .\layers\templates\v2\upload\layer_upload.html:22
 #: .\layers\templates\v2\upload\layer_upload.html:30 .\templates\500.html:216
@@ -1974,7 +1982,6 @@ msgid "Upload Layers"
 msgstr "آپلود لایه ها"
 
 #: .\layers\templates\layers\layer_metadata.html:17
-#: .\layers\templates\v2\layer_metadata.html:17
 #, python-format
 msgid ""
 "\n"
@@ -1985,7 +1992,6 @@ msgstr ""
 "تصحیح جزئیات برای %(layer_title)s"
 
 #: .\layers\templates\layers\layer_metadata.html:23
-#: .\layers\templates\v2\layer_metadata.html:23
 msgid ""
 "Note: this layer's orginal metadata was populated by importing a metadata "
 "XML file.\n"
@@ -2001,19 +2007,19 @@ msgstr ""
 
 #: .\layers\templates\layers\layer_metadata.html:37
 #: .\layers\templates\layers\layer_metadata.html:77
-#: .\layers\templates\v2\layer_metadata.html:37
-#: .\layers\templates\v2\layer_metadata.html:77 .\templates\_actions.html:5
+#: .\layers\templates\v2\layer_metadata.html:38
+#: .\layers\templates\v2\layer_metadata.html:78 .\templates\_actions.html:5
 #: .\templates\v2\_actions.html:6
 msgid "Attributes"
 msgstr "مشخصات"
 
 #: .\layers\templates\layers\layer_metadata.html:81
-#: .\layers\templates\v2\layer_metadata.html:81
+#: .\layers\templates\v2\layer_metadata.html:82
 msgid "Attribute"
 msgstr "مشخصه"
 
 #: .\layers\templates\layers\layer_metadata.html:84
-#: .\layers\templates\v2\layer_metadata.html:84
+#: .\layers\templates\v2\layer_metadata.html:85
 msgid "Display Order"
 msgstr "ترتیب نمایش "
 
@@ -2058,28 +2064,28 @@ msgid "Replace Layer: "
 msgstr "تعویض لایه:"
 
 #: .\layers\templates\layers\layer_replace.html:23
-#: .\layers\templates\upload\layer_upload.html:24
+#: .\layers\templates\upload\layer_upload.html:42
 #: .\layers\templates\v2\layer_replace.html:23
 #: .\layers\templates\v2\upload\layer_upload.html:43
 msgid "Incomplete Uploads"
 msgstr "آپلود ناتکمیل"
 
 #: .\layers\templates\layers\layer_replace.html:24
-#: .\layers\templates\upload\layer_upload.html:25
+#: .\layers\templates\upload\layer_upload.html:43
 #: .\layers\templates\v2\layer_replace.html:24
 #: .\layers\templates\v2\upload\layer_upload.html:44
 msgid "You have the following incomplete uploads"
 msgstr "شما آپلود ناتکمیل زیر را دارید"
 
 #: .\layers\templates\layers\layer_replace.html:27
-#: .\layers\templates\upload\layer_upload.html:28
+#: .\layers\templates\upload\layer_upload.html:46
 #: .\layers\templates\v2\layer_replace.html:27
 #: .\layers\templates\v2\upload\layer_upload.html:47
 msgid "last updated on"
 msgstr "آخرین آپدیت در"
 
 #: .\layers\templates\layers\layer_replace.html:29
-#: .\layers\templates\upload\layer_upload.html:30
+#: .\layers\templates\upload\layer_upload.html:49
 #: .\layers\templates\v2\layer_replace.html:29
 #: .\layers\templates\v2\upload\layer_upload.html:49
 msgid "Resume"
@@ -2087,8 +2093,8 @@ msgstr "ادامه"
 
 #: .\layers\templates\layers\layer_replace.html:30
 #: .\layers\templates\layers\layer_replace.html:38
-#: .\layers\templates\upload\layer_upload.html:31
-#: .\layers\templates\upload\layer_upload.html:38
+#: .\layers\templates\upload\layer_upload.html:51
+#: .\layers\templates\upload\layer_upload.html:58
 #: .\layers\templates\v2\layer_replace.html:30
 #: .\layers\templates\v2\layer_replace.html:38
 #: .\layers\templates\v2\upload\layer_upload.html:50
@@ -2100,14 +2106,14 @@ msgid "Delete"
 msgstr "حذف"
 
 #: .\layers\templates\layers\layer_replace.html:36
-#: .\layers\templates\upload\layer_upload.html:37
+#: .\layers\templates\upload\layer_upload.html:57
 #: .\layers\templates\v2\layer_replace.html:36
 #: .\layers\templates\v2\upload\layer_upload.html:56
 msgid "Are you sure you want to delete this upload?"
 msgstr "آیا مطمئن هستید که می خواهید این آپلود را حذف کنید؟"
 
 #: .\layers\templates\layers\layer_replace.html:39
-#: .\layers\templates\upload\layer_upload.html:39
+#: .\layers\templates\upload\layer_upload.html:59
 #: .\layers\templates\v2\layer_replace.html:39
 #: .\layers\templates\v2\upload\layer_upload.html:58
 #: .\maps\templates\maps\map_download.html:58
@@ -2120,34 +2126,34 @@ msgid "Cancel"
 msgstr "لغو"
 
 #: .\layers\templates\layers\layer_replace.html:41
-#: .\layers\templates\upload\layer_upload.html:40
+#: .\layers\templates\upload\layer_upload.html:60
 #: .\layers\templates\v2\layer_replace.html:41
 #: .\layers\templates\v2\upload\layer_upload.html:59
 msgid "Delete, and don't ask me again."
 msgstr "حذف کن، و دوباره از من نپرس."
 
 #: .\layers\templates\layers\layer_replace.html:55
-#: .\layers\templates\upload\layer_upload.html:57
+#: .\layers\templates\upload\layer_upload.html:77
 #: .\layers\templates\v2\layer_replace.html:55
 #: .\layers\templates\v2\upload\layer_upload.html:80
 msgid "Drop files here"
 msgstr "رها کردن دوسیه ها اینجا"
 
 #: .\layers\templates\layers\layer_replace.html:58
-#: .\layers\templates\upload\layer_upload.html:60
+#: .\layers\templates\upload\layer_upload.html:80
 #: .\layers\templates\v2\layer_replace.html:58
 msgid " or select them one by one:"
 msgstr "و یا آنها را انتخاب کنید یک به یک:"
 
 #: .\layers\templates\layers\layer_replace.html:66
-#: .\layers\templates\upload\layer_upload.html:68
+#: .\layers\templates\upload\layer_upload.html:88
 #: .\layers\templates\v2\layer_replace.html:66
 #: .\layers\templates\v2\upload\layer_upload.html:97
 msgid "Files to be uploaded"
 msgstr "فایل های آپلود می شود"
 
 #: .\layers\templates\layers\layer_replace.html:71
-#: .\layers\templates\upload\layer_upload.html:73
+#: .\layers\templates\upload\layer_upload.html:93
 #: .\layers\templates\v2\layer_replace.html:71
 #: .\layers\templates\v2\upload\layer_upload.html:102
 msgid "Select the charset or leave default"
@@ -2196,7 +2202,7 @@ msgstr ""
 msgid "Update Available Styles"
 msgstr "آپدیت استایل موجود"
 
-#: .\layers\templates\upload\layer_upload.html:5
+#: .\layers\templates\upload\layer_upload.html:6
 #: .\layers\templates\upload\layer_upload_crs.html:7
 #: .\layers\templates\upload\layer_upload_csv.html:7
 #: .\layers\templates\v2\upload\layer_upload.html:5
@@ -2205,7 +2211,7 @@ msgstr "آپدیت استایل موجود"
 msgid "Upload Layer"
 msgstr "آپلود لایه"
 
-#: .\layers\templates\upload\layer_upload.html:87
+#: .\layers\templates\upload\layer_upload.html:107
 #: .\layers\templates\v2\upload\layer_upload.html:116
 msgid "Upload files"
 msgstr "آپلود فایل ها"
@@ -2658,6 +2664,31 @@ msgstr "انتشار لایه های نقشه های محلی مثل گروپ ل
 #: .\maps\templates\v2\map_detail.html:227
 msgid "Publish Map WMS"
 msgstr "انتشار نقشه WMS"
+
+#: .\layers\templates\v2\layer_metadata.html:18
+#, fuzzy, python-format
+msgid ""
+"\n"
+"          Editing details for %(layer_title)s\n"
+"        "
+msgstr ""
+"\n"
+"تصحیح جزئیات برای %(layer_title)s"
+
+#: .\layers\templates\v2\layer_metadata.html:24
+#, fuzzy
+msgid ""
+"Note: this layer's orginal metadata was populated by importing a metadata "
+"XML file.\n"
+"            GeoNode's metadata import supports a subset of ISO, FGDC, and "
+"Dublin Core metadata elements.\n"
+"            Some of your original metadata may have been lost."
+msgstr ""
+"یادداشت: میتادیتای اصلی این لایه با وارد کردن میتادیتای یک دوسیه XML جمع "
+"شد.\n"
+"          میتادیتای GeoNode یک ست فرعی از عناصر میتادیتای ISO، FGDC و Dublin "
+"Core را حمایت میکند.\n"
+"           برخی از میتادیتای اصلی خود را ممکن است از دست داده باشید."
 
 #: .\layers\templates\v2\upload\layer_upload.html:79
 msgid "Choose files"
@@ -3828,7 +3859,7 @@ msgid "Log out"
 msgstr "خارج شدن"
 
 #: .\templates\500.html:280 .\templates\base.html:380
-#: .\templates\v2\base.html:435
+#: .\templates\v2\base.html:439
 msgid "Type your search here ..."
 msgstr "جستجوی خود را اینجا بنویسید ..."
 
@@ -3951,12 +3982,11 @@ msgid "Choose groups..."
 msgstr "انتخاب گروه ها ..."
 
 #: .\templates\about.html:4 .\templates\about.html.py:17
-#: .\templates\training.html:4 .\templates\v2\about.html:4
-#: .\templates\v2\about.html.py:31
+#: .\templates\training.html:4
 msgid "About ASDC"
 msgstr "درباره ASDC"
 
-#: .\templates\about.html:19 .\templates\v2\about.html:35
+#: .\templates\about.html:19
 msgid ""
 "The Afghanistan Spatial Data Center (ASDC) is developed by iMMAP in "
 "Afghanistan. It is part of the iMMAP Disaster Risk Reduction Program, which "
@@ -3968,7 +3998,7 @@ msgstr ""
 "برای توسعه بین المللی ایالات متحده (USAID) و اداره همکاری به حوادث بیرونی "
 "ایالات متحده (OFDA) تمویل میشود ."
 
-#: .\templates\about.html:22 .\templates\v2\about.html:36
+#: .\templates\about.html:22
 msgid ""
 "The Disaster Risk Reduction (DRR) program is a scientific program that "
 "supports the humanitarian community with critical information to aid "
@@ -3987,7 +4017,7 @@ msgstr ""
 "حوادث طبیعی )iMMAP تمویل میشود توسط USAID و اماده است برای استفاده "
 "روزانه  .      "
 
-#: .\templates\about.html:25 .\templates\v2\about.html:37
+#: .\templates\about.html:25
 msgid ""
 "The information provided on ASDC are especially useful in regards to "
 "prediction, emergency response, M&E and planning purposes."
@@ -4099,14 +4129,14 @@ msgstr ""
 "1و 1/2 ساعت پس از حادثه)"
 
 #: .\templates\about.html:102
-msgid "DRR Core Team"
+msgid "AHNDC Core Team"
 msgstr "تیم اصلی DRR"
 
 #: .\templates\about.html:103 .\templates\v2\about.html:118
 msgid "Program Manager and Science Officer"
 msgstr "مدیر برنامه و مدیر علمی"
 
-#: .\templates\about.html:104 .\templates\v2\about.html:119
+#: .\templates\about.html:104
 msgid ""
 "Dr. Emlyn Hagen has led the development of the ASDC conceptually and "
 "scientifically. At one hand creating the various unique data sets utilised "
@@ -4124,14 +4154,14 @@ msgstr "توسعه دهنده GeoNode"
 
 #: .\templates\about.html:107
 msgid ""
-"Mr. Budi Hermansyah has created the ASDC GeoNode portal. Which is an "
+"Mr. Budi Hermansyah has created the   GeoNode portal. Which is an "
 "advanced and further development of the GeoNode supported by the World Bank. "
 "These advancements include the creation of all statistics and user "
 "interfaces, statistics, POI’s models, as well as automated data retrieval "
 "and analysis for forecasting purposes. Furthermore, an advanced dashboard "
 "has been created by Mr Budi Hermansyah."
 msgstr ""
-"آقای بودی هیرمنسیا (Budi Hermansyah) پورتال GeoNode سایت ASDC را ایجاد کرده "
+"آقای بودی هیرمنسیا (Budi Hermansyah) پورتال GeoNode سایت ANHDC را ایجاد کرده "
 "است. که این توسعه پیشرفته و بیشتر از GeoNode حمایت شده توسط بانک جهانی "
 "میباشد. این پیشرفت شامل ایجاد تمام آمار و روابط کاربر، آمار، مدل های POI، و "
 "همچنین به عنوان بازیابی خودکار ارقام و تجزیه و تحلیل برای اهداف پیش بینی "
@@ -4186,6 +4216,7 @@ msgid "Partners"
 msgstr "همکاران(شریک ها)"
 
 #: .\templates\base.html:177 .\templates\v2\doc.html:66
+#: .\templates\v2\training.html:82
 msgid "Videos"
 msgstr "ویدیوها"
 
@@ -4921,7 +4952,7 @@ msgstr ""
 msgid "The map and statistics are is updated every 6 hours."
 msgstr "هر 6 ساعت نقشه ها و آمار آپدیت میشوند ."
 
-#: .\templates\index.html:168 .\templates\v2\index.html:139
+#: .\templates\index.html:168
 msgid "Current Avalanche"
 msgstr "برف کوچ فعلی"
 
@@ -5570,7 +5601,7 @@ msgstr ""
 "تصدیقنامه قابلیت پیش برد این دانش بطور مستقلانه نظر به تخصص کاربر و طراحی "
 "ANHDC میباشد."
 
-#: .\templates\training.html:25
+#: .\templates\training.html:25 .\templates\v2\training.html:47
 msgid ""
 "The certification takes place online and consist of 80 interactive questions "
 "&#40;75&#37; passing mark&#41;, tied to various scenarios. For proficient "
@@ -6480,6 +6511,49 @@ msgstr "کاربران ذیل:"
 msgid "Following Groups "
 msgstr "گروپ های ذیل:"
 
+#: .\templates\v2\about.html:31
+msgid "About ANHDC"
+msgstr "درباره مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان"
+
+#: .\templates\v2\about.html:35
+msgid ""
+"The Afghanistan Natural Hazard Data Center (ANHDC) is developed by iMMAP in "
+"Afghanistan. It is part of the iMMAP Disaster Risk Reduction Program, which "
+"is funded by the United States Agency for International Development (USAID)/"
+"Office of U.S. Foreign Disaster Assistance (OFDA)."
+msgstr ""
+" مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان(ANHDC) توسط iMMAP در "
+"افغانستان توسعه یافته است. این بخش iMMAP  برنامه کاهش حوادث طبیعی (DRR) است ،"
+"که توسط آژانس ایالات متحده برای توسعه بین المللی ایالات متحده (USAID) و "
+"اداره همکاری به حوادث بیرونی ایالات متحده (OFDA) تمویل میشود ."
+
+#: .\templates\v2\about.html:36
+msgid ""
+"The Disaster Risk Reduction (DRR) program is a scientific program that "
+"supports the humanitarian community with critical information to aid "
+"decision makers in emergency response or program development. The "
+"Afghanistan Natural Hazard Data Center (ANHDC) is the dissemination platform "
+"for DRR data and other baseline information. At present the AHNDC is the "
+"most advanced geoportal on Afghanistan containing comprehensive and accurate "
+"data. The iMMAP DRR program is funded by USAID and it is ready for daily "
+"usage."
+msgstr ""
+"برنامه کاهش حوادث طبیعی(DRR) یک برنامه علمی است که تصمیم گیرندگان جامعه بشری "
+"را برای اخذ  اطلاعات مهم  برای برنامه ریزی واکنش های اضطراری  حمایت میکند . "
+"مرکز ارقام مکانی افغانستان (ANHDC) پلیت فرم انتشار ارقام  کاهش حوادث طبیعی "
+"DRR  و سایر اطلاعات عمومی است.در حال حاضر ANHDC  پیشرفته ترین منبع دسترسی "
+"برای کسب اطلاعات  جامع و دقیق جغرافیایی در افغانستان است.برنامه DRR (کاهش "
+"حوادث طبیعی )iMMAP تمویل میشود توسط USAID و اماده است برای استفاده "
+"روزانه  .      "
+
+#: .\templates\v2\about.html:37
+msgid ""
+"The information provided on ANHDC are especially useful in regards to "
+"prediction, emergency response, M&E and planning purposes."
+msgstr ""
+"اطلاعات ارائه شده در ANHDC به خصوص در رابطه با پیش بینی، واکنش های اضطراری، "
+"نظارت و ارزیابی و اهداف برنامه ریزی مفید است."
+
 #: .\templates\v2\about.html:79
 msgid "Prediction"
 msgstr "نسخه"
@@ -6495,12 +6569,25 @@ msgid ""
 msgstr "هر 6 ساعت خطر سیلاب دریایی برای 4 روز آینده تخمین میشود"
 
 #: .\templates\v2\about.html:112
-msgid "ASDC Core Team"
-msgstr "تیم اصلی DRR"
+
+msgid "ANHDC Core Team"
+msgstr "تیم اصلی مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان"
+
+#: .\templates\v2\about.html:119
+msgid ""
+"Dr. Emlyn Hagen has led the development of the ANHDC conceptually and "
+"scientifically. At one hand creating the various unique data sets utilised "
+"by the project, as well as developing the scientific methodology for the "
+"prediction and statistics."
+msgstr ""
+"داکتر ایملین هاگن (Emlyn Hagen) از نظر علمی و نظری  توسعه ASDC را رهبری "
+"مینماید. او از یک سو ایجاد مجموعه ارقام های مختلف بینظیر که استفاده شده "
+"توسط  پروژه، و از دیگر سو  در ایجاد روش علمی برای پیش بینی و آمار و ارقام "
+"کوشش های زیاد نموده است "
 
 #: .\templates\v2\about.html:128
 msgid ""
-"Mr. Budi Hermansyah has created the ASDC GeoNode portal. Which is an "
+"Mr. Budi Hermansyah has created the ANHDC GeoNode portal. Which is an "
 "advanced and further development of the GeoNode supported by the World Bank. "
 "These advancements include the creation of all statistics and user "
 "interfaces, statistics, POI’s models, as well as automated data retrieval "
@@ -6518,28 +6605,33 @@ msgstr ""
 msgid ""
 "Currently, he is also supported by Mr. Dodi Wahyu Setiawan for back-end side "
 "while Ms. Rafinkanisa Witarayoga supporting in the front-end development of "
-"ASDC."
+"ANHDC."
 msgstr ""
 "در حال حاضر ، وی همچنین توسط آقای Dodi Wahyu Setiawan برای سمت عقب پشتیبانی "
-"می شود در حالی که خانم Rafinkanisa Witarayoga در پیشرفت ASDC پشتیبانی می کند."
+"می شود در حالی که خانم Rafinkanisa Witarayoga در پیشرفت ANHDC پشتیبانی می "
+"کند."
 
 #: .\templates\v2\about.html:139
 msgid ""
-"Carlos L. Barrio has led the dedicated training program of users on the ASDC "
-"since October 2017. He is supported by two local nationals in this effort. "
-"The training program is further supported by videos as well as a "
+"Carlos L. Barrio has led the dedicated training program of users on the "
+"ANHDC since October 2017. He is supported by two local nationals in this "
+"effort. The training program is further supported by videos as well as a "
 "certification process."
 msgstr ""
-"نور زنگنه (Noor Zangana) برنامه های آموزشی اختصاصی ASDC را برای کاربران از "
+"نور زنگنه (Noor Zangana) برنامه های آموزشی اختصاصی ANHDC را برای کاربران از "
 "جولای سال 2016 رهبری میکند . او توسط دو نفر از اتباع محلی در این وظیفه حمایت "
 "میشود. برنامه های آموزشی شامل ویدیو و همچنین صدور تصدیق نامه میباشد."
 
+#: .\templates\v2\about.html:147
+msgid "Other Support"
+msgstr "پشتیبانی دیگر"
+
 #: .\templates\v2\about.html:148
 msgid ""
-"The ASDC is supported by talented Information Management Officers in Kabul, "
+"The ANHDC is supported by talented Information Management Officers in Kabul, "
 "who cover a range of humanitarian sectors. A data entry staff are updating "
 "information on on a daily basis.  A development unit is based in Indonesia "
-"who ensure the continuous improvements and functionally of the ASDC."
+"who ensure the continuous improvements and functionally of the ANHDC."
 msgstr ""
 "ANHDC جدید توسط مدیران با استعداد مدیریت اطلاعات در کابل حمایت میشود ، که "
 "بخش وسیعی از بخش های بشردوستانه را تحت پوشش خود قرار می دهند. کارکنان ثبت "
@@ -6630,7 +6722,7 @@ msgid ""
 "found at:"
 msgstr "یک نمای مفصل از قابلیت های مهم AHNDC را می توانید در ذیل بیابید"
 
-#: .\templates\v2\doc.html:67
+#: .\templates\v2\doc.html:67 .\templates\v2\training.html:83
 msgid ""
 "To facilitate better communication, a Youtube channel has been made to host "
 "basic instruction videos on the functionalities of the Afghanistan Spatial "
@@ -6679,18 +6771,20 @@ msgid ""
 "by Flood"
 msgstr ""
 
+#: .\templates\v2\index.html:139
+#, fuzzy
+msgid "Latest Earthquake"
+msgstr "زلزله"
+
 #: .\templates\v2\index.html:142
-msgid ""
-"The map and statistics are updated on a daily basis (less than 24 hours)."
+#, fuzzy
+msgid "The map and statistics are updated every 30 mins."
 msgstr "هر 6 ساعت نقشه ها و آمار آپدیت میشوند ."
 
-#: .\templates\v2\index.html:153
-msgid "Avalanches Prediction"
-msgstr "پیشبینی برف کوچ"
-
 #: .\templates\v2\index.html:154
+#, fuzzy
 msgid ""
-"Click to explore the number of people potentially affected by avalanches"
+"Click to explore for the number of people potentially affected by earthquakes"
 msgstr ""
 "اینجا کلیک کنید برای جستجوی تعداد مردم که در حال حاضر تحت تأثیر برف کوچ قرار "
 "دارند به اساس پوشش برف و آب معادل برف (به مقیاس حوضه کوچک)"
@@ -6900,40 +6994,27 @@ msgid ""
 "national ANHDC experts. Therefore, the training can be delivered in both "
 "English and Dari."
 msgstr ""
-"کارگاه های آموزشی توسط یکی از متخصصان بین المللی و دو متخصص محلی محلی ASDC "
+"کارگاه های آموزشی توسط یکی از متخصصان بین المللی و دو متخصص محلی محلی ANHDC "
 "ما انجام می شود. بنابراین می توان آموزش را به دو زبان انگلیسی و دری ارائه "
 "داد."
 
 #: .\templates\v2\training.html:45
 msgid "ANHDC Professional User Certification program"
 msgstr ""
-"پروگرام صدور تصدیق نامه برای کاربران حرفه ای مرکز ارقام مکانی افغانستان "
+"پروگرام صدور تصدیق نامه برای کاربران حرفه ای مرکز ارقام اطلاعات خطرات حوادث "
+"طبیعی افغانستان"
 
 #: .\templates\v2\training.html:46
 msgid ""
 "iMMAP has initiated the ANHDC Professional User Certification program, which "
 "further expands the ANHDC training program with hands-on exercises. The "
 "certification highlights user proficiency with the functionalities of the "
-"ANHDC and the capability to independently advance this knowledge."
+"ASDC and the capability to independently advance this knowledge."
 msgstr ""
 " iMMAP برنامه دریافت تصدیقنامه کاربران حرفوی را آغاز نموده که برای توسعه "
 "آموزش ANHDC از طریق تمرینات عملی بسیار مفید است نکات مهم مراحل دریافت  "
 "تصدیقنامه قابلیت پیش برد این دانش بطور مستقلانه نظر به تخصص کاربر و طراحی "
 "ANHDC میباشد."
-
-#: .\templates\v2\training.html:47
-msgid ""
-"The certification takes place online and consist of 80 interactive questions "
-"&#40;75&#37; passing mark&#41;, tied to various scenarios. For proficient "
-"users it will take approximately 1-2 hours to complete, whereas for novice "
-"yet trained users it can take more than 3 hours. Having seen the ANHDC "
-"Training videos is a perquisite to be able to complete."
-msgstr ""
-"پروسه بدست آوردن تصدیق نامه آنلاین صورت گرفته که شامل 80 سوال عملی میباشد  "
-"(باید 75%  سوال ها پاسخ درست گفته شود) که شامل بخش های مختلف میباشد. برای "
-"کاربر های که مهارت زیاد دارند این پروسه در حدود 1 یا 2 ساعت طول میکشد، و "
-"برای کاربران که تازه آموزش دیدن بیشتر از 3 ساعت .تکمیل نمودن این پروسه با "
-"دیدن ویدیوهای آموزشی ANHDC لازم است.  "
 
 #: .\templates\v2\training.html:49
 msgid "Go to Certification Portal"
@@ -6947,7 +7028,7 @@ msgstr "برنامه صدور گواهینامه دانشگاه ANHDC (مقدم�
 msgid ""
 "In Collaboration with the California University of Pennsylvania and "
 "Northeastern University, under the guidance of Professor Dr. Thomas R. "
-"Mueller the ANHDC is providing testing/certification access to participating "
+"Mueller the ASDC is providing testing/certification access to participating "
 "universities."
 msgstr ""
 "با همکاری دانشگاه کالیفرنیا پنسیلوانیا و دانشگاه شمال شرقی تحت هدایت استاد "
@@ -6958,21 +7039,7 @@ msgstr ""
 msgid "Go to University Certification Portal"
 msgstr "برای رفتن به صفحه تصدیق نامه اینجا کلیک کنید"
 
-#: .\templates\v2\training.html:83
-msgid ""
-"To facilitate better communication, a Youtube channel has been made to host "
-"basic instruction videos on the functionalities of the Afghanistan Spatial "
-"Data Center (asdc.immap.org). The instruction videos can be found on YouTube "
-"and on the ANHDC (available in Dari and English). Currently, there are 11 "
-"training videos, in total 1 ½ hours of material."
-msgstr ""
-"برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن ویدیوهای "
-"آموزشی از مرکز ارقام مکانی افغانستان (asdc.immap.org). ویدیوهای آموزشی را می "
-"توان در یوتیوب و در ANHDC پیدا نمود. (به هردو زبان دری و انگلیسی). در حال "
-"حاضر 11 ویدیویی آموزشی، در مجموع یک و نیم ساعت میباشد موجود است ."
-
 #: .\templates\v2\training.html:108
-
 msgid "Flood Hazard Analysis using Afghanistan Natural Hazard Data Center"
 msgstr "در باره مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان"
 
@@ -6987,63 +7054,12 @@ msgstr ""
 "جغرافیا GISP"
 
 #: .\templates\v2\training.html:110
-
 msgid ""
 "Give a structured overview and exercises for geospatial analysis using the "
-"ANHDC."
+"AHNDC."
 msgstr ""
 "با استفاده از ANHDC جدید ، یک نمای کلی ساختار یافته و تمرین هایی را برای "
 "تجزیه و تحلیل مکان شناسی ارائه دهید."
-
-#~ msgid "About ANHDC"
-#~ msgstr "درباره ANHDC"
-
-#~ msgid ""
-#~ "The Afghanistan Natural Hazard Data Center (ANHDC) is developed by iMMAP "
-#~ "in Afghanistan. It is part of the iMMAP Disaster Risk Reduction Program, "
-#~ "which is funded by the United States Agency for International Development "
-#~ "(USAID)/Office of U.S. Foreign Disaster Assistance (OFDA)."
-#~ msgstr ""
-#~ "مرکز ارقام مکانی افغانستان (ASDC) توسط iMMAP در افغانستان توسعه یافته "
-#~ "است. این بخش iMMAP  برنامه کاهش حوادث طبیعی (DRR) است ،که توسط آژانس "
-#~ "ایالات متحده برای توسعه بین المللی ایالات متحده (USAID) و اداره همکاری به "
-#~ "حوادث بیرونی ایالات متحده (OFDA) تمویل میشود ."
-
-#~ msgid ""
-#~ "The Disaster Risk Reduction (DRR) program is a scientific program that "
-#~ "supports the humanitarian community with critical information to aid "
-#~ "decision makers in emergency response or program development. The "
-#~ "Afghanistan Natural Hazard Data Center (ANHDC) is the dissemination "
-#~ "platform for DRR data and other baseline information. At present the "
-#~ "ANHDC is the most advanced geoportal on Afghanistan containing "
-#~ "comprehensive and accurate data. The iMMAP DRR program is funded by USAID "
-#~ "and it is ready for daily usage."
-#~ msgstr ""
-#~ "برنامه کاهش حوادث طبیعی(DRR) یک برنامه علمی است که تصمیم گیرندگان جامعه "
-#~ "بشری را برای اخذ  اطلاعات مهم  برای برنامه ریزی واکنش های اضطراری  حمایت "
-#~ "میکند . مرکز ارقام مکانی افغانستان (ASDC) پلیت فرم انتشار ارقام  کاهش "
-#~ "حوادث طبیعی DRR  و سایر اطلاعات عمومی است.در حال حاضر ASDC  پیشرفته ترین "
-#~ "منبع دسترسی برای کسب اطلاعات  جامع و دقیق جغرافیایی در افغانستان است."
-#~ "برنامه DRR (کاهش حوادث طبیعی )iMMAP تمویل میشود توسط USAID و اماده است "
-#~ "برای استفاده روزانه  .      "
-
-#~ msgid ""
-#~ "The information provided on ANHDC are especially useful in regards to "
-#~ "prediction, emergency response, M&E and planning purposes."
-#~ msgstr ""
-#~ "اطلاعات ارائه شده در ASDC به خصوص در رابطه با پیش بینی، واکنش های "
-#~ "اضطراری، نظارت و ارزیابی و اهداف برنامه ریزی مفید است."
-
-#~ msgid ""
-#~ "Dr. Emlyn Hagen has led the development of the ANHDC conceptually and "
-#~ "scientifically. At one hand creating the various unique data sets "
-#~ "utilised by the project, as well as developing the scientific methodology "
-#~ "for the prediction and statistics."
-#~ msgstr ""
-#~ "داکتر ایملین هاگن (Emlyn Hagen) از نظر علمی و نظری  توسعه ASDC را رهبری "
-#~ "مینماید. او از یک سو ایجاد مجموعه ارقام های مختلف بینظیر که استفاده شده "
-#~ "توسط  پروژه، و از دیگر سو  در ایجاد روش علمی برای پیش بینی و آمار و ارقام "
-#~ "کوشش های زیاد نموده است "
 
 #~ msgid ""
 #~ "Mr. Budi Hermansyah has created the ANHDC GeoNode portal. Which is an "
@@ -7051,17 +7067,48 @@ msgstr ""
 #~ "Bank. These advancements include the creation of all statistics and user "
 #~ "interfaces, statistics, POI’s models, as well as automated data retrieval "
 #~ "and analysis for forecasting purposes. Furthermore, an advanced dashboard "
-#~ "has been created by Mr. Budi Hermansyah."
+#~ "has been created by Mr Budi Hermansyah."
 #~ msgstr ""
-#~ "آقای بودی هیرمنسیا (Budi Hermansyah) پورتال GeoNode سایت ASDC را ایجاد "
+#~ "آقای بودی هیرمنسیا (Budi Hermansyah) پورتال GeoNode سایت ANHDC را ایجاد "
 #~ "کرده است. که این توسعه پیشرفته و بیشتر از GeoNode حمایت شده توسط بانک "
 #~ "جهانی میباشد. این پیشرفت شامل ایجاد تمام آمار و روابط کاربر، آمار، مدل "
 #~ "های POI، و همچنین به عنوان بازیابی خودکار ارقام و تجزیه و تحلیل برای "
 #~ "اهداف پیش بینی میشود. علاوه بر این، مجموعه اطلاعات پیشرفته توسط آقای بودی "
 #~ "هیرمنسیا  ایجاد شده است."
 
-#~ msgid "Other Support"
-#~ msgstr "پشتیبانی دیگر"
+#~ msgid ""
+#~ "The map and statistics are updated on a daily basis (less than 24 hours)."
+#~ msgstr "هر 6 ساعت نقشه ها و آمار آپدیت میشوند ."
+
+#~ msgid "Avalanches Prediction"
+#~ msgstr "پیشبینی برف کوچ"
+
+#~ msgid ""
+#~ "The certification takes place online and consist of 80 interactive "
+#~ "questions &#40;75&#37; passing mark&#41;, tied to various scenarios. For "
+#~ "proficient users it will take approximately 1-2 hours to complete, "
+#~ "whereas for novice yet trained users it can take more than 3 hours. "
+#~ "Having seen the ANHDC Training videos is a perquisite to be able to "
+#~ "complete."
+#~ msgstr ""
+#~ "پروسه بدست آوردن تصدیق نامه آنلاین صورت گرفته که شامل 80 سوال عملی "
+#~ "میباشد  (باید 75%  سوال ها پاسخ درست گفته شود) که شامل بخش های مختلف "
+#~ "میباشد. برای کاربر های که مهارت زیاد دارند این پروسه در حدود 1 یا 2 ساعت "
+#~ "طول میکشد، و برای کاربران که تازه آموزش دیدن بیشتر از 3 ساعت .تکمیل نمودن "
+#~ "این پروسه با دیدن ویدیوهای آموزشی ANHDC لازم است.  "
+
+#~ msgid ""
+#~ "To facilitate better communication, a Youtube channel has been made to "
+#~ "host basic instruction videos on the functionalities of the Afghanistan "
+#~ "Spatial Data Center (asdc.immap.org). The instruction videos can be found "
+#~ "on YouTube and on the ANHDC (available in Dari and English). Currently, "
+#~ "there are 11 training videos, in total 1 ½ hours of material."
+#~ msgstr ""
+#~ "برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن "
+#~ "ویدیوهای آموزشی از مرکز ارقام مکانی افغانستان (asdc.immap.org). ویدیوهای "
+#~ "آموزشی را می توان در یوتیوب و در ANHDC پیدا نمود. (به هردو زبان دری و "
+#~ "انگلیسی). در حال حاضر 11 ویدیویی آموزشی، در مجموع یک و نیم ساعت میباشد "
+#~ "موجود است ."
 
 #~ msgid ""
 #~ "To facilitate better communication, a Youtube channel has been made to "
