@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-23 12:22+0700\n"
+"POT-Creation-Date: 2020-09-01 14:03+0430\n"
 "PO-Revision-Date: 2017-02-20 09:15+0430\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,960 +18,3057 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.11\n"
 
-#: templates/custombase.html:72
+#: .\templates\custombase.html:72 .\templates\v2\base_dashboard.html:41
 msgid "Loading ..."
 msgstr ""
 
-#: templates/custombase.html:103
+#: .\templates\custombase.html:103
 msgid "Afghanistan Spatial Data Center"
 msgstr "مرکز ارقام مکانی افغانستان "
 
-#: templates/custombase.html:111 templates/custombase.html.py:112
+#: .\templates\custombase.html:111 .\templates\custombase.html.py:112
 msgid "Register"
 msgstr "راجستر"
 
-#: templates/custombase.html:127 templates/custombase.html.py:129
-#: templates/custombase.html:296 templates/custombase.html.py:314
+#: .\templates\custombase.html:127 .\templates\custombase.html.py:129
+#: .\templates\custombase.html:296 .\templates\custombase.html.py:314
 msgid "Sign in"
 msgstr "ورود"
 
-#: templates/custombase.html:147
+#: .\templates\custombase.html:147
 msgid "Language"
 msgstr "زبان"
 
-#: templates/custombase.html:168
+#: .\templates\custombase.html:168
 msgid "Home"
 msgstr "صفحه اصلی"
 
-#: templates/custombase.html:171
+#: .\templates\custombase.html:171
 msgid "Dashboard"
 msgstr "مجموعه اطلاعات"
 
-#: templates/custombase.html:174
+#: .\templates\custombase.html:174
 msgid "Layers"
 msgstr "لایه ها"
 
-#: templates/custombase.html:177
+#: .\templates\custombase.html:177
 msgid "Interactive Maps"
 msgstr "نقشه های تعاملی (فعال)"
 
-#: templates/custombase.html:180
+#: .\templates\custombase.html:180
 msgid "Static Maps"
 msgstr "نقشه استاتیک (ساکن)"
 
-#: templates/custombase.html:185
+#: .\templates\custombase.html:185
 msgid "People"
 msgstr "مردم"
 
-#: templates/custombase.html:188
+#: .\templates\custombase.html:188
 msgid "Groups"
 msgstr "گروه ها"
 
-#: templates/custombase.html:191 templates/custombase.html.py:193
-#: templates/custombase.html:197
+#: .\templates\custombase.html:191 .\templates\custombase.html.py:193
+#: .\templates\custombase.html:197
 msgid "Documentation"
 msgstr "مستندات"
 
-#: templates/custombase.html:195
+#: .\templates\custombase.html:195
 msgid "About"
 msgstr "درباره "
 
-#: templates/custombase.html:196
+#: .\templates\custombase.html:196
 msgid "Disclaimer"
 msgstr "رفع مسئولیت"
 
-#: templates/custombase.html:198
+#: .\templates\custombase.html:198
 msgid "Partners"
 msgstr "شریکان "
 
-#: templates/custombase.html:199
+#: .\templates\custombase.html:199
 msgid "Videos"
 msgstr "ویدیو ها"
 
-#: templates/custombase.html:200
+#: .\templates\custombase.html:200
 msgid "Training"
 msgstr "آموزش"
 
-#: templates/custombase.html:260
+#: .\templates\custombase.html:260
 msgid "iMMAP"
 msgstr "iMMAP"
 
-#: templates/custombase.html:263
+#: .\templates\custombase.html:263
 msgid "Powered by"
 msgstr "طراحی شده توسط"
 
-#: templates/custombase.html:263
+#: .\templates\custombase.html:263
 msgid "GeoNode"
 msgstr "GeoNode"
 
-#: templates/custombase.html:302 templates/custombase.html.py:303
+#: .\templates\custombase.html:302 .\templates\custombase.html.py:303
 msgid "Username"
 msgstr "نام کاربر"
 
-#: templates/custombase.html:306
+#: .\templates\custombase.html:306
 msgid "Password"
 msgstr "رمز عبور"
 
-#: templates/custombase.html:310
+#: .\templates\custombase.html:310
 msgid "Remember Me"
 msgstr "بخاطر بسپار "
 
-#: templates/custombase.html:326
+#: .\templates\custombase.html:326
 msgid "Menu"
 msgstr "فهرست"
 
-#: templates/custombase.html:330
+#: .\templates\custombase.html:330
 msgid "Upload Layers"
 msgstr "آپلود لایه"
 
-#: templates/custombase.html:332
+#: .\templates\custombase.html:332
 msgid "Profile"
 msgstr "نمایه"
 
-#: templates/custombase.html:333
+#: .\templates\custombase.html:333
 msgid "Recent Activity"
 msgstr "فعالیت های اخیر"
 
-#: templates/custombase.html:334
+#: .\templates\custombase.html:334
 msgid "Inbox"
 msgstr "صندوق دریافت ها "
 
-#: templates/custombase.html:336
+#: .\templates\custombase.html:336
 msgid "Notifications"
 msgstr "اطلاعات "
 
-#: templates/custombase.html:339
+#: .\templates\custombase.html:339
 msgid "Announcements"
 msgstr "اعلانات"
 
-#: templates/custombase.html:342
+#: .\templates\custombase.html:342
 msgid "Remote Services"
 msgstr "خدمات از راه دور"
 
-#: templates/custombase.html:343
+#: .\templates\custombase.html:343
 msgid "Invite User"
 msgstr "دعوت کاربر"
 
-#: templates/custombase.html:345
+#: .\templates\custombase.html:345
 msgid "GeoServer"
 msgstr "GeoServer"
 
-#: templates/custombase.html:348
+#: .\templates\custombase.html:348
+msgid "User Statistics"
+msgstr ""
+
+#: .\templates\custombase.html:349
 msgid "Admin"
 msgstr "مدیر سایت"
 
-#: templates/custombase.html:353
+#: .\templates\custombase.html:354
 msgid "Help"
 msgstr "کمک"
 
-#: templates/custombase.html:359
+#: .\templates\custombase.html:360
 msgid "Log out"
 msgstr "خارج شدن"
 
-#: templates/custombase.html:409
+#: .\templates\custombase.html:410
 msgid "Type your search here ..."
 msgstr "جستجوی خود را اینجا بنویسید ..."
 
-#: templates/pages/accessibility.html:19 templates/pages/links.html:11
+#: .\templates\pages\accessibility.html:19 .\templates\pages\links.html:11
+#: .\templates\v2\dash_accessibility.html:9 .\templates\v2\links.html:12
 msgid "Accessibility"
 msgstr "دسترسی"
 
-#: templates/pages/accessibility.html:26 templates/pages/avalancherisk.html:26
-#: templates/pages/avalcheforecast.html:26 templates/pages/baseline.html:26
-#: templates/pages/earthquake.html:36 templates/pages/floodrisk.html:26
+#: .\templates\pages\accessibility.html:26
+#: .\templates\pages\avalancherisk.html:38
+#: .\templates\pages\avalcheforecast.html:38 .\templates\pages\baseline.html:26
+#: .\templates\pages\earthquake.html:36 .\templates\pages\floodrisk.html:38
+#: .\templates\pages\landsliderisk.html:27
+#: .\templates\v2\dash_accessibility.html:675
+#: .\templates\v2\dash_aforecast.html:123 .\templates\v2\dash_arisk.html:142
+#: .\templates\v2\dash_baseline.html:21 .\templates\v2\dash_baseline.html:152
+#: .\templates\v2\dash_drought.html:314 .\templates\v2\dash_earthquake.html:325
+#: .\templates\v2\dash_frisk.html:118 .\templates\v2\dash_landslide.html:425
+#: .\templates\v2\dash_landslide.html:544
+#: .\templates\v2\dash_landslide.html:663
+#: .\templates\v2\dash_landslide.html:748
+#: .\templates\v2\dash_landslide.html:833 .\templates\v2\dash_main.html:21
+#: .\templates\v2\dash_main.html.py:161 .\templates\v2\dash_main.html:275
+#: .\templates\v2\dash_main.html.py:1007 .\templates\v2\dash_main.html:1039
 msgid "Total Population"
 msgstr "مجموع نفوس"
 
-#: templates/pages/accessibility.html:30 templates/pages/baseline.html:30
+#: .\templates\pages\accessibility.html:30 .\templates\pages\baseline.html:34
+#: .\templates\v2\dash_arisk.html:204 .\templates\v2\dash_baseline.html:29
+#: .\templates\v2\dash_baseline.html:211 .\templates\v2\dash_drought.html:341
+#: .\templates\v2\dash_frisk.html:180 .\templates\v2\dash_main.html:29
+#: .\templates\v2\dash_main.html.py:69 .\templates\v2\dash_main.html:307
 msgid "Total Area"
 msgstr "مساحت کلی"
 
-#: templates/pages/accessibility.html:30 templates/pages/avalancherisk.html:36
-#: templates/pages/baseline.html:30 templates/pages/baseline.html.py:84
-#: templates/pages/baseline.html:86 templates/pages/baseline.html.py:88
-#: templates/pages/baseline.html:90
+#: .\templates\pages\accessibility.html:30
+#: .\templates\pages\avalancherisk.html:48 .\templates\pages\baseline.html:34
+#: .\templates\pages\baseline.html.py:88 .\templates\pages\baseline.html:90
+#: .\templates\pages\baseline.html.py:92 .\templates\pages\baseline.html:94
+#: .\templates\v2\dash_accessibility.html:560
+#: .\templates\v2\dash_accessibility.html:565
+#: .\templates\v2\dash_arisk.html:204 .\templates\v2\dash_arisk.html.py:208
+#: .\templates\v2\dash_arisk.html:249 .\templates\v2\dash_arisk.html.py:252
+#: .\templates\v2\dash_arisk.html:255 .\templates\v2\dash_arisk.html.py:303
+#: .\templates\v2\dash_arisk.html:306 .\templates\v2\dash_arisk.html.py:309
+#: .\templates\v2\dash_baseline.html:29 .\templates\v2\dash_baseline.html:211
+#: .\templates\v2\dash_baseline.html:250 .\templates\v2\dash_baseline.html:252
+#: .\templates\v2\dash_baseline.html:254 .\templates\v2\dash_baseline.html:256
+#: .\templates\v2\dash_baseline.html:305 .\templates\v2\dash_baseline.html:307
+#: .\templates\v2\dash_baseline.html:309 .\templates\v2\dash_baseline.html:311
+#: .\templates\v2\dash_frisk.html:180 .\templates\v2\dash_frisk.html.py:184
+#: .\templates\v2\dash_frisk.html:222 .\templates\v2\dash_frisk.html.py:225
+#: .\templates\v2\dash_frisk.html:228 .\templates\v2\dash_frisk.html.py:231
+#: .\templates\v2\dash_frisk.html:281 .\templates\v2\dash_frisk.html.py:284
+#: .\templates\v2\dash_frisk.html:287 .\templates\v2\dash_frisk.html.py:290
+#: .\templates\v2\dash_main.html:29 .\templates\v2\dash_main.html.py:69
+#: .\templates\v2\dash_main.html:307 .\templates\v2\dash_main.html.py:311
 msgid "km<sup>2</sup>"
 msgstr "کیلومتر مربع"
 
-#: templates/pages/accessibility.html:34
+#: .\templates\pages\accessibility.html:34
 msgid "GSM Coverage – Population"
 msgstr "نفوس - پوشش  خدمات موبایل GSM"
 
-#: templates/pages/accessibility.html:40
+#: .\templates\pages\accessibility.html:40
 msgid "GSM Coverage – Area"
 msgstr "مساحت -پوشش  خدمات موبایل GSM"
 
-#: templates/pages/accessibility.html:47
+#: .\templates\pages\accessibility.html:47
 msgid "Travel Time to Nearest Airport (pop in &#37;)"
 msgstr "زمان سفر به نزدیکترین میدان هوایی  (نفوس به ٪)"
 
-#: templates/pages/accessibility.html:51
+#: .\templates\pages\accessibility.html:51
 msgid "Travel Time to Nearest Health Facilities Tier 1 (pop in &#37;)"
 msgstr "زمان سفر  به نزدیکترین امکانات صحی ردیف اول (نفوس به ٪)"
 
-#: templates/pages/accessibility.html:55
+#: .\templates\pages\accessibility.html:55
 msgid "Travel Time to Nearest Health Facilities Tier 2 (pop in &#37;)"
 msgstr "زمان سفر  به نزدیکترین امکانات صحی ردیف دوم (نفوس به ٪)"
 
-#: templates/pages/accessibility.html:59
+#: .\templates\pages\accessibility.html:59
 msgid "Travel Time to Nearest Health Facilities Tier 3 (pop in &#37;)"
 msgstr "زمان سفر  به نزدیکترین امکانات صحی ردیف سوم (نفوس به ٪)"
 
-#: templates/pages/accessibility.html:67
+#: .\templates\pages\accessibility.html:67
 msgid "Travel Time to Its Province Capital (pop in &#37;)"
 msgstr "زمان سفر به مرکز ولایتی (نفوس به ٪)"
 
-#: templates/pages/accessibility.html:71
+#: .\templates\pages\accessibility.html:71
 msgid "Travel Time to Nearest Province Capital (pop in &#37;)"
 msgstr "زمان سفر به نزدیکترین مرکز ولایت (نفوس به ٪)"
 
-#: templates/pages/accessibility.html:75
+#: .\templates\pages\accessibility.html:75
 msgid "Travel Time to Nearest District Capital (pop in &#37;)"
 msgstr "زمان سفر به نزدیکترین مرکز ولسوالی (نفوس به ٪)"
 
-#: templates/pages/accessibility.html:86
+#: .\templates\pages\accessibility.html:86
+#: .\templates\v2\dash_accessibility.html:694
+#: .\templates\v2\dash_accessibility.html:811 .\templates\v2\dash_main.html:179
 msgid "Travel Time to Nearest Airport"
 msgstr "زمان سفر به نزدیکترین میدان هوایی "
 
-#: templates/pages/accessibility.html:87
-#: templates/pages/accessibility.html:168
-#: templates/pages/accessibility.html:249
-#: templates/pages/accessibility.html:330
-#: templates/pages/accessibility.html:411
-#: templates/pages/accessibility.html:492
-#: templates/pages/accessibility.html:573
-#: templates/pages/accessibility.html:654
-#: templates/pages/accessibility.html:733
-#: templates/pages/accessibility.html:751
-#: templates/pages/accessibility.html:769
-#: templates/pages/accessibility.html:787
-#: templates/pages/accessibility.html:805
-#: templates/pages/accessibility.html:823
-#: templates/pages/accessibility.html:841
-#: templates/pages/accessibility.html:859
-#: templates/pages/avalancherisk.html:64
-#: templates/pages/avalancherisk.html:132
-#: templates/pages/avalcheforecast.html:65
-#: templates/pages/avalcheforecast.html:119 templates/pages/baseline.html:70
-#: templates/pages/baseline.html.py:132 templates/pages/baseline.html:190
-#: templates/pages/baseline.html.py:261 templates/pages/baseline.html:279
-#: templates/pages/baseline.html.py:297 templates/pages/earthquake.html:67
-#: templates/pages/earthquake.html:155 templates/pages/floodforecast.html:155
-#: templates/pages/floodforecast.html:219 templates/pages/floodrisk.html:63
-#: templates/pages/floodrisk.html.py:147
-#: templates/pages/naturaldisaster.html:38 templates/pages/security.html:172
-#: templates/pages/security.html.py:320
+#: .\templates\pages\accessibility.html:87
+#: .\templates\pages\accessibility.html:168
+#: .\templates\pages\accessibility.html:249
+#: .\templates\pages\accessibility.html:330
+#: .\templates\pages\accessibility.html:411
+#: .\templates\pages\accessibility.html:492
+#: .\templates\pages\accessibility.html:573
+#: .\templates\pages\accessibility.html:654
+#: .\templates\pages\accessibility.html:733
+#: .\templates\pages\accessibility.html:751
+#: .\templates\pages\accessibility.html:769
+#: .\templates\pages\accessibility.html:787
+#: .\templates\pages\accessibility.html:805
+#: .\templates\pages\accessibility.html:823
+#: .\templates\pages\accessibility.html:841
+#: .\templates\pages\accessibility.html:859
+#: .\templates\pages\avalancherisk.html:76
+#: .\templates\pages\avalancherisk.html:144
+#: .\templates\pages\avalcheforecast.html:77
+#: .\templates\pages\avalcheforecast.html:131
+#: .\templates\pages\baseline.html:74 .\templates\pages\baseline.html.py:136
+#: .\templates\pages\baseline.html:194 .\templates\pages\baseline.html:265
+#: .\templates\pages\baseline.html:283 .\templates\pages\baseline.html:301
+#: .\templates\pages\earthquake.html:67 .\templates\pages\earthquake.html:155
+#: .\templates\pages\floodforecast.html:172
+#: .\templates\pages\floodforecast.html:299
+#: .\templates\pages\floodforecast.html:426
+#: .\templates\pages\floodforecast.html:518 .\templates\pages\floodrisk.html:79
+#: .\templates\pages\floodrisk.html:163 .\templates\pages\landsliderisk.html:62
+#: .\templates\pages\landsliderisk.html:101
+#: .\templates\pages\landsliderisk.html:140
+#: .\templates\pages\landsliderisk.html:179
+#: .\templates\pages\landsliderisk.html:218
+#: .\templates\pages\landsliderisk.html:256
+#: .\templates\pages\landsliderisk.html:274
+#: .\templates\pages\landsliderisk.html:292
+#: .\templates\pages\landsliderisk.html:310
+#: .\templates\pages\landsliderisk.html:328
+#: .\templates\pages\naturaldisaster.html:38
+#: .\templates\pages\security.html:172 .\templates\pages\security.html:320
+#: .\templates\pages\weather.html:38
 msgid "Hide Detail"
 msgstr "پنهان جزئیات"
 
-#: templates/pages/accessibility.html:87
-#: templates/pages/accessibility.html:168
-#: templates/pages/accessibility.html:249
-#: templates/pages/accessibility.html:330
-#: templates/pages/accessibility.html:411
-#: templates/pages/accessibility.html:492
-#: templates/pages/accessibility.html:573
-#: templates/pages/accessibility.html:654
-#: templates/pages/accessibility.html:732
-#: templates/pages/accessibility.html:736
-#: templates/pages/accessibility.html:750
-#: templates/pages/accessibility.html:754
-#: templates/pages/accessibility.html:768
-#: templates/pages/accessibility.html:772
-#: templates/pages/accessibility.html:786
-#: templates/pages/accessibility.html:790
-#: templates/pages/accessibility.html:804
-#: templates/pages/accessibility.html:808
-#: templates/pages/accessibility.html:822
-#: templates/pages/accessibility.html:826
-#: templates/pages/accessibility.html:840
-#: templates/pages/accessibility.html:844
-#: templates/pages/accessibility.html:858
-#: templates/pages/accessibility.html:862
-#: templates/pages/avalancherisk.html:64
-#: templates/pages/avalancherisk.html:131
-#: templates/pages/avalancherisk.html:135
-#: templates/pages/avalcheforecast.html:65
-#: templates/pages/avalcheforecast.html:118
-#: templates/pages/avalcheforecast.html:122 templates/pages/baseline.html:70
-#: templates/pages/baseline.html.py:132 templates/pages/baseline.html:190
-#: templates/pages/baseline.html.py:260 templates/pages/baseline.html:264
-#: templates/pages/baseline.html.py:278 templates/pages/baseline.html:282
-#: templates/pages/baseline.html.py:296 templates/pages/baseline.html:300
-#: templates/pages/earthquake.html:67 templates/pages/earthquake.html:154
-#: templates/pages/earthquake.html:158 templates/pages/floodforecast.html:155
-#: templates/pages/floodforecast.html:218
-#: templates/pages/floodforecast.html:222 templates/pages/floodrisk.html:63
-#: templates/pages/floodrisk.html.py:146 templates/pages/floodrisk.html:150
-#: templates/pages/naturaldisaster.html:37
-#: templates/pages/naturaldisaster.html:41 templates/pages/security.html:172
-#: templates/pages/security.html.py:319 templates/pages/security.html:323
+#: .\templates\pages\accessibility.html:87
+#: .\templates\pages\accessibility.html:168
+#: .\templates\pages\accessibility.html:249
+#: .\templates\pages\accessibility.html:330
+#: .\templates\pages\accessibility.html:411
+#: .\templates\pages\accessibility.html:492
+#: .\templates\pages\accessibility.html:573
+#: .\templates\pages\accessibility.html:654
+#: .\templates\pages\accessibility.html:732
+#: .\templates\pages\accessibility.html:736
+#: .\templates\pages\accessibility.html:750
+#: .\templates\pages\accessibility.html:754
+#: .\templates\pages\accessibility.html:768
+#: .\templates\pages\accessibility.html:772
+#: .\templates\pages\accessibility.html:786
+#: .\templates\pages\accessibility.html:790
+#: .\templates\pages\accessibility.html:804
+#: .\templates\pages\accessibility.html:808
+#: .\templates\pages\accessibility.html:822
+#: .\templates\pages\accessibility.html:826
+#: .\templates\pages\accessibility.html:840
+#: .\templates\pages\accessibility.html:844
+#: .\templates\pages\accessibility.html:858
+#: .\templates\pages\accessibility.html:862
+#: .\templates\pages\avalancherisk.html:76
+#: .\templates\pages\avalancherisk.html:143
+#: .\templates\pages\avalancherisk.html:147
+#: .\templates\pages\avalcheforecast.html:77
+#: .\templates\pages\avalcheforecast.html:130
+#: .\templates\pages\avalcheforecast.html:134
+#: .\templates\pages\baseline.html:74 .\templates\pages\baseline.html.py:136
+#: .\templates\pages\baseline.html:194 .\templates\pages\baseline.html:264
+#: .\templates\pages\baseline.html:268 .\templates\pages\baseline.html:282
+#: .\templates\pages\baseline.html:286 .\templates\pages\baseline.html:300
+#: .\templates\pages\baseline.html:304 .\templates\pages\earthquake.html:67
+#: .\templates\pages\earthquake.html:154 .\templates\pages\earthquake.html:158
+#: .\templates\pages\floodforecast.html:172
+#: .\templates\pages\floodforecast.html:299
+#: .\templates\pages\floodforecast.html:426
+#: .\templates\pages\floodforecast.html:517
+#: .\templates\pages\floodforecast.html:521 .\templates\pages\floodrisk.html:79
+#: .\templates\pages\floodrisk.html:162 .\templates\pages\floodrisk.html:166
+#: .\templates\pages\landsliderisk.html:62
+#: .\templates\pages\landsliderisk.html:101
+#: .\templates\pages\landsliderisk.html:140
+#: .\templates\pages\landsliderisk.html:179
+#: .\templates\pages\landsliderisk.html:218
+#: .\templates\pages\landsliderisk.html:255
+#: .\templates\pages\landsliderisk.html:259
+#: .\templates\pages\landsliderisk.html:273
+#: .\templates\pages\landsliderisk.html:277
+#: .\templates\pages\landsliderisk.html:291
+#: .\templates\pages\landsliderisk.html:295
+#: .\templates\pages\landsliderisk.html:309
+#: .\templates\pages\landsliderisk.html:313
+#: .\templates\pages\landsliderisk.html:327
+#: .\templates\pages\landsliderisk.html:331
+#: .\templates\pages\naturaldisaster.html:37
+#: .\templates\pages\naturaldisaster.html:41
+#: .\templates\pages\security.html:172 .\templates\pages\security.html:319
+#: .\templates\pages\security.html:323 .\templates\pages\weather.html:37
+#: .\templates\pages\weather.html.py:41
 msgid "Show Detail"
 msgstr "نمایش جزئیات"
 
-#: templates/pages/accessibility.html:90
-#: templates/pages/accessibility.html:171
-#: templates/pages/accessibility.html:252
-#: templates/pages/accessibility.html:333
-#: templates/pages/accessibility.html:414
-#: templates/pages/accessibility.html:495
-#: templates/pages/accessibility.html:576
-#: templates/pages/accessibility.html:657
-#: templates/pages/avalancherisk.html:67
-#: templates/pages/avalcheforecast.html:68 templates/pages/baseline.html:73
-#: templates/pages/baseline.html.py:135 templates/pages/baseline.html:193
-#: templates/pages/earthquake.html:70 templates/pages/floodforecast.html:158
-#: templates/pages/floodrisk.html:66 templates/pages/security.html:175
+#: .\templates\pages\accessibility.html:90
+#: .\templates\pages\accessibility.html:171
+#: .\templates\pages\accessibility.html:252
+#: .\templates\pages\accessibility.html:333
+#: .\templates\pages\accessibility.html:414
+#: .\templates\pages\accessibility.html:495
+#: .\templates\pages\accessibility.html:576
+#: .\templates\pages\accessibility.html:657
+#: .\templates\pages\avalancherisk.html:79
+#: .\templates\pages\avalcheforecast.html:80 .\templates\pages\baseline.html:77
+#: .\templates\pages\baseline.html.py:139 .\templates\pages\baseline.html:197
+#: .\templates\pages\earthquake.html:70
+#: .\templates\pages\floodforecast.html:175
+#: .\templates\pages\floodforecast.html:302
+#: .\templates\pages\floodforecast.html:429 .\templates\pages\floodrisk.html:82
+#: .\templates\pages\landsliderisk.html:65
+#: .\templates\pages\landsliderisk.html:104
+#: .\templates\pages\landsliderisk.html:143
+#: .\templates\pages\landsliderisk.html:182
+#: .\templates\pages\landsliderisk.html:221 .\templates\pages\security.html:175
+#: .\templates\v2\dash_accessibility.html:594
+#: .\templates\v2\dash_accessibility.html:625
+#: .\templates\v2\dash_accessibility.html:711
+#: .\templates\v2\dash_accessibility.html:760
+#: .\templates\v2\dash_accessibility.html:849
+#: .\templates\v2\dash_accessibility.html:898
+#: .\templates\v2\dash_accessibility.html:987
+#: .\templates\v2\dash_accessibility.html:1036
+#: .\templates\v2\dash_accessibility.html:1125
+#: .\templates\v2\dash_accessibility.html:1174
+#: .\templates\v2\dash_accessibility.html:1263
+#: .\templates\v2\dash_accessibility.html:1312
+#: .\templates\v2\dash_accessibility.html:1401
+#: .\templates\v2\dash_accessibility.html:1450
+#: .\templates\v2\dash_accessibility.html:1539
+#: .\templates\v2\dash_accessibility.html:1588
+#: .\templates\v2\dash_accessibility.html:1675
+#: .\templates\v2\dash_accessibility.html:1724
+#: .\templates\v2\dash_aforecast.html:189
+#: .\templates\v2\dash_aforecast.html:223 .\templates\v2\dash_arisk.html:238
+#: .\templates\v2\dash_arisk.html.py:292 .\templates\v2\dash_baseline.html:240
+#: .\templates\v2\dash_baseline.html:295 .\templates\v2\dash_baseline.html:372
+#: .\templates\v2\dash_baseline.html:420 .\templates\v2\dash_baseline.html:519
+#: .\templates\v2\dash_baseline.html:568 .\templates\v2\dash_drought.html:374
+#: .\templates\v2\dash_drought.html:452 .\templates\v2\dash_earthquake.html:537
+#: .\templates\v2\dash_earthquake.html:548
+#: .\templates\v2\dash_earthquake.html:625
+#: .\templates\v2\dash_fforecast.html:691
+#: .\templates\v2\dash_fforecast.html:744
+#: .\templates\v2\dash_fforecast.html:991
+#: .\templates\v2\dash_fforecast.html:1044
+#: .\templates\v2\dash_fforecast.html:1293
+#: .\templates\v2\dash_fforecast.html:1346 .\templates\v2\dash_frisk.html:212
+#: .\templates\v2\dash_frisk.html.py:271 .\templates\v2\dash_haccess.html:589
+#: .\templates\v2\dash_haccess.html:624 .\templates\v2\dash_landslide.html:339
+#: .\templates\v2\dash_landslide.html:373
+#: .\templates\v2\dash_landslide.html:458
+#: .\templates\v2\dash_landslide.html:492
+#: .\templates\v2\dash_landslide.html:577
+#: .\templates\v2\dash_landslide.html:611
+#: .\templates\v2\dash_landslide.html:696
+#: .\templates\v2\dash_landslide.html:781
 msgid "Region"
 msgstr "منطقه"
 
-#: templates/pages/accessibility.html:91
-#: templates/pages/accessibility.html:172
-#: templates/pages/accessibility.html:253
-#: templates/pages/accessibility.html:334
-#: templates/pages/accessibility.html:415
-#: templates/pages/accessibility.html:496
-#: templates/pages/accessibility.html:577
-#: templates/pages/accessibility.html:658
+#: .\templates\pages\accessibility.html:91
+#: .\templates\pages\accessibility.html:172
+#: .\templates\pages\accessibility.html:253
+#: .\templates\pages\accessibility.html:334
+#: .\templates\pages\accessibility.html:415
+#: .\templates\pages\accessibility.html:496
+#: .\templates\pages\accessibility.html:577
+#: .\templates\pages\accessibility.html:658
 msgid "Population travel time"
 msgstr "زمان سفر نفوس "
 
-#: templates/pages/accessibility.html:96
-#: templates/pages/accessibility.html:177
-#: templates/pages/accessibility.html:258
-#: templates/pages/accessibility.html:339
-#: templates/pages/accessibility.html:420
-#: templates/pages/accessibility.html:501
-#: templates/pages/accessibility.html:582
-#: templates/pages/accessibility.html:663
+#: .\templates\pages\accessibility.html:96
+#: .\templates\pages\accessibility.html:177
+#: .\templates\pages\accessibility.html:258
+#: .\templates\pages\accessibility.html:339
+#: .\templates\pages\accessibility.html:420
+#: .\templates\pages\accessibility.html:501
+#: .\templates\pages\accessibility.html:582
+#: .\templates\pages\accessibility.html:663
+#: .\templates\v2\dash_accessibility.html:715
+#: .\templates\v2\dash_accessibility.html:764
+#: .\templates\v2\dash_accessibility.html:853
+#: .\templates\v2\dash_accessibility.html:902
+#: .\templates\v2\dash_accessibility.html:991
+#: .\templates\v2\dash_accessibility.html:1040
+#: .\templates\v2\dash_accessibility.html:1129
+#: .\templates\v2\dash_accessibility.html:1178
+#: .\templates\v2\dash_accessibility.html:1267
+#: .\templates\v2\dash_accessibility.html:1316
+#: .\templates\v2\dash_accessibility.html:1405
+#: .\templates\v2\dash_accessibility.html:1454
+#: .\templates\v2\dash_accessibility.html:1543
+#: .\templates\v2\dash_accessibility.html:1592
+#: .\templates\v2\dash_accessibility.html:1679
+#: .\templates\v2\dash_accessibility.html:1728
+#: .\templates\v2\dash_accessibility.html:1803
+#: .\templates\v2\dash_main.html:1190
 msgid "1 h"
 msgstr "1 ساعت "
 
-#: templates/pages/accessibility.html:97
-#: templates/pages/accessibility.html:178
-#: templates/pages/accessibility.html:259
-#: templates/pages/accessibility.html:340
-#: templates/pages/accessibility.html:421
-#: templates/pages/accessibility.html:502
-#: templates/pages/accessibility.html:583
-#: templates/pages/accessibility.html:664
+#: .\templates\pages\accessibility.html:97
+#: .\templates\pages\accessibility.html:178
+#: .\templates\pages\accessibility.html:259
+#: .\templates\pages\accessibility.html:340
+#: .\templates\pages\accessibility.html:421
+#: .\templates\pages\accessibility.html:502
+#: .\templates\pages\accessibility.html:583
+#: .\templates\pages\accessibility.html:664
+#: .\templates\v2\dash_accessibility.html:716
+#: .\templates\v2\dash_accessibility.html:765
+#: .\templates\v2\dash_accessibility.html:854
+#: .\templates\v2\dash_accessibility.html:903
+#: .\templates\v2\dash_accessibility.html:992
+#: .\templates\v2\dash_accessibility.html:1041
+#: .\templates\v2\dash_accessibility.html:1130
+#: .\templates\v2\dash_accessibility.html:1179
+#: .\templates\v2\dash_accessibility.html:1268
+#: .\templates\v2\dash_accessibility.html:1317
+#: .\templates\v2\dash_accessibility.html:1406
+#: .\templates\v2\dash_accessibility.html:1455
+#: .\templates\v2\dash_accessibility.html:1544
+#: .\templates\v2\dash_accessibility.html:1593
+#: .\templates\v2\dash_accessibility.html:1680
+#: .\templates\v2\dash_accessibility.html:1729
+#: .\templates\v2\dash_accessibility.html:1803
+#: .\templates\v2\dash_main.html:1190
 msgid "2 h"
 msgstr "2 ساعت"
 
-#: templates/pages/accessibility.html:98
-#: templates/pages/accessibility.html:179
-#: templates/pages/accessibility.html:260
-#: templates/pages/accessibility.html:341
-#: templates/pages/accessibility.html:422
-#: templates/pages/accessibility.html:503
-#: templates/pages/accessibility.html:584
-#: templates/pages/accessibility.html:665
+#: .\templates\pages\accessibility.html:98
+#: .\templates\pages\accessibility.html:179
+#: .\templates\pages\accessibility.html:260
+#: .\templates\pages\accessibility.html:341
+#: .\templates\pages\accessibility.html:422
+#: .\templates\pages\accessibility.html:503
+#: .\templates\pages\accessibility.html:584
+#: .\templates\pages\accessibility.html:665
+#: .\templates\v2\dash_accessibility.html:717
+#: .\templates\v2\dash_accessibility.html:766
+#: .\templates\v2\dash_accessibility.html:855
+#: .\templates\v2\dash_accessibility.html:904
+#: .\templates\v2\dash_accessibility.html:993
+#: .\templates\v2\dash_accessibility.html:1042
+#: .\templates\v2\dash_accessibility.html:1131
+#: .\templates\v2\dash_accessibility.html:1180
+#: .\templates\v2\dash_accessibility.html:1269
+#: .\templates\v2\dash_accessibility.html:1318
+#: .\templates\v2\dash_accessibility.html:1407
+#: .\templates\v2\dash_accessibility.html:1456
+#: .\templates\v2\dash_accessibility.html:1545
+#: .\templates\v2\dash_accessibility.html:1594
+#: .\templates\v2\dash_accessibility.html:1681
+#: .\templates\v2\dash_accessibility.html:1730
+#: .\templates\v2\dash_accessibility.html:1803
+#: .\templates\v2\dash_main.html:1190
 msgid "3 h"
 msgstr "3 ساعت"
 
-#: templates/pages/accessibility.html:99
-#: templates/pages/accessibility.html:180
-#: templates/pages/accessibility.html:261
-#: templates/pages/accessibility.html:342
-#: templates/pages/accessibility.html:423
-#: templates/pages/accessibility.html:504
-#: templates/pages/accessibility.html:585
-#: templates/pages/accessibility.html:666
+#: .\templates\pages\accessibility.html:99
+#: .\templates\pages\accessibility.html:180
+#: .\templates\pages\accessibility.html:261
+#: .\templates\pages\accessibility.html:342
+#: .\templates\pages\accessibility.html:423
+#: .\templates\pages\accessibility.html:504
+#: .\templates\pages\accessibility.html:585
+#: .\templates\pages\accessibility.html:666
+#: .\templates\v2\dash_accessibility.html:718
+#: .\templates\v2\dash_accessibility.html:767
+#: .\templates\v2\dash_accessibility.html:856
+#: .\templates\v2\dash_accessibility.html:905
+#: .\templates\v2\dash_accessibility.html:994
+#: .\templates\v2\dash_accessibility.html:1043
+#: .\templates\v2\dash_accessibility.html:1132
+#: .\templates\v2\dash_accessibility.html:1181
+#: .\templates\v2\dash_accessibility.html:1270
+#: .\templates\v2\dash_accessibility.html:1319
+#: .\templates\v2\dash_accessibility.html:1408
+#: .\templates\v2\dash_accessibility.html:1457
+#: .\templates\v2\dash_accessibility.html:1546
+#: .\templates\v2\dash_accessibility.html:1595
+#: .\templates\v2\dash_accessibility.html:1682
+#: .\templates\v2\dash_accessibility.html:1731
+#: .\templates\v2\dash_accessibility.html:1803
+#: .\templates\v2\dash_main.html:1190
 msgid "4 h"
 msgstr "4 ساعت"
 
-#: templates/pages/accessibility.html:100
-#: templates/pages/accessibility.html:181
-#: templates/pages/accessibility.html:262
-#: templates/pages/accessibility.html:343
-#: templates/pages/accessibility.html:424
-#: templates/pages/accessibility.html:505
-#: templates/pages/accessibility.html:586
-#: templates/pages/accessibility.html:667
+#: .\templates\pages\accessibility.html:100
+#: .\templates\pages\accessibility.html:181
+#: .\templates\pages\accessibility.html:262
+#: .\templates\pages\accessibility.html:343
+#: .\templates\pages\accessibility.html:424
+#: .\templates\pages\accessibility.html:505
+#: .\templates\pages\accessibility.html:586
+#: .\templates\pages\accessibility.html:667
+#: .\templates\v2\dash_accessibility.html:719
+#: .\templates\v2\dash_accessibility.html:768
+#: .\templates\v2\dash_accessibility.html:857
+#: .\templates\v2\dash_accessibility.html:906
+#: .\templates\v2\dash_accessibility.html:995
+#: .\templates\v2\dash_accessibility.html:1044
+#: .\templates\v2\dash_accessibility.html:1133
+#: .\templates\v2\dash_accessibility.html:1182
+#: .\templates\v2\dash_accessibility.html:1271
+#: .\templates\v2\dash_accessibility.html:1320
+#: .\templates\v2\dash_accessibility.html:1409
+#: .\templates\v2\dash_accessibility.html:1458
+#: .\templates\v2\dash_accessibility.html:1547
+#: .\templates\v2\dash_accessibility.html:1596
+#: .\templates\v2\dash_accessibility.html:1683
+#: .\templates\v2\dash_accessibility.html:1732
+#: .\templates\v2\dash_accessibility.html:1803
+#: .\templates\v2\dash_main.html:1190
 msgid "5 h"
 msgstr "5 ساعت"
 
-#: templates/pages/accessibility.html:101
-#: templates/pages/accessibility.html:182
-#: templates/pages/accessibility.html:263
-#: templates/pages/accessibility.html:344
-#: templates/pages/accessibility.html:425
-#: templates/pages/accessibility.html:506
-#: templates/pages/accessibility.html:587
-#: templates/pages/accessibility.html:668
+#: .\templates\pages\accessibility.html:101
+#: .\templates\pages\accessibility.html:182
+#: .\templates\pages\accessibility.html:263
+#: .\templates\pages\accessibility.html:344
+#: .\templates\pages\accessibility.html:425
+#: .\templates\pages\accessibility.html:506
+#: .\templates\pages\accessibility.html:587
+#: .\templates\pages\accessibility.html:668
+#: .\templates\v2\dash_accessibility.html:720
+#: .\templates\v2\dash_accessibility.html:769
+#: .\templates\v2\dash_accessibility.html:858
+#: .\templates\v2\dash_accessibility.html:907
+#: .\templates\v2\dash_accessibility.html:996
+#: .\templates\v2\dash_accessibility.html:1045
+#: .\templates\v2\dash_accessibility.html:1134
+#: .\templates\v2\dash_accessibility.html:1183
+#: .\templates\v2\dash_accessibility.html:1272
+#: .\templates\v2\dash_accessibility.html:1321
+#: .\templates\v2\dash_accessibility.html:1410
+#: .\templates\v2\dash_accessibility.html:1459
+#: .\templates\v2\dash_accessibility.html:1548
+#: .\templates\v2\dash_accessibility.html:1597
+#: .\templates\v2\dash_accessibility.html:1684
+#: .\templates\v2\dash_accessibility.html:1733
+#: .\templates\v2\dash_accessibility.html:1803
+#: .\templates\v2\dash_main.html:1190
 msgid "6 h"
 msgstr "6 ساعت"
 
-#: templates/pages/accessibility.html:102
-#: templates/pages/accessibility.html:183
-#: templates/pages/accessibility.html:264
-#: templates/pages/accessibility.html:345
-#: templates/pages/accessibility.html:426
-#: templates/pages/accessibility.html:507
-#: templates/pages/accessibility.html:588
-#: templates/pages/accessibility.html:669
+#: .\templates\pages\accessibility.html:102
+#: .\templates\pages\accessibility.html:183
+#: .\templates\pages\accessibility.html:264
+#: .\templates\pages\accessibility.html:345
+#: .\templates\pages\accessibility.html:426
+#: .\templates\pages\accessibility.html:507
+#: .\templates\pages\accessibility.html:588
+#: .\templates\pages\accessibility.html:669
+#: .\templates\v2\dash_accessibility.html:721
+#: .\templates\v2\dash_accessibility.html:770
+#: .\templates\v2\dash_accessibility.html:859
+#: .\templates\v2\dash_accessibility.html:908
+#: .\templates\v2\dash_accessibility.html:997
+#: .\templates\v2\dash_accessibility.html:1046
+#: .\templates\v2\dash_accessibility.html:1135
+#: .\templates\v2\dash_accessibility.html:1184
+#: .\templates\v2\dash_accessibility.html:1273
+#: .\templates\v2\dash_accessibility.html:1322
+#: .\templates\v2\dash_accessibility.html:1411
+#: .\templates\v2\dash_accessibility.html:1460
+#: .\templates\v2\dash_accessibility.html:1549
+#: .\templates\v2\dash_accessibility.html:1598
+#: .\templates\v2\dash_accessibility.html:1685
+#: .\templates\v2\dash_accessibility.html:1734
+#: .\templates\v2\dash_accessibility.html:1803
+#: .\templates\v2\dash_main.html:1190
 msgid "7 h"
 msgstr "7 ساعت"
 
-#: templates/pages/accessibility.html:103
-#: templates/pages/accessibility.html:104
-#: templates/pages/accessibility.html:184
-#: templates/pages/accessibility.html:185
-#: templates/pages/accessibility.html:265
-#: templates/pages/accessibility.html:266
-#: templates/pages/accessibility.html:346
-#: templates/pages/accessibility.html:347
-#: templates/pages/accessibility.html:427
-#: templates/pages/accessibility.html:428
-#: templates/pages/accessibility.html:508
-#: templates/pages/accessibility.html:509
-#: templates/pages/accessibility.html:589
-#: templates/pages/accessibility.html:590
-#: templates/pages/accessibility.html:670
-#: templates/pages/accessibility.html:671
+#: .\templates\pages\accessibility.html:103
+#: .\templates\pages\accessibility.html:104
+#: .\templates\pages\accessibility.html:184
+#: .\templates\pages\accessibility.html:185
+#: .\templates\pages\accessibility.html:265
+#: .\templates\pages\accessibility.html:266
+#: .\templates\pages\accessibility.html:346
+#: .\templates\pages\accessibility.html:347
+#: .\templates\pages\accessibility.html:427
+#: .\templates\pages\accessibility.html:428
+#: .\templates\pages\accessibility.html:508
+#: .\templates\pages\accessibility.html:509
+#: .\templates\pages\accessibility.html:589
+#: .\templates\pages\accessibility.html:590
+#: .\templates\pages\accessibility.html:670
+#: .\templates\pages\accessibility.html:671
+#: .\templates\v2\dash_accessibility.html:722
+#: .\templates\v2\dash_accessibility.html:723
+#: .\templates\v2\dash_accessibility.html:771
+#: .\templates\v2\dash_accessibility.html:772
+#: .\templates\v2\dash_accessibility.html:860
+#: .\templates\v2\dash_accessibility.html:861
+#: .\templates\v2\dash_accessibility.html:909
+#: .\templates\v2\dash_accessibility.html:910
+#: .\templates\v2\dash_accessibility.html:998
+#: .\templates\v2\dash_accessibility.html:999
+#: .\templates\v2\dash_accessibility.html:1047
+#: .\templates\v2\dash_accessibility.html:1048
+#: .\templates\v2\dash_accessibility.html:1136
+#: .\templates\v2\dash_accessibility.html:1137
+#: .\templates\v2\dash_accessibility.html:1185
+#: .\templates\v2\dash_accessibility.html:1186
+#: .\templates\v2\dash_accessibility.html:1274
+#: .\templates\v2\dash_accessibility.html:1275
+#: .\templates\v2\dash_accessibility.html:1323
+#: .\templates\v2\dash_accessibility.html:1324
+#: .\templates\v2\dash_accessibility.html:1412
+#: .\templates\v2\dash_accessibility.html:1413
+#: .\templates\v2\dash_accessibility.html:1461
+#: .\templates\v2\dash_accessibility.html:1462
+#: .\templates\v2\dash_accessibility.html:1550
+#: .\templates\v2\dash_accessibility.html:1551
+#: .\templates\v2\dash_accessibility.html:1599
+#: .\templates\v2\dash_accessibility.html:1600
+#: .\templates\v2\dash_accessibility.html:1686
+#: .\templates\v2\dash_accessibility.html:1687
+#: .\templates\v2\dash_accessibility.html:1735
+#: .\templates\v2\dash_accessibility.html:1736
+#: .\templates\v2\dash_accessibility.html:1803
+#: .\templates\v2\dash_main.html:1190
 msgid "8 h"
 msgstr "8 ساعت"
 
-#: templates/pages/accessibility.html:167
+#: .\templates\pages\accessibility.html:167
+#: .\templates\v2\dash_accessibility.html:832
 msgid "Travel Time to Nearest Health Facilities Tier 1"
 msgstr "زمان سفر  به نزدیکترین امکانات صحی ردیف اول"
 
-#: templates/pages/accessibility.html:248
+#: .\templates\pages\accessibility.html:248
+#: .\templates\v2\dash_accessibility.html:970
 msgid "Travel Time to Nearest Health Facilities Tier 2"
 msgstr "زمان سفر  به نزدیکترین امکانات صحی ردیف دوم"
 
-#: templates/pages/accessibility.html:329
+#: .\templates\pages\accessibility.html:329
+#: .\templates\v2\dash_accessibility.html:1108
 msgid "Travel Time to Nearest Health Facilities Tier 3"
 msgstr "زمان سفر  به نزدیکترین امکانات صحی ردیف سوم"
 
-#: templates/pages/accessibility.html:410
+#: .\templates\pages\accessibility.html:410
+#: .\templates\v2\dash_accessibility.html:1246
 msgid "Travel Time to Nearest Health Facilities Tier All"
 msgstr "زمان سفر  به نزدیکترین امکانات صحی همه ردیف ها"
 
-#: templates/pages/accessibility.html:491
+#: .\templates\pages\accessibility.html:491
 msgid "Travel Time to Its Province Capital"
 msgstr "زمان سفر به مرکز ولایتی"
 
-#: templates/pages/accessibility.html:572
+#: .\templates\pages\accessibility.html:572
 msgid "Travel Time to Nearest Province Capital"
 msgstr "زمان سفر به نزدیکترین مرکز ولایت"
 
-#: templates/pages/accessibility.html:653
+#: .\templates\pages\accessibility.html:653
 msgid "Travel Time to Nearest District Capital"
 msgstr "زمان سفر به نزدیکترین مرکز ولسوالی"
 
-#: templates/pages/avalancherisk.html:19 templates/pages/links.html:23
+#: .\templates\pages\avalancherisk.html:31 .\templates\pages\links.html:32
+#: .\templates\v2\dash_arisk.html:10 .\templates\v2\links.html:25
 msgid "Avalanche Risk"
 msgstr "خطر برف کوچ"
 
-#: templates/pages/avalancherisk.html:30
-#: templates/pages/avalcheforecast.html:30
+#: .\templates\pages\avalancherisk.html:42
+#: .\templates\pages\avalcheforecast.html:42
 msgid "Avalanche risk total population"
 msgstr "مجموع نفوس خطر برف کوچ "
 
-#: templates/pages/avalancherisk.html:36
+#: .\templates\pages\avalancherisk.html:48
 msgid "Avalanche risk area"
 msgstr "مساحت خطر برف کوچ "
 
-#: templates/pages/avalancherisk.html:42
+#: .\templates\pages\avalancherisk.html:54
 msgid "High avalanche risk population"
 msgstr "نفوس خطر زیاد برف کوچ "
 
-#: templates/pages/avalancherisk.html:48
+#: .\templates\pages\avalancherisk.html:60
 msgid "Moderate avalanche risk population"
 msgstr "نفوس خطر متوسط برف کوچ "
 
-#: templates/pages/avalancherisk.html:63
+#: .\templates\pages\avalancherisk.html:75
 msgid "Population in avalanche risk areas"
 msgstr " نفوس در ساحات خطر برف کوچ "
 
-#: templates/pages/avalancherisk.html:68
-#: templates/pages/avalcheforecast.html:69 templates/pages/baseline.html:75
-#: templates/pages/baseline.html.py:136 templates/pages/baseline.html:194
-#: templates/pages/floodrisk.html:68
+#: .\templates\pages\avalancherisk.html:80
+#: .\templates\pages\avalcheforecast.html:81 .\templates\pages\baseline.html:79
+#: .\templates\pages\baseline.html.py:140 .\templates\pages\baseline.html:198
+#: .\templates\pages\floodrisk.html:84 .\templates\v2\dash_aforecast.html:191
+#: .\templates\v2\dash_aforecast.html:225 .\templates\v2\dash_arisk.html:240
+#: .\templates\v2\dash_arisk.html.py:294 .\templates\v2\dash_baseline.html:246
+#: .\templates\v2\dash_baseline.html:301 .\templates\v2\dash_baseline.html:377
+#: .\templates\v2\dash_baseline.html:425 .\templates\v2\dash_baseline.html:529
+#: .\templates\v2\dash_baseline.html:578 .\templates\v2\dash_frisk.html:218
+#: .\templates\v2\dash_frisk.html.py:277 .\templates\v2\dash_haccess.html:237
+#: .\templates\v2\dash_haccess.html:274 .\templates\v2\dash_haccess.html:463
+#: .\templates\v2\dash_haccess.html:500 .\templates\v2\dash_haccess.html:594
+#: .\templates\v2\dash_haccess.html:629
 msgid "Total"
 msgstr "مجموع"
 
-#: templates/pages/avalancherisk.html:69
-#: templates/pages/avalcheforecast.html:70
-#: templates/pages/floodforecast.html:32 templates/pages/floodforecast.html:48
-#: templates/pages/floodforecast.html:51 templates/pages/floodforecast.html:54
-#: templates/pages/floodforecast.html:57 templates/pages/floodforecast.html:60
-#: templates/pages/floodforecast.html:94
-#: templates/pages/floodforecast.html:111
-#: templates/pages/floodforecast.html:114
-#: templates/pages/floodforecast.html:117
-#: templates/pages/floodforecast.html:120
-#: templates/pages/floodforecast.html:123
-#: templates/pages/floodforecast.html:168
-#: templates/pages/floodforecast.html:174
+#: .\templates\pages\avalancherisk.html:81
+#: .\templates\pages\avalcheforecast.html:82
+#: .\templates\pages\floodforecast.html:44
+#: .\templates\pages\floodforecast.html:60
+#: .\templates\pages\floodforecast.html:63
+#: .\templates\pages\floodforecast.html:66
+#: .\templates\pages\floodforecast.html:69
+#: .\templates\pages\floodforecast.html:72
+#: .\templates\pages\floodforecast.html:114
+#: .\templates\pages\floodforecast.html:131
+#: .\templates\pages\floodforecast.html:134
+#: .\templates\pages\floodforecast.html:137
+#: .\templates\pages\floodforecast.html:140
+#: .\templates\pages\floodforecast.html:143
+#: .\templates\pages\floodforecast.html:185
+#: .\templates\pages\floodforecast.html:191
+#: .\templates\pages\floodforecast.html:241
+#: .\templates\pages\floodforecast.html:258
+#: .\templates\pages\floodforecast.html:261
+#: .\templates\pages\floodforecast.html:264
+#: .\templates\pages\floodforecast.html:267
+#: .\templates\pages\floodforecast.html:270
+#: .\templates\pages\floodforecast.html:312
+#: .\templates\pages\floodforecast.html:318
+#: .\templates\pages\floodforecast.html:368
+#: .\templates\pages\floodforecast.html:385
+#: .\templates\pages\floodforecast.html:388
+#: .\templates\pages\floodforecast.html:391
+#: .\templates\pages\floodforecast.html:394
+#: .\templates\pages\floodforecast.html:397
+#: .\templates\pages\floodforecast.html:439
+#: .\templates\pages\floodforecast.html:445
+#: .\templates\pages\landsliderisk.html:67
+#: .\templates\pages\landsliderisk.html:106
+#: .\templates\pages\landsliderisk.html:145
+#: .\templates\pages\landsliderisk.html:184
+#: .\templates\pages\landsliderisk.html:223
+#: .\templates\v2\dash_aforecast.html:194
+#: .\templates\v2\dash_aforecast.html:228 .\templates\v2\dash_arisk.html:243
+#: .\templates\v2\dash_arisk.html.py:297 .\templates\v2\dash_fforecast.html:351
+#: .\templates\v2\dash_fforecast.html:369
+#: .\templates\v2\dash_fforecast.html:384
+#: .\templates\v2\dash_fforecast.html:387
+#: .\templates\v2\dash_fforecast.html:405
+#: .\templates\v2\dash_fforecast.html:423
+#: .\templates\v2\dash_fforecast.html:470
+#: .\templates\v2\dash_fforecast.html:536
+#: .\templates\v2\dash_fforecast.html:554
+#: .\templates\v2\dash_fforecast.html:569
+#: .\templates\v2\dash_fforecast.html:572
+#: .\templates\v2\dash_fforecast.html:590
+#: .\templates\v2\dash_fforecast.html:608
+#: .\templates\v2\dash_fforecast.html:655
+#: .\templates\v2\dash_fforecast.html:698
+#: .\templates\v2\dash_fforecast.html:703
+#: .\templates\v2\dash_fforecast.html:751
+#: .\templates\v2\dash_fforecast.html:756
+#: .\templates\v2\dash_fforecast.html:835
+#: .\templates\v2\dash_fforecast.html:853
+#: .\templates\v2\dash_fforecast.html:868
+#: .\templates\v2\dash_fforecast.html:871
+#: .\templates\v2\dash_fforecast.html:889
+#: .\templates\v2\dash_fforecast.html:907
+#: .\templates\v2\dash_fforecast.html:954
+#: .\templates\v2\dash_fforecast.html:998
+#: .\templates\v2\dash_fforecast.html:1003
+#: .\templates\v2\dash_fforecast.html:1051
+#: .\templates\v2\dash_fforecast.html:1056
+#: .\templates\v2\dash_fforecast.html:1135
+#: .\templates\v2\dash_fforecast.html:1153
+#: .\templates\v2\dash_fforecast.html:1168
+#: .\templates\v2\dash_fforecast.html:1171
+#: .\templates\v2\dash_fforecast.html:1189
+#: .\templates\v2\dash_fforecast.html:1207
+#: .\templates\v2\dash_fforecast.html:1255
+#: .\templates\v2\dash_fforecast.html:1300
+#: .\templates\v2\dash_fforecast.html:1305
+#: .\templates\v2\dash_fforecast.html:1353
+#: .\templates\v2\dash_fforecast.html:1358
+#: .\templates\v2\dash_fforecast.html:1422
+#: .\templates\v2\dash_fforecast.html:1423
+#: .\templates\v2\dash_landslide.html:344
+#: .\templates\v2\dash_landslide.html:378
+#: .\templates\v2\dash_landslide.html:463
+#: .\templates\v2\dash_landslide.html:497
+#: .\templates\v2\dash_landslide.html:582
+#: .\templates\v2\dash_landslide.html:616
+#: .\templates\v2\dash_landslide.html:701
+#: .\templates\v2\dash_landslide.html:786
+#: .\templates\v2\dash_landslide.html:846
+#: .\templates\v2\dash_landslide.html:847 .\templates\v2\dash_main.html:370
+#: .\templates\v2\dash_main.html.py:388 .\templates\v2\dash_main.html:403
+#: .\templates\v2\dash_main.html.py:406 .\templates\v2\dash_main.html:424
+#: .\templates\v2\dash_main.html.py:442 .\templates\v2\dash_main.html:501
+#: .\templates\v2\dash_main.html.py:519 .\templates\v2\dash_main.html:534
+#: .\templates\v2\dash_main.html.py:537 .\templates\v2\dash_main.html:555
+#: .\templates\v2\dash_main.html.py:573 .\templates\v2\dash_main.html:632
+#: .\templates\v2\dash_main.html.py:650 .\templates\v2\dash_main.html:665
+#: .\templates\v2\dash_main.html.py:668 .\templates\v2\dash_main.html:686
+#: .\templates\v2\dash_main.html.py:704 .\templates\v2\dash_main.html:763
+#: .\templates\v2\dash_main.html.py:781 .\templates\v2\dash_main.html:796
+#: .\templates\v2\dash_main.html.py:799 .\templates\v2\dash_main.html:817
+#: .\templates\v2\dash_main.html.py:835 .\templates\v2\dash_main.html:893
+#: .\templates\v2\dash_main.html.py:911 .\templates\v2\dash_main.html:926
+#: .\templates\v2\dash_main.html.py:929 .\templates\v2\dash_main.html:947
+#: .\templates\v2\dash_main.html.py:965 .\templates\v2\dash_main.html:1227
+#: .\templates\v2\dash_main.html.py:1228 .\templates\v2\dash_main.html:1284
+#: .\templates\v2\dash_main.html.py:1285
 msgid "High"
 msgstr "زیاد"
 
-#: templates/pages/avalancherisk.html:70
-#: templates/pages/avalcheforecast.html:71
-#: templates/pages/floodforecast.html:33 templates/pages/floodforecast.html:95
+#: .\templates\pages\avalancherisk.html:82
+#: .\templates\pages\avalcheforecast.html:83
+#: .\templates\pages\floodforecast.html:45
+#: .\templates\pages\floodforecast.html:115
+#: .\templates\pages\floodforecast.html:242
+#: .\templates\pages\floodforecast.html:369
+#: .\templates\pages\landsliderisk.html:68
+#: .\templates\pages\landsliderisk.html:107
+#: .\templates\pages\landsliderisk.html:146
+#: .\templates\pages\landsliderisk.html:185
+#: .\templates\pages\landsliderisk.html:224
+#: .\templates\v2\dash_aforecast.html:195
+#: .\templates\v2\dash_aforecast.html:229 .\templates\v2\dash_arisk.html:244
+#: .\templates\v2\dash_arisk.html.py:298 .\templates\v2\dash_drought.html:379
+#: .\templates\v2\dash_drought.html:457 .\templates\v2\dash_drought.html:536
+#: .\templates\v2\dash_earthquake.html:707
+#: .\templates\v2\dash_fforecast.html:402
+#: .\templates\v2\dash_fforecast.html:474
+#: .\templates\v2\dash_fforecast.html:587
+#: .\templates\v2\dash_fforecast.html:659
+#: .\templates\v2\dash_fforecast.html:699
+#: .\templates\v2\dash_fforecast.html:704
+#: .\templates\v2\dash_fforecast.html:752
+#: .\templates\v2\dash_fforecast.html:757
+#: .\templates\v2\dash_fforecast.html:886
+#: .\templates\v2\dash_fforecast.html:958
+#: .\templates\v2\dash_fforecast.html:999
+#: .\templates\v2\dash_fforecast.html:1004
+#: .\templates\v2\dash_fforecast.html:1052
+#: .\templates\v2\dash_fforecast.html:1057
+#: .\templates\v2\dash_fforecast.html:1186
+#: .\templates\v2\dash_fforecast.html:1259
+#: .\templates\v2\dash_fforecast.html:1301
+#: .\templates\v2\dash_fforecast.html:1306
+#: .\templates\v2\dash_fforecast.html:1354
+#: .\templates\v2\dash_fforecast.html:1359
+#: .\templates\v2\dash_fforecast.html:1422
+#: .\templates\v2\dash_landslide.html:345
+#: .\templates\v2\dash_landslide.html:379
+#: .\templates\v2\dash_landslide.html:464
+#: .\templates\v2\dash_landslide.html:498
+#: .\templates\v2\dash_landslide.html:583
+#: .\templates\v2\dash_landslide.html:617
+#: .\templates\v2\dash_landslide.html:702
+#: .\templates\v2\dash_landslide.html:787
+#: .\templates\v2\dash_landslide.html:846
+#: .\templates\v2\dash_landslide.html:847 .\templates\v2\dash_main.html:421
+#: .\templates\v2\dash_main.html.py:552 .\templates\v2\dash_main.html:683
+#: .\templates\v2\dash_main.html.py:814 .\templates\v2\dash_main.html:944
+#: .\templates\v2\dash_main.html.py:1227 .\templates\v2\dash_main.html:1284
+#: .\templates\v2\dash_main.html.py:1285 .\templates\v2\dash_main.html:1292
 msgid "Moderate"
 msgstr "متوسط"
 
-#: templates/pages/avalancherisk.html:75 templates/pages/avalancherisk.html:77
-#: templates/pages/avalancherisk.html:79 templates/pages/baseline.html:83
-#: templates/pages/baseline.html.py:85 templates/pages/baseline.html:87
-#: templates/pages/baseline.html.py:89 templates/pages/earthquake.html:84
-#: templates/pages/earthquake.html.py:86 templates/pages/earthquake.html:88
-#: templates/pages/earthquake.html.py:90 templates/pages/earthquake.html:92
-#: templates/pages/earthquake.html.py:94 templates/pages/earthquake.html:96
-#: templates/pages/earthquake.html.py:98 templates/pages/floodrisk.html:76
-#: templates/pages/floodrisk.html.py:78 templates/pages/floodrisk.html:80
-#: templates/pages/floodrisk.html.py:82
+#: .\templates\pages\avalancherisk.html:87
+#: .\templates\pages\avalancherisk.html:89
+#: .\templates\pages\avalancherisk.html:91 .\templates\pages\baseline.html:87
+#: .\templates\pages\baseline.html.py:89 .\templates\pages\baseline.html:91
+#: .\templates\pages\baseline.html.py:93 .\templates\pages\earthquake.html:84
+#: .\templates\pages\earthquake.html:86 .\templates\pages\earthquake.html:88
+#: .\templates\pages\earthquake.html:90 .\templates\pages\earthquake.html:92
+#: .\templates\pages\earthquake.html:94 .\templates\pages\earthquake.html:96
+#: .\templates\pages\earthquake.html:98 .\templates\pages\floodrisk.html:92
+#: .\templates\pages\floodrisk.html:94 .\templates\pages\floodrisk.html:96
+#: .\templates\pages\floodrisk.html:98 .\templates\v2\dash_arisk.html:247
+#: .\templates\v2\dash_arisk.html.py:250 .\templates\v2\dash_arisk.html:253
+#: .\templates\v2\dash_arisk.html.py:301 .\templates\v2\dash_arisk.html:304
+#: .\templates\v2\dash_arisk.html.py:307 .\templates\v2\dash_baseline.html:249
+#: .\templates\v2\dash_baseline.html:251 .\templates\v2\dash_baseline.html:253
+#: .\templates\v2\dash_baseline.html:255 .\templates\v2\dash_baseline.html:304
+#: .\templates\v2\dash_baseline.html:306 .\templates\v2\dash_baseline.html:308
+#: .\templates\v2\dash_baseline.html:310 .\templates\v2\dash_frisk.html:221
+#: .\templates\v2\dash_frisk.html.py:224 .\templates\v2\dash_frisk.html:227
+#: .\templates\v2\dash_frisk.html.py:230 .\templates\v2\dash_frisk.html:280
+#: .\templates\v2\dash_frisk.html.py:283 .\templates\v2\dash_frisk.html:286
+#: .\templates\v2\dash_frisk.html.py:289
 msgid "Pop"
 msgstr "نفوس"
 
-#: templates/pages/avalancherisk.html:76 templates/pages/avalancherisk.html:78
-#: templates/pages/avalancherisk.html:80 templates/pages/baseline.html:84
-#: templates/pages/baseline.html.py:86 templates/pages/baseline.html:88
-#: templates/pages/baseline.html.py:90 templates/pages/floodrisk.html:77
-#: templates/pages/floodrisk.html.py:79 templates/pages/floodrisk.html:81
-#: templates/pages/floodrisk.html.py:83
+#: .\templates\pages\avalancherisk.html:88
+#: .\templates\pages\avalancherisk.html:90
+#: .\templates\pages\avalancherisk.html:92 .\templates\pages\baseline.html:88
+#: .\templates\pages\baseline.html.py:90 .\templates\pages\baseline.html:92
+#: .\templates\pages\baseline.html.py:94 .\templates\pages\floodrisk.html:93
+#: .\templates\pages\floodrisk.html:95 .\templates\pages\floodrisk.html:97
+#: .\templates\pages\floodrisk.html:99
+#: .\templates\v2\dash_accessibility.html:600
+#: .\templates\v2\dash_accessibility.html:631
+#: .\templates\v2\dash_arisk.html:249 .\templates\v2\dash_arisk.html.py:252
+#: .\templates\v2\dash_arisk.html:255 .\templates\v2\dash_arisk.html.py:303
+#: .\templates\v2\dash_arisk.html:306 .\templates\v2\dash_arisk.html.py:309
+#: .\templates\v2\dash_baseline.html:250 .\templates\v2\dash_baseline.html:252
+#: .\templates\v2\dash_baseline.html:254 .\templates\v2\dash_baseline.html:256
+#: .\templates\v2\dash_baseline.html:305 .\templates\v2\dash_baseline.html:307
+#: .\templates\v2\dash_baseline.html:309 .\templates\v2\dash_baseline.html:311
+#: .\templates\v2\dash_baseline.html:652 .\templates\v2\dash_drought.html:387
+#: .\templates\v2\dash_drought.html:391 .\templates\v2\dash_drought.html:395
+#: .\templates\v2\dash_drought.html:399 .\templates\v2\dash_drought.html:403
+#: .\templates\v2\dash_drought.html:465 .\templates\v2\dash_drought.html:469
+#: .\templates\v2\dash_drought.html:473 .\templates\v2\dash_drought.html:477
+#: .\templates\v2\dash_drought.html:481 .\templates\v2\dash_frisk.html:222
+#: .\templates\v2\dash_frisk.html.py:225 .\templates\v2\dash_frisk.html:228
+#: .\templates\v2\dash_frisk.html.py:231 .\templates\v2\dash_frisk.html:281
+#: .\templates\v2\dash_frisk.html.py:284 .\templates\v2\dash_frisk.html:287
+#: .\templates\v2\dash_frisk.html.py:290 .\templates\v2\dash_main.html:1188
 msgid "Area"
 msgstr "مساحت"
 
-#: templates/pages/avalcheforecast.html:19 templates/pages/links.html:20
+#: .\templates\pages\avalcheforecast.html:31 .\templates\pages\links.html:29
+#: .\templates\v2\dash_aforecast.html:10 .\templates\v2\links.html:24
 msgid "Avalanche Prediction"
 msgstr "پیشبینی برف کوچ"
 
-#: templates/pages/avalcheforecast.html:34
+#: .\templates\pages\avalcheforecast.html:46
 msgid "Avalanche risk population prediction"
 msgstr " نفوس پیشبینی شده تحت خطر برف کوچ "
 
-#: templates/pages/avalcheforecast.html:40
+#: .\templates\pages\avalcheforecast.html:52
 msgid "High avalanche risk population prediction"
 msgstr "نفوس پیشبینی شده تحت خطر زیاد برف کوچ "
 
-#: templates/pages/avalcheforecast.html:46
+#: .\templates\pages\avalcheforecast.html:58
 msgid "Moderate avalanche risk population prediction"
 msgstr "نفوس پیشبینی شده تحت خطر متوسط برف کوچ "
 
-#: templates/pages/avalcheforecast.html:52
+#: .\templates\pages\avalcheforecast.html:64
 msgid "Low avalanche risk population prediction"
 msgstr " نفوس پیشبینی شده تحت خطر کم برف کوچ "
 
-#: templates/pages/avalcheforecast.html:64
+#: .\templates\pages\avalcheforecast.html:76
 msgid "Population in predicted avalanche risk areas"
 msgstr "نفوس پیشبینی شده در ساحات خطر برف کوچ "
 
-#: templates/pages/avalcheforecast.html:72
-#: templates/pages/floodforecast.html:34 templates/pages/floodforecast.html:50
-#: templates/pages/floodforecast.html:53 templates/pages/floodforecast.html:56
-#: templates/pages/floodforecast.html:59 templates/pages/floodforecast.html:62
-#: templates/pages/floodforecast.html:96
-#: templates/pages/floodforecast.html:113
-#: templates/pages/floodforecast.html:116
-#: templates/pages/floodforecast.html:119
-#: templates/pages/floodforecast.html:122
-#: templates/pages/floodforecast.html:125
-#: templates/pages/floodforecast.html:170
-#: templates/pages/floodforecast.html:176
+#: .\templates\pages\avalcheforecast.html:84
+#: .\templates\pages\floodforecast.html:46
+#: .\templates\pages\floodforecast.html:62
+#: .\templates\pages\floodforecast.html:65
+#: .\templates\pages\floodforecast.html:68
+#: .\templates\pages\floodforecast.html:71
+#: .\templates\pages\floodforecast.html:74
+#: .\templates\pages\floodforecast.html:116
+#: .\templates\pages\floodforecast.html:133
+#: .\templates\pages\floodforecast.html:136
+#: .\templates\pages\floodforecast.html:139
+#: .\templates\pages\floodforecast.html:142
+#: .\templates\pages\floodforecast.html:145
+#: .\templates\pages\floodforecast.html:187
+#: .\templates\pages\floodforecast.html:193
+#: .\templates\pages\floodforecast.html:243
+#: .\templates\pages\floodforecast.html:260
+#: .\templates\pages\floodforecast.html:263
+#: .\templates\pages\floodforecast.html:266
+#: .\templates\pages\floodforecast.html:269
+#: .\templates\pages\floodforecast.html:272
+#: .\templates\pages\floodforecast.html:314
+#: .\templates\pages\floodforecast.html:320
+#: .\templates\pages\floodforecast.html:370
+#: .\templates\pages\floodforecast.html:387
+#: .\templates\pages\floodforecast.html:390
+#: .\templates\pages\floodforecast.html:393
+#: .\templates\pages\floodforecast.html:396
+#: .\templates\pages\floodforecast.html:399
+#: .\templates\pages\floodforecast.html:441
+#: .\templates\pages\floodforecast.html:447
+#: .\templates\pages\landsliderisk.html:69
+#: .\templates\pages\landsliderisk.html:108
+#: .\templates\pages\landsliderisk.html:147
+#: .\templates\pages\landsliderisk.html:186
+#: .\templates\pages\landsliderisk.html:225
+#: .\templates\v2\dash_aforecast.html:196
+#: .\templates\v2\dash_aforecast.html:230
+#: .\templates\v2\dash_fforecast.html:361
+#: .\templates\v2\dash_fforecast.html:379
+#: .\templates\v2\dash_fforecast.html:397
+#: .\templates\v2\dash_fforecast.html:415
+#: .\templates\v2\dash_fforecast.html:420
+#: .\templates\v2\dash_fforecast.html:433
+#: .\templates\v2\dash_fforecast.html:478
+#: .\templates\v2\dash_fforecast.html:546
+#: .\templates\v2\dash_fforecast.html:564
+#: .\templates\v2\dash_fforecast.html:582
+#: .\templates\v2\dash_fforecast.html:600
+#: .\templates\v2\dash_fforecast.html:605
+#: .\templates\v2\dash_fforecast.html:618
+#: .\templates\v2\dash_fforecast.html:663
+#: .\templates\v2\dash_fforecast.html:700
+#: .\templates\v2\dash_fforecast.html:705
+#: .\templates\v2\dash_fforecast.html:753
+#: .\templates\v2\dash_fforecast.html:758
+#: .\templates\v2\dash_fforecast.html:845
+#: .\templates\v2\dash_fforecast.html:863
+#: .\templates\v2\dash_fforecast.html:881
+#: .\templates\v2\dash_fforecast.html:899
+#: .\templates\v2\dash_fforecast.html:904
+#: .\templates\v2\dash_fforecast.html:917
+#: .\templates\v2\dash_fforecast.html:962
+#: .\templates\v2\dash_fforecast.html:1000
+#: .\templates\v2\dash_fforecast.html:1005
+#: .\templates\v2\dash_fforecast.html:1053
+#: .\templates\v2\dash_fforecast.html:1058
+#: .\templates\v2\dash_fforecast.html:1145
+#: .\templates\v2\dash_fforecast.html:1163
+#: .\templates\v2\dash_fforecast.html:1181
+#: .\templates\v2\dash_fforecast.html:1199
+#: .\templates\v2\dash_fforecast.html:1204
+#: .\templates\v2\dash_fforecast.html:1217
+#: .\templates\v2\dash_fforecast.html:1263
+#: .\templates\v2\dash_fforecast.html:1302
+#: .\templates\v2\dash_fforecast.html:1307
+#: .\templates\v2\dash_fforecast.html:1355
+#: .\templates\v2\dash_fforecast.html:1360
+#: .\templates\v2\dash_fforecast.html:1422
+#: .\templates\v2\dash_fforecast.html:1423
+#: .\templates\v2\dash_landslide.html:346
+#: .\templates\v2\dash_landslide.html:380
+#: .\templates\v2\dash_landslide.html:465
+#: .\templates\v2\dash_landslide.html:499
+#: .\templates\v2\dash_landslide.html:584
+#: .\templates\v2\dash_landslide.html:618
+#: .\templates\v2\dash_landslide.html:703
+#: .\templates\v2\dash_landslide.html:788
+#: .\templates\v2\dash_landslide.html:846
+#: .\templates\v2\dash_landslide.html:847 .\templates\v2\dash_main.html:380
+#: .\templates\v2\dash_main.html.py:398 .\templates\v2\dash_main.html:416
+#: .\templates\v2\dash_main.html.py:434 .\templates\v2\dash_main.html:439
+#: .\templates\v2\dash_main.html.py:452 .\templates\v2\dash_main.html:511
+#: .\templates\v2\dash_main.html.py:529 .\templates\v2\dash_main.html:547
+#: .\templates\v2\dash_main.html.py:565 .\templates\v2\dash_main.html:570
+#: .\templates\v2\dash_main.html.py:583 .\templates\v2\dash_main.html:642
+#: .\templates\v2\dash_main.html.py:660 .\templates\v2\dash_main.html:678
+#: .\templates\v2\dash_main.html.py:696 .\templates\v2\dash_main.html:701
+#: .\templates\v2\dash_main.html.py:714 .\templates\v2\dash_main.html:773
+#: .\templates\v2\dash_main.html.py:791 .\templates\v2\dash_main.html:809
+#: .\templates\v2\dash_main.html.py:827 .\templates\v2\dash_main.html:832
+#: .\templates\v2\dash_main.html.py:845 .\templates\v2\dash_main.html:903
+#: .\templates\v2\dash_main.html.py:921 .\templates\v2\dash_main.html:939
+#: .\templates\v2\dash_main.html.py:957 .\templates\v2\dash_main.html:962
+#: .\templates\v2\dash_main.html.py:975 .\templates\v2\dash_main.html:1227
+#: .\templates\v2\dash_main.html.py:1228 .\templates\v2\dash_main.html:1284
+#: .\templates\v2\dash_main.html.py:1285
 msgid "Low"
 msgstr "کم"
 
-#: templates/pages/baseline.html:19 templates/pages/links.html:8
+#: .\templates\pages\baseline.html:19 .\templates\pages\links.html:8
+#: .\templates\v2\dash_baseline.html:12 .\templates\v2\links.html:11
 msgid "Baseline"
 msgstr "معلومات اولیه"
 
-#: templates/pages/baseline.html:34 templates/pages/earthquake.html:45
+#: .\templates\pages\baseline.html:30 .\templates\v2\dash_baseline.html:25
+#: .\templates\v2\dash_baseline.html:181 .\templates\v2\dash_main.html:25
+msgid "Total Buildings"
+msgstr "مجموع نفوس"
+
+#: .\templates\pages\baseline.html:38 .\templates\pages\earthquake.html:45
+#: .\templates\v2\dash_baseline.html:34 .\templates\v2\dash_main.html:34
 msgid "Number of Settlements"
 msgstr "تعداد قریه جات "
 
-#: templates/pages/baseline.html:38
+#: .\templates\pages\baseline.html:42
 msgid "Number of Health Facilities"
 msgstr "تعداد امکانات صحی "
 
-#: templates/pages/baseline.html:42
+#: .\templates\pages\baseline.html:46
 msgid "Total length of Road Network (km)"
 msgstr "مجموع طول شبکه سرک ها (کیلومتر)"
 
-#: templates/pages/baseline.html:69
+#: .\templates\pages\baseline.html:73
 msgid "Population and area overview"
 msgstr "نفوس و بررسی اجمالی منطقه"
 
-#: templates/pages/baseline.html:74 templates/pages/earthquake.html:85
-#: templates/pages/earthquake.html.py:87 templates/pages/earthquake.html:89
-#: templates/pages/earthquake.html.py:91 templates/pages/earthquake.html:93
-#: templates/pages/earthquake.html.py:95 templates/pages/earthquake.html:97
-#: templates/pages/earthquake.html.py:99 templates/pages/floodrisk.html:67
+#: .\templates\pages\baseline.html:78 .\templates\pages\earthquake.html:85
+#: .\templates\pages\earthquake.html:87 .\templates\pages\earthquake.html:89
+#: .\templates\pages\earthquake.html:91 .\templates\pages\earthquake.html:93
+#: .\templates\pages\earthquake.html:95 .\templates\pages\earthquake.html:97
+#: .\templates\pages\earthquake.html:99 .\templates\pages\floodrisk.html:83
 msgid "Settl."
 msgstr "قریه "
 
-#: templates/pages/baseline.html:76 templates/pages/floodrisk.html:69
+#: .\templates\pages\baseline.html:80 .\templates\pages\floodrisk.html:85
+#: .\templates\v2\dash_baseline.html:243 .\templates\v2\dash_baseline.html:298
+#: .\templates\v2\dash_frisk.html:215 .\templates\v2\dash_frisk.html.py:274
 msgid "Built-Up"
 msgstr "ساختمانی"
 
-#: templates/pages/baseline.html:77 templates/pages/floodrisk.html:70
+#: .\templates\pages\baseline.html:81 .\templates\pages\floodrisk.html:86
+#: .\templates\v2\dash_baseline.html:244 .\templates\v2\dash_baseline.html:299
+#: .\templates\v2\dash_frisk.html:216 .\templates\v2\dash_frisk.html.py:275
 msgid "Cultivated"
 msgstr "زراعتی "
 
-#: templates/pages/baseline.html:78 templates/pages/floodrisk.html:71
+#: .\templates\pages\baseline.html:82 .\templates\pages\floodrisk.html:87
+#: .\templates\v2\dash_baseline.html:245 .\templates\v2\dash_baseline.html:300
+#: .\templates\v2\dash_frisk.html:217 .\templates\v2\dash_frisk.html.py:276
 msgid "Barren/Rangeland"
 msgstr "بی ثمر/علف زار "
 
-#: templates/pages/baseline.html:131
+#: .\templates\pages\baseline.html:135
 msgid "Number of Health facilities"
 msgstr "تعداد امکانات صحی"
 
-#: templates/pages/baseline.html:137
+#: .\templates\pages\baseline.html:141 .\templates\v2\dash_baseline.html:373
+#: .\templates\v2\dash_baseline.html:421
 msgid "Tier 1"
 msgstr "ردیف اول"
 
-#: templates/pages/baseline.html:138
+#: .\templates\pages\baseline.html:142 .\templates\v2\dash_baseline.html:374
+#: .\templates\v2\dash_baseline.html:422
 msgid "Tier 2"
 msgstr "ردیف دوم "
 
-#: templates/pages/baseline.html:139
+#: .\templates\pages\baseline.html:143 .\templates\v2\dash_baseline.html:375
+#: .\templates\v2\dash_baseline.html:423
 msgid "Tier 3"
 msgstr "ردیف سوم "
 
-#: templates/pages/baseline.html:140
+#: .\templates\pages\baseline.html:144 .\templates\v2\dash_baseline.html:376
+#: .\templates\v2\dash_baseline.html:424 .\templates\v2\dash_baseline.html:693
+#: .\templates\v2\dash_main.html:1205
 msgid "Others"
 msgstr "دیگران"
 
-#: templates/pages/baseline.html:145
+#: .\templates\pages\baseline.html:149 .\templates\v2\dash_baseline.html:380
+#: .\templates\v2\dash_baseline.html:428 .\templates\v2\dash_baseline.html:693
+#: .\templates\v2\dash_main.html:1205
 msgid "H1"
 msgstr "H1"
 
-#: templates/pages/baseline.html:146
+#: .\templates\pages\baseline.html:150 .\templates\v2\dash_baseline.html:381
+#: .\templates\v2\dash_baseline.html:429 .\templates\v2\dash_baseline.html:693
+#: .\templates\v2\dash_main.html:1205
 msgid "H2"
 msgstr "H2"
 
-#: templates/pages/baseline.html:147
+#: .\templates\pages\baseline.html:151 .\templates\v2\dash_baseline.html:382
+#: .\templates\v2\dash_baseline.html:430 .\templates\v2\dash_baseline.html:693
+#: .\templates\v2\dash_main.html:1205
 msgid "H3"
 msgstr "H3"
 
-#: templates/pages/baseline.html:148
+#: .\templates\pages\baseline.html:152 .\templates\v2\dash_baseline.html:383
+#: .\templates\v2\dash_baseline.html:431 .\templates\v2\dash_baseline.html:693
+#: .\templates\v2\dash_main.html:1205
 msgid "CHC"
 msgstr "CHC"
 
-#: templates/pages/baseline.html:149
+#: .\templates\pages\baseline.html:153 .\templates\v2\dash_baseline.html:384
+#: .\templates\v2\dash_baseline.html:432 .\templates\v2\dash_baseline.html:693
+#: .\templates\v2\dash_main.html:1205
 msgid "BHC"
 msgstr "BHC"
 
-#: templates/pages/baseline.html:150
+#: .\templates\pages\baseline.html:154 .\templates\v2\dash_baseline.html:385
+#: .\templates\v2\dash_baseline.html:433 .\templates\v2\dash_baseline.html:693
+#: .\templates\v2\dash_main.html:1205
 msgid "SHC"
 msgstr "SHC"
 
-#: templates/pages/baseline.html:189
+#: .\templates\pages\baseline.html:193
 msgid "Road network overview and length"
 msgstr "بررسی اجمالی طول شبکه سرک ها"
 
-#: templates/pages/baseline.html:195
+#: .\templates\pages\baseline.html:199 .\templates\v2\dash_baseline.html:520
+#: .\templates\v2\dash_baseline.html:569 .\templates\v2\dash_baseline.html:696
+#: .\templates\v2\dash_main.html:1208
 msgid "Highway"
 msgstr "شاهراه"
 
-#: templates/pages/baseline.html:196
+#: .\templates\pages\baseline.html:200 .\templates\v2\dash_baseline.html:521
+#: .\templates\v2\dash_baseline.html:570 .\templates\v2\dash_baseline.html:696
+#: .\templates\v2\dash_main.html:1208
 msgid "Primary"
 msgstr "اصلی"
 
-#: templates/pages/baseline.html:197
+#: .\templates\pages\baseline.html:201 .\templates\v2\dash_baseline.html:522
+#: .\templates\v2\dash_baseline.html:571 .\templates\v2\dash_baseline.html:696
+#: .\templates\v2\dash_main.html:1208
 msgid "Secondary"
 msgstr "فرعی "
 
-#: templates/pages/baseline.html:198
+#: .\templates\pages\baseline.html:202 .\templates\v2\dash_baseline.html:523
+#: .\templates\v2\dash_baseline.html:572 .\templates\v2\dash_baseline.html:696
+#: .\templates\v2\dash_main.html:1208
 msgid "Tertiary"
 msgstr "نیمه فرعی"
 
-#: templates/pages/baseline.html:199
+#: .\templates\pages\baseline.html:203 .\templates\v2\dash_baseline.html:524
+#: .\templates\v2\dash_baseline.html:573 .\templates\v2\dash_baseline.html:696
+#: .\templates\v2\dash_main.html:1208
 msgid "Residential"
 msgstr "مسکونی"
 
-#: templates/pages/baseline.html:200
+#: .\templates\pages\baseline.html:204 .\templates\v2\dash_baseline.html:525
+#: .\templates\v2\dash_baseline.html:574 .\templates\v2\dash_baseline.html:696
+#: .\templates\v2\dash_main.html:1208
 msgid "Track"
 msgstr "جاده"
 
-#: templates/pages/baseline.html:201
+#: .\templates\pages\baseline.html:205 .\templates\v2\dash_baseline.html:526
+#: .\templates\v2\dash_baseline.html:575 .\templates\v2\dash_baseline.html:696
+#: .\templates\v2\dash_main.html:1208
 msgid "Path"
 msgstr "مسیر"
 
-#: templates/pages/baseline.html:202
+#: .\templates\pages\baseline.html:206 .\templates\v2\dash_baseline.html:527
+#: .\templates\v2\dash_baseline.html:576 .\templates\v2\dash_baseline.html:696
+#: .\templates\v2\dash_main.html:1208
 msgid "River Crossing"
 msgstr "عبور از دریا "
 
-#: templates/pages/baseline.html:203
+#: .\templates\pages\baseline.html:207 .\templates\v2\dash_baseline.html:528
+#: .\templates\v2\dash_baseline.html:577 .\templates\v2\dash_baseline.html:696
+#: .\templates\v2\dash_main.html:1208
 msgid "Bridge"
 msgstr "پل "
 
-#: templates/pages/baseline.html:208 templates/pages/baseline.html.py:209
-#: templates/pages/baseline.html:210 templates/pages/baseline.html.py:211
-#: templates/pages/baseline.html:212 templates/pages/baseline.html.py:213
-#: templates/pages/baseline.html:214 templates/pages/baseline.html.py:215
-#: templates/pages/baseline.html:216 templates/pages/baseline.html.py:217
+#: .\templates\pages\baseline.html:212 .\templates\pages\baseline.html:213
+#: .\templates\pages\baseline.html:214 .\templates\pages\baseline.html:215
+#: .\templates\pages\baseline.html:216 .\templates\pages\baseline.html:217
+#: .\templates\pages\baseline.html:218 .\templates\pages\baseline.html:219
+#: .\templates\pages\baseline.html:220 .\templates\pages\baseline.html:221
 msgid "km"
 msgstr "کیلومتر"
 
-#: templates/pages/earthquake.html:27 templates/pages/links.html:26
+#: .\templates\pages\earthquake.html:27 .\templates\pages\links.html:42
+#: .\templates\v2\dash_earthquake.html:10 .\templates\v2\links.html:35
 msgid "Earthquake"
 msgstr "زلزله"
 
-#: templates/pages/earthquake.html:40
+#: .\templates\pages\earthquake.html:40
 msgid "Total earthquake affected Population"
 msgstr "مجموع نفوس آسیب دیده از زلزله"
 
-#: templates/pages/earthquake.html:50
+#: .\templates\pages\earthquake.html:50
 msgid "Earthquake Mercalli Intensity Scale population overview"
 msgstr "بررسی اجمالی نفوس درجه شدت میرکالی زلزله "
 
-#: templates/pages/earthquake.html:54
+#: .\templates\pages\earthquake.html:54
 msgid "Number of affected settlements"
 msgstr "تعداد قریه جات آسیب دیده"
 
-#: templates/pages/earthquake.html:66
+#: .\templates\pages\earthquake.html:66
 msgid "Earthquake affected Population and settlement overview"
 msgstr "نفوس آسیب دیده از زلزله و بررسی اجمالی قریه "
 
-#: templates/pages/earthquake.html:71
+#: .\templates\pages\earthquake.html:71
 msgid "Mercalli Intensity Scale"
 msgstr "درجه شدت میرکالی "
 
-#: templates/pages/earthquake.html:74
+#: .\templates\pages\earthquake.html:74 .\templates\v2\dash_earthquake.html:538
+#: .\templates\v2\dash_earthquake.html:549
+#: .\templates\v2\dash_earthquake.html:626
 msgid "II-III: Weak"
 msgstr "II-III: ضعیف"
 
-#: templates/pages/earthquake.html:75
+#: .\templates\pages\earthquake.html:75 .\templates\v2\dash_earthquake.html:503
+#: .\templates\v2\dash_earthquake.html:539
+#: .\templates\v2\dash_earthquake.html:550
+#: .\templates\v2\dash_earthquake.html:627
 msgid "IV: Light"
 msgstr "IV: خفیف"
 
-#: templates/pages/earthquake.html:76
+#: .\templates\pages\earthquake.html:76 .\templates\v2\dash_earthquake.html:507
+#: .\templates\v2\dash_earthquake.html:540
+#: .\templates\v2\dash_earthquake.html:551
+#: .\templates\v2\dash_earthquake.html:628
 msgid "V: Moderate"
 msgstr "V: متوسط "
 
-#: templates/pages/earthquake.html:77
+#: .\templates\pages\earthquake.html:77 .\templates\v2\dash_earthquake.html:511
+#: .\templates\v2\dash_earthquake.html:541
+#: .\templates\v2\dash_earthquake.html:552
+#: .\templates\v2\dash_earthquake.html:629
 msgid "VI: Strong"
 msgstr "VI: قوی "
 
-#: templates/pages/earthquake.html:78
+#: .\templates\pages\earthquake.html:78 .\templates\v2\dash_earthquake.html:515
+#: .\templates\v2\dash_earthquake.html:542
+#: .\templates\v2\dash_earthquake.html:553
+#: .\templates\v2\dash_earthquake.html:630
 msgid "VII: Very-strong"
 msgstr "VII: بسیار قوی"
 
-#: templates/pages/earthquake.html:79
+#: .\templates\pages\earthquake.html:79 .\templates\v2\dash_earthquake.html:519
+#: .\templates\v2\dash_earthquake.html:543
+#: .\templates\v2\dash_earthquake.html:554
+#: .\templates\v2\dash_earthquake.html:631
 msgid "VIII: Severe"
 msgstr "VIII: شدید"
 
-#: templates/pages/earthquake.html:80
+#: .\templates\pages\earthquake.html:80 .\templates\v2\dash_earthquake.html:523
+#: .\templates\v2\dash_earthquake.html:544
+#: .\templates\v2\dash_earthquake.html:555
+#: .\templates\v2\dash_earthquake.html:632
 msgid "IX: Violent"
 msgstr "IX: بسیار شدید"
 
-#: templates/pages/earthquake.html:81
+#: .\templates\pages\earthquake.html:81 .\templates\v2\dash_earthquake.html:527
+#: .\templates\v2\dash_earthquake.html:545
+#: .\templates\v2\dash_earthquake.html:556
+#: .\templates\v2\dash_earthquake.html:633
 msgid "X+: Extreme"
 msgstr "X+: شدیدتر "
 
-#: templates/pages/floodforecast.html:19 templates/pages/links.html:14
+#: .\templates\pages\floodforecast.html:31 .\templates\pages\links.html:17
+#: .\templates\v2\dash_fforecast.html:10 .\templates\v2\links.html:16
 msgid "Flood Prediction"
 msgstr "پیشبینی سیلاب"
 
-#: templates/pages/floodforecast.html:26
+#: .\templates\pages\floodforecast.html:38
+#: .\templates\v2\dash_fforecast.html:317
+#: .\templates\v2\dash_fforecast.html:446 .\templates\v2\dash_main.html:729
 msgid "Flash Flood Likelihood"
 msgstr "احتمال سیلاب ناگهانی "
 
-#: templates/pages/floodforecast.html:29
+#: .\templates\pages\floodforecast.html:41
+#: .\templates\pages\floodforecast.html:111
+#: .\templates\pages\floodforecast.html:238
+#: .\templates\pages\floodforecast.html:365
+#: .\templates\v2\dash_fforecast.html:334
+#: .\templates\v2\dash_fforecast.html:519
+#: .\templates\v2\dash_fforecast.html:818
+#: .\templates\v2\dash_fforecast.html:1118 .\templates\v2\dash_main.html:353
+#: .\templates\v2\dash_main.html.py:484 .\templates\v2\dash_main.html:615
+#: .\templates\v2\dash_main.html.py:746 .\templates\v2\dash_main.html:876
 msgid "Likelihood"
 msgstr "احتمال"
 
-#: templates/pages/floodforecast.html:30 templates/pages/floodforecast.html:92
-#: templates/pages/floodforecast.html:166
-#: templates/pages/floodforecast.html:172
+#: .\templates\pages\floodforecast.html:42
+#: .\templates\pages\floodforecast.html:112
+#: .\templates\pages\floodforecast.html:183
+#: .\templates\pages\floodforecast.html:189
+#: .\templates\pages\floodforecast.html:239
+#: .\templates\pages\floodforecast.html:310
+#: .\templates\pages\floodforecast.html:316
+#: .\templates\pages\floodforecast.html:366
+#: .\templates\pages\floodforecast.html:437
+#: .\templates\pages\floodforecast.html:443
+#: .\templates\v2\dash_drought.html:381 .\templates\v2\dash_drought.html:459
+#: .\templates\v2\dash_drought.html:536 .\templates\v2\dash_earthquake.html:707
+#: .\templates\v2\dash_fforecast.html:348
+#: .\templates\v2\dash_fforecast.html:462
+#: .\templates\v2\dash_fforecast.html:533
+#: .\templates\v2\dash_fforecast.html:647
+#: .\templates\v2\dash_fforecast.html:696
+#: .\templates\v2\dash_fforecast.html:701
+#: .\templates\v2\dash_fforecast.html:749
+#: .\templates\v2\dash_fforecast.html:754
+#: .\templates\v2\dash_fforecast.html:832
+#: .\templates\v2\dash_fforecast.html:946
+#: .\templates\v2\dash_fforecast.html:996
+#: .\templates\v2\dash_fforecast.html:1001
+#: .\templates\v2\dash_fforecast.html:1049
+#: .\templates\v2\dash_fforecast.html:1054
+#: .\templates\v2\dash_fforecast.html:1132
+#: .\templates\v2\dash_fforecast.html:1247
+#: .\templates\v2\dash_fforecast.html:1298
+#: .\templates\v2\dash_fforecast.html:1303
+#: .\templates\v2\dash_fforecast.html:1351
+#: .\templates\v2\dash_fforecast.html:1356
+#: .\templates\v2\dash_fforecast.html:1422 .\templates\v2\dash_main.html:367
+#: .\templates\v2\dash_main.html.py:498 .\templates\v2\dash_main.html:629
+#: .\templates\v2\dash_main.html.py:760 .\templates\v2\dash_main.html:890
+#: .\templates\v2\dash_main.html.py:1227 .\templates\v2\dash_main.html:1292
 msgid "Extreme"
 msgstr "شدید"
 
-#: templates/pages/floodforecast.html:31 templates/pages/floodforecast.html:93
-#: templates/pages/floodforecast.html:167
-#: templates/pages/floodforecast.html:173
+#: .\templates\pages\floodforecast.html:43
+#: .\templates\pages\floodforecast.html:113
+#: .\templates\pages\floodforecast.html:184
+#: .\templates\pages\floodforecast.html:190
+#: .\templates\pages\floodforecast.html:240
+#: .\templates\pages\floodforecast.html:311
+#: .\templates\pages\floodforecast.html:317
+#: .\templates\pages\floodforecast.html:367
+#: .\templates\pages\floodforecast.html:438
+#: .\templates\pages\floodforecast.html:444
+#: .\templates\pages\landsliderisk.html:66
+#: .\templates\pages\landsliderisk.html:105
+#: .\templates\pages\landsliderisk.html:144
+#: .\templates\pages\landsliderisk.html:183
+#: .\templates\pages\landsliderisk.html:222
+#: .\templates\v2\dash_fforecast.html:366
+#: .\templates\v2\dash_fforecast.html:466
+#: .\templates\v2\dash_fforecast.html:551
+#: .\templates\v2\dash_fforecast.html:651
+#: .\templates\v2\dash_fforecast.html:697
+#: .\templates\v2\dash_fforecast.html:702
+#: .\templates\v2\dash_fforecast.html:750
+#: .\templates\v2\dash_fforecast.html:755
+#: .\templates\v2\dash_fforecast.html:850
+#: .\templates\v2\dash_fforecast.html:950
+#: .\templates\v2\dash_fforecast.html:997
+#: .\templates\v2\dash_fforecast.html:1002
+#: .\templates\v2\dash_fforecast.html:1050
+#: .\templates\v2\dash_fforecast.html:1055
+#: .\templates\v2\dash_fforecast.html:1150
+#: .\templates\v2\dash_fforecast.html:1251
+#: .\templates\v2\dash_fforecast.html:1299
+#: .\templates\v2\dash_fforecast.html:1304
+#: .\templates\v2\dash_fforecast.html:1352
+#: .\templates\v2\dash_fforecast.html:1357
+#: .\templates\v2\dash_fforecast.html:1422
+#: .\templates\v2\dash_landslide.html:343
+#: .\templates\v2\dash_landslide.html:377
+#: .\templates\v2\dash_landslide.html:462
+#: .\templates\v2\dash_landslide.html:496
+#: .\templates\v2\dash_landslide.html:581
+#: .\templates\v2\dash_landslide.html:615
+#: .\templates\v2\dash_landslide.html:700
+#: .\templates\v2\dash_landslide.html:785
+#: .\templates\v2\dash_landslide.html:846
+#: .\templates\v2\dash_landslide.html:847 .\templates\v2\dash_main.html:385
+#: .\templates\v2\dash_main.html.py:516 .\templates\v2\dash_main.html:647
+#: .\templates\v2\dash_main.html.py:778 .\templates\v2\dash_main.html:908
+#: .\templates\v2\dash_main.html.py:1227 .\templates\v2\dash_main.html:1284
+#: .\templates\v2\dash_main.html.py:1285
 msgid "Very High"
 msgstr "بسیار زیاد"
 
-#: templates/pages/floodforecast.html:47
-#: templates/pages/floodforecast.html:110 templates/pages/floodrisk.html:19
-#: templates/pages/links.html:17
+#: .\templates\pages\floodforecast.html:59
+#: .\templates\pages\floodforecast.html:130
+#: .\templates\pages\floodforecast.html:257
+#: .\templates\pages\floodforecast.html:384 .\templates\pages\floodrisk.html:31
+#: .\templates\pages\links.html:20 .\templates\v2\dash_fforecast.html:335
+#: .\templates\v2\dash_fforecast.html:520
+#: .\templates\v2\dash_fforecast.html:819
+#: .\templates\v2\dash_fforecast.html:1119 .\templates\v2\dash_frisk.html:10
+#: .\templates\v2\dash_main.html:354 .\templates\v2\dash_main.html.py:485
+#: .\templates\v2\dash_main.html:616 .\templates\v2\dash_main.html.py:747
+#: .\templates\v2\dash_main.html:877 .\templates\v2\links.html:17
 msgid "Flood Risk"
 msgstr "خطر سیلاب"
 
-#: templates/pages/floodforecast.html:49 templates/pages/floodforecast.html:52
-#: templates/pages/floodforecast.html:55 templates/pages/floodforecast.html:58
-#: templates/pages/floodforecast.html:61
-#: templates/pages/floodforecast.html:112
-#: templates/pages/floodforecast.html:115
-#: templates/pages/floodforecast.html:118
-#: templates/pages/floodforecast.html:121
-#: templates/pages/floodforecast.html:124
-#: templates/pages/floodforecast.html:169
-#: templates/pages/floodforecast.html:175
+#: .\templates\pages\floodforecast.html:61
+#: .\templates\pages\floodforecast.html:64
+#: .\templates\pages\floodforecast.html:67
+#: .\templates\pages\floodforecast.html:70
+#: .\templates\pages\floodforecast.html:73
+#: .\templates\pages\floodforecast.html:132
+#: .\templates\pages\floodforecast.html:135
+#: .\templates\pages\floodforecast.html:138
+#: .\templates\pages\floodforecast.html:141
+#: .\templates\pages\floodforecast.html:144
+#: .\templates\pages\floodforecast.html:186
+#: .\templates\pages\floodforecast.html:192
+#: .\templates\pages\floodforecast.html:259
+#: .\templates\pages\floodforecast.html:262
+#: .\templates\pages\floodforecast.html:265
+#: .\templates\pages\floodforecast.html:268
+#: .\templates\pages\floodforecast.html:271
+#: .\templates\pages\floodforecast.html:313
+#: .\templates\pages\floodforecast.html:319
+#: .\templates\pages\floodforecast.html:386
+#: .\templates\pages\floodforecast.html:389
+#: .\templates\pages\floodforecast.html:392
+#: .\templates\pages\floodforecast.html:395
+#: .\templates\pages\floodforecast.html:398
+#: .\templates\pages\floodforecast.html:440
+#: .\templates\pages\floodforecast.html:446
+#: .\templates\v2\dash_fforecast.html:356
+#: .\templates\v2\dash_fforecast.html:374
+#: .\templates\v2\dash_fforecast.html:392
+#: .\templates\v2\dash_fforecast.html:410
+#: .\templates\v2\dash_fforecast.html:428
+#: .\templates\v2\dash_fforecast.html:541
+#: .\templates\v2\dash_fforecast.html:559
+#: .\templates\v2\dash_fforecast.html:577
+#: .\templates\v2\dash_fforecast.html:595
+#: .\templates\v2\dash_fforecast.html:613
+#: .\templates\v2\dash_fforecast.html:840
+#: .\templates\v2\dash_fforecast.html:858
+#: .\templates\v2\dash_fforecast.html:876
+#: .\templates\v2\dash_fforecast.html:894
+#: .\templates\v2\dash_fforecast.html:912
+#: .\templates\v2\dash_fforecast.html:1140
+#: .\templates\v2\dash_fforecast.html:1158
+#: .\templates\v2\dash_fforecast.html:1176
+#: .\templates\v2\dash_fforecast.html:1194
+#: .\templates\v2\dash_fforecast.html:1212
+#: .\templates\v2\dash_fforecast.html:1423 .\templates\v2\dash_main.html:375
+#: .\templates\v2\dash_main.html.py:393 .\templates\v2\dash_main.html:411
+#: .\templates\v2\dash_main.html.py:429 .\templates\v2\dash_main.html:447
+#: .\templates\v2\dash_main.html.py:506 .\templates\v2\dash_main.html:524
+#: .\templates\v2\dash_main.html.py:542 .\templates\v2\dash_main.html:560
+#: .\templates\v2\dash_main.html.py:578 .\templates\v2\dash_main.html:637
+#: .\templates\v2\dash_main.html.py:655 .\templates\v2\dash_main.html:673
+#: .\templates\v2\dash_main.html.py:691 .\templates\v2\dash_main.html:709
+#: .\templates\v2\dash_main.html.py:768 .\templates\v2\dash_main.html:786
+#: .\templates\v2\dash_main.html.py:804 .\templates\v2\dash_main.html:822
+#: .\templates\v2\dash_main.html.py:840 .\templates\v2\dash_main.html:898
+#: .\templates\v2\dash_main.html.py:916 .\templates\v2\dash_main.html:934
+#: .\templates\v2\dash_main.html.py:952 .\templates\v2\dash_main.html:970
 msgid "Med"
 msgstr "متوسط "
 
-#: templates/pages/floodforecast.html:88
+#: .\templates\pages\floodforecast.html:108
+#: .\templates\pages\floodforecast.html:235
+#: .\templates\pages\floodforecast.html:362
+#: .\templates\v2\dash_fforecast.html:502
+#: .\templates\v2\dash_fforecast.html:631
+#: .\templates\v2\dash_fforecast.html:801
+#: .\templates\v2\dash_fforecast.html:930
+#: .\templates\v2\dash_fforecast.html:1101
+#: .\templates\v2\dash_fforecast.html:1230 .\templates\v2\dash_main.html:336
+#: .\templates\v2\dash_main.html.py:467 .\templates\v2\dash_main.html:598
+#: .\templates\v2\dash_main.html.py:859
 msgid "River Flood Likelihood"
 msgstr "احتمال سیلاب دریایی "
 
-#: templates/pages/floodforecast.html:91
-msgid "Likelihood<"
-msgstr "احتمال <"
-
-#: templates/pages/floodforecast.html:159
+#: .\templates\pages\floodforecast.html:176
+#: .\templates\pages\floodforecast.html:303
+#: .\templates\pages\floodforecast.html:430
+#: .\templates\v2\dash_fforecast.html:692
+#: .\templates\v2\dash_fforecast.html:745
+#: .\templates\v2\dash_fforecast.html:992
+#: .\templates\v2\dash_fforecast.html:1045
+#: .\templates\v2\dash_fforecast.html:1294
+#: .\templates\v2\dash_fforecast.html:1347
 msgid "Flash Flood"
 msgstr "سیلاب ناگهانی"
 
-#: templates/pages/floodforecast.html:161
+#: .\templates\pages\floodforecast.html:178
+#: .\templates\pages\floodforecast.html:305
+#: .\templates\pages\floodforecast.html:432
+#: .\templates\v2\dash_fforecast.html:693
+#: .\templates\v2\dash_fforecast.html:746
+#: .\templates\v2\dash_fforecast.html:993
+#: .\templates\v2\dash_fforecast.html:1046
+#: .\templates\v2\dash_fforecast.html:1295
+#: .\templates\v2\dash_fforecast.html:1348
 msgid "River Flood"
 msgstr "سیلاب دریایی"
 
-#: templates/pages/floodrisk.html:30
+#: .\templates\pages\floodrisk.html:42
+msgid "Total Buildings at Risk"
+msgstr ""
+
+#: .\templates\pages\floodrisk.html:46 .\templates\v2\dash_frisk.html:122
+#: .\templates\v2\dash_main.html:279
 msgid "Population At Risk"
 msgstr "نفوس در معرض خطر"
 
-#: templates/pages/floodrisk.html:36
+#: .\templates\pages\floodrisk.html:52
 msgid "Population at High Risk"
 msgstr "نفوس در معرض خطر بالا "
 
-#: templates/pages/floodrisk.html:42
+#: .\templates\pages\floodrisk.html:58
 msgid "Population at Med. Risk"
 msgstr "نفوس در معرض خطر متوسط"
 
-#: templates/pages/floodrisk.html:48
+#: .\templates\pages\floodrisk.html:64
 msgid "Population at Low Risk"
 msgstr "نفوس در معرض خطر پایین "
 
-#: templates/pages/floodrisk.html:62
+#: .\templates\pages\floodrisk.html:78
 msgid "Population living in flood risk areas"
 msgstr "نفوس ساکن در مناطق خطر سیلاب "
 
-#: templates/pages/links.html:29 templates/pages/security.html:18
+#: .\templates\pages\landsliderisk.html:20 .\templates\v2\dash_landslide.html:9
+msgid "Landslide Risk"
+msgstr ""
+
+#: .\templates\pages\landsliderisk.html:31
+msgid "Total Setllements"
+msgstr "تعداد قریه جات "
+
+#: .\templates\pages\landsliderisk.html:61
+msgid "# Population by Landslide Indexes (iMMAP 2017)"
+msgstr ""
+
+#: .\templates\pages\landsliderisk.html:100
+msgid "# Population by Multi-criteria Landslide Susceptibility Index"
+msgstr ""
+
+#: .\templates\pages\landsliderisk.html:139
+msgid ""
+"# Population by Landslide susceptibility - bedrock landslides in slow "
+"evolution (S1)"
+msgstr ""
+
+#: .\templates\pages\landsliderisk.html:178
+msgid ""
+"# Population by Landslide susceptibility - bedrock landslides in rapid "
+"evolution (S2)"
+msgstr ""
+
+#: .\templates\pages\landsliderisk.html:217
+msgid ""
+"# Population by Landslide susceptibility - cover material in rapid evolution "
+"(S3)"
+msgstr ""
+
+#: .\templates\pages\links.html:14 .\templates\v2\links.html:14
+msgid "Floods"
+msgstr "خطر سیلاب"
+
+#: .\templates\pages\links.html:26 .\templates\v2\links.html:22
+msgid "Avalanches"
+msgstr "خطر برف کوچ"
+
+#: .\templates\pages\links.html:38 .\templates\v2\links.html:29
+msgid "Landslide"
+msgstr "زمین لغزش"
+
+#: .\templates\pages\links.html:45 .\templates\pages\security.html:18
+#: .\templates\v2\dash_haccess.html:8
 msgid "Humanitarian Access"
 msgstr "دسترسی بشردوستانه"
 
-#: templates/pages/links.html:32
+#: .\templates\pages\links.html:48 .\templates\v2\links.html:44
 msgid "Natural Disaster"
-msgstr ""
+msgstr "حوادث ظبعی"
 
-#: templates/pages/links.html:52
+#: .\templates\pages\links.html:51 .\templates\v2\links.html:47
+msgid "Weather"
+msgstr "دیگران"
+
+#: .\templates\pages\links.html:71
 msgid "Search Region"
 msgstr "جستجوی منطقه"
 
-#: templates/pages/security.html:27
+#: .\templates\pages\security.html:27 .\templates\v2\dash_haccess.html:12
+#: .\templates\v2\dash_main.html:1114
 msgid "Incident between"
 msgstr "حادثه در بین "
 
-#: templates/pages/security.html:61
+#: .\templates\pages\security.html:61
 msgid "select incident type"
 msgstr "انتخاب نوع حادثه"
 
-#: templates/pages/security.html:63 templates/pages/security.html.py:92
+#: .\templates\pages\security.html:63 .\templates\pages\security.html.py:92
+#: .\templates\v2\dash_haccess.html:121 .\templates\v2\dash_haccess.html:369
+#: .\templates\v2\dash_main.html:1138
 msgid "Select All"
 msgstr "انتخاب همه"
 
-#: templates/pages/security.html:64 templates/pages/security.html.py:93
+#: .\templates\pages\security.html:64 .\templates\pages\security.html.py:93
 msgid "Select None"
 msgstr "انتخاب هیچکدام"
 
-#: templates/pages/security.html:65 templates/pages/security.html.py:94
+#: .\templates\pages\security.html:65 .\templates\pages\security.html.py:94
+#: .\templates\v2\dash_haccess.html:124 .\templates\v2\dash_haccess.html:372
+#: .\templates\v2\dash_main.html:1141
 msgid "Apply"
 msgstr "درخواست"
 
-#: templates/pages/security.html:90
+#: .\templates\pages\security.html:90
 msgid "select incident target"
 msgstr "انتخاب هدف حادثه "
 
-#: templates/pages/security.html:171
+#: .\templates\pages\security.html:171
 msgid "Number of incidents and casualties"
 msgstr "تعداد حوادث و تلفات "
 
-#: templates/pages/security.html:176
+#: .\templates\pages\security.html:176
 msgid "# Incidents"
 msgstr "# حوادث"
 
-#: templates/pages/security.html:177
+#: .\templates\pages\security.html:177 .\templates\v2\dash_haccess.html:234
+#: .\templates\v2\dash_haccess.html:271 .\templates\v2\dash_haccess.html:460
+#: .\templates\v2\dash_haccess.html:497 .\templates\v2\dash_haccess.html:591
+#: .\templates\v2\dash_haccess.html:626
 msgid "Casualties"
 msgstr "تلفات"
 
-#: templates/pages/security.html:182 templates/pages/security.html.py:222
-#: templates/pages/security.html:260
+#: .\templates\pages\security.html:182 .\templates\pages\security.html:222
+#: .\templates\pages\security.html:260 .\templates\v2\dash_haccess.html:240
+#: .\templates\v2\dash_haccess.html:277 .\templates\v2\dash_haccess.html:466
+#: .\templates\v2\dash_haccess.html:503 .\templates\v2\dash_haccess.html:597
+#: .\templates\v2\dash_haccess.html:632 .\templates\v2\dash_haccess.html:718
+#: .\templates\v2\dash_haccess.html:719 .\templates\v2\dash_haccess.html:763
+#: .\templates\v2\dash_main.html:1307
 msgid "Dead"
 msgstr "کشته"
 
-#: templates/pages/security.html:183 templates/pages/security.html.py:223
-#: templates/pages/security.html:261
+#: .\templates\pages\security.html:183 .\templates\pages\security.html:223
+#: .\templates\pages\security.html:261 .\templates\v2\dash_haccess.html:239
+#: .\templates\v2\dash_haccess.html:276 .\templates\v2\dash_haccess.html:465
+#: .\templates\v2\dash_haccess.html:502 .\templates\v2\dash_haccess.html:596
+#: .\templates\v2\dash_haccess.html:631 .\templates\v2\dash_haccess.html:718
+#: .\templates\v2\dash_haccess.html:719 .\templates\v2\dash_haccess.html:763
+#: .\templates\v2\dash_main.html:1307
 msgid "Injured"
 msgstr "زخمی"
 
-#: templates/pages/security.html:184 templates/pages/security.html.py:224
-#: templates/pages/security.html:262
+#: .\templates\pages\security.html:184 .\templates\pages\security.html:224
+#: .\templates\pages\security.html:262 .\templates\v2\dash_earthquake.html:707
+#: .\templates\v2\dash_haccess.html:238 .\templates\v2\dash_haccess.html:275
+#: .\templates\v2\dash_haccess.html:464 .\templates\v2\dash_haccess.html:501
+#: .\templates\v2\dash_haccess.html:595 .\templates\v2\dash_haccess.html:630
+#: .\templates\v2\dash_haccess.html:718 .\templates\v2\dash_haccess.html:720
+#: .\templates\v2\dash_main.html:1292 .\templates\v2\dash_main.html.py:1307
 msgid "Violent"
 msgstr "شدیداً زخمی"
 
-#: templates/pages/security.html:217
+#: .\templates\pages\security.html:217 .\templates\v2\dash_haccess.html:232
+#: .\templates\v2\dash_haccess.html:269 .\templates\v2\dash_haccess.html:458
+#: .\templates\v2\dash_haccess.html:495
 msgid "Incident Type"
 msgstr "نوع حادثه"
 
-#: templates/pages/security.html:221 templates/pages/security.html.py:259
+#: .\templates\pages\security.html:221 .\templates\pages\security.html:259
+#: .\templates\v2\dash_haccess.html:233 .\templates\v2\dash_haccess.html:270
+#: .\templates\v2\dash_haccess.html:459 .\templates\v2\dash_haccess.html:496
+#: .\templates\v2\dash_haccess.html:590 .\templates\v2\dash_haccess.html:625
+#: .\templates\v2\dash_haccess.html:718 .\templates\v2\dash_main.html:1307
 msgid "Incidents"
 msgstr "حوادث"
 
-#: templates/pages/security.html:255
+#: .\templates\pages\security.html:255
 msgid "Incident Target"
 msgstr "هدف حادثه"
 
-#: templates/pages/security.html:293
+#: .\templates\pages\security.html:293
 msgid "Latest Incidents"
 msgstr "آخرین حوادث"
 
-#: templates/pages/security.html:296
+#: .\templates\pages\security.html:296 .\templates\v2\dash_haccess.html:678
+#: .\templates\v2\dash_haccess.html:696
 msgid "Date"
 msgstr "تاریخ"
 
-#: templates/pages/security.html:297
+#: .\templates\pages\security.html:297 .\templates\v2\dash_haccess.html:679
+#: .\templates\v2\dash_haccess.html:697
 msgid "Description"
 msgstr "توضیحات"
 
-#: templates/pages/security.html:357
+#: .\templates\pages\security.html:357 .\templates\v2\dash_haccess.html:886
+#: .\templates\v2\dash_main.html:1424
 msgid "Today"
 msgstr "آمروز"
 
-#: templates/pages/security.html:358
+#: .\templates\pages\security.html:358 .\templates\v2\dash_haccess.html:887
+#: .\templates\v2\dash_main.html:1425
 msgid "Yesterday"
 msgstr "دیروز"
 
-#: templates/pages/security.html:359
+#: .\templates\pages\security.html:359 .\templates\v2\dash_haccess.html:888
+#: .\templates\v2\dash_main.html:1426
 msgid "Last 7 Days"
 msgstr " 7 روز گذشته"
 
-#: templates/pages/security.html:360
+#: .\templates\pages\security.html:360 .\templates\v2\dash_haccess.html:889
+#: .\templates\v2\dash_main.html:1427
 msgid "Last 30 Days"
 msgstr "30 روز گذشته"
 
-#: templates/pages/security.html:361
+#: .\templates\pages\security.html:361 .\templates\v2\dash_haccess.html:890
+#: .\templates\v2\dash_main.html:1428
 msgid "This Month"
 msgstr "این ماه"
 
-#: templates/pages/security.html:362
+#: .\templates\pages\security.html:362 .\templates\v2\dash_haccess.html:891
+#: .\templates\v2\dash_main.html:1429
 msgid "Last Month"
 msgstr "ماه گذشته "
 
-#: templates/pages/security.html:363
+#: .\templates\pages\security.html:363 .\templates\v2\dash_haccess.html:892
+#: .\templates\v2\dash_main.html:1430
 msgid "Last Year"
 msgstr "سال گذشته "
 
-#: templates/pages/security.html:382
+#: .\templates\pages\security.html:382
 msgid "Unselected Incident Type"
 msgstr "لغو انتخاب نوع حادثه "
 
-#: templates/pages/security.html:383
+#: .\templates\pages\security.html:383
 msgid "Selected Incident Type"
 msgstr "انتخاب نوع حادثه "
 
-#: templates/pages/security.html:387
+#: .\templates\pages\security.html:387
 msgid "Unselected Incident Target"
 msgstr "لغو انتخاب هدف حادثه "
 
-#: templates/pages/security.html:388
+#: .\templates\pages\security.html:388
 msgid "Selected Incident Target"
 msgstr "انتخاب نوع هدف"
 
-#~ msgid "Nearest Health Facilities Tier 1"
-#~ msgstr "نزدیکترین امکانات صحی ردیف اول "
+#: .\templates\v2\dash_accessibility.html:17
+#: .\templates\v2\dash_baseline.html:51
+msgid "Map"
+msgstr ""
+
+#: .\templates\v2\dash_accessibility.html:511
+msgid "GSM Coverage Building"
+msgstr "نفوس - پوشش  خدمات موبایل GSM"
+
+#: .\templates\v2\dash_accessibility.html:527
+#: .\templates\v2\dash_aforecast.html:154 .\templates\v2\dash_arisk.html:173
+#: .\templates\v2\dash_earthquake.html:356 .\templates\v2\dash_frisk.html:149
+msgid "Total Building"
+msgstr "مجموع نفوس"
+
+#: .\templates\v2\dash_accessibility.html:532
+msgid "GSM Cov. Building"
+msgstr ""
+
+#: .\templates\v2\dash_accessibility.html:544
+msgid "GSM Coverage Area"
+msgstr "مساحت -پوشش  خدمات موبایل GSM"
+
+#: .\templates\v2\dash_accessibility.html:560
+msgid "Total Area "
+msgstr "مساحت کلی"
+
+#: .\templates\v2\dash_accessibility.html:565
+msgid "GSM Cov. Area "
+msgstr "مساحت -پوشش  خدمات موبایل GSM"
+
+#: .\templates\v2\dash_accessibility.html:577
+msgid "Mobile Phone Coverage Population"
+msgstr "نفوس - پوشش  خدمات موبایل GSM"
+
+#: .\templates\v2\dash_accessibility.html:589
+msgid ""
+"The estimated number of persons living within GSM coverage. This is "
+"unrelated to the number of subscribers."
+msgstr ""
+"تعداد تخمینی افرادی که تحت پوشش GSM زندگی می کنند. این ارتباطی با تعداد "
+"مشترکان ندارد"
+
+#: .\templates\v2\dash_accessibility.html:595
+#: .\templates\v2\dash_accessibility.html:626
+msgid "GSM Coverage"
+msgstr "مساحت -پوشش  خدمات موبایل GSM"
+
+#: .\templates\v2\dash_accessibility.html:598
+#: .\templates\v2\dash_accessibility.html:629
+#: .\templates\v2\dash_baseline.html:652 .\templates\v2\dash_drought.html:385
+#: .\templates\v2\dash_drought.html:389 .\templates\v2\dash_drought.html:393
+#: .\templates\v2\dash_drought.html:397 .\templates\v2\dash_drought.html:401
+#: .\templates\v2\dash_drought.html:463 .\templates\v2\dash_drought.html:467
+#: .\templates\v2\dash_drought.html:471 .\templates\v2\dash_drought.html:475
+#: .\templates\v2\dash_drought.html:479 .\templates\v2\dash_earthquake.html:559
+#: .\templates\v2\dash_earthquake.html:561
+#: .\templates\v2\dash_earthquake.html:563
+#: .\templates\v2\dash_earthquake.html:565
+#: .\templates\v2\dash_earthquake.html:567
+#: .\templates\v2\dash_earthquake.html:569
+#: .\templates\v2\dash_earthquake.html:571
+#: .\templates\v2\dash_earthquake.html:573
+#: .\templates\v2\dash_earthquake.html:636
+#: .\templates\v2\dash_earthquake.html:638
+#: .\templates\v2\dash_earthquake.html:640
+#: .\templates\v2\dash_earthquake.html:642
+#: .\templates\v2\dash_earthquake.html:644
+#: .\templates\v2\dash_earthquake.html:646
+#: .\templates\v2\dash_earthquake.html:648
+#: .\templates\v2\dash_earthquake.html:650
+#: .\templates\v2\dash_fforecast.html:339
+#: .\templates\v2\dash_fforecast.html:342
+#: .\templates\v2\dash_fforecast.html:524
+#: .\templates\v2\dash_fforecast.html:527
+#: .\templates\v2\dash_fforecast.html:823
+#: .\templates\v2\dash_fforecast.html:826
+#: .\templates\v2\dash_fforecast.html:1123
+#: .\templates\v2\dash_fforecast.html:1126 .\templates\v2\dash_main.html:358
+#: .\templates\v2\dash_main.html.py:361 .\templates\v2\dash_main.html:489
+#: .\templates\v2\dash_main.html.py:492 .\templates\v2\dash_main.html:620
+#: .\templates\v2\dash_main.html.py:623 .\templates\v2\dash_main.html:751
+#: .\templates\v2\dash_main.html.py:754 .\templates\v2\dash_main.html:881
+#: .\templates\v2\dash_main.html.py:884 .\templates\v2\dash_main.html:1188
+msgid "Population"
+msgstr "مجموع نفوس"
+
+#: .\templates\v2\dash_accessibility.html:599
+#: .\templates\v2\dash_accessibility.html:630
+#: .\templates\v2\dash_arisk.html:248 .\templates\v2\dash_arisk.html.py:251
+#: .\templates\v2\dash_arisk.html:254 .\templates\v2\dash_arisk.html.py:302
+#: .\templates\v2\dash_arisk.html:305 .\templates\v2\dash_arisk.html.py:308
+#: .\templates\v2\dash_baseline.html:652 .\templates\v2\dash_drought.html:386
+#: .\templates\v2\dash_drought.html:390 .\templates\v2\dash_drought.html:394
+#: .\templates\v2\dash_drought.html:398 .\templates\v2\dash_drought.html:402
+#: .\templates\v2\dash_drought.html:464 .\templates\v2\dash_drought.html:468
+#: .\templates\v2\dash_drought.html:472 .\templates\v2\dash_drought.html:476
+#: .\templates\v2\dash_drought.html:480 .\templates\v2\dash_frisk.html:213
+#: .\templates\v2\dash_frisk.html.py:272 .\templates\v2\dash_main.html:1188
+msgid "Building"
+msgstr ""
+
+#: .\templates\v2\dash_accessibility.html:658 .\templates\v2\dash_main.html:144
+msgid "GSM Coverage Population"
+msgstr "نفوس - پوشش  خدمات موبایل GSM"
+
+#: .\templates\v2\dash_accessibility.html:679 .\templates\v2\dash_main.html:165
+msgid "GSM Coverage Pop"
+msgstr "نفوس - پوشش  خدمات موبایل GSM"
+
+#: .\templates\v2\dash_accessibility.html:706
+msgid ""
+"Population approximate travel time towards the nearest airport/airfield "
+"(Catchment Area)."
+msgstr ""
+"زمان تقریبی جمعیت برای سفر به نزدیکترین فرودگاه / فرودگاه (منطقه آبگیر)."
+
+#: .\templates\v2\dash_accessibility.html:712
+#: .\templates\v2\dash_accessibility.html:761
+#: .\templates\v2\dash_accessibility.html:850
+#: .\templates\v2\dash_accessibility.html:899
+#: .\templates\v2\dash_accessibility.html:988
+#: .\templates\v2\dash_accessibility.html:1037
+#: .\templates\v2\dash_accessibility.html:1126
+#: .\templates\v2\dash_accessibility.html:1175
+#: .\templates\v2\dash_accessibility.html:1264
+#: .\templates\v2\dash_accessibility.html:1313
+#: .\templates\v2\dash_accessibility.html:1402
+#: .\templates\v2\dash_accessibility.html:1451
+#: .\templates\v2\dash_accessibility.html:1540
+#: .\templates\v2\dash_accessibility.html:1589
+#: .\templates\v2\dash_accessibility.html:1676
+#: .\templates\v2\dash_accessibility.html:1725
+msgid "Travel Time"
+msgstr ""
+
+#: .\templates\v2\dash_accessibility.html:844
+msgid ""
+"Population approximate travel time towards the nearest active National (H1), "
+"Provincial (H2) or District (H3) hospital (Catchment Area)."
+msgstr ""
+"زمان تقریبی جمعیت برای سفر به نزدیکترین بیمارستان فعال ملی (H1) ، استانی "
+"(H2) یا منطقه (H3) (منطقه حوضه آبریز)."
+
+#: .\templates\v2\dash_accessibility.html:949 .\templates\v2\dash_main.html:199
+msgid "Nearest Health Facilities Tier 1"
+msgstr "نزدیکترین امکانات صحی ردیف اول "
+
+#: .\templates\v2\dash_accessibility.html:982
+msgid ""
+"Population approximate travel time towards the nearest active National (H1), "
+"Provincial (H2), District (H3) hospital, or Comprehensive Health Center "
+"(CHC) (Catchment Area)."
+msgstr ""
+"زمان تقریبی جمعیت برای سفر به نزدیکترین بیمارستان فعال ملی (H1) ، استانی "
+"(H2) ، ناحیه (H3) یا مرکز بهداشت جامع (CHC) (حوضه آبریز)."
+
+#: .\templates\v2\dash_accessibility.html:1087
+#: .\templates\v2\dash_main.html:219
+msgid "Nearest Health Facilities Tier 2"
+msgstr "نزدیکترین امکانات صحی ردیف اول "
+
+#: .\templates\v2\dash_accessibility.html:1120
+msgid ""
+"Population approximate travel time towards the nearest active National (H1),"
+"Provincial (H2), District (H3) hospital, Comprehensive Health Center (CHC), "
+"Basic Health Center (BHC), or Sub Health Center (SHC) (Catchment Area)."
+msgstr ""
+"زمان تقریبی جمعیت برای سفر به نزدیکترین بیمارستان فعال ملی (H1) ، استانی "
+"(H2) ، منطقه (H3) ، مرکز جامع سلامت (CHC) ، مرکز بهداشت پایه (BHC) یا مرکز "
+"بهداشت فرعی (SHC) (منطقه آبگیر)."
+
+#: .\templates\v2\dash_accessibility.html:1225
+msgid "Nearest Health Facilities Tier 3"
+msgstr "نزدیکترین امکانات صحی ردیف اول "
+
+#: .\templates\v2\dash_accessibility.html:1258
+msgid ""
+"Population approximate travel time towards any type of medical facility, "
+"this includes all major and minor medical facilities as well as e.g. private "
+"clinics, centers, rehabilitation centers. (Catchment Area)."
+msgstr ""
+"زمان تقریبی جمعیت برای سفر به هر نوع تسهیلات پزشکی ، این شامل کلیه امکانات "
+"اصلی و جزئی پزشکی و همچنین کلینیک های خصوصی ، مراکز ، مراکز توان بخشی. (حوضه "
+"آبریز)."
+
+#: .\templates\v2\dash_accessibility.html:1363
+msgid "Nearest Health Facilities All Tier"
+msgstr "نزدیکترین امکانات صحی ردیف اول "
+
+#: .\templates\v2\dash_accessibility.html:1384
+#: .\templates\v2\dash_accessibility.html:1501
+msgid "Travel Time to Its Provincial Capital"
+msgstr "زمان سفر به مرکز ولایتی"
+
+#: .\templates\v2\dash_accessibility.html:1396
+msgid ""
+"Population approximate travel time towards the nearest its provincial "
+"capital. “Its Provincial Capital” is the administrative capital, and the "
+"catchment area cannot cross provincial boundaries."
+msgstr ""
+"زمان تقریبی جمعیت برای سفر به نزدیکترین مرکز استان آن. gمرکز استان آن مرکز "
+"اداری است و حوضه آبریز نمی تواند از مرزهای استان عبور کند."
+
+#: .\templates\v2\dash_accessibility.html:1522
+#: .\templates\v2\dash_accessibility.html:1639
+#: .\templates\v2\dash_main.html:239
+msgid "Travel Time to Nearest Provincial Capital"
+msgstr "زمان سفر به نزدیکترین مرکز ولایت"
+
+#: .\templates\v2\dash_accessibility.html:1534
+msgid ""
+"Population approximate travel time towards the nearest the nearest "
+"provincial capital. “Nearest Provincial capital” can cross provincial "
+"boundaries."
+msgstr ""
+"زمان تقریبی جمعیت برای سفر به نزدیکترین مرکز استان. نزدیکترین مرکز استان می "
+"تواند از مرزهای استان عبور کند."
+
+#: .\templates\v2\dash_accessibility.html:1658
+#: .\templates\v2\dash_accessibility.html:1775
+msgid "Travel Time to Nearest District Center"
+msgstr "زمان سفر به نزدیکترین مرکز ولسوالی"
+
+#: .\templates\v2\dash_accessibility.html:1670
+msgid ""
+"Population approximate travel time towards the nearest the nearest district "
+"center. “Nearest District Center” can cross district and provincial "
+"boundaries."
+msgstr ""
+"جمعیت تقریبی زمان سفر به نزدیکترین نزدیکترین مرکز منطقه. نزدیکترین مرکز "
+"منطقه می تواند از مرزهای منطقه و استان عبور کند."
+
+#: .\templates\v2\dash_accessibility.html:1796
+#: .\templates\v2\dash_main.html:1214
+msgid "With GSM Coverage"
+msgstr "مساحت -پوشش  خدمات موبایل GSM"
+
+#: .\templates\v2\dash_accessibility.html:1796
+#: .\templates\v2\dash_main.html:1214
+msgid "Without GSM Coverage"
+msgstr "بدون پوشش GSM"
+
+#: .\templates\v2\dash_aforecast.html:18
+msgid "Map of Avalanches Forecast"
+msgstr "مساحت خطر برف کوچ "
+
+#: .\templates\v2\dash_aforecast.html:107 .\templates\v2\dash_main.html:1023
+msgid "Avalanche Prediction Population Graph"
+msgstr "مجموع نفوس خطر برف کوچ "
+
+#: .\templates\v2\dash_aforecast.html:127 .\templates\v2\dash_arisk.html:146
+#: .\templates\v2\dash_arisk.html.py:374 .\templates\v2\dash_frisk.html:359
+#: .\templates\v2\dash_main.html:1011 .\templates\v2\dash_main.html.py:1043
+msgid "Population at Risk"
+msgstr "نفوس در معرض خطر"
+
+#: .\templates\v2\dash_aforecast.html:138
+msgid "Avalanche Prediction Building Graph"
+msgstr "پیشبینی برف کوچ"
+
+#: .\templates\v2\dash_aforecast.html:158 .\templates\v2\dash_arisk.html:177
+#: .\templates\v2\dash_arisk.html.py:374 .\templates\v2\dash_frisk.html:359
+msgid "Building at Risk"
+msgstr "نفوس در معرض خطر"
+
+#: .\templates\v2\dash_aforecast.html:169
+msgid "Population in Predicted Avalanche Risk Area"
+msgstr "نفوس پیشبینی شده در ساحات خطر برف کوچ "
+
+#: .\templates\v2\dash_aforecast.html:181
+msgid ""
+"Population estimated to be living Avalanche Area for which there is "
+"currently snow coverage information available (updated daily)."
+msgstr "جمعیت تخمین زده می شود ساکن منطقه بهمن باشد که در حال حاضر اطلاعات مربوط به برف برای آن موجود است (روزانه به روز می شود)."
+
+#: .\templates\v2\dash_aforecast.html:183
+msgid ""
+"The avalanche prediction risk is based on solely on: Current Snow Coverage "
+"and Depth and the presence of avalanche areas. This is a very rudimentary "
+"risk prediction as there are no accurate/sufficient ground observation "
+"stations available."
+msgstr "خطر پیش بینی بهمن فقط بر اساس موارد زیر است: پوشش و عمق برف کنونی و وجود مناطق بهمن. این یک پیش بینی خطر ابتدایی است زیرا هیچ ایستگاه مشاهده زمینی دقیق / کافی در دسترس نیست"
+
+#: .\templates\v2\dash_aforecast.html:190
+#: .\templates\v2\dash_aforecast.html:224 .\templates\v2\dash_arisk.html:239
+#: .\templates\v2\dash_arisk.html.py:293
+msgid "Avalanche Risk Level"
+msgstr "خطر برف کوچ"
+
+#: .\templates\v2\dash_aforecast.html:261 .\templates\v2\dash_frisk.html:334
+#: .\templates\v2\dash_main.html:1248 .\templates\v2\dash_main.html.py:1264
+msgid "Low Risk"
+msgstr "خطر سیلاب"
+
+#: .\templates\v2\dash_aforecast.html:261 .\templates\v2\dash_frisk.html:334
+#: .\templates\v2\dash_main.html:1248 .\templates\v2\dash_main.html.py:1264
+msgid "Medium Risk"
+msgstr "ریسک متوسط"
+
+#: .\templates\v2\dash_aforecast.html:261 .\templates\v2\dash_arisk.html:350
+#: .\templates\v2\dash_frisk.html:334 .\templates\v2\dash_main.html:1248
+#: .\templates\v2\dash_main.html.py:1264 .\templates\v2\dash_main.html:1274
+msgid "High Risk"
+msgstr "زیاد"
+
+#: .\templates\v2\dash_aforecast.html:261 .\templates\v2\dash_arisk.html:350
+#: .\templates\v2\dash_drought.html:536 .\templates\v2\dash_frisk.html:334
+#: .\templates\v2\dash_landslide.html:847 .\templates\v2\dash_main.html:1248
+#: .\templates\v2\dash_main.html.py:1264 .\templates\v2\dash_main.html:1274
+#: .\templates\v2\dash_main.html.py:1285
+msgid "Not at Risk"
+msgstr "نفوس در معرض خطر"
+
+#: .\templates\v2\dash_arisk.html:18
+msgid "Map of Population Living in Avalanche Risk Areas"
+msgstr " نفوس در ساحات خطر برف کوچ "
+
+#: .\templates\v2\dash_arisk.html:126 .\templates\v2\dash_main.html:991
+msgid "Avalanche Risk Population"
+msgstr "مجموع نفوس خطر برف کوچ "
+
+#: .\templates\v2\dash_arisk.html:157
+msgid "Avalanche Risk Building"
+msgstr "خطر برف کوچ"
+
+#: .\templates\v2\dash_arisk.html:188
+msgid "Avalanche Risk Area"
+msgstr "مساحت خطر برف کوچ "
+
+#: .\templates\v2\dash_arisk.html:208 .\templates\v2\dash_arisk.html.py:374
+#: .\templates\v2\dash_frisk.html:359
+msgid "Area at Risk"
+msgstr "خطر برف کوچ"
+
+#: .\templates\v2\dash_arisk.html:221
+msgid "Population and Area of Avalanche Risk"
+msgstr " نفوس در ساحات خطر برف کوچ "
+
+#: .\templates\v2\dash_arisk.html:233
+msgid ""
+"Population estimated to be living in buildings within avalanche areas "
+"(avalanche trigger, avalanche chute and run-out areas). The avalanche areas "
+"were only computed for areas which had snow cover of the past 9 years. The "
+"trigger areas were calculated using established methodologies"
+msgstr "جمعیت تخمین زده می شود که در ساختمانهای مناطق بهمن زندگی می کنند (ماشه بهمن ، ناودان بهمن و مناطق خالی از سکنه). مناطق بهمن فقط برای مناطقی محاسبه شده است که در 9 سال گذشته دارای برف بوده اند. مناطق ماشه ای با استفاده از روش های ثابت محاسبه شد."
+
+#: .\templates\v2\dash_arisk.html:350 .\templates\v2\dash_main.html:1274
+msgid "Moderate Risk"
+msgstr "متوسط"
+
+#: .\templates\v2\dash_baseline.html:38 .\templates\v2\dash_baseline.html:355
+#: .\templates\v2\dash_baseline.html:700 .\templates\v2\dash_main.html:38
+msgid "Health Facilities"
+msgstr "تعداد امکانات صحی "
+
+#: .\templates\v2\dash_baseline.html:42 .\templates\v2\dash_baseline.html:637
+#: .\templates\v2\dash_main.html:42 .\templates\v2\dash_main.html.py:130
+msgid "Total Length of Road (km)"
+msgstr "مجموع طول شبکه سرک ها (کیلومتر)"
+
+#: .\templates\v2\dash_baseline.html:134
+msgid "Population Graph"
+msgstr "زمان سفر نفوس "
+
+#: .\templates\v2\dash_baseline.html:163
+msgid "Building Graph"
+msgstr "گراف  ساختمان"
+
+#: .\templates\v2\dash_baseline.html:193 .\templates\v2\dash_main.html:51
+msgid "Area Graph"
+msgstr "گراف ساحه"
+
+#: .\templates\v2\dash_baseline.html:223
+msgid "Overview of Population and Area"
+msgstr "نفوس و بررسی اجمالی منطقه"
+
+#: .\templates\v2\dash_baseline.html:235
+msgid ""
+"An overview of the number of buildings, settlements, populations estimates "
+"per land cover as well as the area size per land cover."
+msgstr ""
+"مروری بر تعداد ساختمان ها ، سکونتگاه ها ، برآورد جمعیت در هر پوشش زمین و "
+"همچنین اندازه منطقه در هر پوشش زمین."
+
+#: .\templates\v2\dash_baseline.html:241 .\templates\v2\dash_fforecast.html:340
+#: .\templates\v2\dash_fforecast.html:343
+#: .\templates\v2\dash_fforecast.html:525
+#: .\templates\v2\dash_fforecast.html:528
+#: .\templates\v2\dash_fforecast.html:824
+#: .\templates\v2\dash_fforecast.html:827
+#: .\templates\v2\dash_fforecast.html:1124
+#: .\templates\v2\dash_fforecast.html:1127 .\templates\v2\dash_main.html:359
+#: .\templates\v2\dash_main.html.py:362 .\templates\v2\dash_main.html:490
+#: .\templates\v2\dash_main.html.py:493 .\templates\v2\dash_main.html:621
+#: .\templates\v2\dash_main.html.py:624 .\templates\v2\dash_main.html:752
+#: .\templates\v2\dash_main.html.py:755 .\templates\v2\dash_main.html:882
+#: .\templates\v2\dash_main.html.py:885
+msgid "Buildings"
+msgstr "ساختمانها"
+
+#: .\templates\v2\dash_baseline.html:242
+#: .\templates\v2\dash_earthquake.html:560
+#: .\templates\v2\dash_earthquake.html:562
+#: .\templates\v2\dash_earthquake.html:564
+#: .\templates\v2\dash_earthquake.html:566
+#: .\templates\v2\dash_earthquake.html:568
+#: .\templates\v2\dash_earthquake.html:570
+#: .\templates\v2\dash_earthquake.html:572
+#: .\templates\v2\dash_earthquake.html:574
+#: .\templates\v2\dash_earthquake.html:637
+#: .\templates\v2\dash_earthquake.html:639
+#: .\templates\v2\dash_earthquake.html:641
+#: .\templates\v2\dash_earthquake.html:643
+#: .\templates\v2\dash_earthquake.html:645
+#: .\templates\v2\dash_earthquake.html:647
+#: .\templates\v2\dash_earthquake.html:649
+#: .\templates\v2\dash_earthquake.html:651
+msgid "Settlements"
+msgstr "تعداد قریه جات "
+
+#: .\templates\v2\dash_baseline.html:367
+msgid ""
+"An overview of which type of health facilities are present: Hospitals: "
+"National (H1), Provincial (H2), District (H3). Comprehensive Health Center "
+"(CHC), Basic Health Center (BHC), Sub Health Center (SHC)"
+msgstr ""
+"مروری بر اینکه کدام یک از انواع امکانات بهداشتی وجود دارد: بیمارستانها: ملی "
+"(H1) ، استانی (H2) ، منطقه (H3). مرکز بهداشت جامع (CHC) ، مرکز بهداشت پایه "
+"(BHC) ، مرکز بهداشت فرعی (SHC)"
+
+#: .\templates\v2\dash_baseline.html:470 .\templates\v2\dash_main.html:82
+msgid "Health Facilities Graph"
+msgstr "نزدیکترین امکانات صحی ردیف اول "
+
+#: .\templates\v2\dash_baseline.html:488 .\templates\v2\dash_main.html:100
+msgid "Total Health Facilities"
+msgstr "تعداد امکانات صحی "
+
+#: .\templates\v2\dash_baseline.html:502
+msgid "Road Network"
+msgstr "راه های مواصلاتی"
+
+#: .\templates\v2\dash_baseline.html:514
+msgid ""
+"An overview of estimated kilometers for each type of road classification"
+msgstr "مروری بر کیلومترهای تخمینی برای هر نوع طبقه بندی جاده ها"
+
+#: .\templates\v2\dash_baseline.html:619 .\templates\v2\dash_main.html:112
+msgid "Road Network Graph"
+msgstr "بررسی اجمالی طول شبکه سرک ها"
+
+#: .\templates\v2\dash_baseline.html:650 .\templates\v2\dash_main.html:1186
+msgid "Build-Up"
+msgstr "ساختمانی"
+
+#: .\templates\v2\dash_baseline.html:650 .\templates\v2\dash_drought.html:537
+#: .\templates\v2\dash_main.html:1186
+msgid "Fruit Trees"
+msgstr "درخت های میوه"
+
+#: .\templates\v2\dash_baseline.html:650 .\templates\v2\dash_drought.html:537
+#: .\templates\v2\dash_main.html:1186
+msgid "Irrigated Agricultural Land"
+msgstr "زمین های زراعتی آبی"
+
+#: .\templates\v2\dash_baseline.html:650 .\templates\v2\dash_drought.html:537
+#: .\templates\v2\dash_main.html:1186
+msgid "Rainfed"
+msgstr "للمی"
+
+#: .\templates\v2\dash_baseline.html:650 .\templates\v2\dash_drought.html:537
+#: .\templates\v2\dash_main.html:1186
+msgid "Vineyards"
+msgstr "تاکستان ها"
+
+#: .\templates\v2\dash_baseline.html:650 .\templates\v2\dash_main.html:1186
+msgid "Water Body & Marshland"
+msgstr "ساحاتی آبی وباتلاق"
+
+#: .\templates\v2\dash_baseline.html:650 .\templates\v2\dash_main.html:1186
+msgid "Barren land"
+msgstr "بی ثمر/علف زار "
+
+#: .\templates\v2\dash_baseline.html:650 .\templates\v2\dash_main.html:1186
+msgid "Snow"
+msgstr "برف"
+
+#: .\templates\v2\dash_baseline.html:650 .\templates\v2\dash_drought.html:537
+#: .\templates\v2\dash_main.html:1186
+msgid "Rangeland"
+msgstr "بی ثمر/علف زار "
+
+#: .\templates\v2\dash_baseline.html:650 .\templates\v2\dash_main.html:1186
+msgid "Sand Covered Areas"
+msgstr "مساحت -پوشش  خدمات موبایل GSM"
+
+#: .\templates\v2\dash_baseline.html:650 .\templates\v2\dash_drought.html:537
+#: .\templates\v2\dash_main.html:1186
+msgid "Forest & Shrub"
+msgstr "جنگل وبته زار ها"
+
+#: .\templates\v2\dash_baseline.html:650 .\templates\v2\dash_main.html:1186
+msgid "Sand Dunes"
+msgstr "تپه های ریگی"
+
+#: .\templates\v2\dash_baseline.html:700
+msgid "Road (km)"
+msgstr "(سرک (کیلو میتر"
+
+#: .\templates\v2\dash_drought.html:9 .\templates\v2\links.html:32
+msgid "Drought"
+msgstr "خشکسالی"
+
+#: .\templates\v2\dash_drought.html:17
+msgid "Closest Available Prediction Period :"
+msgstr "نزدیکترین دوره پیش بینی موجود"
+
+#: .\templates\v2\dash_drought.html:35
+msgid "Map of Drought Areas"
+msgstr "نقشه خشکسالی مناطق"
+
+#: .\templates\v2\dash_drought.html:235
+msgid "Drought Population"
+msgstr "مجموع نفوس"
+
+#: .\templates\v2\dash_drought.html:256
+msgid "Drought Building"
+msgstr "ساختمان خشکسالی"
+
+#: .\templates\v2\dash_drought.html:277
+msgid "Drought Area"
+msgstr "منطقه خشکسالی"
+
+#: .\templates\v2\dash_drought.html:298
+msgid "Drought Population Landcover"
+msgstr "نفوس و بررسی اجمالی منطقه"
+
+#: .\templates\v2\dash_drought.html:325
+msgid "Drought Area Landcover"
+msgstr "منطقه خشکسالی پوشش زمین"
+
+#: .\templates\v2\dash_drought.html:368
+msgid "..."
+msgstr ""
+
+#: .\templates\v2\dash_drought.html:375 .\templates\v2\dash_drought.html:453
+#: .\templates\v2\dash_landslide.html:340
+#: .\templates\v2\dash_landslide.html:374
+#: .\templates\v2\dash_landslide.html:459
+#: .\templates\v2\dash_landslide.html:493
+#: .\templates\v2\dash_landslide.html:578
+#: .\templates\v2\dash_landslide.html:612
+#: .\templates\v2\dash_landslide.html:697
+#: .\templates\v2\dash_landslide.html:782
+msgid "Risk Level"
+msgstr "سطح خطر"
+
+#: .\templates\v2\dash_drought.html:378 .\templates\v2\dash_drought.html:456
+#: .\templates\v2\dash_drought.html:536
+msgid "Abnormally Dry"
+msgstr "به طور غیر طبیعی خشک است"
+
+#: .\templates\v2\dash_drought.html:380 .\templates\v2\dash_drought.html:458
+#: .\templates\v2\dash_drought.html:536 .\templates\v2\dash_earthquake.html:707
+#: .\templates\v2\dash_main.html:1292
+msgid "Severe"
+msgstr "VIII: شدید"
+
+#: .\templates\v2\dash_drought.html:382 .\templates\v2\dash_drought.html:460
+#: .\templates\v2\dash_drought.html:536
+msgid "Exceptional"
+msgstr ""
+
+#: .\templates\v2\dash_drought.html:537
+msgid "Build Up"
+msgstr "ساختمانی"
+
+#: .\templates\v2\dash_earthquake.html:25
+msgid "Map of Earthquake"
+msgstr "زلزله"
+
+#: .\templates\v2\dash_earthquake.html:309
+msgid "Population Affected by Earthquake"
+msgstr "جمعیت تحت تأثیر زلزله"
+
+#: .\templates\v2\dash_earthquake.html:329
+msgid "Population Affected"
+msgstr "نفوس در معرض خطر"
+
+#: .\templates\v2\dash_earthquake.html:340
+msgid "Buildings Affected by Earthquake"
+msgstr "ساختمانهای متضرر از زلزله"
+
+#: .\templates\v2\dash_earthquake.html:360
+msgid "Buildings Affected"
+msgstr "ساختمانهای متضرر"
+
+#: .\templates\v2\dash_earthquake.html:371
+msgid "Settlements Affected by Earthquake"
+msgstr "آبادانی های زلزله زده"
+
+#: .\templates\v2\dash_earthquake.html:387
+msgid "Total Settlement"
+msgstr "تعداد قریه جات "
+
+#: .\templates\v2\dash_earthquake.html:391
+msgid "Settlement Affected"
+msgstr "تسویه حساب"
+
+#: .\templates\v2\dash_earthquake.html:402
+msgid "Mercalli Intensity Scale Population"
+msgstr "درجه شدت میرکالی "
+
+#: .\templates\v2\dash_earthquake.html:421 .\templates\v2\dash_main.html:1081
+msgid "Mercalli Intensity Scale Buildings"
+msgstr "درجه شدت میرکالی "
+
+#: .\templates\v2\dash_earthquake.html:440
+msgid "Mercalli Intensity Scale Settlements"
+msgstr "درجه شدت میرکالی "
+
+#: .\templates\v2\dash_earthquake.html:461
+msgid "Overview of Earthquake Affecting Population and Settlements"
+msgstr "نفوس آسیب دیده از زلزله و بررسی اجمالی قریه "
+
+#: .\templates\v2\dash_earthquake.html:473
+msgid "Shows the number of people within each of the Mercalli Intensity Scale "
+msgstr "تعداد افراد در هر مقیاس شدت Mercalli را نشان می دهد"
+
+#: .\templates\v2\dash_earthquake.html:473
+msgid ""
+"<a href=\"#popover_mercalli_desc\" data-toggle=\"collapse\">see description</"
+"a>"
+msgstr ""
+
+#: .\templates\v2\dash_earthquake.html:474
+msgid ""
+"These estimates are created automatically from USGS Shakemaps, which are "
+"released approximately 1 hours after strong magnitude earthquakes. Larger "
+"shake intensity generally results in more damage."
+msgstr ""
+"تقریباً 1 ساعت پس از زلزله های بزرگ ریشتر آزاد شد. شدت لرزش بیشتر به طور کلی "
+"منجر به آسیب بیشتر می شود"
+
+#: .\templates\v2\dash_earthquake.html:480
+msgid "Intensity & Shaking"
+msgstr "شدت و تکان دادن"
+
+#: .\templates\v2\dash_earthquake.html:481
+msgid "Shaking"
+msgstr "تکان دادن"
+
+#: .\templates\v2\dash_earthquake.html:482
+msgid "Description/Damage"
+msgstr "توضیحات"
+
+#: .\templates\v2\dash_earthquake.html:487
+msgid "I: Not Felt"
+msgstr "من: نه نمدی"
+
+#: .\templates\v2\dash_earthquake.html:488
+msgid "Not felt except by a very few under especially favorable conditions."
+msgstr "به جز تعداد کمی تحت شرایط به خصوص مطلوب احساس نمی شود"
+
+#: .\templates\v2\dash_earthquake.html:491
+msgid "II: Weak"
+msgstr "II-III: ضعیف"
+
+#: .\templates\v2\dash_earthquake.html:493
+msgid ""
+"Felt only by a few persons at rest ,especially on upper floors of buildings."
+msgstr ""
+"فقط توسط چند نفر در حالت استراحت ، به ویژه در طبقات فوقانی ساختمان ها احساس "
+"می شود."
+
+#: .\templates\v2\dash_earthquake.html:497
+msgid "III: Weak"
+msgstr "II-III: ضعیف"
+
+#: .\templates\v2\dash_earthquake.html:499
+#: .\templates\v2\dash_earthquake.html:538
+msgid ""
+"Felt quite noticeably by persons indoors, especially on upper floors of "
+"buildings. Many people do not recognize it as an earthquake. Standing motor "
+"cars may rock slightly. Vibrations similar to the passing of a truck. "
+"Duration estimated."
+msgstr ""
+"به طور قابل توجهی توسط افراد در داخل خانه ، به ویژه در طبقات فوقانی ، احساس "
+"می شود"
+
+#: .\templates\v2\dash_earthquake.html:504
+#: .\templates\v2\dash_earthquake.html:539
+msgid ""
+"Felt indoors by many, outdoors by few during the day. At night, some "
+"awakened. Dishes, windows, doors disturbed; walls make cracking sound. "
+"Sensation like heavy truck striking building. Standing motor cars rocked "
+"noticeably."
+msgstr ""
+"خیلی ها در خانه در داخل احساس می کنند ، در طول روز تعداد کمی در فضای باز "
+"احساس می شوند. شب برخی از آنها بیدار شدند. ظرف ها ، پنجره ها ، درها آشفته "
+"است. دیوارها صدای ترک می گیرند. احساسی مانند ساختمان شگفت انگیز کامیون "
+"سنگین. اتومبیل های ایستاده موتوری به طور محسوسی تکان می خوردند"
+
+#: .\templates\v2\dash_earthquake.html:508
+#: .\templates\v2\dash_earthquake.html:540
+msgid ""
+"Felt by nearly everyone; many awakened. Some dishes, windows broken. "
+"Unstable objects overturned. Pendulum clocks may stop."
+msgstr ""
+"تقریباً توسط همه احساس می شود. بسیاری بیدار شدند. بعضی از ظروف ، پنجره ها "
+"شکسته است. اشیا Un ناپایدار واژگون شدند. ساعت های آونگ ممکن است متوقف شوند."
+
+#: .\templates\v2\dash_earthquake.html:512
+#: .\templates\v2\dash_earthquake.html:541
+msgid ""
+"Felt by all, many frightened. Some heavy furniture moved; a few instances of "
+"fallen plaster. Damage slight."
+msgstr ""
+"احساس همه ، بسیاری ترسیده اند. برخی از مبلمان سنگین نقل مکان کردند چند مورد "
+"از گچ افتاده آسیب جزئی."
+
+#: .\templates\v2\dash_earthquake.html:516
+#: .\templates\v2\dash_earthquake.html:542
+msgid ""
+"Damage negligible in buildings of good design and construction; slight to "
+"moderate in well-built ordinary structures; considerable damage in poorly "
+"built or badly designed structures; some chimneys broken."
+msgstr ""
+"خسارت قابل توجهی در ساختمانهای دارای طراحی و ساخت خوب. خفیف تا متوسط ​​در "
+"ساختارهای معمولی خوش ساخت ؛ خسارت قابل توجهی در سازه های بد ساخته یا بد "
+"طراحی شده. برخی از دودکش ها شکسته شده است."
+
+#: .\templates\v2\dash_earthquake.html:520
+#: .\templates\v2\dash_earthquake.html:543
+msgid ""
+"Damage slight in specially designed structures; considerable damage in "
+"ordinary substantial buildings with partial collapse. Damage great in poorly "
+"built structures. Fall of chimneys, factory stacks, columns, monuments, "
+"walls. Heavy furniture overturned."
+msgstr ""
+"خسارت جزئی در ساختارهای ویژه طراحی شده. خسارت قابل توجهی در ساختمانهای عادی "
+"قابل توجه با ریزش جزئی. خسارات زیادی در سازه های ضعیف ساخته شده است. سقوط "
+"دودکش ها ، پشته های کارخانه ، ستون ها ، بناهای یادبود ، دیوارها. مبلمان "
+"سنگین واژگون شد."
+
+#: .\templates\v2\dash_earthquake.html:524
+#: .\templates\v2\dash_earthquake.html:544
+msgid ""
+"Damage considerable in specially designed structures; well-designed frame "
+"structures thrown out of plumb. Damage great in substantial buildings, with "
+"partial collapse. Buildings shifted off foundations."
+msgstr ""
+"خسارت قابل توجهی در سازه های خاص طراحی شده. سازه های قاب کاملاً طراحی شده که "
+"از پایین شاقول انداخته شده اند. با ریزش جزئی ، در ساختمانهای قابل توجه خسارت "
+"وارد شده است. ساختمانها از پایه ها جابجا شدند."
+
+#: .\templates\v2\dash_earthquake.html:528
+#: .\templates\v2\dash_earthquake.html:545
+msgid ""
+"Some well-built wooden structures destroyed; most masonry and frame "
+"structures destroyed with foundations. Rails bent."
+msgstr ""
+"برخی از سازه های چوبی خوش ساخت تخریب شدند. بیشتر سازه های بنایی و اسکلت با "
+"پایه تخریب شده است. ریل ها خم شده اند."
+
+#: .\templates\v2\dash_earthquake.html:706 .\templates\v2\dash_main.html:1291
+msgid "Affected"
+msgstr "متأثر"
+
+#: .\templates\v2\dash_earthquake.html:706 .\templates\v2\dash_main.html:1291
+msgid "Not Affected"
+msgstr "تحت تأثیر قرار نگرفته است"
+
+#: .\templates\v2\dash_earthquake.html:707 .\templates\v2\dash_main.html:1292
+msgid "Weak"
+msgstr "ضعیف"
+
+#: .\templates\v2\dash_earthquake.html:707 .\templates\v2\dash_main.html:1292
+msgid "Light"
+msgstr "IV: خفیف"
+
+#: .\templates\v2\dash_earthquake.html:707 .\templates\v2\dash_main.html:1292
+msgid "Strong"
+msgstr "VI: قوی "
+
+#: .\templates\v2\dash_earthquake.html:707 .\templates\v2\dash_main.html:1292
+msgid "Very Strong"
+msgstr "VI: قوی "
+
+#: .\templates\v2\dash_fforecast.html:18
+msgid "Map of Flood Forecast"
+msgstr "نقشه پیش بینی سیل"
+
+#: .\templates\v2\dash_fforecast.html:329
+msgid ""
+"Flash Flood Prediction is updated every hour and valid for the next 6 hours. "
+"This data is not calibrated and can only be used for rudimentary flood "
+"likelihood prediction."
+msgstr ""
+"پیش بس سیل برق اسا پیش بینی هر ساعت به روز می شود و برای 6 ساعت آینده معتبر "
+"است. این داده ها درجه بندی نشده اند و فقط می توانند برای پیش بینی احتمال "
+"ابتلا به سیل ابتدایی استفاده شوند."
+
+#: .\templates\v2\dash_fforecast.html:338
+#: .\templates\v2\dash_fforecast.html:341
+#: .\templates\v2\dash_fforecast.html:523
+#: .\templates\v2\dash_fforecast.html:526
+#: .\templates\v2\dash_fforecast.html:822
+#: .\templates\v2\dash_fforecast.html:825
+#: .\templates\v2\dash_fforecast.html:1122
+#: .\templates\v2\dash_fforecast.html:1125 .\templates\v2\dash_main.html:357
+#: .\templates\v2\dash_main.html.py:360 .\templates\v2\dash_main.html:488
+#: .\templates\v2\dash_main.html.py:491 .\templates\v2\dash_main.html:619
+#: .\templates\v2\dash_main.html.py:622 .\templates\v2\dash_main.html:750
+#: .\templates\v2\dash_main.html.py:753 .\templates\v2\dash_main.html:880
+#: .\templates\v2\dash_main.html.py:883
+msgid "Level"
+msgstr "مرحله"
+
+#: .\templates\v2\dash_fforecast.html:514 .\templates\v2\dash_main.html:348
+#: .\templates\v2\dash_main.html.py:871
+msgid ""
+"The prediction based on the combination of Global Flood Awareness Sytem "
+"(GLOFAS) and Global Flood Monitoring Sytem (GFMS). River Flood is updated "
+"every 6 hours and valid for the next 4 days (GFMS) and 20 days (GLOFAS). "
+"GLOFAS supersedes GFMS. Data is only partly calibrated and smaller "
+"mountainous tributaries not included."
+msgstr ""
+"پیش بینی بر اساس ترکیب سیستم آگاهی جهانی از سیل (GLOFAS) و سیستم نظارت بر "
+"سیل جهانی (GFMS). طغیان رودخانه هر 6 ساعت به روز می شود و برای 4 روز آینده "
+"(GFMS) و 20 روز معتبر (GLOFAS) معتبر است. GLOFAS جایگزین GFMS می شود. داده "
+"ها فقط تا حدودی کالیبره شده و انشعابات کوهستانی کوچکتر شامل نمی شوند."
+
+#: .\templates\v2\dash_fforecast.html:674
+#: .\templates\v2\dash_fforecast.html:973
+#: .\templates\v2\dash_fforecast.html:1275
+msgid "Flood Likelihood Overview"
+msgstr "احتمال سیلاب ناگهانی "
+
+#: .\templates\v2\dash_fforecast.html:686
+msgid ""
+"The summary of Flash Flood Prediction and River Flood Prediction occured in "
+"Afghanistan. The riverflood prediction is based on the combination of Global "
+"Flood Awareness Sytem (GLOFAS) and Global Flood Monitoring Sytem (GFMS) "
+"method. Flash Flood is updated every hour and valid for the next 6 hours "
+"while River Flood is updated every 6 hours and valid for the next 4 days "
+"(GFMS) and 20 days (GLOFAS). GLOFAS supersedes GFMS. Data is only partly "
+"calibrated and smaller mountainous tributaries not included."
+msgstr ""
+"خلاصه پیش بینی سیلاب و پیش بینی سیل رودخانه در افغانستان رخ داده است. پیش "
+"بینی سیل رودخانه بر اساس ترکیبی از روش آگاهی جهانی از سیلاب جهانی (GLOFAS) و "
+"روش نظارت بر سیلابی جهانی (GFMS) است. Flash Flood هر ساعت به روز می شود و "
+"برای 6 ساعت بعد معتبر است در حالی که River Flood هر 6 ساعت به روز می شود و "
+"برای 4 روز آینده (GFMS) و 20 روز (GLOFAS) معتبر است. GLOFAS جایگزین GFMS می "
+"شود. داده ها فقط تا حدودی کالیبره شده و انشعابات کوهستانی کوچکتر شامل نمی "
+"شوند"
+
+#: .\templates\v2\dash_fforecast.html:813 .\templates\v2\dash_main.html:479
+msgid ""
+"The prediction based solely on Global Flood Awareness Sytem (GLOFAS). River "
+"Flood is updated every 6 hours and valid for the next 20 days. Data is only "
+"partly calibrated and smaller mountainous tributaries not included."
+msgstr ""
+"این پیش بینی صرفاً بر اساس سیستم آگاهی جهانی از سیل (GLOFAS) صورت گرفت. River "
+"Flood هر 6 ساعت به روز می شود و برای 20 روز آینده معتبر است. داده ها فقط تا "
+"حدی کالیبره شده و انشعابات کوهستانی کوچکتر شامل نمی شوند"
+
+#: .\templates\v2\dash_fforecast.html:985
+msgid ""
+"The summary of Flash Flood Prediction and River Flood Prediction occured in "
+"Afghanistan. The riverflood prediction is based Global Flood Awareness Sytem "
+"(GLOFAS) method. Flash Flood is updated every hour and valid for the next 6 "
+"hours while River Flood is updated every 6 hours and valid for the next 4 "
+"days."
+msgstr ""
+"خلاصه پیش بینی سیلاب و پیش بینی سیل رودخانه در افغانستان رخ داده است. پیش "
+"بینی سیل رودخانه بر اساس روش آگاهی جهانی از سیلاب جهانی (GLOFAS) است.  سیل "
+"ناگهانی هر ساعت به روز می شود و برای 6 ساعت بعدی معتبر است در حالی که طغیان "
+"رودخانه  هر 6 ساعت به روز می شود و برای 4 روز آینده معتبر است"
+
+#: .\templates\v2\dash_fforecast.html:1113 .\templates\v2\dash_main.html:610
+msgid ""
+"The prediction based solely on Global Flood Monitoring Sytem (GFMS). River "
+"Flood is updated every 6 hours and valid for the next 4 days. Data is only "
+"partly calibrated and smaller mountainous tributaries not included."
+msgstr ""
+"این پیش بینی صرفاً بر اساس سیستم نظارت بر سیلاب جهانی (GFMS) صورت گرفت. طغیان "
+"رودخانه هر 6 ساعت به روز می شود و برای 4 روز آینده معتبر است. داده ها فقط تا "
+"حدودی کالیبره شده و انشعابات کوهستانی کوچکتر شامل نمی شوند."
+
+#: .\templates\v2\dash_fforecast.html:1287
+msgid ""
+"The summary of Flash Flood Prediction and River Flood Prediction occured in "
+"Afghanistan. The riverflood prediction is based on the Global Flood "
+"Monitoring Sytem (GFMS) method. Flash Flood is updated every hour and valid "
+"for the next 6 hours while River Flood is updated every 6 hours and valid "
+"for the next 4 days."
+msgstr ""
+"خلاصه پیش بینی سیلاب و پیش بینی سیل رودخانه در افغانستان رخ داده است. پیش "
+"بینی سیل رودخانه بر اساس روش نظارت بر سیلاب جهانی (GFMS) است. سیل ناگهانی هر "
+"ساعت به روز می شود و برای 6 ساعت آینده معتبر است در حالی که طغیان رودخانه هر "
+"6 ساعت به روز می شود و برای 4 روز آینده معتبر است."
+
+#: .\templates\v2\dash_frisk.html:18
+msgid "Map of Flood Risk"
+msgstr "خطر سیلاب"
+
+#: .\templates\v2\dash_frisk.html:102 .\templates\v2\dash_main.html:259
+msgid "Flood Risk Population"
+msgstr "مجموع نفوس"
+
+#: .\templates\v2\dash_frisk.html:133
+msgid "Flood Risk Building"
+msgstr "خطر سیلاب"
+
+#: .\templates\v2\dash_frisk.html:153
+msgid "Building At Risk"
+msgstr "نفوس در معرض خطر"
+
+#: .\templates\v2\dash_frisk.html:164 .\templates\v2\dash_main.html:291
+msgid "Flood Risk Area"
+msgstr "خطر سیلاب"
+
+#: .\templates\v2\dash_frisk.html:184 .\templates\v2\dash_main.html:311
+msgid "Area At Risk"
+msgstr "نفوس در معرض خطر"
+
+#: .\templates\v2\dash_frisk.html:195
+msgid "Population Living in Flood Risk Areas"
+msgstr "نفوس ساکن در مناطق خطر سیلاب "
+
+#: .\templates\v2\dash_frisk.html:207
+#, python-format
+msgid ""
+"Population, buildings and area within 100-year inundation flood zone "
+"(source: NATO Flood Map). Flood risk category is estimated based upon "
+"potential flood depth: Low flood risk relates to inundation more than 29cm, "
+"moderate to 1.21m and high flood risk more than 2.7m. The 100-year "
+"inundation interval, implies that every year there is a 1%% chance of such a "
+"flood event occurring. Most flood events will be in 5,10, 20-year inundation "
+"interval."
+msgstr ""
+"جمعیت ، ساختمانها و منطقه در منطقه 100 ساله سیلاب طغیان شده (منبع: نقشه سیل "
+"ناتو). ریسک سیل بر اساس عمق بالقوه سیل برآورد می شود: خطر کم سیل مربوط به "
+"طغیان بیش از 29 سانتی متر ، متوسط ​​تا 1.21 متر و خطر سیل بیش از 2.7 متر است. "
+"فاصله 100 ساله آبگرفتگی نشان می دهد که هر ساله 1 ٪٪ احتمال وقوع چنین حادثه "
+"سیل وجود دارد. بیشتر حوادث سیل در 5،10 ، 20 سال فاصله طغیان خواهد بود"
+
+#: .\templates\v2\dash_frisk.html:214 .\templates\v2\dash_frisk.html.py:273
+msgid "Settlement"
+msgstr "تعداد قریه جات "
+
+#: .\templates\v2\dash_frisk.html:359
+msgid "Settlement at Risk"
+msgstr "تسویه حساب در معرض خطر"
+
+#: .\templates\v2\dash_haccess.html:22
+msgid "Map of Incidents Occurrence"
+msgstr ""
+
+#: .\templates\v2\dash_haccess.html:100 .\templates\v2\dash_main.html:1111
+msgid "Graph of Incident and Casualties Trend by Incident Type"
+msgstr "نمودار روند حادثه و تلفات بر اساس نوع حادثه"
+
+#: .\templates\v2\dash_haccess.html:116 .\templates\v2\dash_main.html:1133
+msgid "Select Incident Type"
+msgstr "انتخاب نوع حادثه "
+
+#: .\templates\v2\dash_haccess.html:215
+msgid "Incidents and Casualties by Incident Type"
+msgstr "حوادث و تلفات بر اساس نوع حادثه"
+
+#: .\templates\v2\dash_haccess.html:227
+msgid ""
+"List of Incidents and Casualties grouped by Incident Type. The data is "
+"updated each working day."
+msgstr "لیست حوادث و تلفات گروه بندی شده بر اساس نوع حادثه. داده ها"
+
+#: .\templates\v2\dash_haccess.html:309
+msgid "Number of Casualties by Incident Type"
+msgstr "انتخاب نوع حادثه "
+
+#: .\templates\v2\dash_haccess.html:326
+msgid "Number of Incidents by Incident Type"
+msgstr "تعداد حوادث و تلفات "
+
+#: .\templates\v2\dash_haccess.html:346
+msgid "Graph of Incident and Casualties Trend by Target Type"
+msgstr "نمودار روند وقایع و حوادث براساس نوع هدف"
+
+#: .\templates\v2\dash_haccess.html:363
+msgid " Select Incident Target"
+msgstr "انتخاب نوع هدف"
+
+#: .\templates\v2\dash_haccess.html:441
+msgid "Incidents and Casualties by Target Type"
+msgstr "تعداد حوادث و تلفات "
+
+#: .\templates\v2\dash_haccess.html:453
+msgid ""
+"List of Incidents and Casualties grouped by Target Type. The data is updated "
+"each working day."
+msgstr "لیست حوادث و تلفات گروه بندی شده بر اساس نوع هدف. داده ها هر روز کاری به روز می شوند."
+
+#: .\templates\v2\dash_haccess.html:535
+msgid "Number of Casualties by Target Type"
+msgstr "تعداد تلفات بر اساس نوع هدف"
+
+#: .\templates\v2\dash_haccess.html:552
+msgid "Number of Incidents by Target Type"
+msgstr "تعداد حوادث و تلفات "
+
+#: .\templates\v2\dash_haccess.html:572
+msgid "Number of Incident and Casualties Overview"
+msgstr "تعداد حوادث و تلفات "
+
+#: .\templates\v2\dash_haccess.html:584
+msgid ""
+"Summary of Incidents and Casualties occured in Afghanistan. The data is "
+"updated each working day."
+msgstr ""
+"خلاصه حوادث و حوادثی که در افغانستان رخ داده است. داده ها هر روز کاری به روز "
+"می شوند."
+
+#: .\templates\v2\dash_haccess.html:661
+msgid "List of Latest Incidents"
+msgstr "آخرین حوادث"
+
+#: .\templates\v2\dash_haccess.html:673
+msgid ""
+"This table gives the details of the incidents occured in Afghanistan. It is "
+"restricted to show 100 latest incidents only."
+msgstr ""
+"در این جدول جزئیات حوادث رخ داده در افغانستان آورده شده است. فقط نمایش 100 "
+"حادثه اخیر محدود است"
+
+#: .\templates\v2\dash_haccess.html:720
+msgid "Incident"
+msgstr "حوادث"
+
+#: .\templates\v2\dash_haccess.html:763
+msgid "Total Incidents"
+msgstr "# حوادث"
+
+#: .\templates\v2\dash_haccess.html:763
+msgid "Violence Incidents"
+msgstr "# حوادث"
+
+#: .\templates\v2\dash_landslide.html:17
+msgid "Map of Landslide Areas"
+msgstr "نقشه مناطق لغزش"
+
+#: .\templates\v2\dash_landslide.html:213
+#: .\templates\v2\dash_landslide.html:409 .\templates\v2\dash_main.html:1057
+msgid "Landslide Indexes (iMMAP 2017)"
+msgstr "شاخص های لغزش (iMMAP 2017)"
+
+#: .\templates\v2\dash_landslide.html:234
+#: .\templates\v2\dash_landslide.html:528
+msgid "Multi-criteria Susceptibility Index"
+msgstr "شاخص حساسیت چند معیاره"
+
+#: .\templates\v2\dash_landslide.html:255
+#: .\templates\v2\dash_landslide.html:647
+msgid "Landslide Susceptibility (S1)"
+msgstr "حساسیت به زمین لغزش (S1)"
+
+#: .\templates\v2\dash_landslide.html:276
+#: .\templates\v2\dash_landslide.html:732
+msgid "Landslide Susceptibility (S2)"
+msgstr "حساسیت به زمین لغزش (S2)"
+
+#: .\templates\v2\dash_landslide.html:297
+#: .\templates\v2\dash_landslide.html:817
+msgid "Landslide Susceptibility (S3)"
+msgstr "حساسیت به زمین لغزش (S3)"
+
+#: .\templates\v2\dash_landslide.html:320
+msgid "Population by Landslide Indexes (iMMAP 2017)"
+msgstr "جمعیت بر اساس شاخص های لغزش (iMMAP 2017)"
+
+#: .\templates\v2\dash_landslide.html:333
+msgid ""
+"Population within a weighted index of various landslide susceptibility "
+"models of Afghanistan. Landslide susceptibility - S1-S2- S3 (World Bank, "
+"2016). Landslide Susceptibility Index (Schlagel, 2016)."
+msgstr ""
+"جمعیت در یک شاخص وزنی از مدلهای مختلف حساسیت به زمین لغزش در افغانستان. "
+"حساسیت به زمین لغزش - S1-S2- S3 (بانک جهانی ، 2016). شاخص حساسیت به زمین "
+"لغزش (Schlagel ، 2016)."
+
+#: .\templates\v2\dash_landslide.html:439
+msgid "Population by Multi-criteria Landslide Susceptibility Index"
+msgstr "جمعیت براساس شاخص حساسیت به زمین لغزش چند معیاره"
+
+#: .\templates\v2\dash_landslide.html:452
+msgid ""
+"Population within each of the Multi-criteria Landslide Susceptibility (LSI) "
+"categories. Lithology, fault, river, and road data compiled by the USGS were "
+"derived from both pre- and mid-war sources of varying detail. A 10 year "
+"subset of earthquake data was used to reduce processing time; earthquake "
+"density was weighted by magnitude. An NDVI tile was used as vegetation data "
+"covering most of the country. Slope and aspect data were derived from 90m "
+"SRTM."
+msgstr ""
+"جمعیت در هر یک از دسته های حساسیت به زمین لغزش چند معیار (LSI). داده های سنگ "
+"شناسی ، گسل ، رودخانه و جاده که توسط USGS جمع آوری شده از هر دو منبع قبل و "
+"اواسط جنگ با جزئیات مختلف مشتق شده است. یک زیر مجموعه 10 ساله از داده های "
+"زلزله برای کاهش زمان پردازش استفاده شد. چگالی زلزله با بزرگی وزن شد. از کاشی "
+"NDVI به عنوان داده های پوشش گیاهی بیشتر کشور استفاده شد. شیب و داده ها از "
+"90M SRTM استخراج شده است."
+
+#: .\templates\v2\dash_landslide.html:558
+msgid ""
+"Population by Landslide susceptibility - bedrock landslides in slow "
+"evolution (S1)"
+msgstr "جمعیت توسط حساسیت به زمین لغزش - زمین لغزش بستر در تکامل آهسته (S1)"
+
+#: .\templates\v2\dash_landslide.html:571
+msgid ""
+"Afghanistan population within the susceptibility for bedrock landslides in "
+"slow evolution, including: rotational slides, translational slides, earth "
+"flows and lateral spreading. Susceptibility values are represented according "
+"the following scale: 0=Null; 1-3=Low; 4-5=Moderate; 6=High; 7-9=Very High."
+msgstr ""
+"جمعیت افغانستان در معرض خطر لغزش سنگ بستر در تکامل آهسته ، از جمله: سرسره "
+"های چرخشی ، سرسره های ترجمه ، جریان های زمین و گسترش جانبی. مقادیر حساسیت با "
+"توجه به مقیاس زیر نشان داده می شود: 0 = Null؛ 1-3 = کم ؛ 4-5 = متوسط ​​؛ 6 = "
+"زیاد ؛ 7-9 = بسیار زیاد."
+
+#: .\templates\v2\dash_landslide.html:677
+msgid ""
+"Population by Landslide susceptibility - bedrock landslides in rapid "
+"evolution (S2)"
+msgstr "جمعیت توسط حساسیت به زمین لغزش - زمین لغزش سنگ بستر در تکامل سریع (S2)"
+
+#: .\templates\v2\dash_landslide.html:690
+msgid ""
+"Afghanistan population within landslide susceptibility for bedrock "
+"landslides in rapid evolution (S2), nationwide. Indicates the susceptibility "
+"for bedrock landslides in rapid evolution, including: falls and toppling. "
+"Susceptibility values are represented according the following scale: 0=Null; "
+"1-3=Low; 4-5=Moderate; 6=High; 7-9=Very High"
+msgstr ""
+"جمعیت افغانستان در معرض خطر لغزش زمین برای لغزش سنگ بستر در تکامل سریع "
+"(S2) ، در سراسر کشور است. حساسیت به زمین لغزش سنگ بستر را در تکامل سریع نشان "
+"می دهد ، از جمله: سقوط و سرنگونی. مقادیر حساسیت با توجه به مقیاس زیر نشان "
+"داده می شود: 0 = Null؛ 1-3 = کم ؛ 4-5 = متوسط ​​؛ 6 = زیاد ؛ 7-9 = بسیار زیاد"
+
+#: .\templates\v2\dash_landslide.html:762
+msgid ""
+"Population by Landslide susceptibility - cover material in rapid evolution "
+"(S3)"
+msgstr "حساسیت به زمین لغزش - پوشش مواد در تکامل سریع (S3)"
+
+#: .\templates\v2\dash_landslide.html:775
+msgid ""
+"Afghanistan population within landslide susceptibility for cover material "
+"landslides in rapid evolution (S3). Indicates the susceptibility for cover "
+"material landslides in rapid evolution, including: debris- mud flows. "
+"Susceptibility values are represented according the following scale: 0=Null; "
+"1-3=Low; 4-5=Moderate; 6=High; 7-9=Very High"
+msgstr ""
+"جمعیت افغانستان در معرض لغزش حساسیت به پوشش زمین لغزش مواد در تکامل سریع "
+"(S3). حساسیت به زمین لغزش مواد پوششی را در تکامل سریع نشان می دهد ، از جمله: "
+"جریان آوار - گل. مقادیر حساسیت با توجه به مقیاس زیر نشان داده می شود: 0 = "
+"Null؛ 1-3 = کم ؛ 4-5 = متوسط ​​؛ 6 = زیاد ؛ 7-9 = بسیار زیاد"
+
+#: .\templates\v2\dash_main.html:12
+msgid "Quick Overview"
+msgstr "بررسی اجمالی سریع"
+
+#: .\templates\v2\dash_main.html:741
+msgid ""
+"Flash Flood Prediction is updated every hour and valid for the next 6 hours"
+msgstr ""
+"پیش بینی  سیل ناگهانی هر ساعت به روز می شود و برای 6 ساعت آینده معتبر است"
+
+#: .\templates\v2\dash_main.html:1228
+msgid "Medium"
+msgstr "متوسط"
+
+#: .\templates\v2\links.html:10
+msgid "Overview"
+msgstr "بررسی اجمالی"
+
+#: .\templates\v2\links.html:61
+msgid "Search"
+msgstr "جستجوی منطقه"
+
+#~ msgid "Likelihood<"
+#~ msgstr "احتمال <"
