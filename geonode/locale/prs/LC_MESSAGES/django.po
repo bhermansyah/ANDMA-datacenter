@@ -1152,7 +1152,7 @@ msgid "Static Maps"
 msgstr "نقشه های استاتیک (ساکن)"
 
 #: .\documents\templates\documents\document_upload.html:28
-#, fuzzy
+
 msgid "Upload Static Maps"
 msgstr "نقشه های استاتیک (ساکن)"
 
@@ -2676,7 +2676,7 @@ msgstr ""
 "تصحیح جزئیات برای %(layer_title)s"
 
 #: .\layers\templates\v2\layer_metadata.html:24
-#, fuzzy
+
 msgid ""
 "Note: this layer's orginal metadata was populated by importing a metadata "
 "XML file.\n"
@@ -6772,17 +6772,17 @@ msgid ""
 msgstr ""
 
 #: .\templates\v2\index.html:139
-#, fuzzy
+
 msgid "Latest Earthquake"
 msgstr "زلزله"
 
 #: .\templates\v2\index.html:142
-#, fuzzy
+
 msgid "The map and statistics are updated every 30 mins."
 msgstr "هر 6 ساعت نقشه ها و آمار آپدیت میشوند ."
 
 #: .\templates\v2\index.html:154
-#, fuzzy
+
 msgid ""
 "Click to explore for the number of people potentially affected by earthquakes"
 msgstr ""
