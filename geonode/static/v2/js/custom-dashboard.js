@@ -6557,48 +6557,48 @@ function init_leaflet(){
 	    var wmsLayer = 
 
 	    {
-	        "nAirprt" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "nAirprt" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	                    layers: 'geonode:afg_capa_airdrm',
 	                    format: 'image/png',
 	                    transparent: true
 	        }),
-	        "nHlt1" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "nHlt1" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	                    layers: 'geonode:afg_capa_hltfac_tier1',
 	                    format: 'image/png',
 	                    transparent: true
 	        }),
-	        "nHlt2" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "nHlt2" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	                    layers: 'geonode:afg_capa_hltfac_tier2',
 	                    format: 'image/png',
 	                    transparent: true
 	        }),
-	        "nHlt3" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "nHlt3" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	                    layers: 'geonode:afg_capa_hltfac_tier3',
 	                    format: 'image/png',
 	                    transparent: true
 	        }),
-	        "nHltAll" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "nHltAll" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	                    layers: 'geonode:afg_capa_hltfac_tierall',
 	                    format: 'image/png',
 	                    transparent: true
 	        }),
-	        "nItProvCap" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "nItProvCap" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	                    layers: 'geonode:afg_capa_adm1_its_provc',
 	                    format: 'image/png',
 	                    transparent: true
 	        }),
-	        "nProvCap" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "nProvCap" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	                    layers: 'geonode:afg_capa_adm1_nearest_provc',
 	                    format: 'image/png',
 	                    transparent: true
 	        }),
-	        "nDistCntr" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "nDistCntr" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	                    layers: 'geonode:afg_capa_adm2_nearest_districtc',
 	                    format: 'image/png',
 	                    transparent: true
 	        }),
 
-	        "Provincial Boundary" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "Provincial Boundary" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	                    layers: 'geonode:afg_admbnda_adm1',
 	                    format: 'image/png',
 	                    transparent: true
@@ -7606,7 +7606,7 @@ function init_leaflet(){
 
 	    {
 
-	        "fforecast" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "fforecast" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	                    layers: 'geonode:glofas_gfms_merge',
 	                    viewparams: today,
 	                    format: 'image/png',
@@ -7967,7 +7967,7 @@ function init_leaflet(){
 		var wmsLayer = 
 
 		{
-		    "frisk" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+		    "frisk" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 		    		    layers: 'geonode:afg_fldzonea_100k_risk_landcover_pop',
 		    		    format: 'image/png',
 		    		    transparent: true
@@ -8214,7 +8214,7 @@ function init_leaflet(){
 	    var wmsLayer = 
 
 	    {
-	        "aforecast" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "aforecast" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	        		    layers: 'geonode:avalanche_risk_villages',
 	        		    format: 'image/png',
 	        		    transparent: true
@@ -8410,7 +8410,7 @@ function init_leaflet(){
 	    var wmsLayer = 
 
 	    {
-	        "arisk" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "arisk" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	        						    layers: 'geonode:afg_avsa',
 	        						    format: 'image/png',
 	        						    transparent: true
@@ -8694,28 +8694,28 @@ function init_leaflet(){
 	    var wmsLayer = 
 
 	    {
-	    	"ku" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	    	"ku" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	    			    layers: 'geonode:afg_ls_500m_ku_lsi',
 	    			    format: 'image/png',
 	    			    transparent: true
 	    	}),
-	    	"s1" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	    	"s1" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	    			    layers: 'geonode:afg_ls_30m_wb_s1',
 	    			    format: 'image/png',
 	    			    transparent: true
 	    	}),
-	    	"s2" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	    	"s2" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	    			    layers: 'geonode:afg_ls_30m_wb_s2',
 	    			    format: 'image/png',
 	    			    transparent: true
 	    	}),
-	    	"s3" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	    	"s3" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	    			    layers: 'geonode:afg_ls_30m_wb_s3',
 	    			    format: 'image/png',
 	    			    transparent: true
 	    	})
 	    	// ,
-	     //    "provincial_boundary" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	     //    "provincial_boundary" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	     //                layers: 'geonode:afg_admbnda_adm1',
 	     //                format: 'image/png',
 	     //                transparent: true
@@ -9184,13 +9184,13 @@ function init_leaflet(){
 	    var wmsLayer = 
 
 	    {
-	        "landcover" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "landcover" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	                    layers: 'geonode:afg_lndcrva',
 	                    format: 'image/png',
 	                    styles: 'afg_lndcrva_main',
 	                    transparent: true
 	        }),
-	        "drought" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "drought" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	                    layers: 'geonode:current_drought',
 	                    format: 'image/png',
 	                    viewparams: 'woy:' + woy,
@@ -9577,7 +9577,7 @@ function init_leaflet(){
 	    var wmsLayer = 
 	    {
 	        
-	        "erthqk" : L.tileLayer.wms('http://asdc.immap.org/geoserver/wms?', {
+	        "erthqk" : L.tileLayer.wms('http://18.196.236.51/geoserver/wms?', {
 	                    layers: 'geonode:earthquake_shakemap',
 	                    cql_filter: erthqk_event,
 	                    format: 'image/png',

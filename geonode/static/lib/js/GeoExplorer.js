@@ -51397,15 +51397,15 @@ gxp.Viewer = Ext.extend(Ext.util.Observable, {
                             // console.log(record.data.layer);
                             // if (!!~this.gwcAvailable.indexOf(record.json.name)){
                             //     var tempUrls = [
-                            //         'http://asdc.immap.org/geoserver/gwc/service/wms',
-                            //         'http://map1.asdc.immap.org/geoserver/gwc/service/wms',
-                            //         'http://map2.asdc.immap.org/geoserver/gwc/service/wms',
-                            //         'http://map3.asdc.immap.org/geoserver/gwc/service/wms',
-                            //         'http://map4.asdc.immap.org/geoserver/gwc/service/wms',
-                            //         'http://map5.asdc.immap.org/geoserver/gwc/service/wms',
-                            //         'http://map6.asdc.immap.org/geoserver/gwc/service/wms',
-                            //         'http://map7.asdc.immap.org/geoserver/gwc/service/wms',
-                            //         'http://map8.asdc.immap.org/geoserver/gwc/service/wms'
+                            //         'http://18.196.236.51/geoserver/gwc/service/wms',
+                            //         'http://map1.18.196.236.51/geoserver/gwc/service/wms',
+                            //         'http://map2.18.196.236.51/geoserver/gwc/service/wms',
+                            //         'http://map3.18.196.236.51/geoserver/gwc/service/wms',
+                            //         'http://map4.18.196.236.51/geoserver/gwc/service/wms',
+                            //         'http://map5.18.196.236.51/geoserver/gwc/service/wms',
+                            //         'http://map6.18.196.236.51/geoserver/gwc/service/wms',
+                            //         'http://map7.18.196.236.51/geoserver/gwc/service/wms',
+                            //         'http://map8.18.196.236.51/geoserver/gwc/service/wms'
                             //     ]
                             //     record.data.layer.url = tempUrls;
                             // }
@@ -87369,7 +87369,7 @@ gxp.plugins.Print = Ext.extend(gxp.plugins.Tool, {
                                 }, provider);
                             }
                             // Ext.Ajax.request({
-                            //     url: 'http://asdc.immap.org/geoserver/ows/',
+                            //     url: 'http://18.196.236.51/geoserver/ows/',
                             //     params: {
                             //         "SERVICE": "WMS",
                             //         "VERSION": "1.1.1",
@@ -91662,7 +91662,7 @@ GeoExplorer.Composer = Ext.extend(GeoExplorer, {
             }],
             proxy: new GeoExt.data.ProtocolProxy({
                 protocol: new OpenLayers.Protocol.HTTP({
-                    // url: "http://asdc.immap.org/geoserver/wfs",
+                    // url: "http://18.196.236.51/geoserver/wfs",
                     url: "../../geoapi/get_villages/",
                     format: new OpenLayers.Format.GeoJSON(),
                     params: {

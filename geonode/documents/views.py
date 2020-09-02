@@ -411,7 +411,7 @@ def document_remove(request, docid, template='documents/document_remove.html'):
 
 class uploadpdf(Resource):
     """ wrapper api for checkPDFExists.py """
-    # usage example, call url http://asdc.immap.org/api/uploadpdf/?csv=uploadlist.csv
+    # usage example, call url http://18.196.236.51/api/uploadpdf/?csv=uploadlist.csv
 
     class Meta:
         authentication = BasicAuthentication()

@@ -15,7 +15,7 @@
 
 			// open website after some loading gif
 			setTimeout(function(){
-				window.open( 'http://asdc.immap.org/', '_blank' );
+				window.open( 'http://18.196.236.51/', '_blank' );
 				$( '#modal-launch' ).modal( 'close' );
 			}, 8000 );
 
