@@ -44,6 +44,8 @@
         <!-- <link rel="stylesheet" type="text/css" href="css/select2-bootstrap.min.css"> -->
         <!-- Printing -->
         <!-- <link rel="stylesheet" type="text/css" href="css/gistfile1.css"> -->
+        <!-- JQuery Multiselect -->
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}lib/css/multi-select.css">
 
         {% if LANGUAGE_BIDI %}
         <!-- <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}v2/css/bootstrap.rtl.full.min.css" media="all"> -->
@@ -276,7 +278,7 @@
                 <div class="col-md-6">
                     <ul class="social pull-right hidden-print">
                         <li>
-                            <a href="mailto:admin.geonode@immap.org"><i class="fa fa-envelope"></i></a>
+                            <a href="mailto:{{ THEME_ACCOUNT_CONTACT_EMAIL }}"><i class="fa fa-envelope"></i></a>
                         </li>
                         <li>
                             <a href="https://www.youtube.com/channel/UCkd_swrFk9vN81s9SQ3fKgg"><i class="fa fa-youtube"></i></a>
@@ -400,6 +402,9 @@
 
     <!-- jQuery Marquee -->
     <script src="{{ STATIC_URL }}v2/js/jquery.marquee.min.js"></script>
+
+    <!-- jQuery Multiselect -->
+    <script src="{{ STATIC_URL }}lib/js/jquery.multi-select.js"></script>
 
     <!-- Select2 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.4/select2.min.js"></script>
