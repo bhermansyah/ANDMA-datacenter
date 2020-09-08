@@ -225,9 +225,9 @@ class ProfileAdmin(admin.ModelAdmin):
         return super(ProfileAdmin, self).response_add(request, obj,
                                                       post_url_continue)
 
-    def get_queryset(self, request):
-        from django.db.models import Q
-        qs = super(ProfileAdmin, self).get_queryset(request)
-        return qs.exclude(org_type__iexact='government').exclude(org_acronym__iexact='immap').exclude(username__iexact='admin')
+    # def get_queryset(self, request):
+    #     from django.db.models import Q
+    #     qs = super(ProfileAdmin, self).get_queryset(request)
+    #     return qs.exclude(org_type__iexact='government').exclude(org_acronym__iexact='immap').exclude(username__iexact='admin')
 
 admin.site.register(Profile, ProfileAdmin)
