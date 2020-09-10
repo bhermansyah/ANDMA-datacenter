@@ -209,10 +209,10 @@ class DocumentUpdateView(UpdateView):
 
 
 @login_required
-def document_metadata(
-        request,
-        docid,
-        template='v2/document_metadata.html'):
+def document_metadata(request, docid, template='documents/document_metadata.html'):
+    # change
+    if (request.resolver_match.namespace == 'v2'): template = 'v2/document_metadata.html'
+    # /change
 
     document = None
     try:

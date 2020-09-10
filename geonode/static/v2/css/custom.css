@@ -2648,7 +2648,7 @@ nav.navbar-lower .nav>li.dropdown.open>a.dropdown-toggle
 {
     /*background-color: var(--white);
     color: var(--primary-bg);*/
-    /*background-color: transparent;*/
+    background-color: transparent;
     border-radius: 0;
 }
 
@@ -3976,11 +3976,19 @@ span.yourlabs-autocomplete{
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
+    width: 100%;
 }
 
 span.yourlabs-autocomplete .hilight{
-    background-color: #a72b1f !important;
-    background-image: linear-gradient(to bottom, #a72b1f, #a72b1f);
+    background-color: var(--primary-bg) !important;
+    background-image: linear-gradient(to bottom, var(--primary-bg), var(--primary-bg));
+}
+
+#text_search_btn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 .sidebar{

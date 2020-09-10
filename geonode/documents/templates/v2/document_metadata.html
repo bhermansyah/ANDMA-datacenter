@@ -40,19 +40,21 @@
         </p>
         <form class="form-horizontal" action="{% url "document_metadata" document.id %}" method="POST">
           {% if document_form.errors or category_form.errors %}
-            <div style="background-color: pink">{% blocktrans %}Error updating metadata.  Please check the following fields: {% endblocktrans %}
+              <div class="alert alert-danger" style="background-color: pink">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <strong>{% trans "Error!" %}</strong> {% blocktrans %}Error updating metadata.  Please check the following fields: {% endblocktrans %}
                 <ul>
-            {% for field in document_form %}
-                {% if field.errors %}
-                    <li>{{ field.label }}</li>
-                {% endif %}
-            {% endfor %}
-  
-            {% if category_form.errors %}
-                <li>{{ category_form.errors.as_ul }}</li>
-            {% endif %}
+                  {% for field in document_form %}
+                      {% if field.errors %}
+                          <li>{{ field.label }}</li>
+                      {% endif %}
+                  {% endfor %}
+        
+                  {% if category_form.errors %}
+                      <li>{{ category_form.errors.as_ul }}</li>
+                  {% endif %}
                 </ul>
-            </div>
+              </div>
           {% endif %}
             <div class="form-actions" style="margin:5px;text-align:right;">
               <div class="clearfix">

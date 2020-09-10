@@ -42,26 +42,29 @@
                 {% endif %}
           
                 {% if layer_form.errors or attribute_form.errors or category_form.errors %}
-                  <p class="bg-danger">{% blocktrans %}Error updating metadata.  Please check the following fields: {% endblocktrans %}</p>
-                  <ul class="bg-danger">
-                    {% for field in layer_form %}
-                      {% if field.errors %}
-                      <li>{{ field.label }}</li>
-                      {% endif %}
-                    {% endfor %}
-                    {% if attribute_form.errors %}
-                      <li>{% trans "Attributes" %}</li>
-                      {% for field in attribute_form %}
-                      {% if field.errors %}
-                      <li>{{ field.errors }}</li>
-                      {% endif %}
+                  <div class="alert alert-danger" style="background-color: pink">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <strong>{% trans "Error!" %}</strong> {% blocktrans %}Error updating metadata.  Please check the following fields: {% endblocktrans %}
+                    <ul class="bg-danger">
+                      {% for field in layer_form %}
+                        {% if field.errors %}
+                        <li>{{ field.label }}</li>
+                        {% endif %}
                       {% endfor %}
-                    {% endif %}
-                    {% if category_form.errors %}
-                      <li>{{ category_form.errors.as_ul }}</li>
-                    {% endif %}
+                      {% if attribute_form.errors %}
+                        <li>{% trans "Attributes" %}</li>
+                        {% for field in attribute_form %}
+                        {% if field.errors %}
+                        <li>{{ field.errors }}</li>
+                        {% endif %}
+                        {% endfor %}
+                      {% endif %}
+                      {% if category_form.errors %}
+                        <li>{{ category_form.errors.as_ul }}</li>
+                      {% endif %}
                     </ul>
-                  {% endif %}
+                  </div>
+                {% endif %}
           
                   <div class="form-actions" style="margin:5px;text-align:right;">
                     <input type="submit" class="btn btn-primary" value="{% trans "Update" %}"/>
