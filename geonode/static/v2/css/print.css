@@ -197,8 +197,13 @@
   
     div.ch-size-fforecast{
         height: 370px !important;
-        width: 460px !important;
+        width: 440px !important;
     }
+
+    div.ch-size-bar-drought{
+      height: 370px !important;
+      width: 430px !important;
+  }
 
     div.ch-size-pie{
       height: 370px !important;
@@ -316,3 +321,7 @@
     }*/
 
 /*}*/
+
+    .date.x_title h2{
+        text-overflow: initial;
+    }
