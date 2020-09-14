@@ -181,7 +181,7 @@ def dashboard_detail(request):
 			# client.setPageMargins('1in', '1in', '1in', '1in')
 			client.setVerticalMargin("0.75in")
 			client.setHorizontalMargin("0.25in")
-			client.setHeaderUrl(str(domainpath) + 'static/'+v2_folder+'rep_header_vector.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+request.user.first_name or ''+' '+request.user.last_name or ''+'&cust_title=&organization='+request.user.organization or ''+'&isodate='+date_string+'&'+headerparam)
+			client.setHeaderUrl(str(domainpath) + 'static/'+v2_folder+'rep_header_vector.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+(request.user.first_name or '')+' '+(request.user.last_name or '')+'&cust_title=&organization='+(request.user.organization or '')+'&isodate='+date_string+'&'+headerparam)
 			# convert a web page and store the generated PDF to a variable
 			pdf = client.convertURI(str(domainpath)+'print?'+request.META.get('QUERY_STRING')+'&user='+str(request.user.id)+'&'+bodyparam)
 			 # set HTTP response headers
@@ -206,7 +206,7 @@ def dashboard_detail(request):
 				'margin-bottom':10,
 				'margin-top':30,
 				# 'viewport-size':'800x600',
-				'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/'+v2_folder+'rep_header.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+request.user.first_name or ''+' '+request.user.last_name or ''+'&cust_title=&organization='+request.user.organization or ''+'&'+headerparam,
+				'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/'+v2_folder+'rep_header.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+(request.user.first_name or '')+' '+(request.user.last_name or '')+'&cust_title=&organization='+(request.user.organization or '')+'&'+headerparam,
 				# 'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/rep_header(v2).html?name='+request.user.first_name+'-'+request.user.last_name+'&cust_title=&organization='+request.user.organization,
 				# 'lowquality':'-'
 				# 'disable-smart-shrinking':'-',
@@ -284,7 +284,7 @@ def dashboard_multiple(request):
 		# client.setPageMargins('1in', '1in', '1in', '1in')
 		client.setVerticalMargin("0.75in")
 		client.setHorizontalMargin("0.25in")
-		client.setHeaderUrl('http://'+request.META.get('HTTP_HOST')+'/static/'+v2_folder+'rep_header_vector.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+request.user.first_name+' '+request.user.last_name+'&cust_title='+quote(data['mapTitle'].encode('utf-8'))+'&organization='+request.user.organization+'&isodate='+date_string+'&'+headerparam)
+		client.setHeaderUrl('http://'+request.META.get('HTTP_HOST')+'/static/'+v2_folder+'rep_header_vector.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+(request.user.first_name or '')+' '+(request.user.last_name or '')+'&cust_title='+quote(data['mapTitle'].encode('utf-8'))+'&organization='+(request.user.organization or '')+'&isodate='+date_string+'&'+headerparam)
 		# convert a web page and store the generated PDF to a variable
 
 		# get map pdf
@@ -327,7 +327,7 @@ def dashboard_multiple(request):
 			'margin-bottom':10,
 			'margin-top':30,
 			# 'viewport-size':'800x600',
-			'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/'+v2_folder+'rep_header.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+request.user.first_name+' '+request.user.last_name+'&cust_title='+quote(data['mapTitle'].encode('utf-8'))+'&organization='+request.user.organization+'&'+headerparam,
+			'header-html': 'http://'+request.META.get('HTTP_HOST')+'/static/'+v2_folder+'rep_header.html?onpdf='+user_logo['onpdf']+'&userlogo='+user_logo['logo_url']+'&name='+(request.user.first_name or '')+' '+(request.user.last_name or '')+'&cust_title='+quote(data['mapTitle'].encode('utf-8'))+'&organization='+(request.user.organization or '')+'&'+headerparam,
 			# 'lowquality':'-',
 			# 'disable-smart-shrinking':'-',
 			# 'print-media-type':'-',
