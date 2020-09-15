@@ -30,9 +30,9 @@
         </div>
     </section>
 
-    <section>
+    <section class="min-height-empty">
         <div class="container">
-            <div class="vertical-center">
+            <div>
                 <h2 class="page-title">{% trans "Replace " %}{{ document.title }}</h2>
                 <div id="upload_form">
                     <form method="post" enctype="multipart/form-data" action="{% url "document_replace" document.id %}">
