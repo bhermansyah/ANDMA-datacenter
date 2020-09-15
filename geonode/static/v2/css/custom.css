@@ -924,7 +924,7 @@ input[type="search"]:focus{
 }
 
 /*Chart*/
-.ch-size, .ch-size-fforecast, .ch-size-pie, .ch-size-bar-landcover, .ch-size-bar-landslide{
+.ch-size, .ch-size-fforecast, .ch-size-pie, .ch-size-bar-landcover, .ch-size-bar-landslide, .ch-size-bar-drought{
     height: 370px;
     width: auto;
 }
