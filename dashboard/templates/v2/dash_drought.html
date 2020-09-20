@@ -578,21 +578,21 @@
 
 	// Convert Data to %
 	{% for landcov_idx, landcov_drought_data in drought_data.group_by.landcover_risk.items %}
-		drought_ab_dry_pop_val[landcover_cat.indexOf('{{ landcov_idx | safe }}')] = checkNull({{ landcov_drought_data.risk_child.0.child.pop }}) / {{ landcov_drought_data.total_child.pop }} * 100;
-		drought_mod_pop_val[landcover_cat.indexOf('{{ landcov_idx | safe }}')] = checkNull({{ landcov_drought_data.risk_child.1.child.pop }}) / {{ landcov_drought_data.total_child.pop }} * 100;
-		drought_svre_pop_val[landcover_cat.indexOf('{{ landcov_idx | safe }}')] = checkNull({{ landcov_drought_data.risk_child.2.child.pop }}) / {{ landcov_drought_data.total_child.pop }} * 100;
-		drought_extrme_pop_val[landcover_cat.indexOf('{{ landcov_idx | safe | safe }}')] = checkNull({{ landcov_drought_data.risk_child.3.child.pop }}) / {{ landcov_drought_data.total_child.pop }} * 100;
-		drought_excptnal_pop_val[landcover_cat.indexOf('{{ landcov_idx | safe }}')] = checkNull({{ landcov_drought_data.risk_child.4.child.pop }}) / {{ landcov_drought_data.total_child.pop }} * 100;
-		drought_not_risk_pop_val[landcover_cat.indexOf('{{ landcov_idx | safe }}')] = ({{ landcov_drought_data.total_child.pop }} - {{ landcov_drought_data.total_risk_child.pop }}) / {{ landcov_drought_data.total_child.pop }} * 100;
-		drought_total_pop_val[landcover_cat.indexOf('{{ landcov_idx | safe }}')] = {{ landcov_drought_data.total_child.pop }};
+		drought_ab_dry_pop_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = checkNull({{ landcov_drought_data.risk_child.0.child.pop }}) / {{ landcov_drought_data.total_child.pop }} * 100;
+		drought_mod_pop_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = checkNull({{ landcov_drought_data.risk_child.1.child.pop }}) / {{ landcov_drought_data.total_child.pop }} * 100;
+		drought_svre_pop_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = checkNull({{ landcov_drought_data.risk_child.2.child.pop }}) / {{ landcov_drought_data.total_child.pop }} * 100;
+		drought_extrme_pop_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = checkNull({{ landcov_drought_data.risk_child.3.child.pop }}) / {{ landcov_drought_data.total_child.pop }} * 100;
+		drought_excptnal_pop_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = checkNull({{ landcov_drought_data.risk_child.4.child.pop }}) / {{ landcov_drought_data.total_child.pop }} * 100;
+		drought_not_risk_pop_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = ({{ landcov_drought_data.total_child.pop }} - {{ landcov_drought_data.total_risk_child.pop }}) / {{ landcov_drought_data.total_child.pop }} * 100;
+		drought_total_pop_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = {{ landcov_drought_data.total_child.pop }};
 
-		drought_ab_dry_area_val[landcover_cat.indexOf('{{ landcov_idx | safe }}')] = checkNull({{ landcov_drought_data.risk_child.0.child.area }}) / checkNull({{ landcov_drought_data.total_child.area }}) * 100;
-		drought_mod_area_val[landcover_cat.indexOf('{{ landcov_idx | safe }}')] = checkNull({{ landcov_drought_data.risk_child.1.child.area }}) / checkNull({{ landcov_drought_data.total_child.area }}) * 100;
-		drought_svre_area_val[landcover_cat.indexOf('{{ landcov_idx | safe }}')] = checkNull({{ landcov_drought_data.risk_child.2.child.area }}) / checkNull({{ landcov_drought_data.total_child.area }}) * 100;
-		drought_extrme_area_val[landcover_cat.indexOf('{{ landcov_idx | safe }}')] = checkNull({{ landcov_drought_data.risk_child.3.child.area }}) / checkNull({{ landcov_drought_data.total_child.area }}) * 100;
-		drought_excptnal_area_val[landcover_cat.indexOf('{{ landcov_idx | safe }}')] = checkNull({{ landcov_drought_data.risk_child.4.child.area }}) / checkNull({{ landcov_drought_data.total_child.area }}) * 100;
-		drought_not_risk_area_val[landcover_cat.indexOf('{{ landcov_idx | safe }}')] = ({{ landcov_drought_data.total_child.area }} - {{ landcov_drought_data.total_risk_child.area }}) / checkNull({{ landcov_drought_data.total_child.area }}) * 100;
-		drought_total_area_val[landcover_cat.indexOf('{{ landcov_idx | safe }}')] = {{ landcov_drought_data.total_child.area }};
+		drought_ab_dry_area_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = checkNull({{ landcov_drought_data.risk_child.0.child.area }}) / checkNull({{ landcov_drought_data.total_child.area }}) * 100;
+		drought_mod_area_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = checkNull({{ landcov_drought_data.risk_child.1.child.area }}) / checkNull({{ landcov_drought_data.total_child.area }}) * 100;
+		drought_svre_area_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = checkNull({{ landcov_drought_data.risk_child.2.child.area }}) / checkNull({{ landcov_drought_data.total_child.area }}) * 100;
+		drought_extrme_area_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = checkNull({{ landcov_drought_data.risk_child.3.child.area }}) / checkNull({{ landcov_drought_data.total_child.area }}) * 100;
+		drought_excptnal_area_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = checkNull({{ landcov_drought_data.risk_child.4.child.area }}) / checkNull({{ landcov_drought_data.total_child.area }}) * 100;
+		drought_not_risk_area_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = ({{ landcov_drought_data.total_child.area }} - {{ landcov_drought_data.total_risk_child.area }}) / checkNull({{ landcov_drought_data.total_child.area }}) * 100;
+		drought_total_area_val[landcover_cat.indexOf('{% trans landcov_idx %}')] = {{ landcov_drought_data.total_child.area }};
 
 	{% endfor %}
 

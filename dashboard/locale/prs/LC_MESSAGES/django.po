@@ -1465,7 +1465,7 @@ msgstr "احتمال"
 #: .\templates\v2\dash_main.html.py:760 .\templates\v2\dash_main.html:890
 #: .\templates\v2\dash_main.html.py:1227 .\templates\v2\dash_main.html:1292
 msgid "Extreme"
-msgstr "شدید"
+msgstr "شدیدتر"
 
 #: .\templates\pages\floodforecast.html:43
 #: .\templates\pages\floodforecast.html:113

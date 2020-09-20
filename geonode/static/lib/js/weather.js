@@ -1972,7 +1972,7 @@ MapOptions %= function(A, B, I, k) {
         "pt-BR" == a && (a = "pt-br");
         return ba[a] || ba.en
     }();
-    "HTMLCanvasElement" in A ? /as(\/)?dc(\\)?.im(\/)?map\.org$|^localhost$/.test(location.hostname) ? function(a) {
+    "HTMLCanvasElement" in A ? /anhdc\.andma\.gov\.af$|18\.196\.236\.51$|^localhost$/.test(location.hostname) ? function(a) {
         a && a.parentNode.removeChild(a)
     }(d.Qc("no-js")) : A.open(qa, "_top") : (B.body.className = "d", d.a("p", {
         innerHTML: n.be,

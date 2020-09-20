@@ -399,7 +399,7 @@ msgstr "بسیار زیاد"
 
 #: views.py:1472 templates/earthquakeInfo.html:191
 msgid "Extreme"
-msgstr "شدید"
+msgstr "شدیدتر"
 
 #: views.py:1472
 msgid "Population at flood risk"
