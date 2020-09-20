@@ -24,7 +24,7 @@
 	                                <a class="close-link"><i class="fa fa-close"></i></a>
 	                            </li>
                                 <li>
-                                    <a href="http://18.196.236.51/maps/700/view" class="btn btn-primary" target="_blank">Visit Interactive Maps</a>
+                                    <a href="http://18.196.236.51/maps/700/view" class="btn btn-primary" target="_blank">{% trans 'Visit Interactive Maps' %}</a>
                                 </li>
 	                        </ul>
 	                        <div class="clearfix"></div>
@@ -33,76 +33,76 @@
                             <div class="row">
                                 <div class="col-md-3 col-sm-12 col-xs-12">
                                     <div id="layercontrol">
-                                        <label for="fforecastOpt">Choose Layer :</label>
+                                        <label for="fforecastOpt">{% trans 'Choose Layer :' %}</label>
                                         <select id="fforecastOpt" class="form-control">
-                                          <option value="fforecast_checkbox_flash_pop">Population in Flash Flood</option>
-                                          <option value="fforecast_checkbox_flash_build" hidden>Buildings in Flash Flood</option>
-                                          <option value="fforecast_checkbox_river_gg_pop">Population River Flood (GLOFAS + GFMS)</option>
-                                          <option value="fforecast_checkbox_river_gg_build" hidden>Buildings River Flood (GLOFAS + GFMS)</option>
-                                          <option value="fforecast_checkbox_river_gl_pop">Population River Flood (GLOFAS)</option>
-                                          <option value="fforecast_checkbox_river_gl_build" hidden>Buildings River Flood (GLOFAS)</option>
-                                          <option value="fforecast_checkbox_river_gf_pop">Population River Flood (GFMS)</option>
-                                          <option value="fforecast_checkbox_river_gf_build" hidden>Buildings River Flood (GFMS)</option>
+                                          <option value="fforecast_checkbox_flash_pop">{% trans 'Population in Flash Flood'%}</option>
+                                          <option value="fforecast_checkbox_flash_build" hidden>{% trans 'Buildings in Flash Flood' %}</option>
+                                          <option value="fforecast_checkbox_river_gg_pop">{% trans 'Population in River Flood (GLOFAS + GFMS)' %}</option>
+                                          <option value="fforecast_checkbox_river_gg_build" hidden>{% trans 'Buildings in River Flood (GLOFAS + GFMS)'%}</option>
+                                          <option value="fforecast_checkbox_river_gl_pop">{% trans 'Population in River Flood (GLOFAS)'%}</option>
+                                          <option value="fforecast_checkbox_river_gl_build" hidden>{% trans 'Buildings in River Flood (GLOFAS)'%}</option>
+                                          <option value="fforecast_checkbox_river_gf_pop">{% trans 'Population in River Flood (GFMS)'%}</option>
+                                          <option value="fforecast_checkbox_river_gf_build" hidden>{% trans 'Buildings in River Flood (GFMS)'%}</option>
                                         </select>
 
-                                        <label for="WMSLayer">WMS Layer :</label>
+                                        <label for="WMSLayer">{% trans 'WMS Layer :' %}</label>
                                         <div id="WMSLayer" class="checkbox checkbox-indigo wms_check">
-                                            <label><input type="checkbox" data-type=wms data-layer=fforecast checked>Flood Forecast</label>
+                                            <label><input type="checkbox" data-type=wms data-layer=fforecast checked>{% trans 'Flood Forecast' %}</label>
                                         </div>
 
-                                        <label for="lvl">Choose Level :</label>
+                                        <label for="lvl">{% trans 'Choose Level :' %}</label>
                                         <div id="lvl" class="lvl_choice">
                                             <div class="fforecast_checkbox_flash_pop fforecast_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_low_pop">Low
+                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_low_pop">{% trans 'Low' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_med_pop">Moderate
+                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_med_pop">{% trans 'Moderate' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_high_pop">High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_high_pop">{% trans 'High'%}
+                                                 </label>
+                                                </div>
+                                                <div class="checkbox checkbox-indigo">
+                                                    <label>
+                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_veryhigh_pop">{% trans 'Very Hig' %}h
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_veryhigh_pop">Very High
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox checkbox-indigo">
-                                                    <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_extreme_pop">Extreme
+                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_extreme_pop"> {% trans 'Extreme' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div style='display:none;' class="fforecast_checkbox_flash_build fforecast_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_low_buildings">Low
+                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_low_buildings"> {% trans 'Low' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_med_buildings">Moderate
+                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_med_buildings"> {% trans 'Moderate' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_high_buildings">High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_high_buildings"> {% trans 'High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_veryhigh_buildings">Very High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_veryhigh_buildings"> {% trans 'Very High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_extreme_buildings">Extreme
+                                                      <input type="checkbox" name="fforecast_checkbox" value="flashflood_forecast_extreme_buildings"> {% trans 'Extreme' %}
                                                     </label>
                                                 </div>
                                             </div>
@@ -110,54 +110,54 @@
                                             <div style='display:none;' class="fforecast_checkbox_river_gg_pop fforecast_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_low_pop">Low
+                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_low_pop"> {% trans 'Low' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_med_pop">Moderate
+                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_med_pop"> {% trans 'Moderate' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_high_pop">High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_high_pop"> {% trans 'High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_veryhigh_pop">Very High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_veryhigh_pop"> {% trans 'Very High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_extreme_pop">Extreme
+                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_extreme_pop"> {% trans 'Extreme' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div style='display:none;' class="fforecast_checkbox_river_gg_build fforecast_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_low_buildings">Low
+                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_low_buildings"> {% trans 'Low' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_med_buildings">Moderate
+                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_med_buildings"> {% trans 'Moderate' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_high_buildings">High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_high_buildings"> {% trans 'High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_veryhigh_buildings">Very High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_veryhigh_buildings"> {% trans 'Very High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_extreme_buildings">Extreme
+                                                      <input type="checkbox" name="fforecast_checkbox" value="gfms_glofas_riverflood_forecast_extreme_buildings"> {% trans 'Extreme' %}
                                                     </label>
                                                 </div>
                                             </div>
@@ -165,54 +165,54 @@
                                             <div style='display:none;' class="fforecast_checkbox_river_gl_pop fforecast_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_low_pop">Low
+                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_low_pop"> {% trans 'Low' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_med_pop">Moderate
+                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_med_pop"> {% trans 'Moderate' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_high_pop">High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_high_pop"> {% trans 'High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_veryhigh_pop">Very High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_veryhigh_pop"> {% trans 'Very High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_extreme_pop">Extreme
+                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_extreme_pop"> {% trans 'Extreme' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div style='display:none;' class="fforecast_checkbox_river_gl_build fforecast_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_low_buildings">Low
+                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_low_buildings"> {% trans 'Low' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_med_buildings">Moderate
+                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_med_buildings"> {% trans 'Moderate' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_high_buildings">High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_high_buildings"> {% trans 'High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_veryhigh_buildings">Very High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_veryhigh_buildings"> {% trans 'Very High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_extreme_buildings">Extreme
+                                                      <input type="checkbox" name="fforecast_checkbox" value="glofas_riverflood_forecast_extreme_buildings"> {% trans 'Extreme' %}
                                                     </label>
                                                 </div>
                                             </div>
@@ -220,54 +220,54 @@
                                             <div style='display:none;' class="fforecast_checkbox_river_gf_pop fforecast_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_low_pop">Low
+                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_low_pop"> {% trans 'Low' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_med_pop">Moderate
+                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_med_pop"> {% trans 'Moderate' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_high_pop">High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_high_pop">{% trans 'High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_veryhigh_pop">Very High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_veryhigh_pop"> {% trans 'Very High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_extreme_pop">Extreme
+                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_extreme_pop"> {% trans 'Extreme' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div style='display:none;' class="fforecast_checkbox_river_gf_build fforecast_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_low_buildings">Low
+                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_low_buildings"> {% trans 'Low' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_med_buildings">Moderate
+                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_med_buildings"> {% trans 'Moderate' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_high_buildings">High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_high_buildings"> {% trans 'High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_veryhigh_buildings">Very High
+                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_veryhigh_buildings"> {% trans 'Very High' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_extreme_buildings">Extreme
+                                                      <input type="checkbox" name="fforecast_checkbox" value="riverflood_forecast_extreme_buildings"> {% trans 'Extreme' %}
                                                     </label>
                                                 </div>
                                             </div>

@@ -23,7 +23,7 @@
                                     <a class="close-link"><i class="fa fa-close"></i></a>
                                 </li>
                                 <li>
-                                    <a href="http://18.196.236.51/maps/723/view" class="btn btn-primary" target="_blank">Visit Interactive Maps</a>
+                                    <a href="http://18.196.236.51/maps/723/view" class="btn btn-primary" target="_blank">{% trans 'Visit Interactive Maps' %}</a>
                                 </li>
                             </ul>
                             <div class="clearfix"></div>
@@ -32,445 +32,445 @@
                             <div class="row">
                                 <div class="col-md-3 col-sm-12 col-xs-12">
                                     <div id="layercontrol">
-                                        <label for="accessOpt">Choose Layer :</label>
+                                        <label for="accessOpt">{% trans 'Choose Layer :' %} </label>
                                         <select id="accessOpt" class="form-control">
-                                            <option value="access_checkbox_nAirprt">Travel time to nearest airport</option>
-                                            <option value="access_checkbox_nHlt1">Travel time to nearest hospital tier 1</option>
-                                            <option value="access_checkbox_nHlt2">Travel time to nearest hospital tier 2</option>
-                                            <option value="access_checkbox_nHlt3">Travel time to nearest hospital tier 3</option>
-                                            <option value="access_checkbox_nHltAll">Travel time to nearest hospital tier All</option>
-                                            <option value="access_checkbox_nItProvCap">Travel time to its provincial capital</option>
-                                            <option value="access_checkbox_nProvCap">Travel time to nearest provincial capital</option>
-                                            <option value="access_checkbox_nDistCntr">Travel time to nearest district center</option>
-                                            <option value="access_radio_gsm">GSM Coverage</option>
+                                            <option value="access_checkbox_nAirprt">{% trans 'Travel time to nearest airport' %}</option>
+                                            <option value="access_checkbox_nHlt1">{% trans 'Travel time to nearest hospital tier 1'%}</option>
+                                            <option value="access_checkbox_nHlt2">{% trans 'Travel time to nearest hospital tier 2'%}</option>
+                                            <option value="access_checkbox_nHlt3">{% trans 'Travel time to nearest hospital tier 3'%}</option>
+                                            <option value="access_checkbox_nHltAll">{% trans 'Travel time to nearest hospital tier All'%}</option>
+                                            <option value="access_checkbox_nItProvCap">{% trans 'Travel time to its provincial capital'%}</option>
+                                            <option value="access_checkbox_nProvCap">{% trans 'Travel time to nearest provincial capital' %}</option>
+                                            <option value="access_checkbox_nDistCntr">{% trans 'Travel time to nearest district center' %}</option>
+                                            <option value="access_radio_gsm">{% trans 'GSM Coverage' %}</option>
                                         </select>
 
-                                        <label for="WMSLayer">WMS Layer :</label>
+                                        <label for="WMSLayer">{% trans 'WMS Layer :' %}</label>
                                         <div id="WMSLayer" class="wms_check">
                                             <div class="checkbox checkbox-indigo access_checkbox_nAirprt access_opt">
-                                                <label><input type="checkbox" data-layer=nAirprt>Travel time to nearest airport</label>
+                                                <label><input type="checkbox" data-layer=nAirprt>{% trans 'Travel time to nearest airport' %}</label>
                                             </div>
                                             <div style='display:none;' class="checkbox checkbox-indigo access_checkbox_nHlt1 access_opt">
-                                                <label><input type="checkbox" data-layer=nHlt1>Travel time to nearest hospital tier 1</label>
+                                                <label><input type="checkbox" data-layer=nHlt1>{% trans 'Travel time to nearest hospital tier 1' %}</label>
                                             </div>
                                             <div style='display:none;' class="checkbox checkbox-indigo access_checkbox_nHlt2 access_opt">
-                                                <label><input type="checkbox" data-layer=nHlt2>Travel time to nearest hospital tier 2</label>
+                                                <label><input type="checkbox" data-layer=nHlt2>{% trans 'Travel time to nearest hospital tier 2' %}</label>
                                             </div>
                                             <div style='display:none;' class="checkbox checkbox-indigo access_checkbox_nHlt3 access_opt">
-                                                <label><input type="checkbox" data-layer=nHlt3>Travel time to nearest hospital tier 3</label>
+                                                <label><input type="checkbox" data-layer=nHlt3>{% trans 'Travel time to nearest hospital tier 3' %}</label>
                                             </div>
                                             <div style='display:none;' class="checkbox checkbox-indigo access_checkbox_nHltAll access_opt">
-                                                <label><input type="checkbox" data-layer=nHltAll>Travel time to nearest hospital (All)</label>
+                                                <label><input type="checkbox" data-layer=nHltAll>{% trans 'Travel time to nearest hospital (All)' %}</label>
                                             </div>
                                             <div style='display:none;' class="checkbox checkbox-indigo access_checkbox_nItProvCap access_opt">
-                                                <label><input type="checkbox" data-layer=nItProvCap>Travel time to its provincial capital</label>
+                                                <label><input type="checkbox" data-layer=nItProvCap>{% trans 'Travel time to its provincial capital' %}</label>
                                             </div>
                                             <div style='display:none;' class="checkbox checkbox-indigo access_checkbox_nProvCap access_opt">
-                                                <label><input type="checkbox" data-layer=nProvCap>Travel time to nearest provincial capital</label>
+                                                <label><input type="checkbox" data-layer=nProvCap>{% trans 'Travel time to nearest provincial capital' %}</label>
                                             </div>
                                             <div style='display:none;' class="checkbox checkbox-indigo access_checkbox_nDistCntr access_opt">
-                                                <label><input type="checkbox" data-layer=nDistCntr>Travel time to nearest district center</label>
+                                                <label><input type="checkbox" data-layer=nDistCntr>{% trans 'Travel time to nearest district center' %}</label>
                                             </div>
                                         </div>
 
-                                        <label for="TimeLevel">Time Travel :</label>
+                                        <label for="TimeLevel">{% trans 'Time Travel :' %}</label>
                                         <div id="TimeLevel" class="lvl_choice">
                                             <div style='display:none;' class="access_radio_gsm access_opt">
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="access_radio" value="pop_on_gsm_coverage">Population in GSM Coverage
+                                                        <input type="radio" name="access_radio" value="pop_on_gsm_coverage">{% trans 'Population in GSM Coverage' %}
                                                     </label>
                                                 </div>
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="access_radio" value="buildings_on_gsm_coverage">Building in GSM Coverage
+                                                        <input type="radio" name="access_radio" value="buildings_on_gsm_coverage">{% trans 'Building in GSM Coverage' %}
                                                     </label>
                                                 </div>
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="access_radio" value="area_on_gsm_coverage">Area in GSM Coverage
+                                                        <input type="radio" name="access_radio" value="area_on_gsm_coverage">{% trans 'Area in GSM Coverage' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div class="access_checkbox_nAirprt access_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_airp">Travel time < 1 h
+                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_airp">{% trans 'Travel time < 1 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_airp">Travel time < 2 h
+                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_airp">{% trans 'Travel time < 2 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_airp">Travel time < 3 h
+                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_airp">{% trans 'Travel time < 3 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_airp">Travel time < 4 h
+                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_airp">{% trans 'Travel time < 4 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_airp">Travel time < 5 h
+                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_airp">{% trans 'Travel time < 5 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_airp">Travel time < 6 h
+                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_airp">{% trans 'Travel time < 6 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_airp">Travel time < 7 h
+                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_airp">{% trans 'Travel time < 7 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_airp">Travel time < 8 h
+                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_airp">{% trans 'Travel time < 8 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_airp">Travel time > 8 h
+                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_airp">{% trans 'Travel time > 8 h' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div style='display:none;' class="access_checkbox_nHlt1 access_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_hlt1">Travel time < 1 h
+                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_hlt1">{% trans 'Travel time < 1 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_hlt1">Travel time < 2 h
+                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_hlt1">{% trans 'Travel time < 2 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_hlt1">Travel time < 3 h
+                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_hlt1">{% trans 'Travel time < 3 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_hlt1">Travel time < 4 h
+                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_hlt1">{% trans 'Travel time < 4 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_hlt1">Travel time < 5 h
+                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_hlt1">{% trans 'Travel time < 5 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_hlt1">Travel time < 6 h
+                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_hlt1">{% trans 'Travel time < 6 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_hlt1">Travel time < 7 h
+                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_hlt1">{% trans 'Travel time < 7 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_hlt1">Travel time < 8 h
+                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_hlt1">{% trans 'Travel time < 8 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_hlt1">Travel time > 8 h
+                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_hlt1">{% trans 'Travel time > 8 h' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div style='display:none;' class="access_checkbox_nHlt2 access_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_hlt2">Travel time < 1 h
+                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_hlt2">{% trans 'Travel time < 1 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_hlt2">Travel time < 2 h
+                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_hlt2">{% trans 'Travel time < 2 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_hlt2">Travel time < 3 h
+                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_hlt2">{% trans 'Travel time < 3 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_hlt2">Travel time < 4 h
+                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_hlt2">{% trans 'Travel time < 4 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_hlt2">Travel time < 5 h
+                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_hlt2">{% trans 'Travel time < 5 h' %}
+                                                    </label>{% trans '
+                ' %}                                </div>
+                                                <div class="checkbox checkbox-indigo">
+                                                    <label>
+                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_hlt2">{% trans 'Travel time < 6 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_hlt2">Travel time < 6 h
+                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_hlt2">{% trans 'Travel time < 7 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_hlt2">Travel time < 7 h
+                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_hlt2">{% trans 'Travel time < 8 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_hlt2">Travel time < 8 h
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox checkbox-indigo">
-                                                    <label>
-                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_hlt2">Travel time > 8 h
+                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_hlt2">{% trans 'Travel time > 8 h' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div style='display:none;' class="access_checkbox_nHlt3 access_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_hlt3">Travel time < 1 h
+                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_hlt3">{% trans 'Travel time < 1 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_hlt3">Travel time < 2 h
+                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_hlt3">{% trans 'Travel time < 2 h' %}
+                                                    </label>{% trans '
+                ' %}                                </div>
+                                                <div class="checkbox checkbox-indigo">
+                                                    <label>
+                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_hlt3">{% trans 'Travel time < 3 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_hlt3">Travel time < 3 h
+                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_hlt3">{% trans 'Travel time < 4 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_hlt3">Travel time < 4 h
+                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_hlt3">{% trans 'Travel time < 5 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_hlt3">Travel time < 5 h
+                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_hlt3">{% trans 'Travel time < 6 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_hlt3">Travel time < 6 h
+                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_hlt3">{% trans 'Travel time < 7 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_hlt3">Travel time < 7 h
+                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_hlt3">{% trans 'Travel time < 8 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_hlt3">Travel time < 8 h
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox checkbox-indigo">
-                                                    <label>
-                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_hlt3">Travel time > 8 h
+                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_hlt3">{% trans 'Travel time > 8 h' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div style='display:none;' class="access_checkbox_nHltAll access_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_hltall">Travel time < 1 h
+                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_hltall">{% trans 'Travel time < 1 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_hltall">Travel time < 2 h
+                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_hltall">{% trans 'Travel time < 2 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_hltall">Travel time < 3 h
+                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_hltall">{% trans 'Travel time < 3 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_hltall">Travel time < 4 h
+                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_hltall">{% trans 'Travel time < 4 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_hltall">Travel time < 5 h
+                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_hltall">{% trans 'Travel time < 5 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_hltall">Travel time < 6 h
+                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_hltall">{% trans 'Travel time < 6 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_hltall">Travel time < 7 h
+                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_hltall">{% trans 'Travel time < 7 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_hltall">Travel time < 8 h
+                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_hltall">{% trans 'Travel time < 8 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_hltall">Travel time > 8 h
+                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_hltall">{% trans 'Travel time > 8 h' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div style='display:none;' class="access_checkbox_nItProvCap access_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l1_h__itsx_prov">Travel time < 1 h
+                                                      <input type="checkbox" name="access_checkbox" value="l1_h__itsx_prov">{% trans 'Travel time < 1 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l2_h__itsx_prov">Travel time < 2 h
+                                                      <input type="checkbox" name="access_checkbox" value="l2_h__itsx_prov">{% trans 'Travel time < 2 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l3_h__itsx_prov">Travel time < 3 h
+                                                      <input type="checkbox" name="access_checkbox" value="l3_h__itsx_prov">{% trans 'Travel time < 3 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l4_h__itsx_prov">Travel time < 4 h
+                                                      <input type="checkbox" name="access_checkbox" value="l4_h__itsx_prov">{% trans 'Travel time < 4 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l5_h__itsx_prov">Travel time < 5 h
+                                                      <input type="checkbox" name="access_checkbox" value="l5_h__itsx_prov">{% trans 'Travel time < 5 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l6_h__itsx_prov">Travel time < 6 h
+                                                      <input type="checkbox" name="access_checkbox" value="l6_h__itsx_prov">{% trans 'Travel time < 6 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l7_h__itsx_prov">Travel time < 7 h
+                                                      <input type="checkbox" name="access_checkbox" value="l7_h__itsx_prov">{% trans 'Travel time < 7 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l8_h__itsx_prov">Travel time < 8 h
+                                                      <input type="checkbox" name="access_checkbox" value="l8_h__itsx_prov">{% trans 'Travel time < 8 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="g8_h__itsx_prov">Travel time > 8 h
+                                                      <input type="checkbox" name="access_checkbox" value="g8_h__itsx_prov">{% trans 'Travel time > 8 h' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div style='display:none;' class="access_checkbox_nProvCap access_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_prov">Travel time < 1 h
+                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_prov">{% trans 'Travel time < 1 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_prov">Travel time < 2 h
+                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_prov">{% trans 'Travel time < 2 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_prov">Travel time < 3 h
+                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_prov">{% trans 'Travel time < 3 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_prov">Travel time < 4 h
+                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_prov">{% trans 'Travel time < 4 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_prov">Travel time < 5 h
+                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_prov">{% trans 'Travel time < 5 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_prov">Travel time < 6 h
+                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_prov">{% trans 'Travel time < 6 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_prov">Travel time < 7 h
+                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_prov">{% trans 'Travel time < 7 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_prov">Travel time < 8 h
-                                                    </label>
-                                                </div>
+                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_prov">{% trans 'Travel time < 8 h' %}
+                                                    </label>{% trans '
+                ' %}                                </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_prov">Travel time > 8 h
+                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_prov">{% trans 'Travel time > 8 h' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div style='display:none;' class="access_checkbox_nDistCntr access_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_dist">Travel time < 1 h
+                                                      <input type="checkbox" name="access_checkbox" value="l1_h__near_dist">{% trans 'Travel time < 1 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_dist">Travel time < 2 h
+                                                      <input type="checkbox" name="access_checkbox" value="l2_h__near_dist">{% trans 'Travel time < 2 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_dist">Travel time < 3 h
+                                                      <input type="checkbox" name="access_checkbox" value="l3_h__near_dist">{% trans 'Travel time < 3 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_dist">Travel time < 4 h
+                                                      <input type="checkbox" name="access_checkbox" value="l4_h__near_dist">{% trans 'Travel time < 4 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_dist">Travel time < 5 h
+                                                      <input type="checkbox" name="access_checkbox" value="l5_h__near_dist">{% trans 'Travel time < 5 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_dist">Travel time < 6 h
+                                                      <input type="checkbox" name="access_checkbox" value="l6_h__near_dist">{% trans 'Travel time < 6 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_dist">Travel time < 7 h
+                                                      <input type="checkbox" name="access_checkbox" value="l7_h__near_dist">{% trans 'Travel time < 7 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_dist">Travel time < 8 h
+                                                      <input type="checkbox" name="access_checkbox" value="l8_h__near_dist">{% trans 'Travel time < 8 h' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_dist">Travel time > 8 h
+                                                      <input type="checkbox" name="access_checkbox" value="g8_h__near_dist">{% trans 'Travel time > 8 h' %}
                                                     </label>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <label for="themes">Pick a theme :</label>
+                                        <label for="themes">{% trans 'Pick a theme :' %}</label>
                                         <div id="themes">
                                             <button class="theme" data-btn="YlOrRd"></button>
                                             <button class="theme" data-btn="PuRd"></button>

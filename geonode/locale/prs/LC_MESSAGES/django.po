@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 10:44+0430\n"
+"POT-Creation-Date: 2020-09-20 13:50+0430\n"
 "PO-Revision-Date: 2020-07-19 10:05+0430\n"
 "Last-Translator: asdc.immap.org\n"
 "Language-Team: asdc.immap.org\n"
@@ -225,11 +225,11 @@ msgstr "معلومات ارائه نشده"
 #: .\base\forms.py:47 .\base\templates\base\resourcebase_info_panel.html:61
 #: .\base\templates\v2\resourcebase_info_panel.html:74
 #: .\documents\templates\documents\document_metadata.html:58
-#: .\documents\templates\v2\document_metadata.html:63
+#: .\documents\templates\v2\document_metadata.html:81
 #: .\layers\templates\layers\layer_metadata.html:63
-#: .\layers\templates\v2\layer_metadata.html:64
+#: .\layers\templates\v2\layer_metadata.html:82
 #: .\maps\templates\maps\map_metadata.html:61
-#: .\maps\templates\v2\map_metadata.html:61
+#: .\maps\templates\v2\map_metadata.html:87
 msgid "Category"
 msgstr "دسته بندی"
 
@@ -508,7 +508,7 @@ msgstr "درخواست برای دانلود یک منبع ارسال شد"
 #: .\templates\500.html:151 .\templates\base.html:173
 #: .\templates\base.html.py:240 .\templates\v2\about.html:4
 #: .\templates\v2\about.html.py:13 .\templates\v2\about.html:21
-#: .\templates\v2\base.html:151
+#: .\templates\v2\base.html:153
 msgid "About"
 msgstr "در باره"
 
@@ -522,11 +522,11 @@ msgstr "مالک، نقطه تماس، نویسنده میتادیتا"
 #: .\base\templates\v2\_resourcebase_contact_snippet.html:18
 #: .\base\templates\v2\resourcebase_info_panel.html:109
 #: .\documents\templates\documents\document_metadata.html:48
-#: .\documents\templates\v2\document_metadata.html:53
+#: .\documents\templates\v2\document_metadata.html:71
 #: .\layers\templates\layers\layer_metadata.html:99
-#: .\layers\templates\v2\layer_metadata.html:100
+#: .\layers\templates\v2\layer_metadata.html:118
 #: .\maps\templates\maps\map_metadata.html:51
-#: .\maps\templates\v2\map_metadata.html:51
+#: .\maps\templates\v2\map_metadata.html:77
 msgid "Point of Contact"
 msgstr "نقطه تماس"
 
@@ -597,7 +597,7 @@ msgstr "منطقه"
 #: .\base\templates\base\_resourcebase_snippet.html:122
 #: .\base\templates\base\resourcebase_info_panel.html:49
 #: .\base\templates\v2\resourcebase_info_panel.html:61 .\groups\models.py:44
-#: .\people\templates\people\profile_detail.html:67
+#: .\people\templates\people\profile_detail.html:83
 #: .\people\templates\v2\profile_detail.html:67
 #: .\templates\search\_general_filters.html:27
 #: .\templates\search\v2\_general_filters.html:56
@@ -607,7 +607,7 @@ msgstr "کلمات کلیدی"
 #: .\base\templates\base\resourcebase_info_panel.html:6
 #: .\base\templates\v2\resourcebase_info_panel.html:10 .\groups\models.py:34
 #: .\people\models.py:96 .\people\models.py:100 .\services\forms.py:24
-#: .\templates\announcements\announcement_list.html:20
+#: .\templates\announcements\announcement_list.html:33
 msgid "Title"
 msgstr "عنوان"
 
@@ -636,6 +636,7 @@ msgstr "تاریخ"
 #: .\base\templates\base\resourcebase_info_panel.html:44
 #: .\base\templates\v2\resourcebase_info_panel.html:53
 #: .\layers\templates\layers\layer_detail.html:340
+#: .\layers\templates\v2\layer_detail.html:350
 #: .\templates\search\v2\_type_filters.html:8
 msgid "Type"
 msgstr "نوع"
@@ -650,6 +651,7 @@ msgstr "مناطق"
 #: .\base\templates\base\resourcebase_info_panel.html:83
 #: .\base\templates\v2\resourcebase_info_panel.html:95
 #: .\layers\templates\layers\layer_detail.html:339
+#: .\layers\templates\v2\layer_detail.html:349
 msgid "Source"
 msgstr "منبع"
 
@@ -861,7 +863,7 @@ msgstr "دانلود سند"
 #: .\documents\templates\documents\document_detail.html:95
 #: .\documents\templates\v2\document_detail.html:152
 #: .\layers\templates\layers\layer_detail.html:139
-#: .\layers\templates\v2\layer_detail.html:238
+#: .\layers\templates\v2\layer_detail.html:236
 msgid "Request Download"
 msgstr "در خواست دانلود "
 
@@ -874,7 +876,7 @@ msgstr "ویرایش سند"
 #: .\documents\templates\documents\document_detail.html:116
 #: .\documents\templates\v2\document_detail.html:193
 #: .\layers\templates\layers\layer_detail.html:186
-#: .\layers\templates\v2\layer_detail.html:284
+#: .\layers\templates\v2\layer_detail.html:281
 #: .\maps\templates\maps\map_detail.html:107
 #: .\maps\templates\v2\map_detail.html:165
 msgid "Metadata"
@@ -884,8 +886,8 @@ msgstr "میتادیتا"
 #: .\documents\templates\v2\document_detail.html:194
 #: .\layers\templates\layers\layer_detail.html:187
 #: .\layers\templates\layers\layer_detail.html:196
-#: .\layers\templates\v2\layer_detail.html:285
-#: .\layers\templates\v2\layer_detail.html:294
+#: .\layers\templates\v2\layer_detail.html:282
+#: .\layers\templates\v2\layer_detail.html:291
 #: .\maps\templates\maps\map_detail.html:108
 #: .\maps\templates\maps\map_detail.html:122
 #: .\maps\templates\v2\map_detail.html:166
@@ -900,21 +902,29 @@ msgid "Document"
 msgstr "سند"
 
 #: .\documents\templates\documents\document_detail.html:125
+#: .\documents\templates\documents\document_replace.html:19
+#: .\documents\templates\documents\document_replace.html:26
 #: .\documents\templates\v2\document_detail.html:202
 #: .\layers\templates\layers\layer_detail.html:214
-#: .\layers\templates\v2\layer_detail.html:312
+#: .\layers\templates\v2\layer_detail.html:309
 msgid "Replace"
 msgstr "تعویض"
 
 #: .\documents\templates\documents\document_detail.html:128
 #: .\documents\templates\v2\document_detail.html:205
+#: .\documents\templates\v2\document_remove.html:12
+#: .\documents\templates\v2\document_remove.html:19
 #: .\groups\templates\groups\group_members.html:33
 #: .\groups\templates\groups\group_members.html:59
 #: .\groups\templates\groups\group_members.html:86
 #: .\layers\templates\layers\layer_detail.html:220
-#: .\layers\templates\v2\layer_detail.html:318
+#: .\layers\templates\v2\layer_detail.html:315
+#: .\layers\templates\v2\layer_remove.html:12
+#: .\layers\templates\v2\layer_remove.html:18
 #: .\maps\templates\maps\map_detail.html:123
 #: .\maps\templates\v2\map_detail.html:181
+#: .\maps\templates\v2\map_remove.html:16
+#: .\maps\templates\v2\map_remove.html:23
 msgid "Remove"
 msgstr "از بین بردن"
 
@@ -925,9 +935,9 @@ msgstr "از بین بردن"
 #: .\layers\templates\layers\layer_detail.html:161
 #: .\layers\templates\layers\layer_detail.html:227
 #: .\layers\templates\layers\layer_detail.html:253
-#: .\layers\templates\v2\layer_detail.html:230
-#: .\layers\templates\v2\layer_detail.html:259
-#: .\layers\templates\v2\layer_detail.html:325
+#: .\layers\templates\v2\layer_detail.html:229
+#: .\layers\templates\v2\layer_detail.html:257
+#: .\layers\templates\v2\layer_detail.html:322
 #: .\maps\templates\maps\map_detail.html:85
 #: .\maps\templates\maps\map_detail.html:129
 #: .\maps\templates\v2\map_detail.html:144
@@ -942,8 +952,8 @@ msgstr "بسته"
 #: .\documents\templates\v2\document_detail.html:162
 #: .\layers\templates\layers\layer_detail.html:235
 #: .\layers\templates\layers\layer_detail.html:243
-#: .\layers\templates\v2\layer_detail.html:243
-#: .\layers\templates\v2\layer_detail.html:249
+#: .\layers\templates\v2\layer_detail.html:241
+#: .\layers\templates\v2\layer_detail.html:247
 msgid "Download Metadata"
 msgstr "دانلود میتادیتا"
 
@@ -973,12 +983,12 @@ msgstr "این سند به هیچگونه نقشه ها و یا لایه های 
 #: .\layers\templates\layers\layer_detail.html:329
 #: .\layers\templates\layers\layer_replace.html:94
 #: .\layers\templates\upload\layer_upload.html:114
-#: .\layers\templates\v2\layer_detail.html:337
-#: .\layers\templates\v2\layer_replace.html:94
+#: .\layers\templates\v2\layer_detail.html:333
+#: .\layers\templates\v2\layer_replace.html:115
 #: .\layers\templates\v2\upload\layer_upload.html:122
 #: .\maps\templates\maps\map_detail.html:175
 #: .\maps\templates\v2\map_detail.html:204 .\people\admin.py:55
-#: .\people\admin.py:86 .\people\admin.py:99
+#: .\people\admin.py:87 .\people\admin.py:100
 msgid "Permissions"
 msgstr "اجازه"
 
@@ -995,7 +1005,6 @@ msgstr "تغییر مجوز سند"
 #: .\documents\templates\documents\document_list.html:6
 #: .\documents\templates\documents\document_metadata.html:16
 #: .\documents\templates\v2\document_list.html:6
-#: .\documents\templates\v2\document_metadata.html:17
 #: .\documents\templates\v2\document_upload_base.html:11
 msgid "Explore Documents"
 msgstr "جستجوی اسناد"
@@ -1014,59 +1023,60 @@ msgid "Documents"
 msgstr "اسناد"
 
 #: .\documents\templates\documents\document_metadata.html:17
-#: .\documents\templates\v2\document_metadata.html:18
+#: .\documents\templates\v2\document_metadata.html:20
+#: .\documents\templates\v2\document_metadata.html:27
 #: .\layers\templates\layers\layer_metadata.html:12
-#: .\layers\templates\v2\layer_metadata.html:13
+#: .\layers\templates\v2\layer_metadata.html:15
+#: .\layers\templates\v2\layer_metadata.html:21
 #: .\maps\templates\maps\map_metadata.html:12
-#: .\maps\templates\v2\map_metadata.html:12
+#: .\maps\templates\v2\map_metadata.html:16
+#: .\maps\templates\v2\map_metadata.html:23
 msgid "Edit Metadata"
 msgstr "ویرایش میتادیتا"
 
 #: .\documents\templates\documents\document_metadata.html:22
-#: .\documents\templates\v2\document_metadata.html:23
+#: .\documents\templates\v2\document_metadata.html:39
 msgid "Editing details for"
 msgstr "ویرایش جزئیات برای"
 
 #: .\documents\templates\documents\document_metadata.html:26
-#: .\documents\templates\v2\document_metadata.html:27
+#: .\documents\templates\v2\document_metadata.html:45
 #: .\layers\templates\layers\layer_metadata.html:29
-#: .\layers\templates\v2\layer_metadata.html:30
+#: .\layers\templates\v2\layer_metadata.html:47
 #: .\maps\templates\maps\map_metadata.html:29
-#: .\maps\templates\v2\map_metadata.html:29
 msgid "Error updating metadata.  Please check the following fields: "
 msgstr "خطای آپدیت میتادیتا. لطفا ساحه های زیر را بررسی کنید:"
 
 #: .\documents\templates\documents\document_metadata.html:41
 #: .\documents\templates\documents\document_metadata.html:75
-#: .\documents\templates\v2\document_metadata.html:43
-#: .\documents\templates\v2\document_metadata.html:44
-#: .\documents\templates\v2\document_metadata.html:46
-#: .\documents\templates\v2\document_metadata.html:82
-#: .\documents\templates\v2\document_metadata.html:83
-#: .\documents\templates\v2\document_metadata.html:85
+#: .\documents\templates\v2\document_metadata.html:61
+#: .\documents\templates\v2\document_metadata.html:62
+#: .\documents\templates\v2\document_metadata.html:64
+#: .\documents\templates\v2\document_metadata.html:100
+#: .\documents\templates\v2\document_metadata.html:101
+#: .\documents\templates\v2\document_metadata.html:103
 #: .\groups\templates\groups\group_update.html:26
 #: .\layers\templates\layers\layer_metadata.html:51
 #: .\layers\templates\layers\layer_metadata.html:110
-#: .\layers\templates\v2\layer_metadata.html:52
-#: .\layers\templates\v2\layer_metadata.html:111
+#: .\layers\templates\v2\layer_metadata.html:70
+#: .\layers\templates\v2\layer_metadata.html:129
 #: .\maps\templates\maps\map_metadata.html:44
 #: .\maps\templates\maps\map_metadata.html:78
-#: .\maps\templates\v2\map_metadata.html:44
-#: .\maps\templates\v2\map_metadata.html:78
+#: .\maps\templates\v2\map_metadata.html:70
+#: .\maps\templates\v2\map_metadata.html:102
 msgid "Update"
 msgstr "آپدیت"
 
 #: .\documents\templates\documents\document_metadata.html:53
-#: .\documents\templates\v2\document_metadata.html:58
+#: .\documents\templates\v2\document_metadata.html:76
 #: .\layers\templates\layers\layer_metadata.html:104
-#: .\layers\templates\v2\layer_metadata.html:105
+#: .\layers\templates\v2\layer_metadata.html:123
 #: .\maps\templates\maps\map_metadata.html:56
-#: .\maps\templates\v2\map_metadata.html:56
+#: .\maps\templates\v2\map_metadata.html:82
 msgid "Metadata Provider"
 msgstr "ارائه دهنده میتادیتا"
 
 #: .\documents\templates\documents\document_remove.html:11
-#: .\documents\templates\v2\document_remove.html:11
 #, python-format
 msgid ""
 "\n"
@@ -1078,44 +1088,78 @@ msgstr ""
 "        "
 
 #: .\documents\templates\documents\document_remove.html:18
-#: .\documents\templates\v2\document_remove.html:18
+#: .\documents\templates\v2\document_remove.html:38
 #: .\groups\templates\groups\group_remove.html:19
 #: .\layers\templates\layers\layer_remove.html:22
-#: .\layers\templates\v2\layer_remove.html:22
+#: .\layers\templates\v2\layer_remove.html:38
 #: .\maps\templates\maps\map_remove.html:19
-#: .\maps\templates\v2\map_remove.html:19
-#: .\services\templates\services\service_remove.html:17
+#: .\maps\templates\v2\map_remove.html:42
+#: .\services\templates\services\service_remove.html:20
 msgid "Yes, I am sure"
 msgstr "بله مطمئنم"
 
 #: .\documents\templates\documents\document_remove.html:19
-#: .\documents\templates\v2\document_remove.html:19
+#: .\documents\templates\v2\document_remove.html:39
 #: .\groups\templates\groups\group_remove.html:20
 #: .\layers\templates\layers\layer_remove.html:23
-#: .\layers\templates\v2\layer_remove.html:23
+#: .\layers\templates\v2\layer_remove.html:40
 #: .\maps\templates\maps\map_remove.html:20
-#: .\maps\templates\v2\map_remove.html:20
-#: .\services\templates\services\service_remove.html:18
+#: .\maps\templates\v2\map_remove.html:43
+#: .\services\templates\services\service_remove.html:21
 msgid "No, don't remove it"
 msgstr "نخیر، این را حذف نکنید"
 
 #: .\documents\templates\documents\document_replace.html:4
-#: .\documents\templates\documents\document_replace.html:28
+#: .\documents\templates\documents\document_replace.html:49
 #: .\documents\templates\v2\document_replace.html:4
 #: .\documents\templates\v2\document_replace.html:28
 msgid "Replace Document"
 msgstr "تعویض سند"
 
-#: .\documents\templates\documents\document_replace.html:16
+#: .\documents\templates\documents\document_replace.html:23
+#: .\documents\templates\documents\document_upload.html:26
+#: .\documents\templates\v2\document_detail.html:26
+#: .\documents\templates\v2\document_list.html:17
+#: .\documents\templates\v2\document_metadata.html:24
+#: .\documents\templates\v2\document_remove.html:16
+#: .\groups\templates\groups\activity.html:41
+#: .\maps\templates\maps\map_list.html:14
+#: .\maps\templates\v2\map_detail.html:26 .\maps\templates\v2\map_list.html:15
+#: .\maps\templates\v2\map_metadata.html:20
+#: .\maps\templates\v2\map_remove.html:20
+#: .\people\templates\people\_profile_filters.html:6
+#: .\people\templates\v2\_profile_filters.html:6
+#: .\social\templates\social\activity_list.html:37 .\templates\500.html:58
+#: .\templates\v2\base.html:126
+msgid "Maps"
+msgstr "نقشه ها"
+
+#: .\documents\templates\documents\document_replace.html:24
+#: .\documents\templates\documents\document_upload.html:27
+#: .\documents\templates\v2\document_detail.html:27
+#: .\documents\templates\v2\document_list.html:18
+#: .\documents\templates\v2\document_metadata.html:25
+#: .\documents\templates\v2\document_remove.html:17 .\templates\base.html:158
+#: .\templates\index.html:25 .\templates\index.html.py:86
+#: .\templates\index.html:107 .\templates\index.html.py:516
+#: .\templates\index.html:607 .\templates\video.html:63
+#: .\templates\video.html.py:154 .\templates\v2\base.html:129
+#: .\templates\v2\doc.html:118 .\templates\v2\doc.html.py:209
+#: .\templates\v2\index.html:34 .\templates\v2\index.html.py:91
+#: .\templates\v2\index.html:205
+msgid "Static Maps"
+msgstr "نقشه های استاتیک (ساکن)"
+
+#: .\documents\templates\documents\document_replace.html:36
 #: .\documents\templates\v2\document_replace.html:16
 msgid "Replace "
 msgstr "تعویض"
 
-#: .\documents\templates\documents\document_replace.html:27
+#: .\documents\templates\documents\document_replace.html:47
 #: .\documents\templates\v2\document_replace.html:27
 #: .\layers\templates\layers\layer_replace.html:84
 #: .\layers\templates\upload\layer_upload.html:106
-#: .\layers\templates\v2\layer_replace.html:84
+#: .\layers\templates\v2\layer_replace.html:108
 #: .\layers\templates\v2\upload\layer_upload.html:115
 msgid "Clear"
 msgstr "پاک"
@@ -1125,34 +1169,7 @@ msgstr "پاک"
 msgid "Upload Documents"
 msgstr "آپلود اسناد"
 
-#: .\documents\templates\documents\document_upload.html:26
-#: .\documents\templates\v2\document_detail.html:26
-#: .\documents\templates\v2\document_list.html:17
-#: .\groups\templates\groups\activity.html:26
-#: .\maps\templates\maps\map_list.html:14
-#: .\maps\templates\v2\map_detail.html:26 .\maps\templates\v2\map_list.html:15
-#: .\people\templates\people\_profile_filters.html:6
-#: .\people\templates\v2\_profile_filters.html:6
-#: .\social\templates\social\activity_list.html:22 .\templates\500.html:58
-#: .\templates\v2\base.html:124
-msgid "Maps"
-msgstr "نقشه ها"
-
-#: .\documents\templates\documents\document_upload.html:27
-#: .\documents\templates\v2\document_detail.html:27
-#: .\documents\templates\v2\document_list.html:18 .\templates\base.html:158
-#: .\templates\index.html:25 .\templates\index.html.py:86
-#: .\templates\index.html:107 .\templates\index.html.py:516
-#: .\templates\index.html:607 .\templates\video.html:63
-#: .\templates\video.html.py:154 .\templates\v2\base.html:127
-#: .\templates\v2\doc.html:118 .\templates\v2\doc.html.py:209
-#: .\templates\v2\index.html:34 .\templates\v2\index.html.py:91
-#: .\templates\v2\index.html:205
-msgid "Static Maps"
-msgstr "نقشه های استاتیک (ساکن)"
-
 #: .\documents\templates\documents\document_upload.html:28
-
 msgid "Upload Static Maps"
 msgstr "نقشه های استاتیک (ساکن)"
 
@@ -1175,12 +1192,29 @@ msgstr "منبع خارجی"
 #: .\documents\templates\v2\document_detail.html:144
 #: .\documents\templates\v2\document_detail.html:146
 #: .\documents\templates\v2\document_detail.html:148
-#: .\layers\templates\v2\layer_detail.html:212
+#: .\layers\templates\v2\layer_detail.html:211
 #: .\maps\templates\maps\map_download.html:6
 #: .\maps\templates\v2\map_detail.html:129
 #: .\maps\templates\v2\map_download.html:6
 msgid "Download"
 msgstr "دانلود"
+
+#: .\documents\templates\v2\document_metadata.html:45
+#: .\layers\templates\v2\layer_metadata.html:47
+#: .\maps\templates\v2\map_metadata.html:54
+msgid "Error!"
+msgstr ""
+
+#: .\documents\templates\v2\document_remove.html:31
+#, fuzzy, python-format
+msgid ""
+"\n"
+"              Are you sure you want to remove %(document_title)s?\n"
+"              "
+msgstr ""
+"\n"
+"آیا مطمئن هستید که می خواهید از بین ببرید %(document_title)s?\n"
+"        "
 
 #: .\geoserver\helpers.py:973
 msgid "An exception occurred loading data to PostGIS"
@@ -1204,7 +1238,7 @@ msgstr "GML 3.1.1"
 
 #: .\geoserver\ows.py:106
 msgid "CSV"
-msgstr "CSV"
+msgstr "سی س وی"
 
 #: .\geoserver\ows.py:107
 msgid "Excel"
@@ -1212,19 +1246,19 @@ msgstr "اکسل"
 
 #: .\geoserver\ows.py:108
 msgid "GeoJSON"
-msgstr "GeoJSON"
+msgstr "جیو جیسن"
 
 #: .\geoserver\ows.py:132
 msgid "JPEG"
-msgstr "JPEG"
+msgstr "جیپک"
 
 #: .\geoserver\ows.py:133
 msgid "PDF"
-msgstr "PDF"
+msgstr "پیتی یف"
 
 #: .\geoserver\ows.py:134
 msgid "PNG"
-msgstr "PNG"
+msgstr "پینجی"
 
 #: .\geoserver\signals.py:293
 msgid "Could not create a download link for layer."
@@ -1292,15 +1326,15 @@ msgstr "نشان"
 #: .\groups\models.py:37 .\layers\templates\layers\layer_detail.html:51
 #: .\layers\templates\layers\layer_metadata.html:83
 #: .\layers\templates\v2\layer_detail.html:75
-#: .\layers\templates\v2\layer_metadata.html:84
-#: .\people\templates\people\profile_detail.html:62
+#: .\layers\templates\v2\layer_metadata.html:102
+#: .\people\templates\people\profile_detail.html:78
 #: .\people\templates\v2\profile_detail.html:62 .\services\forms.py:27
 #: .\services\templates\services\layers_register.html:28
 msgid "Description"
 msgstr "توضیحات"
 
-#: .\groups\models.py:39 .\people\templates\people\profile_detail.html:25
-#: .\people\templates\v2\profile_detail.html:25
+#: .\groups\models.py:39 .\people\templates\people\profile_detail.html:41
+#: .\people\templates\v2\profile_detail.html:25 .\templates\v2\base.html:257
 msgid "Email"
 msgstr "ایمیل"
 
@@ -1333,50 +1367,58 @@ msgstr "پذیرفته نشد"
 
 #: .\groups\templates\groups\activity.html:7
 #: .\groups\templates\groups\activity.html:8
-#: .\groups\templates\groups\activity.html:20
-#: .\templates\actstream\actor.html:19
+#: .\groups\templates\groups\activity.html:23
+#: .\templates\actstream\actor.html:23
 msgid "Activity Feed for"
 msgstr "سیر فعالیت برای"
 
-#: .\groups\templates\groups\activity.html:24
+#: .\groups\templates\groups\activity.html:27
+msgid "Activity"
+msgstr "سیر فعالیت"
+
+#: .\groups\templates\groups\activity.html:38
 #: .\groups\templates\groups\group_members.html:13
-#: .\social\templates\social\activity_list.html:20
-#: .\templates\user_messages\inbox.html:16
+#: .\social\templates\social\activity_list.html:34
+#: .\templates\user_messages\inbox.html:30
 msgid "All"
 msgstr "همه"
 
-#: .\groups\templates\groups\activity.html:25
+#: .\groups\templates\groups\activity.html:40
 #: .\layers\templates\layers\layer_list.html:14
+#: .\layers\templates\layers\layer_style_manage.html:18
 #: .\layers\templates\upload\layer_upload.html:26
 #: .\layers\templates\v2\layer_detail.html:31
 #: .\layers\templates\v2\layer_list.html:17
+#: .\layers\templates\v2\layer_metadata.html:19
+#: .\layers\templates\v2\layer_remove.html:16
+#: .\layers\templates\v2\layer_replace.html:25
 #: .\layers\templates\v2\upload\layer_upload.html:27
 #: .\people\templates\people\_profile_filters.html:5
 #: .\people\templates\v2\_profile_filters.html:5
 #: .\services\templates\services\service_detail.html:64
-#: .\social\templates\social\activity_list.html:21 .\templates\500.html:55
+#: .\social\templates\social\activity_list.html:36 .\templates\500.html:55
 #: .\templates\base.html:152 .\templates\index.html:78
-#: .\templates\index.html.py:97 .\templates\v2\base.html:121
+#: .\templates\index.html.py:97 .\templates\v2\base.html:123
 #: .\templates\v2\index.html:83
 msgid "Layers"
 msgstr "لایه ها"
 
-#: .\groups\templates\groups\activity.html:27
-#: .\social\templates\social\activity_list.html:23 .\templates\_actions.html:11
+#: .\groups\templates\groups\activity.html:42
+#: .\social\templates\social\activity_list.html:38 .\templates\_actions.html:11
 #: .\templates\_comments.html:12 .\templates\_deliverynotes.html:14
 #: .\templates\v2\_comments.html:14
 msgid "Comments"
 msgstr "نظریات"
 
-#: .\groups\templates\groups\activity.html:35
-#: .\groups\templates\groups\activity.html:44
-#: .\groups\templates\groups\activity.html:53
-#: .\groups\templates\groups\activity.html:62
-#: .\social\templates\social\activity_list.html:31
-#: .\social\templates\social\activity_list.html:40
-#: .\social\templates\social\activity_list.html:49
-#: .\social\templates\social\activity_list.html:58
-#: .\templates\actstream\actor.html:28
+#: .\groups\templates\groups\activity.html:51
+#: .\groups\templates\groups\activity.html:60
+#: .\groups\templates\groups\activity.html:69
+#: .\groups\templates\groups\activity.html:78
+#: .\social\templates\social\activity_list.html:47
+#: .\social\templates\social\activity_list.html:56
+#: .\social\templates\social\activity_list.html:65
+#: .\social\templates\social\activity_list.html:74
+#: .\templates\actstream\actor.html:41
 msgid "No actions yet"
 msgstr "هنوز هیچ عملیاتی نیست"
 
@@ -1407,7 +1449,7 @@ msgid "Create Group"
 msgstr "ایجاد گروپ"
 
 #: .\groups\templates\groups\group_create.html:26
-#: .\services\templates\services\service_register.html:19
+#: .\services\templates\services\service_register.html:24
 msgid "Create"
 msgstr "ايجاد "
 
@@ -1719,19 +1761,19 @@ msgstr "به شما اجازه داده نشده که میتادیتای این 
 msgid "You are not permitted to view this layer"
 msgstr "به شما اجازه داده نشده که این لایه را ببینید"
 
-#: .\layers\views.py:495
+#: .\layers\views.py:499
 msgid "You are attempting to replace a vector layer with a raster."
 msgstr "شما تلاش میکنید که یک لایه ویکتوری را به رستری تعویض کنید. "
 
-#: .\layers\views.py:498
+#: .\layers\views.py:502
 msgid "You are attempting to replace a raster layer with a vector."
 msgstr "شما تلاش میکنید که یک لایه رستری را به ویکتوری تعویض کنید. "
 
-#: .\layers\views.py:554
+#: .\layers\views.py:562
 msgid "Unable to delete layer"
 msgstr "قادر به حذف لایه نیستید"
 
-#: .\layers\views.py:557
+#: .\layers\views.py:565
 msgid ""
 "This layer is a member of a layer group, you must remove the layer from the "
 "group before deleting."
@@ -1781,7 +1823,7 @@ msgstr "یک امتیاز به یک لایه داده شد بود"
 
 #: .\layers\templates\layers\layer_change_poc.html:5
 #: .\layers\templates\v2\layer_change_poc.html:5 .\templates\base.html:146
-#: .\templates\v2\base.html:115
+#: .\templates\v2\base.html:117
 msgid "Home"
 msgstr "صفحه اصلی"
 
@@ -1801,7 +1843,7 @@ msgstr "اختصاص یک نقطه جدید تماس به لایه های ذیل
 #: .\layers\templates\v2\layer_change_poc.html:17
 #: .\people\templates\people\forgot_username_form.html:39
 #: .\people\templates\v2\forgot_username_form.html:15
-#: .\people\templates\v2\forgot_usr.html:45
+#: .\templates\account\signup_closed.html:37
 msgid "Submit"
 msgstr "ارسال"
 
@@ -1813,7 +1855,7 @@ msgstr "نام مشخصه"
 #: .\layers\templates\layers\layer_detail.html:50
 #: .\layers\templates\layers\layer_metadata.html:82
 #: .\layers\templates\v2\layer_detail.html:74
-#: .\layers\templates\v2\layer_metadata.html:83
+#: .\layers\templates\v2\layer_metadata.html:101
 msgid "Label"
 msgstr "علامه"
 
@@ -1843,53 +1885,53 @@ msgstr "به این لایه نظر دهید"
 
 #: .\layers\templates\layers\layer_detail.html:136
 #: .\layers\templates\layers\layer_detail.html:149
-#: .\layers\templates\v2\layer_detail.html:218
+#: .\layers\templates\v2\layer_detail.html:217
 msgid "Download Layer"
 msgstr "دانلود لایه"
 
 #: .\layers\templates\layers\layer_detail.html:172
 #: .\layers\templates\layers\layer_detail.html:179
-#: .\layers\templates\v2\layer_detail.html:271
-#: .\layers\templates\v2\layer_detail.html:277
+#: .\layers\templates\v2\layer_detail.html:268
+#: .\layers\templates\v2\layer_detail.html:274
 msgid "Edit Layer"
 msgstr "تصحیح لایه"
 
 #: .\layers\templates\layers\layer_detail.html:194
 #: .\layers\templates\layers\layer_detail.html:306
 #: .\layers\templates\v2\layer_detail.html:144
-#: .\layers\templates\v2\layer_detail.html:292
+#: .\layers\templates\v2\layer_detail.html:289
 msgid "Styles"
 msgstr "استایل ها"
 
 #: .\layers\templates\layers\layer_detail.html:198
-#: .\layers\templates\v2\layer_detail.html:296
+#: .\layers\templates\v2\layer_detail.html:293
 #: .\services\templates\services\service_detail.html:110
 #: .\templates\v2\_permissions.html:13
 msgid "Manage"
 msgstr "مدیریت"
 
 #: .\layers\templates\layers\layer_detail.html:205
-#: .\layers\templates\v2\layer_detail.html:303
+#: .\layers\templates\v2\layer_detail.html:300
 #: .\maps\templates\maps\map_detail.html:114
 #: .\maps\templates\v2\map_detail.html:172
 msgid "Thumbnail"
 msgstr "تصویر کوچک"
 
 #: .\layers\templates\layers\layer_detail.html:206
-#: .\layers\templates\v2\layer_detail.html:304
+#: .\layers\templates\v2\layer_detail.html:301
 #: .\maps\templates\maps\map_detail.html:115
 #: .\maps\templates\v2\map_detail.html:173
 msgid "Set"
 msgstr "تنظیم"
 
 #: .\layers\templates\layers\layer_detail.html:212
-#: .\layers\templates\v2\layer_detail.html:310 .\templates\index.html:443
+#: .\layers\templates\v2\layer_detail.html:307 .\templates\index.html:443
 #: .\templates\notification\request_download_resourcebase\full.txt:7
 msgid "Layer"
 msgstr "لایه"
 
 #: .\layers\templates\layers\layer_detail.html:217
-#: .\layers\templates\v2\layer_detail.html:315
+#: .\layers\templates\v2\layer_detail.html:312
 msgid "Edit data"
 msgstr "ویرایش ارقام"
 
@@ -1956,6 +1998,7 @@ msgid "Change Layer Permissions"
 msgstr "تغییر مجوز های دسترسی لایه"
 
 #: .\layers\templates\layers\layer_detail.html:338
+#: .\layers\templates\v2\layer_detail.html:348
 msgid "External service layer"
 msgstr " خدمات خارجی لایه"
 
@@ -1963,10 +2006,7 @@ msgstr " خدمات خارجی لایه"
 #: .\layers\templates\layers\layer_metadata.html:11
 #: .\layers\templates\layers\layer_remove.html:8
 #: .\layers\templates\upload\layer_upload_base.html:11
-#: .\layers\templates\v2\layer_list.html:6
-#: .\layers\templates\v2\layer_metadata.html:12
-#: .\layers\templates\v2\layer_remove.html:8
-#: .\layers\templates\v2\static.html:6
+#: .\layers\templates\v2\layer_list.html:6 .\layers\templates\v2\static.html:6
 msgid "Explore Layers"
 msgstr "جستجوی لایه ها"
 
@@ -1977,7 +2017,7 @@ msgstr "جستجوی لایه ها"
 #: .\layers\templates\v2\upload\layer_upload.html:22
 #: .\layers\templates\v2\upload\layer_upload.html:30 .\templates\500.html:216
 #: .\templates\base.html:314 .\templates\search\v2\_search_content.html:124
-#: .\templates\v2\base.html:173
+#: .\templates\v2\base.html:175
 msgid "Upload Layers"
 msgstr "آپلود لایه ها"
 
@@ -2007,29 +2047,27 @@ msgstr ""
 
 #: .\layers\templates\layers\layer_metadata.html:37
 #: .\layers\templates\layers\layer_metadata.html:77
-#: .\layers\templates\v2\layer_metadata.html:38
-#: .\layers\templates\v2\layer_metadata.html:78 .\templates\_actions.html:5
+#: .\layers\templates\v2\layer_metadata.html:55
+#: .\layers\templates\v2\layer_metadata.html:96 .\templates\_actions.html:5
 #: .\templates\v2\_actions.html:6
 msgid "Attributes"
 msgstr "مشخصات"
 
 #: .\layers\templates\layers\layer_metadata.html:81
-#: .\layers\templates\v2\layer_metadata.html:82
+#: .\layers\templates\v2\layer_metadata.html:100
 msgid "Attribute"
 msgstr "مشخصه"
 
 #: .\layers\templates\layers\layer_metadata.html:84
-#: .\layers\templates\v2\layer_metadata.html:85
+#: .\layers\templates\v2\layer_metadata.html:103
 msgid "Display Order"
 msgstr "ترتیب نمایش "
 
 #: .\layers\templates\layers\layer_remove.html:9
-#: .\layers\templates\v2\layer_remove.html:9
 msgid "Remove Layers"
 msgstr "حذف لایه"
 
 #: .\layers\templates\layers\layer_remove.html:14
-#: .\layers\templates\v2\layer_remove.html:14
 #, python-format
 msgid ""
 "\n"
@@ -2042,51 +2080,53 @@ msgstr ""
 "%(layer_title)s</a>?        "
 
 #: .\layers\templates\layers\layer_remove.html:30
-#: .\layers\templates\v2\layer_remove.html:30
+#: .\layers\templates\v2\layer_remove.html:49
 msgid "This action affects the following maps:"
 msgstr "این اقدام نقشه های ذیل را تحت تاثیر قرار میدهد:"
 
 #: .\layers\templates\layers\layer_remove.html:34
-#: .\layers\templates\v2\layer_remove.html:34
+#: .\layers\templates\v2\layer_remove.html:53
 msgid "No maps are using this layer"
 msgstr "هیچ نقشه ی این لایه را استفاده نمیکند"
 
 #: .\layers\templates\layers\layer_replace.html:5
 #: .\layers\templates\layers\layer_replace.html:85
 #: .\layers\templates\v2\layer_replace.html:5
-#: .\layers\templates\v2\layer_replace.html:85
+#: .\layers\templates\v2\layer_replace.html:21
+#: .\layers\templates\v2\layer_replace.html:27
+#: .\layers\templates\v2\layer_replace.html:109
 msgid "Replace Layer"
 msgstr "تعویض لایه"
 
 #: .\layers\templates\layers\layer_replace.html:19
-#: .\layers\templates\v2\layer_replace.html:19
+#: .\layers\templates\v2\layer_replace.html:39
 msgid "Replace Layer: "
 msgstr "تعویض لایه:"
 
 #: .\layers\templates\layers\layer_replace.html:23
 #: .\layers\templates\upload\layer_upload.html:42
-#: .\layers\templates\v2\layer_replace.html:23
+#: .\layers\templates\v2\layer_replace.html:44
 #: .\layers\templates\v2\upload\layer_upload.html:43
 msgid "Incomplete Uploads"
 msgstr "آپلود ناتکمیل"
 
 #: .\layers\templates\layers\layer_replace.html:24
 #: .\layers\templates\upload\layer_upload.html:43
-#: .\layers\templates\v2\layer_replace.html:24
+#: .\layers\templates\v2\layer_replace.html:45
 #: .\layers\templates\v2\upload\layer_upload.html:44
 msgid "You have the following incomplete uploads"
 msgstr "شما آپلود ناتکمیل زیر را دارید"
 
 #: .\layers\templates\layers\layer_replace.html:27
 #: .\layers\templates\upload\layer_upload.html:46
-#: .\layers\templates\v2\layer_replace.html:27
+#: .\layers\templates\v2\layer_replace.html:48
 #: .\layers\templates\v2\upload\layer_upload.html:47
 msgid "last updated on"
 msgstr "آخرین آپدیت در"
 
 #: .\layers\templates\layers\layer_replace.html:29
 #: .\layers\templates\upload\layer_upload.html:49
-#: .\layers\templates\v2\layer_replace.html:29
+#: .\layers\templates\v2\layer_replace.html:51
 #: .\layers\templates\v2\upload\layer_upload.html:49
 msgid "Resume"
 msgstr "ادامه"
@@ -2095,100 +2135,100 @@ msgstr "ادامه"
 #: .\layers\templates\layers\layer_replace.html:38
 #: .\layers\templates\upload\layer_upload.html:51
 #: .\layers\templates\upload\layer_upload.html:58
-#: .\layers\templates\v2\layer_replace.html:30
-#: .\layers\templates\v2\layer_replace.html:38
+#: .\layers\templates\v2\layer_replace.html:53
+#: .\layers\templates\v2\layer_replace.html:61
 #: .\layers\templates\v2\upload\layer_upload.html:50
 #: .\layers\templates\v2\upload\layer_upload.html:57
 #: .\templates\announcements\announcement_confirm_delete.html:22
-#: .\templates\announcements\announcement_form.html:25
+#: .\templates\announcements\announcement_form.html:41
 #: .\templates\user_messages\_message_snippet.html:40
 msgid "Delete"
 msgstr "حذف"
 
 #: .\layers\templates\layers\layer_replace.html:36
 #: .\layers\templates\upload\layer_upload.html:57
-#: .\layers\templates\v2\layer_replace.html:36
+#: .\layers\templates\v2\layer_replace.html:59
 #: .\layers\templates\v2\upload\layer_upload.html:56
 msgid "Are you sure you want to delete this upload?"
 msgstr "آیا مطمئن هستید که می خواهید این آپلود را حذف کنید؟"
 
 #: .\layers\templates\layers\layer_replace.html:39
 #: .\layers\templates\upload\layer_upload.html:59
-#: .\layers\templates\v2\layer_replace.html:39
+#: .\layers\templates\v2\layer_replace.html:62
 #: .\layers\templates\v2\upload\layer_upload.html:58
 #: .\maps\templates\maps\map_download.html:58
 #: .\maps\templates\v2\map_download.html:58 .\templates\_comments.html:66
 #: .\templates\_permissions_form.html:15
 #: .\templates\announcements\announcement_confirm_delete.html:21
-#: .\templates\announcements\announcement_form.html:23
+#: .\templates\announcements\announcement_form.html:39
 #: .\templates\v2\_permissions_form.html:15
 msgid "Cancel"
 msgstr "لغو"
 
 #: .\layers\templates\layers\layer_replace.html:41
 #: .\layers\templates\upload\layer_upload.html:60
-#: .\layers\templates\v2\layer_replace.html:41
+#: .\layers\templates\v2\layer_replace.html:64
 #: .\layers\templates\v2\upload\layer_upload.html:59
 msgid "Delete, and don't ask me again."
 msgstr "حذف کن، و دوباره از من نپرس."
 
 #: .\layers\templates\layers\layer_replace.html:55
 #: .\layers\templates\upload\layer_upload.html:77
-#: .\layers\templates\v2\layer_replace.html:55
+#: .\layers\templates\v2\layer_replace.html:79
 #: .\layers\templates\v2\upload\layer_upload.html:80
 msgid "Drop files here"
 msgstr "رها کردن دوسیه ها اینجا"
 
 #: .\layers\templates\layers\layer_replace.html:58
 #: .\layers\templates\upload\layer_upload.html:80
-#: .\layers\templates\v2\layer_replace.html:58
+#: .\layers\templates\v2\layer_replace.html:82
 msgid " or select them one by one:"
 msgstr "و یا آنها را انتخاب کنید یک به یک:"
 
 #: .\layers\templates\layers\layer_replace.html:66
 #: .\layers\templates\upload\layer_upload.html:88
-#: .\layers\templates\v2\layer_replace.html:66
+#: .\layers\templates\v2\layer_replace.html:90
 #: .\layers\templates\v2\upload\layer_upload.html:97
 msgid "Files to be uploaded"
 msgstr "فایل های آپلود می شود"
 
 #: .\layers\templates\layers\layer_replace.html:71
 #: .\layers\templates\upload\layer_upload.html:93
-#: .\layers\templates\v2\layer_replace.html:71
+#: .\layers\templates\v2\layer_replace.html:95
 #: .\layers\templates\v2\upload\layer_upload.html:102
 msgid "Select the charset or leave default"
 msgstr "علامه را انتخاب کرده و پیش فرض را رها کنید"
 
 #: .\layers\templates\layers\layer_style_manage.html:14
+#: .\layers\templates\layers\layer_style_manage.html:20
 #: .\layers\templates\v2\layer_style_manage.html:14
 msgid "Manage Styles"
 msgstr "تنظیم  استایل"
 
-#: .\layers\templates\layers\layer_style_manage.html:16
-#: .\layers\templates\v2\layer_style_manage.html:16
-#, python-format
+#: .\layers\templates\layers\layer_style_manage.html:33
+#, fuzzy, python-format
 msgid ""
 "\n"
-"      Manage Available Styles for <a href=\"/layers/%(layer_title)s\">"
-"%(layer_title)s</a>\n"
-"    "
+"                    Manage Available Styles for <a href=\"/layers/"
+"%(layer_title)s\">%(layer_title)s</a>\n"
+"                    "
 msgstr ""
 "\n"
 "       تنظیم استایل های موجود برای <a href=\"/layers/%(layer_title)s\">"
 "%(layer_title)s</a> را\n"
 "     "
 
-#: .\layers\templates\layers\layer_style_manage.html:23
+#: .\layers\templates\layers\layer_style_manage.html:40
 #: .\layers\templates\v2\layer_style_manage.html:23
 msgid "Layer Default Style"
 msgstr "استایل پیش فرض لایه"
 
-#: .\layers\templates\layers\layer_style_manage.html:41
+#: .\layers\templates\layers\layer_style_manage.html:58
 #: .\layers\templates\v2\layer_style_manage.html:41
 msgid "Available styles"
 msgstr "استایل موجود"
 
-#: .\layers\templates\layers\layer_style_manage.html:42
+#: .\layers\templates\layers\layer_style_manage.html:59
 #: .\layers\templates\v2\layer_style_manage.html:42
 msgid ""
 "Click on an available style in the upper box to assign it to this layer. "
@@ -2197,7 +2237,7 @@ msgstr ""
 "برای اختصاص یک استایل موجود از جعبه بالا بروی این لایه کلیک کنید. استایل های "
 "انتخاب شده در جعبه پایین ظاهر می شوند."
 
-#: .\layers\templates\layers\layer_style_manage.html:61
+#: .\layers\templates\layers\layer_style_manage.html:79
 #: .\layers\templates\v2\layer_style_manage.html:61
 msgid "Update Available Styles"
 msgstr "آپدیت استایل موجود"
@@ -2596,99 +2636,76 @@ msgstr "تعویض سند"
 msgid "This layer currently is not used in any maps."
 msgstr "این لایه در حال حاضر در هیچ نقشه استفاده نشده است."
 
-#: .\layers\templates\v2\layer_detail.html:338
-#: .\maps\templates\maps\map_detail.html:176
-#: .\maps\templates\v2\map_detail.html:205
-msgid "Specify which users can view or modify this map"
+#: .\layers\templates\v2\layer_detail.html:334
+msgid "Specify which users can view or modify this layer"
 msgstr "تعیین نمایید که کدام کاربر میتواند این نقشه را مشاهده و تصحیح کند"
 
-#: .\layers\templates\v2\layer_detail.html:339
-#: .\maps\templates\maps\map_detail.html:177
-#: .\maps\templates\v2\map_detail.html:206
-msgid "Change Permissions of this Map"
+#: .\layers\templates\v2\layer_detail.html:335
+msgid "Change Permissions of this Layer"
 msgstr "تغییر مجوزهای این نقشه"
 
-#: .\layers\templates\v2\layer_detail.html:345
-#: .\maps\templates\maps\map_detail.html:184
-#: .\maps\templates\v2\map_detail.html:212
-msgid "Copy this map"
+#: .\layers\templates\v2\layer_detail.html:341
+msgid "Copy this layer"
 msgstr "کاپی این نقشه"
 
-#: .\layers\templates\v2\layer_detail.html:346
-#: .\maps\templates\maps\map_detail.html:185
-#: .\maps\templates\v2\map_detail.html:213
-msgid "Duplicate this map and modify it for your own purposes"
-msgstr "برای تغییر به اهداف خودتان این نقشه را کاپی کنید"
+#: .\layers\templates\v2\layer_detail.html:342
+msgid "Generate a new map based on this layer"
+msgstr "برای تولید یک نقشه جدید بر اساس این لایه روی دکمه زیر کلیک کنید."
 
-#: .\layers\templates\v2\layer_detail.html:347
-#: .\maps\templates\maps\map_detail.html:186
-#: .\maps\templates\maps\map_list.html:12
-#: .\maps\templates\v2\map_detail.html:214
-#: .\templates\search\v2\_search_content.html:121
-msgid "Create a New Map"
+#: .\layers\templates\v2\layer_detail.html:343
+msgid "Create New Map"
 msgstr "ایجاد یک نقشه جدید"
 
-#: .\layers\templates\v2\layer_detail.html:352
-#: .\maps\templates\maps\map_detail.html:192
-#: .\maps\templates\v2\map_detail.html:219
-msgid "Map WMS"
-msgstr " نقشه WMS"
-
-#: .\layers\templates\v2\layer_detail.html:354
-#: .\maps\templates\maps\map_detail.html:194
-#: .\maps\templates\v2\map_detail.html:221
-msgid "WMS layer group for local map layers"
-msgstr "گروپ لایه WMS برای لایه نقشه های محلی"
-
-#: .\layers\templates\v2\layer_detail.html:355
-#: .\maps\templates\maps\map_detail.html:195
-#: .\maps\templates\v2\map_detail.html:222 .\social\tests.py:103
-#: .\social\templatetags\social_tags.py:48
-msgid "on"
-msgstr "در"
-
-#: .\layers\templates\v2\layer_detail.html:355
-#: .\maps\templates\maps\map_detail.html:195
-#: .\maps\templates\v2\map_detail.html:222
-msgid "local OWS"
-msgstr "OWS محلی"
-
-#: .\layers\templates\v2\layer_detail.html:359
-#: .\maps\templates\maps\map_detail.html:198
-#: .\maps\templates\v2\map_detail.html:226
-msgid "Publish local map layers as WMS layer group"
-msgstr "انتشار لایه های نقشه های محلی مثل گروپ لایه WMS"
-
-#: .\layers\templates\v2\layer_detail.html:360
-#: .\maps\templates\maps\map_detail.html:199
-#: .\maps\templates\v2\map_detail.html:227
-msgid "Publish Map WMS"
-msgstr "انتشار نقشه WMS"
-
-#: .\layers\templates\v2\layer_metadata.html:18
-#, fuzzy, python-format
+# python-format
+#: .\layers\templates\v2\layer_metadata.html:33
+#, python-format
 msgid ""
 "\n"
-"          Editing details for %(layer_title)s\n"
-"        "
+"                  Editing details for %(layer_title)s\n"
+"                "
 msgstr ""
 "\n"
 "تصحیح جزئیات برای %(layer_title)s"
 
-#: .\layers\templates\v2\layer_metadata.html:24
-
+#: .\layers\templates\v2\layer_metadata.html:39
 msgid ""
 "Note: this layer's orginal metadata was populated by importing a metadata "
 "XML file.\n"
-"            GeoNode's metadata import supports a subset of ISO, FGDC, and "
-"Dublin Core metadata elements.\n"
-"            Some of your original metadata may have been lost."
+"                    GeoNode's metadata import supports a subset of ISO, "
+"FGDC, and Dublin Core metadata elements.\n"
+"                    Some of your original metadata may have been lost."
 msgstr ""
 "یادداشت: میتادیتای اصلی این لایه با وارد کردن میتادیتای یک دوسیه XML جمع "
 "شد.\n"
 "          میتادیتای GeoNode یک ست فرعی از عناصر میتادیتای ISO، FGDC و Dublin "
 "Core را حمایت میکند.\n"
 "           برخی از میتادیتای اصلی خود را ممکن است از دست داده باشید."
+
+# python-format
+#: .\layers\templates\v2\layer_remove.html:30
+#, python-format
+msgid ""
+"\n"
+"                        Are you sure you want to remove <a href="
+"\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
+"                        "
+msgstr ""
+"\n"
+"آیا مطمئن هستید که می خواهید حذف کنید <a href=\"%(layer.get_absolute_url)s\">"
+"%(layer_title)s</a>?        "
+
+#: .\layers\templates\v2\layer_style_manage.html:16
+#, python-format
+msgid ""
+"\n"
+"      Manage Available Styles for <a href=\"/layers/%(layer_title)s\">"
+"%(layer_title)s</a>\n"
+"    "
+msgstr ""
+"\n"
+"       تنظیم استایل های موجود برای <a href=\"/layers/%(layer_title)s\">"
+"%(layer_title)s</a> را\n"
+"     "
 
 #: .\layers\templates\v2\upload\layer_upload.html:79
 msgid "Choose files"
@@ -2845,7 +2862,6 @@ msgstr "یک امتیاز به یک نقشه داده شد بود"
 #: .\maps\templates\maps\map_base.html:5 .\maps\templates\maps\map_base.html:12
 #: .\maps\templates\maps\map_metadata.html:11
 #: .\maps\templates\v2\map_base.html:5 .\maps\templates\v2\map_base.html:12
-#: .\maps\templates\v2\map_metadata.html:11
 msgid "Explore Maps"
 msgstr "جستجوی نقشه ها"
 
@@ -2899,6 +2915,64 @@ msgstr "اسناد مربوط به این نقشه"
 #: .\maps\templates\v2\map_detail.html:114
 msgid "List of documents related to this map:"
 msgstr "فهرست اسناد مربوط به این نقشه:"
+
+#: .\maps\templates\maps\map_detail.html:176
+#: .\maps\templates\v2\map_detail.html:205
+msgid "Specify which users can view or modify this map"
+msgstr "تعیین نمایید که کدام کاربر میتواند این نقشه را مشاهده و تصحیح کند"
+
+#: .\maps\templates\maps\map_detail.html:177
+#: .\maps\templates\v2\map_detail.html:206
+msgid "Change Permissions of this Map"
+msgstr "تغییر مجوزهای این نقشه"
+
+#: .\maps\templates\maps\map_detail.html:184
+#: .\maps\templates\v2\map_detail.html:212
+msgid "Copy this map"
+msgstr "کاپی این نقشه"
+
+#: .\maps\templates\maps\map_detail.html:185
+#: .\maps\templates\v2\map_detail.html:213
+msgid "Duplicate this map and modify it for your own purposes"
+msgstr "برای تغییر به اهداف خودتان این نقشه را کاپی کنید"
+
+#: .\maps\templates\maps\map_detail.html:186
+#: .\maps\templates\maps\map_list.html:12
+#: .\maps\templates\v2\map_detail.html:214
+#: .\templates\search\v2\_search_content.html:121
+msgid "Create a New Map"
+msgstr "ایجاد یک نقشه جدید"
+
+#: .\maps\templates\maps\map_detail.html:192
+#: .\maps\templates\v2\map_detail.html:219
+msgid "Map WMS"
+msgstr " نقشه WMS"
+
+#: .\maps\templates\maps\map_detail.html:194
+#: .\maps\templates\v2\map_detail.html:221
+msgid "WMS layer group for local map layers"
+msgstr "گروپ لایه WMS برای لایه نقشه های محلی"
+
+#: .\maps\templates\maps\map_detail.html:195
+#: .\maps\templates\v2\map_detail.html:222 .\social\tests.py:103
+#: .\social\templatetags\social_tags.py:48
+msgid "on"
+msgstr "در"
+
+#: .\maps\templates\maps\map_detail.html:195
+#: .\maps\templates\v2\map_detail.html:222
+msgid "local OWS"
+msgstr "OWS محلی"
+
+#: .\maps\templates\maps\map_detail.html:198
+#: .\maps\templates\v2\map_detail.html:226
+msgid "Publish local map layers as WMS layer group"
+msgstr "انتشار لایه های نقشه های محلی مثل گروپ لایه WMS"
+
+#: .\maps\templates\maps\map_detail.html:199
+#: .\maps\templates\v2\map_detail.html:227
+msgid "Publish Map WMS"
+msgstr "انتشار نقشه WMS"
 
 #: .\maps\templates\maps\map_download.html:8
 #: .\maps\templates\v2\map_download.html:8
@@ -2978,7 +3052,6 @@ msgid "Download Failed"
 msgstr "دانلود انجام نشد"
 
 #: .\maps\templates\maps\map_metadata.html:17
-#: .\maps\templates\v2\map_metadata.html:17
 #, python-format
 msgid ""
 "\n"
@@ -2992,7 +3065,6 @@ msgstr ""
 "      "
 
 #: .\maps\templates\maps\map_metadata.html:23
-#: .\maps\templates\v2\map_metadata.html:23
 msgid ""
 "Note: this map's orginal metadata was populated by importing a metadata XML "
 "file.\n"
@@ -3011,7 +3083,6 @@ msgid "Deleting"
 msgstr "حذف کردن"
 
 #: .\maps\templates\maps\map_remove.html:13
-#: .\maps\templates\v2\map_remove.html:13
 #, python-format
 msgid ""
 "\n"
@@ -3027,10 +3098,11 @@ msgid "GeoExplorer"
 msgstr "GeoExplorer"
 
 #: .\maps\templates\v2\map_detail.html:27 .\maps\templates\v2\map_list.html:16
-#: .\templates\base.html:155 .\templates\index.html:36
-#: .\templates\index.html.py:82 .\templates\index.html:102
-#: .\templates\v2\base.html:130 .\templates\v2\index.html:45
-#: .\templates\v2\index.html.py:87
+#: .\maps\templates\v2\map_metadata.html:21
+#: .\maps\templates\v2\map_remove.html:21 .\templates\base.html:155
+#: .\templates\index.html:36 .\templates\index.html.py:82
+#: .\templates\index.html:102 .\templates\v2\base.html:132
+#: .\templates\v2\index.html:45 .\templates\v2\index.html.py:87
 msgid "Interactive Maps"
 msgstr "نقشه های تعاملی (فعال)"
 
@@ -3042,23 +3114,72 @@ msgstr "تعویض سند"
 msgid "List of layers used by this map:"
 msgstr "فهرست اسناد مربوط به این نقشه:"
 
-#: .\people\admin.py:54 .\people\admin.py:85 .\people\admin.py:98
+#: .\maps\templates\v2\map_metadata.html:36
+#, fuzzy, python-format
+msgid ""
+"\n"
+"                            Editing details for %(map_title)s\n"
+"                            "
+msgstr ""
+"\n"
+"تصیح جزییات برای %(map_title)s\n"
+"\n"
+"      \n"
+"      "
+
+#: .\maps\templates\v2\map_metadata.html:44
+msgid "Warning!"
+msgstr "آموزش"
+
+#: .\maps\templates\v2\map_metadata.html:44
+msgid ""
+"Note: this map's orginal metadata was\n"
+"                                populated by importing a metadata XML file.\n"
+"                                GeoNode's metadata import supports a subset "
+"of ISO, FGDC, and Dublin Core metadata elements.\n"
+"                                Some of your original metadata may have been "
+"lost."
+msgstr ""
+"یادداشت: میتادیتای اصلی این لایه با وارد کردن میتادیتای یک دوسیه XML جمع "
+"شد.\n"
+"          میتادیتای GeoNode یک ست فرعی از عناصر میتادیتای ISO، FGDC و Dublin "
+"Core را حمایت میکند.\n"
+"           برخی از میتادیتای اصلی خود را ممکن است از دست داده باشید."
+
+#: .\maps\templates\v2\map_metadata.html:54
+msgid ""
+"Error updating metadata. Please\n"
+"                                check the following fields: "
+msgstr "خطای آپدیت میتادیتا. لطفا ساحه های زیر را بررسی کنید:"
+
+#: .\maps\templates\v2\map_remove.html:36
+#, fuzzy, python-format
+msgid ""
+"\n"
+"                            Are you sure you want to remove %(map_title)s?\n"
+"                            "
+msgstr ""
+"\n"
+"آیا مطمئن هستید که می خواهید حذف کنید %(map_title)s?    \n"
+"    "
+
+#: .\people\admin.py:54 .\people\admin.py:86 .\people\admin.py:99
 msgid "Personal info"
 msgstr "معلومات شخصی"
 
-#: .\people\admin.py:57 .\people\admin.py:88 .\people\admin.py:101
+#: .\people\admin.py:57 .\people\admin.py:89 .\people\admin.py:102
 msgid "Important dates"
 msgstr "تاریخ های مهم"
 
-#: .\people\admin.py:58 .\people\admin.py:89 .\people\admin.py:102
+#: .\people\admin.py:58 .\people\admin.py:90 .\people\admin.py:103
 msgid "Extended profile"
 msgstr "تمدید نمایه "
 
-#: .\people\admin.py:181
+#: .\people\admin.py:182
 msgid "Password changed successfully."
 msgstr "رمز عبور موفقانه تبدیل گردید."
 
-#: .\people\admin.py:191
+#: .\people\admin.py:192
 #, python-format
 msgid "Change password: %s"
 msgstr "تغییر رمز عبور : %s"
@@ -3152,8 +3273,10 @@ msgstr "نام سازمان"
 msgid "name of the responsible organization"
 msgstr "نام سازمان مسئول"
 
-#: .\people\models.py:51 .\templates\500.html:218 .\templates\base.html:316
-#: .\templates\v2\base.html:175 .\templates\v2\base.html.py:176
+#: .\people\models.py:51 .\people\templates\people\profile_detail.html:21
+#: .\people\templates\people\profile_edit.html:23 .\templates\500.html:218
+#: .\templates\base.html:316 .\templates\v2\base.html:177
+#: .\templates\v2\base.html.py:178
 msgid "Profile"
 msgstr "نمایه"
 
@@ -3169,7 +3292,7 @@ msgstr " نام مقام"
 msgid "role or position of the responsible person"
 msgstr "نقش ومقام فرد مسئول"
 
-#: .\people\models.py:58 .\people\templates\people\profile_detail.html:50
+#: .\people\models.py:58 .\people\templates\people\profile_detail.html:66
 #: .\people\templates\v2\profile_detail.html:50
 msgid "Voice"
 msgstr "صدا"
@@ -3283,7 +3406,7 @@ msgstr "همه محتویات"
 #: .\people\templates\people\forgot_username_form.html:11
 #: .\people\templates\people\forgot_username_form.html:15
 #: .\people\templates\v2\forgot_username_form.html:6
-#: .\people\templates\v2\forgot_usr.html:11 .\templates\v2\base.html:321
+#: .\templates\v2\base.html:326
 msgid "Forgot Username"
 msgstr "نام کاربری را فراموش کرده اید"
 
@@ -3306,18 +3429,22 @@ msgstr "ایجاد مشخصات (پروفایل)"
 msgid "Profile of "
 msgstr " مشخصات (پروفایل) از"
 
-#: .\people\templates\people\profile_detail.html:19
+#: .\people\templates\people\profile_detail.html:22
+msgid "My Profile"
+msgstr "نمایه"
+
+#: .\people\templates\people\profile_detail.html:35
 #: .\people\templates\v2\profile_detail.html:19
 msgid "Message User"
 msgstr "پیام کاربر"
 
-#: .\people\templates\people\profile_detail.html:29
-#: .\people\templates\people\profile_detail.html:34
-#: .\people\templates\people\profile_detail.html:38
-#: .\people\templates\people\profile_detail.html:42
-#: .\people\templates\people\profile_detail.html:47
-#: .\people\templates\people\profile_detail.html:59
+#: .\people\templates\people\profile_detail.html:45
+#: .\people\templates\people\profile_detail.html:50
+#: .\people\templates\people\profile_detail.html:54
+#: .\people\templates\people\profile_detail.html:58
 #: .\people\templates\people\profile_detail.html:63
+#: .\people\templates\people\profile_detail.html:75
+#: .\people\templates\people\profile_detail.html:79
 #: .\people\templates\v2\profile_detail.html:29
 #: .\people\templates\v2\profile_detail.html:34
 #: .\people\templates\v2\profile_detail.html:38
@@ -3328,132 +3455,142 @@ msgstr "پیام کاربر"
 msgid "Not provided."
 msgstr "ارائه نشده است."
 
-#: .\people\templates\people\profile_detail.html:33
+#: .\people\templates\people\profile_detail.html:49
 #: .\people\templates\v2\profile_detail.html:33
 #: .\services\templates\services\layers_register.html:27
 msgid "Name"
 msgstr "نام"
 
-#: .\people\templates\people\profile_detail.html:37
+#: .\people\templates\people\profile_detail.html:53
 #: .\people\templates\v2\profile_detail.html:37
 msgid "Position"
 msgstr "شغل"
 
-#: .\people\templates\people\profile_detail.html:41
+#: .\people\templates\people\profile_detail.html:57
 #: .\people\templates\v2\profile_detail.html:41
 msgid "Organization"
 msgstr "سازمان"
 
-#: .\people\templates\people\profile_detail.html:46
+#: .\people\templates\people\profile_detail.html:62
 #: .\people\templates\v2\profile_detail.html:46
 msgid "Location"
 msgstr "موقعیت"
 
-#: .\people\templates\people\profile_detail.html:58
+#: .\people\templates\people\profile_detail.html:74
 #: .\people\templates\v2\profile_detail.html:58
 msgid "Fax"
 msgstr "فکس"
 
-#: .\people\templates\people\profile_detail.html:74
+#: .\people\templates\people\profile_detail.html:90
 #: .\people\templates\v2\profile_detail.html:74 .\services\views.py:542
 #: .\services\views.py:639 .\services\views.py:707 .\services\views.py:855
 msgid "Not provided"
 msgstr "ارائه نشده است"
 
-#: .\people\templates\people\profile_detail.html:85
-#: .\people\templates\people\profile_detail.html:119
+#: .\people\templates\people\profile_detail.html:102
+#: .\people\templates\people\profile_detail.html:147
 #: .\people\templates\v2\profile_detail.html:85
 #: .\people\templates\v2\profile_detail.html:119
 msgid "Edit profile"
 msgstr "تغییر پروفایل"
 
-#: .\people\templates\people\profile_detail.html:86
+#: .\people\templates\people\profile_detail.html:104
 #: .\people\templates\v2\profile_detail.html:86
+#: .\templates\account\password_change.html:7
+#: .\templates\account\password_change.html:11
 msgid "Change password"
 msgstr "تغییر رمز عبور"
 
-#: .\people\templates\people\profile_detail.html:89
+#: .\people\templates\people\profile_detail.html:108
 #: .\people\templates\v2\profile_detail.html:89
 msgid "Upload new layers"
 msgstr "آپلود لایه جدید"
 
-#: .\people\templates\people\profile_detail.html:90
+#: .\people\templates\people\profile_detail.html:110
 #: .\people\templates\v2\profile_detail.html:90
 msgid "Create a new map"
 msgstr "ایجاد  نقشه جدید"
 
-#: .\people\templates\people\profile_detail.html:92
+#: .\people\templates\people\profile_detail.html:113
 #: .\people\templates\v2\profile_detail.html:92
 msgid "My Activities"
 msgstr "فعالیت های من"
 
-#: .\people\templates\people\profile_detail.html:97
+#: .\people\templates\people\profile_detail.html:119
 #: .\people\templates\v2\profile_detail.html:97 .\templates\500.html:222
-#: .\templates\base.html:320 .\templates\v2\base.html:191
+#: .\templates\base.html:320 .\templates\v2\base.html:193
 msgid "Notifications"
 msgstr "اطلاعیه ها"
 
-#: .\people\templates\people\profile_detail.html:100
+#: .\people\templates\people\profile_detail.html:123
 #: .\people\templates\v2\profile_detail.html:100 .\templates\500.html:225
-#: .\templates\base.html:323 .\templates\announcements\announcement_list.html:6
-#: .\templates\announcements\announcement_list.html:13
-#: .\templates\v2\base.html:194
+#: .\templates\base.html:323
+#: .\templates\announcements\announcement_form.html:19
+#: .\templates\announcements\announcement_list.html:6
+#: .\templates\announcements\announcement_list.html:16
+#: .\templates\announcements\announcement_list.html:20
+#: .\templates\v2\base.html:196
 msgid "Announcements"
 msgstr "اعلانات"
 
-#: .\people\templates\people\profile_detail.html:105
+#: .\people\templates\people\profile_detail.html:129
 #: .\people\templates\v2\profile_detail.html:105
-#: .\services\templates\services\service_list.html:9 .\templates\500.html:228
-#: .\templates\base.html:326 .\templates\v2\base.html:197
+#: .\services\templates\services\service_list.html:7
+#: .\services\templates\services\services_base.html:20 .\templates\500.html:228
+#: .\templates\base.html:326 .\templates\v2\base.html:199
 msgid "Remote Services"
 msgstr "خدمات از راه دور"
 
-#: .\people\templates\people\profile_detail.html:106
+#: .\people\templates\people\profile_detail.html:131
 #: .\people\templates\v2\profile_detail.html:106 .\templates\500.html:229
-#: .\templates\base.html:327 .\templates\v2\base.html:198
+#: .\templates\base.html:327 .\templates\v2\base.html:200
 msgid "Invite User"
 msgstr "دعوت  کاربر"
 
-#: .\people\templates\people\profile_detail.html:107
+#: .\people\templates\people\profile_detail.html:133
 #: .\people\templates\v2\profile_detail.html:107 .\templates\500.html:231
-#: .\templates\base.html:329 .\templates\v2\base.html:200
+#: .\templates\base.html:329 .\templates\v2\base.html:202
 msgid "GeoServer"
-msgstr "GeoServer"
+msgstr "سرور جغرافیایی"
 
-#: .\people\templates\people\profile_detail.html:110
+#: .\people\templates\people\profile_detail.html:137
 #: .\people\templates\v2\profile_detail.html:110 .\templates\500.html:234
-#: .\templates\base.html:333 .\templates\v2\base.html:204
+#: .\templates\base.html:333 .\templates\v2\base.html:206
 msgid "Admin"
 msgstr "مدیر سایت"
 
-#: .\people\templates\people\profile_detail.html:123
+#: .\people\templates\people\profile_detail.html:152
 #: .\people\templates\v2\profile_detail.html:123
 msgid "User Activities"
 msgstr "فعالیت های کاربر"
 
-#: .\people\templates\people\profile_detail.html:180
+#: .\people\templates\people\profile_detail.html:213
 #: .\people\templates\v2\profile_detail.html:180
 msgid "Resources"
 msgstr "منابع"
 
-#: .\people\templates\people\profile_edit.html:10
-#: .\people\templates\people\profile_edit.html:24
+#: .\people\templates\people\profile_edit.html:15
+#: .\people\templates\people\profile_edit.html:43
 #: .\people\templates\v2\profile_edit.html:10
 #: .\people\templates\v2\profile_edit.html:24
 msgid "Edit Your Profile"
 msgstr "تغییر پروفایل خود "
 
-#: .\people\templates\people\profile_edit.html:12
+#: .\people\templates\people\profile_edit.html:17
 #: .\people\templates\v2\profile_edit.html:12
 msgid "Edit Profile for"
 msgstr "تغییر پروفایل برای"
 
-#: .\people\templates\people\profile_edit.html:19
+#: .\people\templates\people\profile_edit.html:24
+msgid "Edit Profile"
+msgstr "تغییر پروفایل"
+
+#: .\people\templates\people\profile_edit.html:38
 #: .\people\templates\v2\profile_edit.html:19
 msgid "Change your avatar"
 msgstr "تغییر نماد"
 
-#: .\people\templates\people\profile_edit.html:30
+#: .\people\templates\people\profile_edit.html:49
 #: .\people\templates\v2\profile_edit.html:30
 msgid "Update profile"
 msgstr "آپدیت پروفایل"
@@ -3471,10 +3608,6 @@ msgid ""
 msgstr ""
 " ایمیل آدرس خود را وارد و دکمه ارسال را کلیک کنید. <br /> نام کاربری شما "
 "خواهد ارسال شد."
-
-#: .\people\templates\v2\forgot_usr.html:31
-msgid "Submit your email linked to ASDC and we will send your username to you."
-msgstr ""
 
 #: .\services\enumerations.py:24
 msgid "Auto-detect"
@@ -3652,7 +3785,8 @@ msgid "Edit Service"
 msgstr "تنظیم خدمات"
 
 #: .\services\templates\services\service_edit.html:21
-#: .\templates\announcements\announcement_form.html:27
+#: .\templates\account\password_change.html:16
+#: .\templates\announcements\announcement_form.html:43
 msgid "Save"
 msgstr "ذخیره"
 
@@ -3664,27 +3798,29 @@ msgstr "خدمت :"
 msgid "The following layers will soon be added to the data catalog:"
 msgstr "لایه ذیل بزودی اضافه میشود در فهرست ارقام"
 
-#: .\services\templates\services\service_list.html:8
+#: .\services\templates\services\service_list.html:30
 msgid "Register a new Service"
 msgstr "ثبت نام یک سرویس جدید"
 
-#: .\services\templates\services\service_register.html:13
+#: .\services\templates\services\service_register.html:12
+#: .\services\templates\services\service_register.html:15
 msgid "Register New Service"
 msgstr "ثبت نام خدمات جدید"
 
-#: .\services\templates\services\service_register.html:23
+#: .\services\templates\services\service_register.html:28
 msgid "Service has been created:"
 msgstr "خدمات ایجاد شده است:"
 
-#: .\services\templates\services\service_register.html:30
+#: .\services\templates\services\service_register.html:35
 msgid "The following layers will be imported"
 msgstr "لایه های ذیل وارد خواهد شد"
 
-#: .\services\templates\services\service_remove.html:8
-msgid "Remove Remote Service"
+#: .\services\templates\services\service_remove.html:7
+#: .\services\templates\services\service_remove.html:10
+msgid "Remove Remote Services"
 msgstr "حذف خدمات از راهی دور"
 
-#: .\services\templates\services\service_remove.html:12
+#: .\services\templates\services\service_remove.html:15
 msgid "Are you sure you want to remove"
 msgstr "آیا مطمئن هستید که میخواهد حذف کنید"
 
@@ -3717,7 +3853,8 @@ msgid "ago"
 msgstr "قبل"
 
 #: .\social\templates\social\activity_list.html:4
-#: .\social\templates\social\activity_list.html:15
+#: .\social\templates\social\activity_list.html:19
+#: .\social\templates\social\activity_list.html:23
 msgid "Recent activity"
 msgstr "فعالیت اخیر"
 
@@ -3769,7 +3906,7 @@ msgstr "راجستر"
 #: .\templates\500.html:100 .\templates\500.html.py:200
 #: .\templates\base.html:105 .\templates\base.html.py:107
 #: .\templates\base.html:279 .\templates\base.html.py:297
-#: .\templates\v2\base.html:374
+#: .\templates\v2\base.html:379
 msgid "Sign in"
 msgstr "وارد شدن"
 
@@ -3814,39 +3951,43 @@ msgstr "توسعه دهندگان"
 
 #: .\templates\500.html:188 .\templates\500.html.py:189
 #: .\templates\base.html:285 .\templates\base.html.py:286
-#: .\templates\v2\base.html:323 .\templates\v2\base.html.py:333
-#: .\templates\v2\base.html:362
+#: .\templates\v2\base.html:328 .\templates\v2\base.html.py:338
+#: .\templates\v2\base.html:367
 msgid "Username"
 msgstr "نام کاربری"
 
 #: .\templates\500.html:192 .\templates\base.html:289
-#: .\templates\v2\base.html:329 .\templates\v2\base.html.py:339
-#: .\templates\v2\base.html:363
+#: .\templates\v2\base.html:334 .\templates\v2\base.html.py:344
+#: .\templates\v2\base.html:368
 msgid "Password"
 msgstr "رمز عبور"
 
 #: .\templates\500.html:196 .\templates\base.html:293
-#: .\templates\v2\base.html:347 .\templates\v2\base.html.py:368
+#: .\templates\v2\base.html:352 .\templates\v2\base.html.py:373
 msgid "Remember Me"
 msgstr "بخاطر بسپار"
 
 #: .\templates\500.html:212 .\templates\base.html:310
-#: .\templates\v2\base.html:84
+#: .\templates\v2\base.html:86
 msgid "Menu"
 msgstr "فهرست"
 
 #: .\templates\500.html:219 .\templates\base.html:317
-#: .\templates\v2\base.html:178
+#: .\templates\v2\base.html:180
 msgid "Recent Activity"
 msgstr "فعالیت اخیر"
 
 #: .\templates\500.html:220 .\templates\base.html:318
-#: .\templates\user_messages\inbox.html:15 .\templates\v2\base.html:177
+#: .\templates\user_messages\inbox.html:14
+#: .\templates\user_messages\inbox.html:18
+#: .\templates\user_messages\inbox.html:29
+#: .\templates\user_messages\message_create.html:18
+#: .\templates\user_messages\thread_detail.html:20 .\templates\v2\base.html:179
 msgid "Inbox"
 msgstr "دریافت ها"
 
 #: .\templates\500.html:239 .\templates\base.html:338
-#: .\templates\v2\base.html:209
+#: .\templates\v2\base.html:211
 msgid "Help"
 msgstr "کمک"
 
@@ -3854,12 +3995,12 @@ msgstr "کمک"
 #: .\templates\account\logout.html:6 .\templates\account\logout.html.py:12
 #: .\templates\account\logout.html:17 .\templates\account\v2\logout.html:6
 #: .\templates\account\v2\logout.html:12 .\templates\account\v2\logout.html:17
-#: .\templates\v2\base.html:213
+#: .\templates\v2\base.html:215
 msgid "Log out"
 msgstr "خارج شدن"
 
 #: .\templates\500.html:280 .\templates\base.html:380
-#: .\templates\v2\base.html:439
+#: .\templates\v2\base.html:447
 msgid "Type your search here ..."
 msgstr "جستجوی خود را اینجا بنویسید ..."
 
@@ -4128,10 +4269,6 @@ msgstr ""
 "بالاتر از 5M مگنتیوم زلزله ها نظر به شدت لرزش جمعیت بشر برآورد میشود (حدود "
 "1و 1/2 ساعت پس از حادثه)"
 
-#: .\templates\about.html:102
-msgid "AHNDC Core Team"
-msgstr "تیم اصلی DRR"
-
 #: .\templates\about.html:103 .\templates\v2\about.html:118
 msgid "Program Manager and Science Officer"
 msgstr "مدیر برنامه و مدیر علمی"
@@ -4154,7 +4291,7 @@ msgstr "توسعه دهنده GeoNode"
 
 #: .\templates\about.html:107
 msgid ""
-"Mr. Budi Hermansyah has created the   GeoNode portal. Which is an "
+"Mr. Budi Hermansyah has created the ASDC GeoNode portal. Which is an "
 "advanced and further development of the GeoNode supported by the World Bank. "
 "These advancements include the creation of all statistics and user "
 "interfaces, statistics, POI’s models, as well as automated data retrieval "
@@ -4189,7 +4326,7 @@ msgstr "مرکز ارقام مکانی افغانستان"
 
 #: .\templates\base.html:149 .\templates\index.html:532
 #: .\templates\index.html.py:623 .\templates\video.html:79
-#: .\templates\video.html.py:170 .\templates\v2\base.html:118
+#: .\templates\video.html.py:170 .\templates\v2\base.html:120
 #: .\templates\v2\doc.html:134 .\templates\v2\doc.html.py:225
 msgid "Dashboard"
 msgstr "مجموعه اطلاعات"
@@ -4197,7 +4334,7 @@ msgstr "مجموعه اطلاعات"
 #: .\templates\base.html:169 .\templates\base.html.py:171
 #: .\templates\base.html:175 .\templates\documentation.html:4
 #: .\templates\documentation.html.py:9 .\templates\v2\about.html:18
-#: .\templates\v2\base.html:135 .\templates\v2\disclaimer.html:18
+#: .\templates\v2\base.html:137 .\templates\v2\disclaimer.html:18
 #: .\templates\v2\doc.html:4 .\templates\v2\doc.html.py:18
 #: .\templates\v2\doc.html:32 .\templates\v2\partners.html:18
 #: .\templates\v2\training.html:18
@@ -4206,7 +4343,7 @@ msgstr "مستندات"
 
 #: .\templates\base.html:174 .\templates\disclaimer.html:4
 #: .\templates\disclaimer.html.py:8 .\templates\video.html:4
-#: .\templates\v2\base.html:154 .\templates\v2\disclaimer.html:4
+#: .\templates\v2\base.html:156 .\templates\v2\disclaimer.html:4
 #: .\templates\v2\disclaimer.html.py:13 .\templates\v2\disclaimer.html:21
 msgid "Disclaimer"
 msgstr "رفع مسئولیت"
@@ -4220,7 +4357,7 @@ msgstr "همکاران(شریک ها)"
 msgid "Videos"
 msgstr "ویدیوها"
 
-#: .\templates\base.html:178 .\templates\v2\base.html:144
+#: .\templates\base.html:178 .\templates\v2\base.html:146
 #: .\templates\v2\training.html:4 .\templates\v2\training.html.py:13
 #: .\templates\v2\training.html:21
 msgid "Training"
@@ -4234,9 +4371,9 @@ msgstr "توسعه یافته توسط iMMAP"
 msgid "iMMAP"
 msgstr "iMMAP"
 
-#: .\templates\base.html:332 .\templates\v2\base.html:203
+#: .\templates\base.html:332 .\templates\v2\base.html:205
 msgid "User Statistics"
-msgstr ""
+msgstr "احصائیه کاربران"
 
 #: .\templates\developer.html:4 .\templates\developer.html.py:8
 msgid "Information for Developers"
@@ -4654,11 +4791,12 @@ msgstr "برای نمایش اسناد  ارقام و روش ASDC  اینجا ر
 msgid "User Guide"
 msgstr "راهنمای کاربر"
 
-#: .\templates\help.html:8 .\templates\v2\help.html:8
+#: .\templates\help.html:8 .\templates\v2\help.html:12
+#: .\templates\v2\help.html.py:16
 msgid "GeoNode Help"
 msgstr "رهنمایی GeoNode"
 
-#: .\templates\help.html:12 .\templates\v2\help.html:12
+#: .\templates\help.html:12 .\templates\v2\help.html:28
 msgid ""
 "This page provides helpful information about how to use the GeoNode. You can "
 "use the sidebar links to navigate to what you want to know."
@@ -4667,7 +4805,7 @@ msgstr ""
 "توانید لینک های نوار جانبی را بازدید نموده هر انچه می خواهید بدانید استفاده "
 "کنید."
 
-#: .\templates\help.html:14 .\templates\v2\help.html:14
+#: .\templates\help.html:14
 msgid ""
 "\n"
 "    <p>The GeoNode provides access to data sets and a map editing "
@@ -4841,31 +4979,31 @@ msgstr ""
 "    <p> شما قادر به دیدن نقشه جدید خود هنگامی که شما برای آن جستجو کنید "
 "خواهد بود  <a href=\"/maps\">Maps</a> tab.</p> "
 
-#: .\templates\help.html:66 .\templates\v2\help.html:66
+#: .\templates\help.html:66 .\templates\v2\help.html:104
 msgid "Sections"
 msgstr "بخش ها"
 
-#: .\templates\help.html:67 .\templates\v2\help.html:67
+#: .\templates\help.html:67 .\templates\v2\help.html:106
 msgid "Browsing Layers"
 msgstr "در حال مرور لایه"
 
-#: .\templates\help.html:68 .\templates\v2\help.html:68
+#: .\templates\help.html:68 .\templates\v2\help.html:107
 msgid "Developer Access"
 msgstr "دسترسی توسعه دهنده"
 
-#: .\templates\help.html:69 .\templates\v2\help.html:69
+#: .\templates\help.html:69 .\templates\v2\help.html:108
 msgid "Browsing Maps"
 msgstr "در حال جستجوی یک نقشه"
 
-#: .\templates\help.html:70 .\templates\v2\help.html:70
+#: .\templates\help.html:70 .\templates\v2\help.html:109
 msgid "Creating a Map"
 msgstr "ایجاد یک  نقشه"
 
-#: .\templates\help.html:71 .\templates\v2\help.html:71
+#: .\templates\help.html:71 .\templates\v2\help.html:110
 msgid "Exporting a Map"
 msgstr "صادر کردن یک نقشه"
 
-#: .\templates\help.html:72 .\templates\v2\help.html:72
+#: .\templates\help.html:72 .\templates\v2\help.html:111
 msgid "Remixing a Map"
 msgstr "دوباره طراحی یک نقشه"
 
@@ -4897,8 +5035,8 @@ msgstr "افزار تجزیه و تحلیل"
 #: .\templates\index.html:48 .\templates\v2\index.html:55
 msgid "Populate analysis figure and export map pdf using geoexplorer"
 msgstr ""
-"از geoexplorer برای بررسی افزایش رقم جمعیت و بیرو بردن نقشه به شکل پی دی اف "
-"استفاده  نمود "
+"از جستجوگر جغرافیایی برای بررسی افزایش رقم جمعیت و بیرو بردن نقشه به شکل پی "
+"دی اف استفاده  نمود "
 
 #: .\templates\index.html:49 .\templates\v2\index.html:56
 msgid "Open DRR Interactive Map"
@@ -5635,9 +5773,9 @@ msgstr "آموزش تصویری"
 msgid ""
 "To facility better communication a Youtube channel has been made to host "
 "basic instruction videos on the functionalities of the Afghanistan Spatial "
-"Data Center (asdc.immap.org).  The instruction videos can be found on "
-"YouTube and on the ASDC. (available in Dari and English). There are already "
-"11 training videos, totalling 1 ½ hours of material."
+"Data Center (18.196.236.51).  The instruction videos can be found on YouTube "
+"and on the ASDC. (available in Dari and English). There are already 11 "
+"training videos, totalling 1 ½ hours of material."
 msgstr ""
 "برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن ویدیوهای "
 "آموزشی از مرکز ارقام مکانی افغانستان (anhdc.andma.gov.af). ویدیوهای آموزشی "
@@ -5696,7 +5834,7 @@ msgid "Log in"
 msgstr "ورود"
 
 #: .\templates\account\login.html:15 .\templates\account\login.html.py:19
-#: .\templates\v2\base.html:313 .\templates\v2\base.html.py:353
+#: .\templates\v2\base.html:318 .\templates\v2\base.html.py:358
 msgid "Login"
 msgstr ""
 
@@ -5704,7 +5842,7 @@ msgstr ""
 msgid "Forgot your username?"
 msgstr " فراموش نام کاربری ؟"
 
-#: .\templates\account\login.html:38 .\templates\v2\base.html:378
+#: .\templates\account\login.html:38 .\templates\v2\base.html:383
 msgid "Forgot your password?"
 msgstr "فراموش رمز عبور؟"
 
@@ -5722,7 +5860,8 @@ msgid "Password reset"
 msgstr "تنظیم مجدد رمز عبور"
 
 #: .\templates\account\password_reset.html:20
-#: .\templates\account\password_reset.html:24 .\templates\v2\base.html:327
+#: .\templates\account\password_reset.html:24
+#: .\templates\account\password_reset_sent.html:19 .\templates\v2\base.html:332
 msgid "Forgot Password"
 msgstr "فراموش رمز عبور؟"
 
@@ -5752,12 +5891,61 @@ msgstr ""
 msgid "Reset Password"
 msgstr "تنظیم مجدد رمز عبور من"
 
+#: .\templates\account\password_reset_sent.html:7
+msgid "Password reset sent"
+msgstr "تنظیم مجدد رمز عبور"
+
+#: .\templates\account\password_reset_sent.html:15
+msgid "Password Reset Sent"
+msgstr "تنظیم مجدد رمز عبور"
+
+#: .\templates\account\password_reset_sent.html:30
+#, fuzzy, python-format
+msgid ""
+"We have sent you an email.<br>If you do not receive it within a few minutes, "
+"try resending or contact us at <a href=\"mailto:"
+"%(THEME_ACCOUNT_CONTACT_EMAIL)s\">%(THEME_ACCOUNT_CONTACT_EMAIL)s</a>."
+msgstr ""
+"اگر شما هر گونه مشکل در رمز عبور خود دارید ، با ما به تماس شوید <a href="
+"\"mailto:%(THEME_ACCOUNT_CONTACT_EMAIL)s\">%(THEME_ACCOUNT_CONTACT_EMAIL)s</"
+"a>."
+
+#: .\templates\account\password_reset_sent.html:36
+msgid "Resend"
+msgstr ""
+
+#: .\templates\account\password_reset_sent.html:39
+#, fuzzy, python-format
+msgid ""
+"We have resent the password email.<br>If you do not receive it within a few "
+"minutes, contact us at <a href=\"mailto:%(THEME_ACCOUNT_CONTACT_EMAIL)s\">"
+"%(THEME_ACCOUNT_CONTACT_EMAIL)s</a>."
+msgstr ""
+"اگر شما هر گونه مشکل در رمز عبور خود دارید ، با ما به تماس شوید <a href="
+"\"mailto:%(THEME_ACCOUNT_CONTACT_EMAIL)s\">%(THEME_ACCOUNT_CONTACT_EMAIL)s</"
+"a>."
+
+#: .\templates\account\password_reset_token_fail.html:7
+#: .\templates\account\password_reset_token_fail.html:10
+msgid "Bad token"
+msgstr ""
+
+#: .\templates\account\password_reset_token_fail.html:12
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(url)s\">new password reset</a>."
+msgstr ""
+
 #: .\templates\account\signup.html:8 .\templates\account\signup.html.py:82
+#: .\templates\account\signup_closed.html:7
 #: .\templates\account\v2\registration.html:7
 msgid "Sign up"
 msgstr "ثبت نام"
 
 #: .\templates\account\signup.html:15 .\templates\account\signup.html.py:19
+#: .\templates\account\signup_closed.html:14
+#: .\templates\account\signup_closed.html:18
 msgid "Sign Up"
 msgstr "ثبت نام"
 
@@ -5765,6 +5953,14 @@ msgstr "ثبت نام"
 #: .\templates\account\v2\registration.html:108
 msgid "Sorry, registrations are not open at this time."
 msgstr "با معذرت، صفحه ثبت نام در این زمان باز نیست"
+
+#: .\templates\account\signup_closed.html:28
+msgid "Sorry, currently this site is running in private mode."
+msgstr ""
+
+#: .\templates\account\signup_closed.html:29
+msgid "If you have signup code you can enter it below."
+msgstr ""
 
 #: .\templates\account\email\email_confirmation_message.txt:1
 #, python-format
@@ -5858,6 +6054,10 @@ msgstr "سیر فعالیت من"
 msgid "Activity Feed"
 msgstr "سیر فعالیت"
 
+#: .\templates\actstream\actor.html:27
+msgid "My Activity"
+msgstr "فعالیت های من"
+
 #: .\templates\admin\base_site.html:3
 msgid "GeoNode site admin"
 msgstr " مدیر سایت GeoNode"
@@ -5874,37 +6074,40 @@ msgstr "حذف اطلاعیه ؟"
 msgid "Are you sure you want to delete this announcement?"
 msgstr "آیا شما مطمئن هستید که میخواهید این اطلاعیه را حذف کنید؟"
 
-#: .\templates\announcements\announcement_form.html:11
+#: .\templates\announcements\announcement_form.html:15
+#: .\templates\announcements\announcement_form.html:20
 msgid "Edit Announcement"
 msgstr "تنظیم اطلاعیه"
 
-#: .\templates\announcements\announcement_form.html:11
+#: .\templates\announcements\announcement_form.html:15
+#: .\templates\announcements\announcement_form.html:20
 msgid "Create Announcement"
 msgstr "ایجاد اطلاعیه"
 
-#: .\templates\announcements\announcement_list.html:12
+#: .\templates\announcements\announcement_list.html:29
 msgid "New Announcement"
 msgstr "اطلاعیه جدید"
 
-#: .\templates\announcements\announcement_list.html:21
+#: .\templates\announcements\announcement_list.html:34
 msgid "Level"
 msgstr "سطح"
 
-#: .\templates\announcements\announcement_list.html:22
+#: .\templates\announcements\announcement_list.html:35
 msgid "Announcement"
 msgstr " اطلاعیه ها"
 
-#: .\templates\announcements\announcement_list.html:23
+#: .\templates\announcements\announcement_list.html:36
 msgid "Published From"
 msgstr "منتشر شده از"
 
-#: .\templates\announcements\announcement_list.html:38
+# python-format
+#: .\templates\announcements\announcement_list.html:52
 #, python-format
 msgid ""
 "\n"
-"          Published from <b>%(publish_start)s</b> to <b>%(publish_end)s</"
-"b>.\n"
-"          "
+"                            Published from <b>%(publish_start)s</b> to <b>"
+"%(publish_end)s</b>.\n"
+"                            "
 msgstr ""
 "\n"
 "منتشر شده از <b>%(publish_start)s</b> به <b>%(publish_end)s</b>.\n"
@@ -5958,20 +6161,23 @@ msgid "Delete These"
 msgstr "حذف اینها"
 
 #: .\templates\notification\notice_settings.html:8
-#: .\templates\notification\notice_settings.html:11
+#: .\templates\notification\notice_settings.html:16
+#: .\templates\notification\notice_settings.html:20
 msgid "Notification Settings"
 msgstr "تنظیمات اطلاع رسانی"
 
-#: .\templates\notification\notice_settings.html:15
+# python-format
+#: .\templates\notification\notice_settings.html:31
 #, python-format
 msgid ""
 "\n"
-"        <p class=\"alert alert-warning\">\n"
-"            <span class=\"warning\">Note</span>:\n"
-"            You do not have a verified email address to which notices can be "
-"sent. <a href=\"%(email_url)s\">Add one</a> now.\n"
-"        </p>\n"
-"        "
+"            <p class=\"alert alert-warning\">\n"
+"                <span class=\"warning\">Note</span>:\n"
+"                You do not have a verified email address to which notices "
+"can be sent. <a href=\"%(email_url)s\">Add\n"
+"                    one</a> now.\n"
+"            </p>\n"
+"            "
 msgstr ""
 "\n"
 "        <p class=\"alert alert-warning\">\n"
@@ -5980,11 +6186,11 @@ msgstr ""
 "ندارید <a href=\"%(email_url)s\">Add one</a> now.\n"
 "        </p>"
 
-#: .\templates\notification\notice_settings.html:27
+#: .\templates\notification\notice_settings.html:44
 msgid "Notification Type"
 msgstr "نوع اطلاع رسانی"
 
-#: .\templates\notification\notice_settings.html:52
+#: .\templates\notification\notice_settings.html:70
 msgid "Change"
 msgstr "تغییر"
 
@@ -6360,7 +6566,7 @@ msgstr "پاک"
 
 #: .\templates\search\v2\_search_content.html:10
 msgid "Filter"
-msgstr ""
+msgstr "فیلتر"
 
 #: .\templates\search\v2\_search_content.html:114
 msgid "Set Permissions"
@@ -6409,7 +6615,7 @@ msgid "Delete?"
 msgstr "حذف؟"
 
 #: .\templates\user_messages\_message_snippet.html:29
-#: .\templates\user_messages\thread_detail.html:14
+#: .\templates\user_messages\thread_detail.html:35
 msgid "me"
 msgstr "من"
 
@@ -6417,26 +6623,28 @@ msgstr "من"
 msgid "Message Inbox"
 msgstr "صندوق دریافت پیام"
 
-#: .\templates\user_messages\inbox.html:11
-msgid "Messages"
-msgstr "پیام ها"
-
-#: .\templates\user_messages\inbox.html:38
+#: .\templates\user_messages\inbox.html:44
 #: .\templates\user_messages\message_create.html:6
-#: .\templates\user_messages\message_create.html:9
+#: .\templates\user_messages\message_create.html:14
+#: .\templates\user_messages\message_create.html:19
 msgid "Create Message"
 msgstr "ایجاد پیام"
 
-#: .\templates\user_messages\message_create.html:16
+#: .\templates\user_messages\message_create.html:34
 msgid "Send message"
 msgstr "فرستادن پیام"
 
-#: .\templates\user_messages\message_create.html:22
-#: .\templates\user_messages\thread_detail.html:32
+#: .\templates\user_messages\message_create.html:37
+#: .\templates\user_messages\thread_detail.html:51
 msgid "Back to Inbox"
 msgstr "برگشت به دریافت ها"
 
-#: .\templates\user_messages\thread_detail.html:26
+#: .\templates\user_messages\thread_detail.html:16
+#: .\templates\user_messages\thread_detail.html:21
+msgid "Message"
+msgstr "پیام ها"
+
+#: .\templates\user_messages\thread_detail.html:48
 msgid "Send Reply"
 msgstr "ارسال پاسخ"
 
@@ -6522,10 +6730,11 @@ msgid ""
 "is funded by the United States Agency for International Development (USAID)/"
 "Office of U.S. Foreign Disaster Assistance (OFDA)."
 msgstr ""
-" مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان(ANHDC) توسط iMMAP در "
-"افغانستان توسعه یافته است. این بخش iMMAP  برنامه کاهش حوادث طبیعی (DRR) است ،"
-"که توسط آژانس ایالات متحده برای توسعه بین المللی ایالات متحده (USAID) و "
-"اداره همکاری به حوادث بیرونی ایالات متحده (OFDA) تمویل میشود ."
+" مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان( اطلاعات خطرات حوادث طبیعی "
+"افغانستان) توسط iMMAP در افغانستان توسعه یافته است. این بخش iMMAP  برنامه "
+"کاهش حوادث طبیعی (DRR) است ،که توسط آژانس ایالات متحده برای توسعه بین المللی "
+"ایالات متحده (USAID) و اداره همکاری به حوادث بیرونی ایالات متحده (OFDA) "
+"تمویل میشود ."
 
 #: .\templates\v2\about.html:36
 msgid ""
@@ -6540,19 +6749,19 @@ msgid ""
 msgstr ""
 "برنامه کاهش حوادث طبیعی(DRR) یک برنامه علمی است که تصمیم گیرندگان جامعه بشری "
 "را برای اخذ  اطلاعات مهم  برای برنامه ریزی واکنش های اضطراری  حمایت میکند . "
-"مرکز ارقام مکانی افغانستان (ANHDC) پلیت فرم انتشار ارقام  کاهش حوادث طبیعی "
-"DRR  و سایر اطلاعات عمومی است.در حال حاضر ANHDC  پیشرفته ترین منبع دسترسی "
-"برای کسب اطلاعات  جامع و دقیق جغرافیایی در افغانستان است.برنامه DRR (کاهش "
-"حوادث طبیعی )iMMAP تمویل میشود توسط USAID و اماده است برای استفاده "
-"روزانه  .      "
+"مرکز ارقام مکانی افغانستان ( اطلاعات خطرات حوادث طبیعی افغانستان) پلیت فرم "
+"انتشار ارقام  کاهش حوادث طبیعی DRR  و سایر اطلاعات عمومی است.در حال حاضر  "
+"اطلاعات خطرات حوادث طبیعی افغانستان  پیشرفته ترین منبع دسترسی برای کسب "
+"اطلاعات  جامع و دقیق جغرافیایی در افغانستان است.برنامه DRR (کاهش حوادث "
+"طبیعی )iMMAP تمویل میشود توسط USAID و اماده است برای استفاده روزانه  .      "
 
 #: .\templates\v2\about.html:37
 msgid ""
 "The information provided on ANHDC are especially useful in regards to "
 "prediction, emergency response, M&E and planning purposes."
 msgstr ""
-"اطلاعات ارائه شده در ANHDC به خصوص در رابطه با پیش بینی، واکنش های اضطراری، "
-"نظارت و ارزیابی و اهداف برنامه ریزی مفید است."
+"اطلاعات ارائه شده در  اطلاعات خطرات حوادث طبیعی افغانستان به خصوص در رابطه "
+"با پیش بینی، واکنش های اضطراری، نظارت و ارزیابی و اهداف برنامه ریزی مفید است."
 
 #: .\templates\v2\about.html:79
 msgid "Prediction"
@@ -6569,7 +6778,6 @@ msgid ""
 msgstr "هر 6 ساعت خطر سیلاب دریایی برای 4 روز آینده تخمین میشود"
 
 #: .\templates\v2\about.html:112
-
 msgid "ANHDC Core Team"
 msgstr "تیم اصلی مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان"
 
@@ -6580,10 +6788,10 @@ msgid ""
 "by the project, as well as developing the scientific methodology for the "
 "prediction and statistics."
 msgstr ""
-"داکتر ایملین هاگن (Emlyn Hagen) از نظر علمی و نظری  توسعه ASDC را رهبری "
-"مینماید. او از یک سو ایجاد مجموعه ارقام های مختلف بینظیر که استفاده شده "
-"توسط  پروژه، و از دیگر سو  در ایجاد روش علمی برای پیش بینی و آمار و ارقام "
-"کوشش های زیاد نموده است "
+"داکتر ایملین هاگن  از نظر علمی و نظری  توسعه  اطلاعات خطرات حوادث طبیعی "
+"افغانستان را رهبری مینماید. او از یک سو ایجاد مجموعه ارقام های مختلف بینظیر "
+"که استفاده شده توسط  پروژه، و از دیگر سو  در ایجاد روش علمی برای پیش بینی و "
+"آمار و ارقام کوشش های زیاد نموده است "
 
 #: .\templates\v2\about.html:128
 msgid ""
@@ -6594,12 +6802,12 @@ msgid ""
 "and analysis for forecasting purposes. Furthermore, an advanced dashboard "
 "has been created by Mr. Budi Hermansyah."
 msgstr ""
-"آقای بودی هیرمنسیا (Budi Hermansyah) پورتال GeoNode سایت ASDC را ایجاد کرده "
-"است. که این توسعه پیشرفته و بیشتر از GeoNode حمایت شده توسط بانک جهانی "
-"میباشد. این پیشرفت شامل ایجاد تمام آمار و روابط کاربر، آمار، مدل های POI، و "
-"همچنین به عنوان بازیابی خودکار ارقام و تجزیه و تحلیل برای اهداف پیش بینی "
-"میشود. علاوه بر این، مجموعه اطلاعات پیشرفته توسط آقای بودی هیرمنسیا  ایجاد "
-"شده است."
+"آقای بودی هیرمنسیا (Budi Hermansyah) پورتال GeoNode سایت مرکز ارقام اطلاعات "
+"خطرات حوادث طبیعی افغانستان را ایجاد کرده است. که این توسعه پیشرفته و بیشتر "
+"از GeoNode حمایت شده توسط بانک جهانی میباشد. این پیشرفت شامل ایجاد تمام آمار "
+"و روابط کاربر، آمار، مدل های POI، و همچنین به عنوان بازیابی خودکار ارقام و "
+"تجزیه و تحلیل برای اهداف پیش بینی میشود. علاوه بر این، مجموعه اطلاعات "
+"پیشرفته توسط آقای بودی هیرمنسیا  ایجاد شده است."
 
 #: .\templates\v2\about.html:130
 msgid ""
@@ -6608,8 +6816,8 @@ msgid ""
 "ANHDC."
 msgstr ""
 "در حال حاضر ، وی همچنین توسط آقای Dodi Wahyu Setiawan برای سمت عقب پشتیبانی "
-"می شود در حالی که خانم Rafinkanisa Witarayoga در پیشرفت ANHDC پشتیبانی می "
-"کند."
+"می شود در حالی که خانم Rafinkanisa Witarayoga در پیشرفت مرکز ارقام اطلاعات "
+"خطرات حوادث طبیعی افغانستان پشتیبانی می کند."
 
 #: .\templates\v2\about.html:139
 msgid ""
@@ -6618,9 +6826,10 @@ msgid ""
 "effort. The training program is further supported by videos as well as a "
 "certification process."
 msgstr ""
-"نور زنگنه (Noor Zangana) برنامه های آموزشی اختصاصی ANHDC را برای کاربران از "
-"جولای سال 2016 رهبری میکند . او توسط دو نفر از اتباع محلی در این وظیفه حمایت "
-"میشود. برنامه های آموزشی شامل ویدیو و همچنین صدور تصدیق نامه میباشد."
+"نور زنگنه (Noor Zangana) برنامه های آموزشی اختصاصی مرکز ارقام اطلاعات خطرات "
+"حوادث طبیعی افغانستان را برای کاربران از جولای سال 2016 رهبری میکند . او "
+"توسط دو نفر از اتباع محلی در این وظیفه حمایت میشود. برنامه های آموزشی شامل "
+"ویدیو و همچنین صدور تصدیق نامه میباشد."
 
 #: .\templates\v2\about.html:147
 msgid "Other Support"
@@ -6633,51 +6842,60 @@ msgid ""
 "information on on a daily basis.  A development unit is based in Indonesia "
 "who ensure the continuous improvements and functionally of the ANHDC."
 msgstr ""
-"ANHDC جدید توسط مدیران با استعداد مدیریت اطلاعات در کابل حمایت میشود ، که "
-"بخش وسیعی از بخش های بشردوستانه را تحت پوشش خود قرار می دهند. کارکنان ثبت "
-"ارقام بصورت روزانه اطلاعات را به روز می کنند. یک واحد توسعوی در اندونزی "
-"مستقر است که پیشرفت های مستمر و عملکرد ANHDC جدید را تضمین می کند."
+"مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان جدید توسط مدیران با استعداد "
+"مدیریت اطلاعات در کابل حمایت میشود ، که بخش وسیعی از بخش های بشردوستانه را "
+"تحت پوشش خود قرار می دهند. کارکنان ثبت ارقام بصورت روزانه اطلاعات را به روز "
+"می کنند. یک واحد توسعوی در اندونزی مستقر است که پیشرفت های مستمر و عملکرد "
+"مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان جدید را تضمین می کند."
 
-#: .\templates\v2\base.html:93 .\templates\v2\index.html:6
+#: .\templates\v2\base.html:95 .\templates\v2\index.html:6
 msgid "Afghanistan Natural Hazard Data Center"
 msgstr "مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان"
 
-#: .\templates\v2\base.html:138 .\templates\v2\partners.html:13
+#: .\templates\v2\base.html:140 .\templates\v2\partners.html:13
 #: .\templates\v2\partners.html.py:21
 msgid "Partner"
 msgstr "همکاران(شریک ها)"
 
-#: .\templates\v2\base.html:141
+#: .\templates\v2\base.html:143
 msgid "Documentation & Videos"
 msgstr "مدارک و ویدیو ها"
 
-#: .\templates\v2\base.html:181
+#: .\templates\v2\base.html:183
 msgid "Push Notification"
 msgstr "اطلاعیه ها"
 
-#: .\templates\v2\base.html:183
+#: .\templates\v2\base.html:185
 msgid "Setting"
 msgstr "حذف کردن"
 
-#: .\templates\v2\base.html:185
+#: .\templates\v2\base.html:187
 msgid "Report"
-msgstr ""
+msgstr "گزارشات"
 
-#: .\templates\v2\base.html:248
+#: .\templates\v2\base.html:253
 msgid "CONTACT"
-msgstr ""
+msgstr "تماس"
 
-#: .\templates\v2\base.html:273
+#: .\templates\v2\base.html:261
+msgid "Website"
+msgstr "وایپ سایت"
+
+#: .\templates\v2\base.html:278
 msgid "ANDMA"
-msgstr ""
+msgstr "دفتر وزیر دولت در امور رسیدگی به حوادث "
 
-#: .\templates\v2\base.html:335 .\templates\v2\base.html.py:341
+#: .\templates\v2\base.html:278
+msgid "Powered By iMMAP"
+msgstr " با حمایت iMMAP"
+
+#: .\templates\v2\base.html:340 .\templates\v2\base.html.py:346
 msgid "Forgot?"
-msgstr ""
+msgstr "یادم رفت?"
 
-#: .\templates\v2\base.html:356 .\templates\v2\base.html.py:380
+#: .\templates\v2\base.html:361 .\templates\v2\base.html.py:385
 msgid "Not Registered? Create an account"
-msgstr ""
+msgstr "ثبت نشده است؟ ایجاد یک حساب کاربری"
 
 #: .\templates\v2\disclaimer.html:30
 msgid "Introduction"
@@ -6716,28 +6934,256 @@ msgstr ""
 "های جمعیت باید مورد بازنگری قرار گیرند زیرا این موارد به روز شده ویا تصفیه "
 "گسترده ای شده اند ، همچنین باید عملکردهای جدیدی نیز به آن اضافه شود."
 
+#: .\templates\v2\doc.html:35
+msgid "Current Version: Documentation ASDC (Afghanistan Spatial Data Center)"
+msgstr "در باره مرکز ارقام مکانی افغانستان"
+
+#: .\templates\v2\doc.html:36
+msgid "Data and Methodologies - V0.9 - Emlyn Hagen, iMMAP (September 2016)"
+msgstr "داده ها و روش ها - V0.9 - ملین هاگن ، iMMAP (سپتامبر 2016)"
+
+#: .\templates\v2\doc.html:37
+msgid "None of the items in this document can be copied or edited"
+msgstr "هیچ یک از موارد موجود در این سند قابل کپی یا ویرایش نیست"
+
 #: .\templates\v2\doc.html:39
 msgid ""
-"A detailed overview of the following core capabilities of the ASDC can be "
+"A detailed overview of the following core capabilities of the ANHDC can be "
 "found at:"
-msgstr "یک نمای مفصل از قابلیت های مهم AHNDC را می توانید در ذیل بیابید"
+msgstr ""
+"یک نمای مفصل از قابلیت های مهم مرکز ارقام اطلاعات خطرات حوادث طبیعی "
+"افغانستان را می توانید در ذیل بیابید"
+
+#: .\templates\v2\doc.html:43
+msgid "Flooding:"
+msgstr "سیلاب"
+
+#: .\templates\v2\doc.html:43 .\templates\v2\doc.html.py:47
+#: .\templates\v2\doc.html:51
+msgid "or"
+msgstr "یا"
+
+#: .\templates\v2\doc.html:44 .\templates\v2\doc.html.py:48
+#: .\templates\v2\doc.html:52
+msgid "click here"
+msgstr "اینجا کلیک کنید"
+
+#: .\templates\v2\doc.html:47
+msgid "Earthquakes:"
+msgstr "زلزله ها"
+
+#: .\templates\v2\doc.html:51
+msgid "Avalanches: "
+msgstr "برف کوچ ها"
 
 #: .\templates\v2\doc.html:67 .\templates\v2\training.html:83
 msgid ""
 "To facilitate better communication, a Youtube channel has been made to host "
 "basic instruction videos on the functionalities of the Afghanistan Spatial "
-"Data Center (asdc.immap.org). The instruction videos can be found on YouTube "
+"Data Center (18.196.236.51). The instruction videos can be found on YouTube "
 "and on the ASDC (available in Dari and English). Currently, there are 11 "
 "training videos, in total 1 ½ hours of material."
 msgstr ""
 "برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن ویدیوهای "
-"آموزشی از مرکز ارقام مکانی افغانستان (asdc.immap.org). ویدیوهای آموزشی را می "
-"توان در یوتیوب و در ANHDC پیدا نمود. (به هردو زبان دری و انگلیسی). در حال "
-"حاضر 11 ویدیویی آموزشی، در مجموع یک و نیم ساعت میباشد موجود است ."
+"آموزشی از مرکز ارقام مکانی افغانستان (18.196.236.51). ویدیوهای آموزشی را می "
+"توان در یوتیوب و در مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان پیدا "
+"نمود. (به هردو زبان دری و انگلیسی). در حال حاضر 11 ویدیویی آموزشی، در مجموع "
+"یک و نیم ساعت میباشد موجود است ."
 
 #: .\templates\v2\doc.html:69 .\templates\v2\training.html:84
 msgid "Go to Youtube Channel"
 msgstr "برای رفتن به یوتیوب اینجا کلیک کنید"
+
+#: .\templates\v2\help.html:31
+msgid ""
+"\n"
+"                <p>The GeoNode provides access to data sets and a map "
+"editing application allows users to browse\n"
+"                  existing maps and contribute their own.</p>\n"
+"\n"
+"                <h4 id=\"browsing-data\">Browsing Layers</h4>\n"
+"                <p>The <a href=\"/layers\">Layers</a> tab allows you to "
+"browse data uploaded to this GeoNode.</p>\n"
+"                <p>All data can be downloaded in a variety of formats, for "
+"use in other applications.</p>\n"
+"\n"
+"                <h4 id=\"developer-access\">Developer Access</h4>\n"
+"                <p>The <a href=\"/developer\"> Developer</a> page is the "
+"place for developers to get started building\n"
+"                  applications against the GeoNode. It includes instructions "
+"on using the web services, links to the\n"
+"                  source code of the GeoNode, and information about the open "
+"source projects used to create it.</p>\n"
+"\n"
+"                <h4 id=\"browsing-maps\">Browsing Maps</h4>\n"
+"                <p>The GeoNode allows users to create and share maps with "
+"one another.</p>\n"
+"                <p>The <a href=\"/maps\">Maps</a> tab is a gateway to map "
+"exploration on GeoNode. From here you can\n"
+"                  <strong>search for a map</strong> or <strong>create a map</"
+"strong>, which will open the <a\n"
+"                    href=\"/maps/new\">Map Composer</a>.</p>\n"
+"                <h5>Google Earth Mode</h5>\n"
+"                <p>Any map viewed in the interactive map editor can be seen "
+"in 3D mode with the Google Earth plugin. To\n"
+"                  switch to 3D mode select the Google Earth globe logo, the "
+"rightmost button on top toolbar. If you do\n"
+"                  not have the Google Earth plugin installed you will be "
+"prompted to install it.</p>\n"
+"\n"
+"                <h4 id=\"creating-a-map\">Creating a Map</h4>\n"
+"                <p>To create a new map go to the <a href=\"/maps"
+"\">Contributed Maps</a> tab and click the <a\n"
+"                    href=\"/maps/new\">create your own map</a> link.</p>\n"
+"                <p>This will take you to the <a href=\"/maps/new\">Map "
+"Composer</a> with a base layer loaded.</p>\n"
+"                <p>To add data layers from the GeoNode click on the green "
+"plus button located below the layers tab on\n"
+"                  the left hand side of the screen. This will open a dialog "
+"listing all the layers available on the\n"
+"                  GeoNode.</p>\n"
+"                <p>To add layers to your map select them and hit the "
+"<strong>Add Layers</strong> button. When finished\n"
+"                  you may hit <strong>Done</strong> to close the dialog and "
+"go back to the map.</p>\n"
+"\n"
+"                <h5>Reordering and Removing Layers</h5>\n"
+"                <p>Change the display order of the layers listed in the data "
+"tab by simply dragging and dropping their\n"
+"                  names. The order in the map will be updated to reflect "
+"that. To turn a layer's visibility off simply\n"
+"                  uncheck it, and to remove it entirely select it and hit "
+"the red minus button.</p>\n"
+"\n"
+"                <h5>Saving your map</h5>\n"
+"                <p>Once a suitable set of layers and zoom level has been "
+"found it's time to save it so others can see\n"
+"                  it. Click the Save button--the left most icon on the top "
+"toolbar, an image of a map with a disk--on\n"
+"                  the top menu and fill out the title and abstract of the "
+"map.</p>\n"
+"\n"
+"                <h4 id=\"exporting-a-map\">Exporting a Map</h4>\n"
+"                <p>Any map from the GeoNode can be embedded for use in "
+"another site or blog. To export a map:</p>\n"
+"                <ol>\n"
+"                  <li>Select the from the list of maps on the community or "
+"map page and then hit the 'export map'\n"
+"                    button.</li>\n"
+"                  <li>Choose your desired height and width for the widget in "
+"the wizard.</li>\n"
+"                  <li>Copy the HTML snippet provided in the wizard to any "
+"HTML page or iFrame-supporting blog post.</li>\n"
+"                </ol>\n"
+"                <p>This will put an interactive widget showing you map in "
+"your web page or blog post.</p>\n"
+"                <p>Note that the <a href=\"/maps/new\">Map Composer</a> also "
+"has a button to export the map. Just be sure\n"
+"                  to save the map before exporting if there are changes that "
+"you want others to see. It exports the last\n"
+"                  saved version, not the last viewed version.</p>\n"
+"\n"
+"                <h4 id=\"remixing-a-map\">Remixing a Map</h4>\n"
+"                <p>Any map available can serve as a starting point for a new "
+"map.</p>\n"
+"                <ol>\n"
+"                  <li>Open the map in the Map Composer.</li>\n"
+"                  <li>Add and remove layers as you like.</li>\n"
+"                  <li>Pan and zoom to highlight the area of interest.</li>\n"
+"                  <li><strong>IMPORTANT:</strong> Update the title, "
+"abstract, contact info and tags to reflect the new\n"
+"                    map.</li>\n"
+"                  <li>Save the map.</li>\n"
+"                </ol>\n"
+"                <p>You will be able to see your new map when you search for "
+"it from the <a href=\"/maps\">Maps</a> tab.\n"
+"                </p>\n"
+"                "
+msgstr ""
+"\n"
+"    <p> GeoNode دسترسی به مجموعه ارقام و نرم افزار و ویرایش نقشه اجازه می "
+"دهد تا کاربران را به فهرست نقشه های موجود و کمک خود را.</p>\n"
+"\n"
+"    <h4 id=\"browsing-data\">جستجوی نقشه</h4>\n"
+"    <p>The <a href=\"/layers\">Layers</a> این مینو به شما اجازه میدهد تا "
+"جستجو کنید ارقام آپلود شده در این GeoNode .</p>\n"
+"    <p>همه ارقام میتواند به فارمت های گوناگون دانلود شود برای استفاده در "
+"پروگرام دیگر .</p>\n"
+"\n"
+"    <h4 id=\"developer-access\"> توسعه دهنده دسترسی</h4>\n"
+"    <p>The <a href=\"/developer\"> توسعه دهنده </a> صفحه محلی برای توسعه "
+"دهندگان برای شروع ساخت برنامه های کاربردی در برابر GeoNode است. این شامل "
+"دستورالعمل در مورد استفاده از خدمات وب، لینک به کد منبع از GeoNode، و "
+"معلومات مربوط به پروژه های که منبع باز دارند ایجاد و استفاده نمود.</p>\n"
+"\n"
+" <h4 id=\"browsing-maps\">جستجوی نقشه</h4>\n"
+"  <p> GeoNode اجازه می دهد تا به کاربران برای ایجاد و به اشتراک گذاری نقشه "
+"ها با یک دیگر.</p>\n"
+"    <p>این <a href=\"/maps\">نقشه ها</a> tab is a gateway to map exploration "
+"on GeoNodeدر اینجا میتوانید  <strong> جستجو برای یک نقشه </strong> or "
+"<strong>create a map</strong>, که باز کند  <a href=\"/maps/new\"> Composer</"
+"a>.</p>\n"
+"    <h5>Google Earth Mode</h5>\n"
+"<p> هر نقشه مشاهده در ویرایشگر نقشه های تعاملی می توان در حالت D3 با افزونه "
+"Google زمین دیده می شود. برای تغییر به حالت D3 را انتخاب کنید Google Earth "
+"globe logo، بر روی دکمه سمت راست در نوار ابزار بالا. اگر شما ندارید افزونه "
+"Google Earth globe باید شما آن را نصب کنید.</p>\n"
+"\n"
+"    <h4 id=\"creating-a-map\"> ایجاد یک نقشه </h4>\n"
+"    <p> برای ایجاد یک نقشه جدید بروید به <a href=\"/maps\"> نقشه های کمکی</"
+"a> کلیک کنید  <a href=\"/maps/new\"> ایجاد نقشه های خود </a> link.</p>\n"
+"    <p> این شما را به <a href=\"/maps/new\">نقشه سازنده </a> شده با یک لایه "
+"پایه لود.</p>\n"
+"    <p>برای اضافه کردن لایه ها از GeoNode کلیک کنید بر روی دکمه سبز واقع در "
+"زیر پالت Layers در سمت چپ صفحه نمایش. این به شما باز مینماید لیست تمام لایه "
+"های موجود در GeoNode را.</p>\n"
+"    <p> برای اضافه کردن لایه ها بروی نقشه آنها را انتخاب کنید و فشار دهید به "
+"<strong>افزودن لایه</strong> دکمه. هنگامی که به پایان رسید شما ممکن است ضربه "
+"<strong>انجام شد </strong> برای بستن صفحه لایه ها و باز گشت به نقشه .</p>\n"
+"\n"
+"    <h5> مرتب سازی مجدد و از بین بردن لایه </h5>\n"
+"<p> برای تغییر نمایش لایه های که در لیست ارقام است  به طور ساده بالای نام "
+"لایه کلیک به طرف پایین یا بالا رها کنید. نظم در نقشه اپدیت خواهد شد در صفحه "
+"نمایش. برای نشان ندادن لایه بطور ساده بالای دکمه چک کلیک کنید و برای حذف به "
+"طور کامل لایه دکمه منفی سرخ را کلیک کنید.</p> \n"
+"\n"
+"    <h5>ذخیره کردن نقشه شما </h5>\n"
+"    <p>هنگامی که یک مجموعه مناسب از لایه و سطح بزگنمایی  یافت شد زمان آن "
+"رسیده که ذخیره کنید تا دیگران بتوانند آن را بیبیندد. با کلیک بر روی دکمه "
+"ذخیره - زیادی آیکون ها سمت چپ بر روی نوار ابزار بالا، یک تصویر از یک نقشه با "
+"یک دیسک - در منوی بالا و با پر کردن عنوان و چکیده ای از نقشه.</p>\n"
+"\n"
+"    <h4 id=\"exporting-a-map\">Exporting a Map</h4>\n"
+"    <p> هر نقشه از GeoNode می توان برای استفاده در یکی دیگر از سایت یا وبلاگ "
+"تعبیه شده است. به صادرات یک نقشه:</p>\n"
+"    <ol>\n"
+"      <li>انتخاب نقشه از جمع نقشه های موجود ویا در صفحه نقشه بعدا دکمه صادر "
+"نقشه را فشار دهید.</li> \n"
+"      <li> ارتفاع و عرض مورد نظر خود را انتخاب کنید برای ویجت در ویزارد.</"
+"li> \n"
+"      <li>Copy the HTML snippet provided in the wizard to any HTML page or "
+"iFrame-supporting blog post.</li>\n"
+"    </ol>\n"
+"    <p> این ویجت های تعاملی نشان دهنده نقشه برای شما در صفحه وب یا پست "
+"وبلاگ  تان میباشد.</p>\n"
+"    <p> توجه داشته باشید که <a href=\"/maps/new\"> نقشه آهنگساز </a> همچنین "
+"دارای یک دکمه است بخاطر صادر نقشه. Just be sure to save the map before "
+"exporting if there are changes that you want others to see. It exports the "
+"last saved version, not the last viewed version.</p>\n"
+"\n"
+"    <h4 id=\"remixing-a-map\"> میکس مجدد نقشه </h4>\n"
+"    <p  هر نقشه در دسترس می تواند خدمت به یک نقطه شروع برای یک نقشه جدید "
+"باشد.</p>\n"
+"    <ol>\n"
+"      <li> باز کردن نقشه در نقشه سازنده.</li>\n"
+"      <li>افزودن و حذف لایه های دلخواه  .</li>\n"
+"      <li>پن و بزرگ نمودن ساحه دلخواه .</li>\n"
+"      <li><strong>مهم:</strong> اپدیت عنوان ,خلاصه, اطلاعات تماس, برچسپ ها,"
+"که منعکس کند نقشه جدید را .</li>\n"
+"      <li>ذخیره نقشه.</li>\n"
+"    </ol>\n"
+"    <p> شما قادر به دیدن نقشه جدید خود هنگامی که شما برای آن جستجو کنید "
+"خواهد بود  <a href=\"/maps\">Maps</a> tab.</p> "
 
 #: .\templates\v2\index.html:105
 msgid "Current Information"
@@ -6772,17 +7218,14 @@ msgid ""
 msgstr ""
 
 #: .\templates\v2\index.html:139
-
 msgid "Latest Earthquake"
 msgstr "زلزله"
 
 #: .\templates\v2\index.html:142
-
 msgid "The map and statistics are updated every 30 mins."
 msgstr "هر 6 ساعت نقشه ها و آمار آپدیت میشوند ."
 
 #: .\templates\v2\index.html:154
-
 msgid ""
 "Click to explore for the number of people potentially affected by earthquakes"
 msgstr ""
@@ -6818,8 +7261,8 @@ msgid ""
 "New to ANHDC? Check our documentation for having a better understanding how "
 "useful our tools are."
 msgstr ""
-"تازه وارد ANHDC هستید؟ اسناد ما را بررسی کنید تا درک بهتری از مفید بودن "
-"ابزارهای ما داشته باشید"
+"تازه وارد مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان هستید؟ اسناد ما را "
+"بررسی کنید تا درک بهتری از مفید بودن ابزارهای ما داشته باشید"
 
 #: .\templates\v2\index.html:293
 msgid "Watch Tutorial"
@@ -6845,7 +7288,9 @@ msgstr "شرکای و ارائه دهندگان اطلاعات"
 msgid ""
 "For each of the organisations the main contributions for the AHNDC are "
 "listed."
-msgstr "برای هر یک از سازمان ها کمک های عمده که برای ANHDC کردند ذکر شده است."
+msgstr ""
+"برای هر یک از سازمان ها کمک های عمده که برای مرکز ارقام اطلاعات خطرات حوادث "
+"طبیعی افغانستان کردند ذکر شده است."
 
 #: .\templates\v2\partners.html:45
 msgid ""
@@ -6879,12 +7324,13 @@ msgid ""
 "Kawohl), the University of Zurich (Dr. Michael Kessler), and the University "
 "of Göttingen (Prof. Dr. Holger Kreft)."
 msgstr ""
-"(CHELSA) ارقام در بخش تغیر اقلیم را برای سیستم ارقام مکانی افغانستان (ANHDC) "
-"تهیه میکند. CHELSA یک مجموعه ارقام اقلیم با دقت بالا (30 arc sec) برای مناطق "
-"سطح زمین میباشد که فعلا توسط انستیتوت فدرال تحقیقات جنگل ، برف و چشم انداز "
-"WSL میزبانی میشود. و با هماهنگی با گروه جغرافیا دانشگاه هامبورگ (پروفسور "
-"داکتر یورگن بوهنر ، داکتر اولاف کنراد ، توبیاس کاوهل) ، دانشگاه زوریخ (دکتر "
-"مایکل کسلر) و دانشگاه گوتینگن ( پروفسور داکتر هولگر کرفت) توسعه داده شده است."
+"(CHELSA) ارقام در بخش تغیر اقلیم را برای سیستم ارقام مکانی افغانستان (مرکز "
+"ارقام اطلاعات خطرات حوادث طبیعی افغانستان) تهیه میکند. CHELSA یک مجموعه "
+"ارقام اقلیم با دقت بالا (30 arc sec) برای مناطق سطح زمین میباشد که فعلا توسط "
+"انستیتوت فدرال تحقیقات جنگل ، برف و چشم انداز WSL میزبانی میشود. و با "
+"هماهنگی با گروه جغرافیا دانشگاه هامبورگ (پروفسور داکتر یورگن بوهنر ، داکتر "
+"اولاف کنراد ، توبیاس کاوهل) ، دانشگاه زوریخ (دکتر مایکل کسلر) و دانشگاه "
+"گوتینگن ( پروفسور داکتر هولگر کرفت) توسعه داده شده است."
 
 #: .\templates\v2\partners.html:267
 msgid "Ventusky"
@@ -6899,11 +7345,12 @@ msgid ""
 "provided by InMeteo, a Czech meteorological company, in collaboration "
 "with Marek Mojzík and Martin Prantl"
 msgstr ""
-"Ventusky در داشبورد ANHDC و مفتش قریه جات ، دسترسی شگفت انگیزی به پیش بینی "
-"آب و هوا می دهد. این ارقام بیشتر برای افغانستان از Deutsche Wetter Dienst "
-"ICON (دقت 7/5 کیلومتر) یا از سیستم پیش بینی جهانی NOAA GFS (دقت 15 کیلومتر) "
-"تهیه می کند. Ventusky محصولی است که توسط InMeteo ، یک شرکت هواشناسی چک با "
-"همکاری مارک مژک و مارتین پرانتل تهیه شده است."
+"Ventusky در داشبورد مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان و مفتش "
+"قریه جات ، دسترسی شگفت انگیزی به پیش بینی آب و هوا می دهد. این ارقام بیشتر "
+"برای افغانستان از Deutsche Wetter Dienst ICON (دقت 7/5 کیلومتر) یا از سیستم "
+"پیش بینی جهانی NOAA GFS (دقت 15 کیلومتر) تهیه می کند. Ventusky محصولی است که "
+"توسط InMeteo ، یک شرکت هواشناسی چک با همکاری مارک مژک و مارتین پرانتل تهیه "
+"شده است."
 
 #: .\templates\v2\partners.html:275
 msgid "European Centre for Medium-Range Weather Forecasts (ECMWF)"
@@ -6919,9 +7366,9 @@ msgid ""
 msgstr ""
 "مرکز اروپایی پیش بینی هواشناسی در محدوده متوسط (ECMWF) یک سازمان بین دولتی "
 "مستقل است که توسط 34 ایالت حمایت می شود. این بخش بیشتر ارقام ورودی را برای "
-"ارقام  GLOFAS فراهم می کند ، علاوه بر این ، ANHDC از ارقام سایر سازمان های "
-"همکار که به ارقام ECMWF (ارقام پیش بینی هوا ، اقلیم و ارقام تغییرات آب و "
-"هوا) اعتماد دارند ، استفاده می کند."
+"ارقام  GLOFAS فراهم می کند ، علاوه بر این ، مرکز ارقام اطلاعات خطرات حوادث "
+"طبیعی افغانستان از ارقام سایر سازمان های همکار که به ارقام ECMWF (ارقام پیش "
+"بینی هوا ، اقلیم و ارقام تغییرات آب و هوا) اعتماد دارند ، استفاده می کند."
 
 #: .\templates\v2\partners.html:283
 msgid "NOAA STAR (Satellite Applications and Research)"
@@ -6964,12 +7411,13 @@ msgid ""
 "variety of courses including World Regional Geography, GIS, crime mapping, "
 "demographic analysis, and spatial models in public safety."
 msgstr ""
-"دانشگاه پنسلوانیای کالیفورنیا  بخش هایی از ANHDC را در برنامه درسی جغرافیایی "
-"خود ادغام کرده و به پربارترین استفاده کننده آموزشی AHNDC تبدیل شده است. Cal "
-"U از ANHDC برای تدریس به دانشجویان لیسانس اش درقالب جغرافیه اساسی تطبیقی با "
-"محتوای مدیریت حوادث استفاده می کند. این دوره آموزشی توسط پروفیسور داکتر "
-"توماس آر مولر رهبری می شود طوریکه ایشان کورس های متنوع زیادی را به شمول "
-"جغرافیای جهانی منطقه ای، GIS، نقشه برداری جرائم، تجزیه و تحلیل جمعیتی و "
+"دانشگاه پنسلوانیای کالیفورنیا  بخش هایی از مرکز ارقام اطلاعات خطرات حوادث "
+"طبیعی افغانستان را در برنامه درسی جغرافیایی خود ادغام کرده و به پربارترین "
+"استفاده کننده آموزشی AHNDC تبدیل شده است. Cal U از مرکز ارقام اطلاعات خطرات "
+"حوادث طبیعی افغانستان برای تدریس به دانشجویان لیسانس اش درقالب جغرافیه اساسی "
+"تطبیقی با محتوای مدیریت حوادث استفاده می کند. این دوره آموزشی توسط پروفیسور "
+"داکتر توماس آر مولر رهبری می شود طوریکه ایشان کورس های متنوع زیادی را به "
+"شمول جغرافیای جهانی منطقه ای، GIS، نقشه برداری جرائم، تجزیه و تحلیل جمعیتی و "
 "الگوهای مکانی برای امنیت عمومی را آموزش داده است"
 
 #: .\templates\v2\partners.html:302
@@ -6983,10 +7431,11 @@ msgid ""
 "ANHDC to teach graduate students applied geography insights within a "
 "disaster management context."
 msgstr ""
-"دانشگاه شمال شرقی یک تعداد بخش هایی ANHDC را در برنامه های نقشه برداری خطرات "
-"برای اقدامات بشردوستانه خود مورد استفاده قرار داده است. دانشگاه شمال شرقی از "
-"ANHDC برای تدریس به دانشجویان فارغ التحصیل خود با محتوای مدیریت حوادث "
-"استفاده می کند."
+"دانشگاه شمال شرقی یک تعداد بخش هایی مرکز ارقام اطلاعات خطرات حوادث طبیعی "
+"افغانستان را در برنامه های نقشه برداری خطرات برای اقدامات بشردوستانه خود "
+"مورد استفاده قرار داده است. دانشگاه شمال شرقی از مرکز ارقام اطلاعات خطرات "
+"حوادث طبیعی افغانستان برای تدریس به دانشجویان فارغ التحصیل خود با محتوای "
+"مدیریت حوادث استفاده می کند."
 
 #: .\templates\v2\training.html:34
 msgid ""
@@ -6994,9 +7443,9 @@ msgid ""
 "national ANHDC experts. Therefore, the training can be delivered in both "
 "English and Dari."
 msgstr ""
-"کارگاه های آموزشی توسط یکی از متخصصان بین المللی و دو متخصص محلی محلی ANHDC "
-"ما انجام می شود. بنابراین می توان آموزش را به دو زبان انگلیسی و دری ارائه "
-"داد."
+"کارگاه های آموزشی توسط یکی از متخصصان بین المللی و دو متخصص محلی محلی مرکز "
+"ارقام اطلاعات خطرات حوادث طبیعی افغانستان ما انجام می شود. بنابراین می توان "
+"آموزش را به دو زبان انگلیسی و دری ارائه داد."
 
 #: .\templates\v2\training.html:45
 msgid "ANHDC Professional User Certification program"
@@ -7009,12 +7458,13 @@ msgid ""
 "iMMAP has initiated the ANHDC Professional User Certification program, which "
 "further expands the ANHDC training program with hands-on exercises. The "
 "certification highlights user proficiency with the functionalities of the "
-"ASDC and the capability to independently advance this knowledge."
+"ANHDC and the capability to independently advance this knowledge."
 msgstr ""
 " iMMAP برنامه دریافت تصدیقنامه کاربران حرفوی را آغاز نموده که برای توسعه "
-"آموزش ANHDC از طریق تمرینات عملی بسیار مفید است نکات مهم مراحل دریافت  "
-"تصدیقنامه قابلیت پیش برد این دانش بطور مستقلانه نظر به تخصص کاربر و طراحی "
-"ANHDC میباشد."
+"آموزش مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان از طریق تمرینات عملی "
+"بسیار مفید است نکات مهم مراحل دریافت  تصدیقنامه قابلیت پیش برد این دانش بطور "
+"مستقلانه نظر به تخصص کاربر و طراحی مرکز ارقام اطلاعات خطرات حوادث طبیعی "
+"افغانستان میباشد."
 
 #: .\templates\v2\training.html:49
 msgid "Go to Certification Portal"
@@ -7022,7 +7472,9 @@ msgstr "برای رفتن به صفحه تصدیق نامه اینجا کلیک 
 
 #: .\templates\v2\training.html:60
 msgid "ANHDC University Certification Program (Introduction to ANHDC)"
-msgstr "برنامه صدور گواهینامه دانشگاه ANHDC (مقدمه ای بر ANHDC)"
+msgstr ""
+"برنامه صدور گواهینامه دانشگاه مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان "
+"(مقدمه ای بر مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان)"
 
 #: .\templates\v2\training.html:61
 msgid ""
@@ -7032,8 +7484,8 @@ msgid ""
 "universities."
 msgstr ""
 "با همکاری دانشگاه کالیفرنیا پنسیلوانیا و دانشگاه شمال شرقی تحت هدایت استاد "
-"دکتر توماس آر مولر ، ANHDC امکان آزمایش / صدور تصدیق نامه را به دانشگاه های "
-"شرکت کننده ارائه می دهد."
+"دکتر توماس آر مولر ، مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان امکان "
+"آزمایش / صدور تصدیق نامه را به دانشگاه های شرکت کننده ارائه می دهد."
 
 #: .\templates\v2\training.html:62
 msgid "Go to University Certification Portal"
@@ -7058,23 +7510,26 @@ msgid ""
 "Give a structured overview and exercises for geospatial analysis using the "
 "AHNDC."
 msgstr ""
-"با استفاده از ANHDC جدید ، یک نمای کلی ساختار یافته و تمرین هایی را برای "
-"تجزیه و تحلیل مکان شناسی ارائه دهید."
+"با استفاده از مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان جدید ، یک نمای "
+"کلی ساختار یافته و تمرین هایی را برای تجزیه و تحلیل مکان شناسی ارائه دهید."
+
+#~ msgid "AHNDC Core Team"
+#~ msgstr "تیم اصلی DRR"
 
 #~ msgid ""
-#~ "Mr. Budi Hermansyah has created the ANHDC GeoNode portal. Which is an "
+#~ "Mr. Budi Hermansyah has created the   GeoNode portal. Which is an "
 #~ "advanced and further development of the GeoNode supported by the World "
 #~ "Bank. These advancements include the creation of all statistics and user "
 #~ "interfaces, statistics, POI’s models, as well as automated data retrieval "
 #~ "and analysis for forecasting purposes. Furthermore, an advanced dashboard "
 #~ "has been created by Mr Budi Hermansyah."
 #~ msgstr ""
-#~ "آقای بودی هیرمنسیا (Budi Hermansyah) پورتال GeoNode سایت ANHDC را ایجاد "
-#~ "کرده است. که این توسعه پیشرفته و بیشتر از GeoNode حمایت شده توسط بانک "
-#~ "جهانی میباشد. این پیشرفت شامل ایجاد تمام آمار و روابط کاربر، آمار، مدل "
-#~ "های POI، و همچنین به عنوان بازیابی خودکار ارقام و تجزیه و تحلیل برای "
-#~ "اهداف پیش بینی میشود. علاوه بر این، مجموعه اطلاعات پیشرفته توسط آقای بودی "
-#~ "هیرمنسیا  ایجاد شده است."
+#~ "آقای بودی هیرمنسیا (Budi Hermansyah) پورتال GeoNode سایت مرکز ارقام "
+#~ "اطلاعات خطرات حوادث طبیعی افغانستان را ایجاد کرده است. که این توسعه "
+#~ "پیشرفته و بیشتر از GeoNode حمایت شده توسط بانک جهانی میباشد. این پیشرفت "
+#~ "شامل ایجاد تمام آمار و روابط کاربر، آمار، مدل های POI، و همچنین به عنوان "
+#~ "بازیابی خودکار ارقام و تجزیه و تحلیل برای اهداف پیش بینی میشود. علاوه بر "
+#~ "این، مجموعه اطلاعات پیشرفته توسط آقای بودی هیرمنسیا  ایجاد شده است."
 
 #~ msgid ""
 #~ "The map and statistics are updated on a daily basis (less than 24 hours)."
@@ -7095,7 +7550,8 @@ msgstr ""
 #~ "میباشد  (باید 75%  سوال ها پاسخ درست گفته شود) که شامل بخش های مختلف "
 #~ "میباشد. برای کاربر های که مهارت زیاد دارند این پروسه در حدود 1 یا 2 ساعت "
 #~ "طول میکشد، و برای کاربران که تازه آموزش دیدن بیشتر از 3 ساعت .تکمیل نمودن "
-#~ "این پروسه با دیدن ویدیوهای آموزشی ANHDC لازم است.  "
+#~ "این پروسه با دیدن ویدیوهای آموزشی مرکز ارقام اطلاعات خطرات حوادث طبیعی "
+#~ "افغانستان لازم است.  "
 
 #~ msgid ""
 #~ "To facilitate better communication, a Youtube channel has been made to "
@@ -7106,9 +7562,9 @@ msgstr ""
 #~ msgstr ""
 #~ "برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن "
 #~ "ویدیوهای آموزشی از مرکز ارقام مکانی افغانستان (asdc.immap.org). ویدیوهای "
-#~ "آموزشی را می توان در یوتیوب و در ANHDC پیدا نمود. (به هردو زبان دری و "
-#~ "انگلیسی). در حال حاضر 11 ویدیویی آموزشی، در مجموع یک و نیم ساعت میباشد "
-#~ "موجود است ."
+#~ "آموزشی را می توان در یوتیوب و در مرکز ارقام اطلاعات خطرات حوادث طبیعی "
+#~ "افغانستان پیدا نمود. (به هردو زبان دری و انگلیسی). در حال حاضر 11 ویدیویی "
+#~ "آموزشی، در مجموع یک و نیم ساعت میباشد موجود است ."
 
 #~ msgid ""
 #~ "To facilitate better communication, a Youtube channel has been made to "
@@ -7119,15 +7575,12 @@ msgstr ""
 #~ msgstr ""
 #~ "برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن "
 #~ "ویدیوهای آموزشی از مرکز ارقام مکانی افغانستان (anhdc.andma.gov.af). "
-#~ "ویدیوهای آموزشی را می توان در یوتیوب و در ANHDC پیدا نمود. (به هردو زبان "
-#~ "دری و انگلیسی). در حال حاضر 11 ویدیویی آموزشی، در مجموع یک و نیم ساعت "
-#~ "میباشد موجود است ."
+#~ "ویدیوهای آموزشی را می توان در یوتیوب و در مرکز ارقام اطلاعات خطرات حوادث "
+#~ "طبیعی افغانستان پیدا نمود. (به هردو زبان دری و انگلیسی). در حال حاضر 11 "
+#~ "ویدیویی آموزشی، در مجموع یک و نیم ساعت میباشد موجود است ."
 
 #~ msgid "Log in to an existing account"
 #~ msgstr "ورود به حساب موجود"
-
-#~ msgid "Password Reset"
-#~ msgstr "تنظیم مجدد رمز عبور"
 
 #~ msgid "Forgotten your password?"
 #~ msgstr "رمز ورود خود را فراموش کرده اید؟"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 14:23+0430\n"
+"POT-Creation-Date: 2020-09-20 15:00+0430\n"
 "PO-Revision-Date: 2017-02-20 09:15+0430\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -188,9 +188,10 @@ msgstr "دسترسی"
 #: .\templates\pages\landsliderisk.html:27
 #: .\templates\v2\dash_accessibility.html:675
 #: .\templates\v2\dash_aforecast.html:123 .\templates\v2\dash_arisk.html:142
-#: .\templates\v2\dash_baseline.html:21 .\templates\v2\dash_baseline.html:152
-#: .\templates\v2\dash_drought.html:314 .\templates\v2\dash_earthquake.html:325
-#: .\templates\v2\dash_frisk.html:118 .\templates\v2\dash_landslide.html:425
+#: .\templates\v2\dash_baseline.html:21 .\templates\v2\dash_baseline.html:72
+#: .\templates\v2\dash_baseline.html:152 .\templates\v2\dash_drought.html:314
+#: .\templates\v2\dash_earthquake.html:325 .\templates\v2\dash_frisk.html:118
+#: .\templates\v2\dash_landslide.html:425
 #: .\templates\v2\dash_landslide.html:544
 #: .\templates\v2\dash_landslide.html:663
 #: .\templates\v2\dash_landslide.html:748
@@ -202,9 +203,10 @@ msgstr "مجموع نفوس"
 
 #: .\templates\pages\accessibility.html:30 .\templates\pages\baseline.html:34
 #: .\templates\v2\dash_arisk.html:204 .\templates\v2\dash_baseline.html:29
-#: .\templates\v2\dash_baseline.html:211 .\templates\v2\dash_drought.html:341
-#: .\templates\v2\dash_frisk.html:180 .\templates\v2\dash_main.html:29
-#: .\templates\v2\dash_main.html.py:69 .\templates\v2\dash_main.html:307
+#: .\templates\v2\dash_baseline.html:74 .\templates\v2\dash_baseline.html:211
+#: .\templates\v2\dash_drought.html:341 .\templates\v2\dash_frisk.html:180
+#: .\templates\v2\dash_main.html:29 .\templates\v2\dash_main.html.py:69
+#: .\templates\v2\dash_main.html:307
 msgid "Total Area"
 msgstr "مساحت کلی"
 
@@ -829,7 +831,14 @@ msgstr "مجموع"
 #: .\templates\pages\landsliderisk.html:223
 #: .\templates\v2\dash_aforecast.html:194
 #: .\templates\v2\dash_aforecast.html:228 .\templates\v2\dash_arisk.html:243
-#: .\templates\v2\dash_arisk.html.py:297 .\templates\v2\dash_fforecast.html:351
+#: .\templates\v2\dash_arisk.html.py:297 .\templates\v2\dash_fforecast.html:68
+#: .\templates\v2\dash_fforecast.html:95 .\templates\v2\dash_fforecast.html:123
+#: .\templates\v2\dash_fforecast.html:150
+#: .\templates\v2\dash_fforecast.html:178
+#: .\templates\v2\dash_fforecast.html:205
+#: .\templates\v2\dash_fforecast.html:233
+#: .\templates\v2\dash_fforecast.html:260
+#: .\templates\v2\dash_fforecast.html:351
 #: .\templates\v2\dash_fforecast.html:369
 #: .\templates\v2\dash_fforecast.html:384
 #: .\templates\v2\dash_fforecast.html:387
@@ -917,6 +926,13 @@ msgstr "زیاد"
 #: .\templates\v2\dash_arisk.html.py:298 .\templates\v2\dash_drought.html:379
 #: .\templates\v2\dash_drought.html:457 .\templates\v2\dash_drought.html:536
 #: .\templates\v2\dash_earthquake.html:707
+#: .\templates\v2\dash_fforecast.html:63 .\templates\v2\dash_fforecast.html:90
+#: .\templates\v2\dash_fforecast.html:118
+#: .\templates\v2\dash_fforecast.html:145
+#: .\templates\v2\dash_fforecast.html:173
+#: .\templates\v2\dash_fforecast.html:200
+#: .\templates\v2\dash_fforecast.html:228
+#: .\templates\v2\dash_fforecast.html:255
 #: .\templates\v2\dash_fforecast.html:402
 #: .\templates\v2\dash_fforecast.html:474
 #: .\templates\v2\dash_fforecast.html:587
@@ -1071,7 +1087,13 @@ msgstr "نفوس پیشبینی شده در ساحات خطر برف کوچ "
 #: .\templates\pages\landsliderisk.html:186
 #: .\templates\pages\landsliderisk.html:225
 #: .\templates\v2\dash_aforecast.html:196
-#: .\templates\v2\dash_aforecast.html:230
+#: .\templates\v2\dash_aforecast.html:230 .\templates\v2\dash_fforecast.html:58
+#: .\templates\v2\dash_fforecast.html:85 .\templates\v2\dash_fforecast.html:113
+#: .\templates\v2\dash_fforecast.html:140
+#: .\templates\v2\dash_fforecast.html:168
+#: .\templates\v2\dash_fforecast.html:195
+#: .\templates\v2\dash_fforecast.html:223
+#: .\templates\v2\dash_fforecast.html:250
 #: .\templates\v2\dash_fforecast.html:361
 #: .\templates\v2\dash_fforecast.html:379
 #: .\templates\v2\dash_fforecast.html:397
@@ -1413,7 +1435,7 @@ msgstr "پیشبینی سیلاب"
 #: .\templates\v2\dash_fforecast.html:317
 #: .\templates\v2\dash_fforecast.html:446 .\templates\v2\dash_main.html:729
 msgid "Flash Flood Likelihood"
-msgstr "احتمال سیلاب ناگهانی "
+msgstr "احتمال سیلاب آنی"
 
 #: .\templates\pages\floodforecast.html:41
 #: .\templates\pages\floodforecast.html:111
@@ -1440,6 +1462,13 @@ msgstr "احتمال"
 #: .\templates\pages\floodforecast.html:443
 #: .\templates\v2\dash_drought.html:381 .\templates\v2\dash_drought.html:459
 #: .\templates\v2\dash_drought.html:536 .\templates\v2\dash_earthquake.html:707
+#: .\templates\v2\dash_fforecast.html:78 .\templates\v2\dash_fforecast.html:105
+#: .\templates\v2\dash_fforecast.html:133
+#: .\templates\v2\dash_fforecast.html:160
+#: .\templates\v2\dash_fforecast.html:188
+#: .\templates\v2\dash_fforecast.html:215
+#: .\templates\v2\dash_fforecast.html:243
+#: .\templates\v2\dash_fforecast.html:270
 #: .\templates\v2\dash_fforecast.html:348
 #: .\templates\v2\dash_fforecast.html:462
 #: .\templates\v2\dash_fforecast.html:533
@@ -1482,6 +1511,13 @@ msgstr "شدیدتر"
 #: .\templates\pages\landsliderisk.html:144
 #: .\templates\pages\landsliderisk.html:183
 #: .\templates\pages\landsliderisk.html:222
+#: .\templates\v2\dash_fforecast.html:100
+#: .\templates\v2\dash_fforecast.html:128
+#: .\templates\v2\dash_fforecast.html:155
+#: .\templates\v2\dash_fforecast.html:183
+#: .\templates\v2\dash_fforecast.html:210
+#: .\templates\v2\dash_fforecast.html:238
+#: .\templates\v2\dash_fforecast.html:265
 #: .\templates\v2\dash_fforecast.html:366
 #: .\templates\v2\dash_fforecast.html:466
 #: .\templates\v2\dash_fforecast.html:551
@@ -1620,7 +1656,7 @@ msgstr "احتمال سیلاب دریایی "
 #: .\templates\v2\dash_fforecast.html:1294
 #: .\templates\v2\dash_fforecast.html:1347
 msgid "Flash Flood"
-msgstr "سیلاب ناگهانی"
+msgstr "سیلاب آنی"
 
 #: .\templates\pages\floodforecast.html:178
 #: .\templates\pages\floodforecast.html:305
@@ -1661,7 +1697,7 @@ msgstr "نفوس ساکن در مناطق خطر سیلاب "
 
 #: .\templates\pages\landsliderisk.html:20 .\templates\v2\dash_landslide.html:9
 msgid "Landslide Risk"
-msgstr ""
+msgstr "خطر لغزش زمین"
 
 #: .\templates\pages\landsliderisk.html:31
 msgid "Total Setllements"
@@ -1882,7 +1918,190 @@ msgstr "انتخاب نوع هدف"
 #: .\templates\v2\dash_accessibility.html:17
 #: .\templates\v2\dash_baseline.html:51
 msgid "Map"
-msgstr ""
+msgstr "نقشه"
+
+#: .\templates\v2\dash_accessibility.html:26
+#: .\templates\v2\dash_baseline.html:60 .\templates\v2\dash_fforecast.html:27
+msgid "Visit Interactive Maps"
+msgstr "نقشه های تعاملی (فعال)"
+
+#: .\templates\v2\dash_accessibility.html:35
+#: .\templates\v2\dash_baseline.html:70 .\templates\v2\dash_fforecast.html:36
+msgid "Choose Layer :"
+msgstr "انتخاب لا یه ها"
+
+#: .\templates\v2\dash_accessibility.html:37
+#: .\templates\v2\dash_accessibility.html:51
+msgid "Travel time to nearest airport"
+msgstr "زمان سفر به نزدیکترین میدان هوایی "
+
+#: .\templates\v2\dash_accessibility.html:38
+#: .\templates\v2\dash_accessibility.html:54
+msgid "Travel time to nearest hospital tier 1"
+msgstr "زمان سفر به نزدیکترین مرکز ولسوالی"
+
+#: .\templates\v2\dash_accessibility.html:39
+#: .\templates\v2\dash_accessibility.html:57
+msgid "Travel time to nearest hospital tier 2"
+msgstr "زمان سفر به نزدیکترین مرکز ولسوالی"
+
+#: .\templates\v2\dash_accessibility.html:40
+#: .\templates\v2\dash_accessibility.html:60
+msgid "Travel time to nearest hospital tier 3"
+msgstr "زمان سفر به نزدیکترین مرکز ولسوالی"
+
+#: .\templates\v2\dash_accessibility.html:41
+msgid "Travel time to nearest hospital tier All"
+msgstr "زمان سفر  به نزدیکترین امکانات صحی همه ردیف ها"
+
+#: .\templates\v2\dash_accessibility.html:42
+#: .\templates\v2\dash_accessibility.html:66
+msgid "Travel time to its provincial capital"
+msgstr "زمان سفر به مرکز ولایتی"
+
+#: .\templates\v2\dash_accessibility.html:43
+#: .\templates\v2\dash_accessibility.html:69
+msgid "Travel time to nearest provincial capital"
+msgstr "زمان سفر به نزدیکترین مرکز ولایت"
+
+#: .\templates\v2\dash_accessibility.html:44
+#: .\templates\v2\dash_accessibility.html:72
+msgid "Travel time to nearest district center"
+msgstr "زمان سفر به نزدیکترین مرکز ولسوالی"
+
+#: .\templates\v2\dash_accessibility.html:45
+#: .\templates\v2\dash_accessibility.html:595
+#: .\templates\v2\dash_accessibility.html:626
+msgid "GSM Coverage"
+msgstr "مساحت -پوشش  خدمات موبایل GSM"
+
+#: .\templates\v2\dash_accessibility.html:48
+#: .\templates\v2\dash_fforecast.html:48
+msgid "WMS Layer :"
+msgstr "انتخاب لا یه ها"
+
+#: .\templates\v2\dash_accessibility.html:63
+msgid "Travel time to nearest hospital (All)"
+msgstr "زمان سفر به نزدیکترین مرکز ولایت"
+
+#: .\templates\v2\dash_accessibility.html:76
+msgid "Time Travel :"
+msgstr "سفر در زمان:"
+
+#: .\templates\v2\dash_accessibility.html:81
+msgid "Population in GSM Coverage"
+msgstr "نفوس و بررسی اجمالی منطقه"
+
+#: .\templates\v2\dash_accessibility.html:86
+msgid "Building in GSM Coverage"
+msgstr "مساحت -پوشش  خدمات موبایل GSM"
+
+#: .\templates\v2\dash_accessibility.html:91
+msgid "Area in GSM Coverage"
+msgstr "مساحت -پوشش  خدمات موبایل GSM"
+
+#: .\templates\v2\dash_accessibility.html:98
+#: .\templates\v2\dash_accessibility.html:145
+#: .\templates\v2\dash_accessibility.html:192
+#: .\templates\v2\dash_accessibility.html:239
+#: .\templates\v2\dash_accessibility.html:286
+#: .\templates\v2\dash_accessibility.html:333
+#: .\templates\v2\dash_accessibility.html:380
+#: .\templates\v2\dash_accessibility.html:427
+msgid "Travel time < 1 h"
+msgstr "زمان سفر <1 ساعت"
+
+#: .\templates\v2\dash_accessibility.html:103
+#: .\templates\v2\dash_accessibility.html:150
+#: .\templates\v2\dash_accessibility.html:197
+#: .\templates\v2\dash_accessibility.html:244
+#: .\templates\v2\dash_accessibility.html:291
+#: .\templates\v2\dash_accessibility.html:338
+#: .\templates\v2\dash_accessibility.html:385
+#: .\templates\v2\dash_accessibility.html:432
+msgid "Travel time < 2 h"
+msgstr "زمان سفر <2 ساعت"
+
+#: .\templates\v2\dash_accessibility.html:108
+#: .\templates\v2\dash_accessibility.html:155
+#: .\templates\v2\dash_accessibility.html:202
+#: .\templates\v2\dash_accessibility.html:249
+#: .\templates\v2\dash_accessibility.html:296
+#: .\templates\v2\dash_accessibility.html:343
+#: .\templates\v2\dash_accessibility.html:390
+#: .\templates\v2\dash_accessibility.html:437
+msgid "Travel time < 3 h"
+msgstr "زمان سفر < 3  ساعت"
+
+#: .\templates\v2\dash_accessibility.html:113
+#: .\templates\v2\dash_accessibility.html:160
+#: .\templates\v2\dash_accessibility.html:207
+#: .\templates\v2\dash_accessibility.html:254
+#: .\templates\v2\dash_accessibility.html:301
+#: .\templates\v2\dash_accessibility.html:348
+#: .\templates\v2\dash_accessibility.html:395
+#: .\templates\v2\dash_accessibility.html:442
+msgid "Travel time < 4 h"
+msgstr "زمان سفر < 4 ساعت"
+
+#: .\templates\v2\dash_accessibility.html:118
+#: .\templates\v2\dash_accessibility.html:165
+#: .\templates\v2\dash_accessibility.html:212
+#: .\templates\v2\dash_accessibility.html:259
+#: .\templates\v2\dash_accessibility.html:306
+#: .\templates\v2\dash_accessibility.html:353
+#: .\templates\v2\dash_accessibility.html:400
+#: .\templates\v2\dash_accessibility.html:447
+msgid "Travel time < 5 h"
+msgstr "زمان سفر < 5 ساعت"
+
+#: .\templates\v2\dash_accessibility.html:123
+#: .\templates\v2\dash_accessibility.html:170
+#: .\templates\v2\dash_accessibility.html:217
+#: .\templates\v2\dash_accessibility.html:264
+#: .\templates\v2\dash_accessibility.html:311
+#: .\templates\v2\dash_accessibility.html:358
+#: .\templates\v2\dash_accessibility.html:405
+#: .\templates\v2\dash_accessibility.html:452
+msgid "Travel time < 6 h"
+msgstr "زمان سفر < 6 ساعت"
+
+#: .\templates\v2\dash_accessibility.html:128
+#: .\templates\v2\dash_accessibility.html:175
+#: .\templates\v2\dash_accessibility.html:222
+#: .\templates\v2\dash_accessibility.html:269
+#: .\templates\v2\dash_accessibility.html:316
+#: .\templates\v2\dash_accessibility.html:363
+#: .\templates\v2\dash_accessibility.html:410
+#: .\templates\v2\dash_accessibility.html:457
+msgid "Travel time < 7 h"
+msgstr "زمان سفر < 7 ساعت"
+
+#: .\templates\v2\dash_accessibility.html:133
+#: .\templates\v2\dash_accessibility.html:180
+#: .\templates\v2\dash_accessibility.html:227
+#: .\templates\v2\dash_accessibility.html:274
+#: .\templates\v2\dash_accessibility.html:321
+#: .\templates\v2\dash_accessibility.html:368
+#: .\templates\v2\dash_accessibility.html:415
+#: .\templates\v2\dash_accessibility.html:462
+msgid "Travel time < 8 h"
+msgstr "زمان سفر < 8 ساعت"
+
+#: .\templates\v2\dash_accessibility.html:138
+#: .\templates\v2\dash_accessibility.html:185
+#: .\templates\v2\dash_accessibility.html:232
+#: .\templates\v2\dash_accessibility.html:279
+#: .\templates\v2\dash_accessibility.html:326
+#: .\templates\v2\dash_accessibility.html:373
+#: .\templates\v2\dash_accessibility.html:420
+#: .\templates\v2\dash_accessibility.html:467
+msgid "Travel time > 8 h"
+msgstr "زمان سفر < 8 ساعت"
+
+#: .\templates\v2\dash_accessibility.html:473
+msgid "Pick a theme :"
+msgstr "یک موضوع را انتخاب کنید"
 
 #: .\templates\v2\dash_accessibility.html:511
 msgid "GSM Coverage Building"
@@ -1890,17 +2109,18 @@ msgstr "نفوس - پوشش  خدمات موبایل GSM"
 
 #: .\templates\v2\dash_accessibility.html:527
 #: .\templates\v2\dash_aforecast.html:154 .\templates\v2\dash_arisk.html:173
-#: .\templates\v2\dash_earthquake.html:356 .\templates\v2\dash_frisk.html:149
+#: .\templates\v2\dash_baseline.html:73 .\templates\v2\dash_earthquake.html:356
+#: .\templates\v2\dash_frisk.html:149
 msgid "Total Building"
 msgstr "مجموع نفوس"
 
 #: .\templates\v2\dash_accessibility.html:532
 msgid "GSM Cov. Building"
-msgstr ""
+msgstr "همکاری کلوب جی اس ام ساختمان"
 
 #: .\templates\v2\dash_accessibility.html:544
 msgid "GSM Coverage Area"
-msgstr "مساحت -پوشش  خدمات موبایل GSM"
+msgstr "مساحت -پوشش  خدمات موبایل کلوب جی اس ام"
 
 #: .\templates\v2\dash_accessibility.html:560
 msgid "Total Area "
@@ -1908,24 +2128,19 @@ msgstr "مساحت کلی"
 
 #: .\templates\v2\dash_accessibility.html:565
 msgid "GSM Cov. Area "
-msgstr "مساحت -پوشش  خدمات موبایل GSM"
+msgstr "مساحت -پوشش  خدمات موبایل کلوب جی اس ام"
 
 #: .\templates\v2\dash_accessibility.html:577
 msgid "Mobile Phone Coverage Population"
-msgstr "نفوس - پوشش  خدمات موبایل GSM"
+msgstr "نفوس - پوشش  خدمات موبایل کلوب جی اس ام"
 
 #: .\templates\v2\dash_accessibility.html:589
 msgid ""
 "The estimated number of persons living within GSM coverage. This is "
 "unrelated to the number of subscribers."
 msgstr ""
-"تعداد تخمینی افرادی که تحت پوشش GSM زندگی می کنند. این ارتباطی با تعداد "
-"مشترکان ندارد"
-
-#: .\templates\v2\dash_accessibility.html:595
-#: .\templates\v2\dash_accessibility.html:626
-msgid "GSM Coverage"
-msgstr "مساحت -پوشش  خدمات موبایل GSM"
+"تعداد تخمینی افرادی که تحت پوشش کلوب جی اس ام زندگی می کنند. این ارتباطی با "
+"تعداد مشترکان ندارد"
 
 #: .\templates\v2\dash_accessibility.html:598
 #: .\templates\v2\dash_accessibility.html:629
@@ -1979,15 +2194,15 @@ msgstr "مجموع نفوس"
 #: .\templates\v2\dash_drought.html:480 .\templates\v2\dash_frisk.html:213
 #: .\templates\v2\dash_frisk.html.py:272 .\templates\v2\dash_main.html:1188
 msgid "Building"
-msgstr ""
+msgstr "ساختمان"
 
 #: .\templates\v2\dash_accessibility.html:658 .\templates\v2\dash_main.html:144
 msgid "GSM Coverage Population"
-msgstr "نفوس - پوشش  خدمات موبایل GSM"
+msgstr "نفوس - پوشش  خدمات موبایل کلوب جی اس ام"
 
 #: .\templates\v2\dash_accessibility.html:679 .\templates\v2\dash_main.html:165
 msgid "GSM Coverage Pop"
-msgstr "نفوس - پوشش  خدمات موبایل GSM"
+msgstr "نفوس - پوشش  خدمات موبایل کلوب جی اس ام"
 
 #: .\templates\v2\dash_accessibility.html:706
 msgid ""
@@ -2013,7 +2228,7 @@ msgstr ""
 #: .\templates\v2\dash_accessibility.html:1676
 #: .\templates\v2\dash_accessibility.html:1725
 msgid "Travel Time"
-msgstr ""
+msgstr "زمان سفر"
 
 #: .\templates\v2\dash_accessibility.html:844
 msgid ""
@@ -2188,7 +2403,7 @@ msgstr "ریسک متوسط"
 #: .\templates\v2\dash_frisk.html:334 .\templates\v2\dash_main.html:1248
 #: .\templates\v2\dash_main.html.py:1264 .\templates\v2\dash_main.html:1274
 msgid "High Risk"
-msgstr "زیاد"
+msgstr " خطر زیاد"
 
 #: .\templates\v2\dash_aforecast.html:261 .\templates\v2\dash_arisk.html:350
 #: .\templates\v2\dash_drought.html:536 .\templates\v2\dash_frisk.html:334
@@ -2239,8 +2454,9 @@ msgstr ""
 msgid "Moderate Risk"
 msgstr "متوسط"
 
-#: .\templates\v2\dash_baseline.html:38 .\templates\v2\dash_baseline.html:355
-#: .\templates\v2\dash_baseline.html:700 .\templates\v2\dash_main.html:38
+#: .\templates\v2\dash_baseline.html:38 .\templates\v2\dash_baseline.html:75
+#: .\templates\v2\dash_baseline.html:355 .\templates\v2\dash_baseline.html:700
+#: .\templates\v2\dash_main.html:38
 msgid "Health Facilities"
 msgstr "تعداد امکانات صحی "
 
@@ -2248,6 +2464,18 @@ msgstr "تعداد امکانات صحی "
 #: .\templates\v2\dash_main.html:42 .\templates\v2\dash_main.html.py:130
 msgid "Total Length of Road (km)"
 msgstr "مجموع طول شبکه سرک ها (کیلومتر)"
+
+#: .\templates\v2\dash_baseline.html:76 .\templates\v2\dash_baseline.html:502
+msgid "Road Network"
+msgstr "راه های مواصلاتی"
+
+#: .\templates\v2\dash_baseline.html:80
+msgid "Range:"
+msgstr "بی ثمر/علف زار "
+
+#: .\templates\v2\dash_baseline.html:94
+msgid "Pick a theme"
+msgstr "یک موضوع را انتخاب کنید"
 
 #: .\templates\v2\dash_baseline.html:134
 msgid "Population Graph"
@@ -2326,10 +2554,6 @@ msgstr "نزدیکترین امکانات صحی ردیف اول "
 #: .\templates\v2\dash_baseline.html:488 .\templates\v2\dash_main.html:100
 msgid "Total Health Facilities"
 msgstr "تعداد امکانات صحی "
-
-#: .\templates\v2\dash_baseline.html:502
-msgid "Road Network"
-msgstr "راه های مواصلاتی"
 
 #: .\templates\v2\dash_baseline.html:514
 msgid ""
@@ -2460,7 +2684,7 @@ msgstr "VIII: شدید"
 #: .\templates\v2\dash_drought.html:382 .\templates\v2\dash_drought.html:460
 #: .\templates\v2\dash_drought.html:536
 msgid "Exceptional"
-msgstr ""
+msgstr "استثنایی"
 
 #: .\templates\v2\dash_drought.html:537
 msgid "Build Up"
@@ -2468,7 +2692,7 @@ msgstr "ساختمانی"
 
 #: .\templates\v2\dash_earthquake.html:25
 msgid "Map of Earthquake"
-msgstr "زلزله"
+msgstr " زلزله نقشه"
 
 #: .\templates\v2\dash_earthquake.html:309
 msgid "Population Affected by Earthquake"
@@ -2676,11 +2900,55 @@ msgstr "VI: قوی "
 
 #: .\templates\v2\dash_earthquake.html:707 .\templates\v2\dash_main.html:1292
 msgid "Very Strong"
-msgstr "VI: قوی "
+msgstr "VI: قوی  ذیاد"
 
 #: .\templates\v2\dash_fforecast.html:18
 msgid "Map of Flood Forecast"
 msgstr "نقشه پیش بینی سیل"
+
+#: .\templates\v2\dash_fforecast.html:38
+msgid "Population in Flash Flood"
+msgstr "نفوس ساکن در مناطق خطر سیلاب "
+
+#: .\templates\v2\dash_fforecast.html:39
+msgid "Buildings in Flash Flood"
+msgstr "سیلاب آنی"
+
+#: .\templates\v2\dash_fforecast.html:40
+msgid "Population in River Flood (GLOFAS + GFMS)"
+msgstr "نفوس تحت خطرات سیل دریایی"
+
+#: .\templates\v2\dash_fforecast.html:41
+msgid "Buildings in River Flood (GLOFAS + GFMS)"
+msgstr "ساختمان های تحت خطرات سیل دریایی"
+
+#: .\templates\v2\dash_fforecast.html:42
+msgid "Population in River Flood (GLOFAS)"
+msgstr "نفوس ساکن در مناطق خطر سیلاب "
+
+#: .\templates\v2\dash_fforecast.html:43
+msgid "Buildings in River Flood (GLOFAS)"
+msgstr "ساختمان های تخت خطرات سیل دریایی (GLOFAS)"
+
+#: .\templates\v2\dash_fforecast.html:44
+msgid "Population in River Flood (GFMS)"
+msgstr "نفوس ساکن در مناطق خطر سیل دریایی "
+
+#: .\templates\v2\dash_fforecast.html:45
+msgid "Buildings in River Flood (GFMS)"
+msgstr " ساختمان های تخت خطرات سیل دریایی (GFMS)"
+
+#: .\templates\v2\dash_fforecast.html:50
+msgid "Flood Forecast"
+msgstr " پیش بینی سیل"
+
+#: .\templates\v2\dash_fforecast.html:53
+msgid "Choose Level :"
+msgstr "سطح را انتخاب کنید"
+
+#: .\templates\v2\dash_fforecast.html:73
+msgid "Very Hig"
+msgstr "بسیار زیاد"
 
 #: .\templates\v2\dash_fforecast.html:329
 msgid ""
@@ -2847,7 +3115,7 @@ msgstr "تسویه حساب در معرض خطر"
 
 #: .\templates\v2\dash_haccess.html:22
 msgid "Map of Incidents Occurrence"
-msgstr ""
+msgstr "نقشه وقایع"
 
 #: .\templates\v2\dash_haccess.html:100 .\templates\v2\dash_main.html:1111
 msgid "Graph of Incident and Casualties Trend by Incident Type"
@@ -2933,11 +3201,11 @@ msgstr "حوادث"
 
 #: .\templates\v2\dash_haccess.html:763
 msgid "Total Incidents"
-msgstr "# حوادث"
+msgstr "# حوادث کلی"
 
 #: .\templates\v2\dash_haccess.html:763
 msgid "Violence Incidents"
-msgstr "# حوادث"
+msgstr "#خشونت حوادث"
 
 #: .\templates\v2\dash_landslide.html:17
 msgid "Map of Landslide Areas"

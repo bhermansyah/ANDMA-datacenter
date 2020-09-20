@@ -32,24 +32,24 @@
 				<h3>{% trans "Documentation" %}</h3>
 				<p>{% trans "Please find the documentation on the right hand side. This is a living document and presently must be considered as draft. At present sections of flood forecasting and population estimates must be revised as these have been extensively updated and/or refined, as well as new functionalities must be added." %}
 				<br>
-				<br>Current Version: Documentation ASDC (Afghanistan Spatial Data Center)
-				<br>Data and Methodologies - V0.9 - Emlyn Hagen, iMMAP (September 2016)
-				<br>None of the items in this document can be copied or edited</p>
+				<br>{% trans 'Current Version: Documentation ASDC (Afghanistan Spatial Data Center)'  %}
+				<br>{% trans 'Data and Methodologies - V0.9 - Emlyn Hagen, iMMAP (September 2016)' %}
+				<br>{% trans 'None of the items in this document can be copied or edited' %} </p>
 				<p>
 					{% trans "A detailed overview of the following core capabilities of the ANHDC can be found at:" %}
 				</p>
 				<ul>
 					<li>
-						Flooding: <a href="http://www.afghanistanflooding.org">www.afghanistanflooding.org</a> or 
-						<a href="{% url 'flooding_publication' %}">click here</a>
+						{% trans 'Flooding:'%} <a href="http://www.afghanistanflooding.org">www.afghanistanflooding.org</a> {% trans 'or' %} 
+						<a href="{% url 'flooding_publication' %}">{% trans 'click here'%}</a>
 					</li>
 					<li>
-						Earthquakes: <a href="http://www.afghanistanearthquakes.org">www.afghanistanearthquakes.org</a> or 
-						<a href="{% url 'earthquake_publication' %}">click here</a>
+						{% trans 'Earthquakes:'%} <a href="http://www.afghanistanearthquakes.org">www.afghanistanearthquakes.org</a> {% trans 'or' %}  
+						<a href="{% url 'earthquake_publication' %}">{% trans 'click here'%}</a>
 					</li>
 					<li>
-						Avalanches: <a href="http://www.afghanistanavalanches.org">www.afghanistanavalanches.org</a> or 
-						<a href="{% url 'avalanche_publication' %}">click here</a>
+						{% trans 'Avalanches: '%}<a href="http://www.afghanistanavalanches.org">www.afghanistanavalanches.org</a> {% trans 'or' %}  
+						<a href="{% url 'avalanche_publication' %}">{% trans 'click here'%}</a>
 					</li>
 				</ul>
 			</div>
