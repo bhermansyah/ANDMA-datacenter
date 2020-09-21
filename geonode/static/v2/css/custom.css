@@ -3984,6 +3984,10 @@ span.yourlabs-autocomplete .hilight{
     background-image: linear-gradient(to bottom, var(--primary-bg), var(--primary-bg));
 }
 
+.yourlabs-autocomplete [data-value]{
+    white-space: break-spaces;
+}
+
 #text_search_btn{
     padding-top: 5px;
     padding-bottom: 5px;
