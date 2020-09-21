@@ -3984,7 +3984,7 @@ span.yourlabs-autocomplete .hilight{
     background-image: linear-gradient(to bottom, var(--primary-bg), var(--primary-bg));
 }
 
-.yourlabs-autocomplete [data-value]{
+.input-group .yourlabs-autocomplete [data-value]{
     white-space: break-spaces;
 }
 
