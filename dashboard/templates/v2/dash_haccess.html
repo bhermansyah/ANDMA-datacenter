@@ -28,7 +28,7 @@
 	                                <a class="close-link"><i class="fa fa-close"></i></a>
 	                            </li>
 	                            <li>
-	                                <a href="http://18.196.236.51/maps/656/view" class="btn btn-primary" target="_blank">Visit Interactive Maps</a>
+	                                <a href="http://18.196.236.51/maps/656/view" class="btn btn-primary" target="_blank">{% trans 'Visit Interactive Maps' %}</a>
 	                            </li>
 	                        </ul>
 	                        <div class="clearfix"></div>
@@ -37,15 +37,15 @@
 	                    	<div class="row">
 	                    		<div class="col-md-3 col-sm-12 col-xs-12">
 	                    			<div id="layercontrol">
-	                    				<label for="haccessOpt">Choose Layer :</label>
+	                    				<label for="haccessOpt">{% trans 'Choose Layer :' %}</label>
 	                    			    <select id="haccessOpt" class="form-control">
-	                    			      <option value="total_incident">Total Incidents</option>
-	                    			      <option value="total_violent">Violent Incidents</option>
-	                    			      <option value="total_injured">Injured Casualties</option>
-	                    			      <option value="total_dead">Dead Casualties</option>
+	                    			      <option value="total_incident">{% trans 'Total Incidents' %}</option>
+	                    			      <option value="total_violent">{% trans 'Violent Incidents' %}</option>
+	                    			      <option value="total_injured">{% trans 'Injured Casualties' %}</option>
+	                    			      <option value="total_dead">{% trans 'Dead Casualties' %}</option>
 	                    			    </select>
 
-	                    			    <label for="slideRange">Range :</label>
+	                    			    <label for="slideRange">{% trans 'Range :' %}</label>
 	                    			    <div id="slideRange">
 	                    			        <div id="keypress"></div>
 	                    			        <br>
@@ -59,7 +59,7 @@
 	                    			        </div>
 	                    			    </div>
 
-	                    			    <label for="themes">Pick a theme :</label>
+	                    			    <label for="themes">{% trans 'Pick a theme :' %}</label>
 	                    			    <div id="themes">
 	                    			        <button class="theme" data-btn="YlOrRd"></button>
 	                    			        <button class="theme" data-btn="PuRd"></button>

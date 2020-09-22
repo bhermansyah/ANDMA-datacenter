@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-20 13:50+0430\n"
+"POT-Creation-Date: 2020-09-22 10:51+0430\n"
 "PO-Revision-Date: 2020-07-19 10:05+0430\n"
 "Last-Translator: asdc.immap.org\n"
 "Language-Team: asdc.immap.org\n"
@@ -2206,7 +2206,7 @@ msgid "Manage Styles"
 msgstr "تنظیم  استایل"
 
 #: .\layers\templates\layers\layer_style_manage.html:33
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                    Manage Available Styles for <a href=\"/layers/"
@@ -6548,17 +6548,19 @@ msgstr "منتشر شده"
 
 #: .\templates\search\v2\_pagination.html:21
 msgid "Page"
-msgstr ""
+msgstr "صفحه"
 
 #: .\templates\search\v2\_pagination.html:21
 msgid ""
 "<span ng-model=\"page\" ng-bind=\"page\"></span>&nbsp;of&nbsp;<span ng-bind="
 "\"numpages\"></span>"
 msgstr ""
+"<span ng-model=\"page\" ng-bind=\"page\"></span>&nbsp;از&nbsp;<span ng-bind="
+"\"numpages\"></span>"
 
 #: .\templates\search\v2\_province_filter.html:8
 msgid "Provinces/District"
-msgstr ""
+msgstr "ولسوالی/ولایات"
 
 #: .\templates\search\v2\_search_content.html:9
 msgid "Clear all"
@@ -6578,7 +6580,7 @@ msgstr "نمایش ها"
 
 #: .\templates\search\v2\_search_view_controller.html:25
 msgid "Showing max 20"
-msgstr ""
+msgstr "نمایش حداکثر 20 "
 
 #: .\templates\search\v2\_search_view_controller.html:26
 msgid ""
@@ -6589,10 +6591,16 @@ msgid ""
 "            </span>\n"
 "            "
 msgstr ""
+"\n"
+"            <span>\n"
+"              از \n"
+"              <label ng-bind=\"total_counts\"></label>  اسناد .\n"
+"            </span>\n"
+"            "
 
 #: .\templates\search\v2\_sort_filters.html:3
 msgid "Sort by:"
-msgstr ""
+msgstr "مرتب سازی بر اساس"
 
 #: .\templates\user_messages\_message_snippet.html:8
 msgid "With"
@@ -6665,7 +6673,7 @@ msgstr ""
 
 #: .\templates\v2\_actions.html:8
 msgid "Rate"
-msgstr ""
+msgstr "ارزیابی کردن"
 
 #: .\templates\v2\_actions.html:9
 msgid "Comment"
@@ -6677,7 +6685,7 @@ msgstr "نقطه تحویل"
 
 #: .\templates\v2\_bulk_permissions_form.html:23
 msgid "Apply"
-msgstr ""
+msgstr "اعمال کردن"
 
 #: .\templates\v2\_deliverynotes.html:40
 msgid "Noted by"

@@ -32,147 +32,147 @@
 	                    	<div class="row">
 		                    	<div class="col-md-3 col-sm-12 col-xs-12">
 		                        	<div id="layercontrol">
-		                        	    <label for="ariskOpt">Choose Layer :</label>
+		                        	    <label for="ariskOpt">{% trans 'Choose Layer :'%}</label>
 		                        	    <select id="landslideOpt" class="form-control">
-											<option value="landslide_checkbox_ku">Multi-criteria Susceptibility Index</option>
-											<option value="landslide_checkbox_s1">Landslide Susceptibility (S1)</option>
-											<option value="landslide_checkbox_s2">Landslide Susceptibility (S2)</option>
-											<option value="landslide_checkbox_s3">Landslide Susceptibility (S3)</option>
-											<option value="landslide_checkbox_immap">Landslide Indexes (iMMAP 2017)</option>
+											<option value="landslide_checkbox_ku">{% trans 'Multi-criteria Susceptibility Index'%}</option>
+											<option value="landslide_checkbox_s1">{% trans 'Landslide Susceptibility (S1)'%}</option>
+											<option value="landslide_checkbox_s2">{% trans 'Landslide Susceptibility (S2)'%}</option>
+											<option value="landslide_checkbox_s3">{% trans 'Landslide Susceptibility (S3)'%}</option>
+											<option value="landslide_checkbox_immap">{% trans 'Landslide Indexes (iMMAP 2017)'%}</option>
 		                        	    </select>
 
-		                        	    <label for="WMSLayer">WMS Layer :</label>
+		                        	    <label for="WMSLayer">{% trans 'WMS Layer :'%}</label>
 		                        	    <div id="WMSLayer" class="wms_check">
 		                        	    	<div class="checkbox checkbox-indigo landslide_checkbox_ku landslide_opt">
-		                        	    	    <label><input type="checkbox" data-type=wms data-layer=ku>Multi-criteria Susceptibility Index</label>
+		                        	    	    <label><input type="checkbox" data-type=wms data-layer=ku>{% trans 'Multi-criteria Susceptibility Index'%}</label>
 		                        	    	</div>
 		                        	    	<div style='display:none;' class="checkbox checkbox-indigo landslide_checkbox_s1 landslide_opt">
-		                        	    	    <label><input type="checkbox" data-type=wms data-layer=s1>Landslide Susceptibility (S1)</label>
+		                        	    	    <label><input type="checkbox" data-type=wms data-layer=s1>{% trans 'Landslide Susceptibility (S1)'%}</label>
 		                        	    	</div>
 		                        	    	<div style='display:none;' class="checkbox checkbox-indigo landslide_checkbox_s2 landslide_opt">
-		                        	    	    <label><input type="checkbox" data-type=wms data-layer=s2>Landslide Susceptibility (S2)</label>
+		                        	    	    <label><input type="checkbox" data-type=wms data-layer=s2>{% trans 'Landslide Susceptibility (S2)'%}</label>
 		                        	    	</div>
 		                        	    	<div style='display:none;' class="checkbox checkbox-indigo landslide_checkbox_s3 landslide_opt">
-		                        	    	    <label><input type="checkbox" data-type=wms data-layer=s3>Landslide Susceptibility (S3)</label>
+		                        	    	    <label><input type="checkbox" data-type=wms data-layer=s3>{% trans 'Landslide Susceptibility (S3)'%}</label>
 		                        	    	</div>
 		                        	    </div>
 
-		                        	    <label for="lvl">Choose Level :</label>
+		                        	    <label for="lvl">{% trans 'Choose Level :'%}</label>
 		                        	    <div id="lvl" class="lvl_choice">
 			                        	    <div class="landslide_checkbox_ku landslide_opt">
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_ku_low">Low
+		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_ku_low">{% trans 'Low'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_ku_moderate">Moderate
+		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_ku_moderate">{% trans 'Moderate'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_ku_high">High
+		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_ku_high">{% trans 'High'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_ku_very_high">Very High
+		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_ku_very_high">{% trans 'Very High'%}
 		    										</label>
 		    									</div>
 		                            		</div>
 		                            		<div style='display:none;' class="landslide_checkbox_s1 landslide_opt">
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s1_wb_low">Low
+		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s1_wb_low">{% trans 'Low'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s1_wb_moderate">Moderate
+		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s1_wb_moderate">{% trans 'Moderate'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s1_wb_high">High
+		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s1_wb_high">{% trans 'High'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s1_wb_very_high">Very High
+		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s1_wb_very_high">{% trans 'Very High'%}
 		    										</label>
 		    									</div>
 		                            		</div>
 		                            		<div style='display:none;' class="landslide_checkbox_s2 landslide_opt">
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s2_wb_low">Low
+		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s2_wb_low">{% trans 'Low'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s2_wb_moderate">Moderate
+		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s2_wb_moderate">{% trans 'Moderate'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s2_wb_high">High
+		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s2_wb_high">{% trans 'High'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s2_wb_very_high">Very High
+		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s2_wb_very_high">{% trans 'Very High'%}
 		    										</label>
 		    									</div>
 		                            		</div>
 		                            		<div style='display:none;' class="landslide_checkbox_s3 landslide_opt">
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s3_wb_low">Low
+		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s3_wb_low">{% trans 'Low'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s3_wb_moderate">Moderate
+		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s3_wb_moderate">{% trans 'Moderate'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s3_wb_high">High
+		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s3_wb_high">{% trans 'High'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s3_wb_very_high">Very High
+		    										  <input type="checkbox" name="landslide_checkbox" value="ls_s3_wb_very_high">{% trans 'Very High'%}
 		    										</label>
 		    									</div>
 		                            		</div>
 		                            		<div style='display:none;' class="landslide_checkbox_immap landslide_opt">
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_immap_low">Low
+		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_immap_low">{% trans 'Low'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_immap_moderate">Moderate
+		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_immap_moderate">{% trans 'Moderate'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_immap_high">High
+		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_immap_high">{% trans 'High'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_immap_very_high">Very High
+		    										  <input type="checkbox" name="landslide_checkbox" value="lsi_immap_very_high">{% trans 'Very High'%}
 		    										</label>
 		    									</div>
 		                            		</div>
 		                        	    </div>
 		                        	    
 
-	                            		<label for="themes">Pick a theme :</label>
+	                            		<label for="themes">{% trans 'Pick a theme :'%}</label>
 	                            		<div id="themes">
 	                            		    <button class="theme" data-btn="YlOrRd"></button>
 	                            		    <button class="theme" data-btn="PuRd"></button>

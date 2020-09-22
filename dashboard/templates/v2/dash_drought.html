@@ -50,151 +50,150 @@
 	                    	<div class="row">
 		                    	<div class="col-md-3 col-sm-12 col-xs-12">
 		                        	<div id="layercontrol">
-		                        	    <label for="droughtOpt">Choose Layer :</label>
+		                        	    <label for="droughtOpt">{% trans 'Choose Layer :' %}</label>
 		                        	    <select id="droughtOpt" class="form-control">
-											<option value="drought_checkbox_pop">Population at Drought Risk</option>
-											<option value="drought_checkbox_build">Building at Drought Risk</option>
-											<option value="drought_checkbox_area">Area at Drought Risk</option>
+											<option value="drought_checkbox_pop">{% trans 'Population at Drought Risk' %}</option>
+											<option value="drought_checkbox_build">{% trans 'Building at Drought Risk' %}</option>
+											<option value="drought_checkbox_area">{% trans 'Area at Drought Risk' %}</option>
 		                        	    </select>
 
-		                        	    <label for="WMSLayer">WMS Layer :</label>
+		                        	    <label for="WMSLayer">{% trans 'WMS Layer :' %}</label>
 		                        	    <div id="WMSLayer" class="wms_check">
 		                        	    	<div class="checkbox checkbox-indigo">
-		                        	    	    <label><input type="checkbox" data-type=wms data-layer=landcover>Landcover Area</label>
+		                        	    	    <label><input type="checkbox" data-type=wms data-layer=landcover>{% trans 'Landcover Area'%}</label>
 		                        	    	</div>
 		                        	    	<div class="checkbox checkbox-indigo">
-		                        	    	    <label><input type="checkbox" data-type=wms data-layer=drought>Drought Area</label>
+		                        	    	    <label><input type="checkbox" data-type=wms data-layer=drought>{% trans 'Drought Area'%}</label>
 		                        	    	</div>
 		                        	    </div>
 
-		                        	    <label for="landcov_cat" class="hidden">Landcover Type :</label>
+		                        	    <label for="landcov_cat" class="hidden">{% trans 'Landcover Type :'%}</label>
 		                        	    <div id="landcov_cat" class="landcov_choice hidden">
 			                        	    <div class="">
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landcov_checkbox" value="fruit_tree">Fruit Trees
+		    										  <input type="checkbox" name="landcov_checkbox" value="fruit_tree">{% trans 'Fruit Trees' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landcov_checkbox" value="rainfed">Rainfed
+		    										  <input type="checkbox" name="landcov_checkbox" value="rainfed">{% trans 'Rainfed'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landcov_checkbox" value="rangeland">Rangeland
+		    										  <input type="checkbox" name="landcov_checkbox" value="rangeland">{% trans 'Rangeland'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landcov_checkbox" value="forest">Forest &amp; Shrub
+		    										  <input type="checkbox" name="landcov_checkbox" value="forest">{% trans 'Forest &amp; Shrub'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landcov_checkbox" value="vineyard">Vineyards
+		    										  <input type="checkbox" name="landcov_checkbox" value="vineyard">{% trans 'Vineyards'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landcov_checkbox" value="build_up">Build Up
+		    										  <input type="checkbox" name="landcov_checkbox" value="build_up">{% trans 'Build Up'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="landcov_checkbox" value="irra_land">Irrigated Agricultural Land
+		    										  <input type="checkbox" name="landcov_checkbox" value="irra_land">{% trans 'Irrigated Agricultural Land'%}
 		    										</label>
 		    									</div>
 		                            		</div>
 		                        	    </div>
 
-		                        	    <label for="lvl">Choose Level :</label>
+		                        	    <label for="lvl">{% trans 'Choose Level :'%}</label>
 		                        	    <div id="lvl" class="lvl_choice">
 			                        	    <div class="drought_checkbox_pop drought_opt">
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_pop_ab_dry">Abnormally Dry
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_pop_ab_dry">{% trans 'Abnormally Dry' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_pop_moderate">Moderate
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_pop_moderate">{% trans 'Moderate' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_pop_severe">Severe
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_pop_severe">{% trans 'Severe' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_pop_extreme">Extreme
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_pop_extreme">{% trans 'Extreme' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_pop_exceptional">Exceptional
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_pop_exceptional">{% trans 'Exceptional' %}
 		    										</label>
 		    									</div>
 		                            		</div>
 		                            		<div style='display:none;' class="drought_checkbox_build drought_opt">
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_build_ab_dry">Abnormally Dry
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_build_ab_dry">{% trans 'Abnormally Dry' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_build_moderate">Moderate
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_build_moderate">{% trans 'Moderate' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_build_severe">Severe
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_build_severe">{% trans 'Severe' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_build_extreme">Extreme
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_build_extreme">{% trans 'Extreme' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_build_exceptional">Exceptional
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_build_exceptional">{% trans 'Exceptional' %}
 		    										</label>
 		    									</div>
 		                            		</div>
 		                            		<div style='display:none;' class="drought_checkbox_area drought_opt">
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_area_ab_dry">Abnormally Dry
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_area_ab_dry">{% trans 'Abnormally Dry' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_area_moderate">Moderate
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_area_moderate">{% trans 'Moderate' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_area_severe">Severe
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_area_severe">{% trans 'Severe' %}
+		    									</div>
+		    									<div class="checkbox checkbox-indigo">
+		    										<label>
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_area_extreme">{% trans 'Extreme' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_area_extreme">Extreme
-		    										</label>
-		    									</div>
-		    									<div class="checkbox checkbox-indigo">
-		    										<label>
-		    										  <input type="checkbox" name="drought_checkbox" value="drought_area_exceptional">Exceptional
+		    										  <input type="checkbox" name="drought_checkbox" value="drought_area_exceptional">{% trans 'Exceptional' %}
 		    										</label>
 		    									</div>
 		                            		</div>
 		                        	    </div>
 		                        	    
 
-	                            		<label for="themes">Pick a theme :</label>
+	                            		<label for="themes">{% trans 'Pick a theme :' %}</label>
 	                            		<div id="themes">
 	                            		    <button class="theme" data-btn="YlOrRd"></button>
 	                            		    <button class="theme" data-btn="PuRd"></button>

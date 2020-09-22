@@ -24,7 +24,7 @@
 	                                <a class="close-link"><i class="fa fa-close"></i></a>
 	                            </li>
 	                            <li>
-	                                <a href="http://18.196.236.51/maps/707/view" class="btn btn-primary" target="_blank">Visit Interactive Maps</a>
+	                                <a href="http://18.196.236.51/maps/707/view" class="btn btn-primary" target="_blank">{% trans 'Visit Interactive Maps' %}</a>
 	                            </li>
 	                        </ul>
 	                        <div class="clearfix"></div>
@@ -33,40 +33,40 @@
 	                    	<div class="row">
 		                    	<div class="col-md-3 col-sm-12 col-xs-12">
 		                        	<div id="layercontrol">
-		                        	    <label for="aforecastOpt">Choose Layer :</label>
+		                        	    <label for="aforecastOpt">{% trans 'Choose Layer :' %}</label>
 		                        	    <select id="aforecastOpt" class="form-control">
-		                        	      <option value="aforecast_checkbox_pop">Population at Avalanche Forecast</option>
+		                        	      <option value="aforecast_checkbox_pop">{% trans 'Population at Avalanche Forecast' %}</option>
 		                        	      <!-- <option value="total_risk_buildings">Building at Avalanche Forecast</option> -->
 		                        	    </select>
 
-		                        	    <label for="WMSLayer">WMS Layer :</label>
+		                        	    <label for="WMSLayer">{% trans 'WMS Layer :' %}</label>
 		                        	    <div id="WMSLayer" class="checkbox checkbox-indigo wms_check">
-		                        	        <label><input type="checkbox" data-type=wms data-layer=aforecast checked>Avalanche Forecast</label>
+		                        	        <label><input type="checkbox" data-type=wms data-layer=aforecast checked>{% trans 'Avalanche Forecast' %}</label>
 		                        	    </div>
 
-		                        	    <label for="lvl">Choose Level :</label>
+		                        	    <label for="lvl">{% trans 'Choose Level :' %}</label>
 		                        	    <div id="lvl" class="lvl_choice">
 			                        	    <div class="aforecast_checkbox_pop aforecast_opt">
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="aforecast_checkbox" value="ava_forecast_low_pop">Low
+		    										  <input type="checkbox" name="aforecast_checkbox" value="ava_forecast_low_pop">{% trans 'Low' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="aforecast_checkbox" value="ava_forecast_med_pop">Moderate
+		    										  <input type="checkbox" name="aforecast_checkbox" value="ava_forecast_med_pop">{% trans 'Moderate' %}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="aforecast_checkbox" value="ava_forecast_high_pop">High
+		    										  <input type="checkbox" name="aforecast_checkbox" value="ava_forecast_high_pop">{% trans 'High' %}
 		    										</label>
 		    									</div>
 		                            		</div>
 		                        	    </div>
 		                        	    
 
-	                            		<label for="themes">Pick a theme :</label>
+	                            		<label for="themes">{% trans 'Pick a theme :' %}</label>
 	                            		<div id="themes">
 	                            		    <button class="theme" data-btn="YlOrRd"></button>
 	                            		    <button class="theme" data-btn="PuRd"></button>

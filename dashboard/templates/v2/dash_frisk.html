@@ -24,7 +24,7 @@
 	                                <a class="close-link"><i class="fa fa-close"></i></a>
 	                            </li>
 	                            <li>
-	                                <a href="http://18.196.236.51/maps/700/view" class="btn btn-primary" target="_blank">Visit Interactive Maps</a>
+	                                <a href="http://18.196.236.51/maps/700/view" class="btn btn-primary" target="_blank">{% trans 'Visit Interactive Maps' %}</a>
 	                            </li>
 	                        </ul>
 	                        <div class="clearfix"></div>
@@ -33,20 +33,20 @@
 	                    	<div class="row">
                     			<div class="col-md-3 col-sm-12 col-xs-12">
                     				<div id="layercontrol">
-                    				    <label for="friskOpt">Choose Layer :</label>
+                    				    <label for="friskOpt">{% trans 'Choose Layer :'%}</label>
                     				    <select id="friskOpt" class="form-control">
-                    				      <option value="total_risk_population">Population at Flood Risk</option>
-                    				      <option value="total_risk_buildings">Building at Flood Risk</option>
-                    				      <option value="total_risk_area">Area at Flood Risk</option>
-                    				      <option value="settlements_at_risk">Settlements at Flood Risk</option>
+                    				      <option value="total_risk_population">{% trans 'Population at Flood Risk'%}</option>
+                    				      <option value="total_risk_buildings">{% trans 'Building at Flood Risk' %}</option>
+                    				      <option value="total_risk_area">{% trans 'Area at Flood Risk'%}</option>
+                    				      <option value="settlements_at_risk">{% trans 'Settlements at Flood Risk'%}</option>
                     				    </select>
 
-                    				    <label for="WMSLayer">WMS Layer :</label>
+                    				    <label for="WMSLayer">{% trans 'WMS Layer :'%}</label>
                     				    <div id="WMSLayer" class="checkbox checkbox-indigo">
-                    				        <label><input type="checkbox" data-type=wms data-layer=frisk checked>Flood Risk</label>
+                    				        <label><input type="checkbox" data-type=wms data-layer=frisk checked>{% trans 'Flood Risk' %}</label>
                     				    </div>
 
-                    				    <label for="slideRange">Range :</label>
+                    				    <label for="slideRange">{% trans 'Range :' %}</label>
                     				    <div id="slideRange">
                     				        <div id="keypress"></div>
                     				        <br>
@@ -60,7 +60,7 @@
                     				        </div>
                     				    </div>
 
-                    				    <label for="themes">Pick a theme :</label>
+                    				    <label for="themes">{% trans 'Pick a theme :'%}</label>
                     				    <div id="themes">
                     				        <button class="theme" data-btn="YlOrRd"></button>
                     				        <button class="theme" data-btn="PuRd"></button>
@@ -204,7 +204,7 @@
 	                        <div class="clearfix"></div>
 	                    </div>
 	                    <div class="x_content">
-	                        <p class="text-muted font-13 m-b-30">{% trans "Population, buildings and area within 100-year inundation flood zone (source: NATO Flood Map). Flood risk category is estimated based upon potential flood depth: Low flood risk relates to inundation more than 29cm, moderate to 1.21m and high flood risk more than 2.7m. The 100-year inundation interval, implies that every year there is a 1% chance of such a flood event occurring. Most flood events will be in 5,10, 20-year inundation interval." %}</p>
+	                        <p class="text-muted font-13 m-b-30">{% blocktrans %} Population, buildings and area within 100-year inundation flood zone (source: NATO Flood Map). Flood risk category is estimated based upon potential flood depth: Low flood risk relates to inundation more than 29cm, moderate to 1.21m and high flood risk more than 2.7m. The 100-year inundation interval, implies that every year there is a 1 percent chance of such a flood event occurring. Most flood events will be in 5,10, 20-year inundation interval." {% endblocktrans %}</p>
 	                      	<div class="table-responsive hidden-print">
 	                      		<table class="table table-striped table-hover table-bordered online">
 	                      		    <thead>

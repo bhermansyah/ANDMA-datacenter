@@ -24,7 +24,7 @@
 	                                <a class="close-link"><i class="fa fa-close"></i></a>
 	                            </li>
 	                            <li>
-	                                <a href="http://18.196.236.51/maps/708/view" class="btn btn-primary" target="_blank">Visit Interactive Maps</a>
+	                                <a href="http://18.196.236.51/maps/708/view" class="btn btn-primary" target="_blank">{% trans 'Visit Interactive Maps' %}</a>
 	                            </li>
 	                        </ul>
 	                        <div class="clearfix"></div>
@@ -33,59 +33,59 @@
 	                    	<div class="row">
 		                    	<div class="col-md-3 col-sm-12 col-xs-12">
 		                        	<div id="layercontrol">
-		                        	    <label for="ariskOpt">Choose Layer :</label>
+		                        	    <label for="ariskOpt">{% trans 'Choose Layer :'%}</label>
 		                        	    <select id="ariskOpt" class="form-control">
-		                        	      <option value="arisk_checkbox_pop">Population at Avalanches Risk</option>
-		                        	      <option value="arisk_checkbox_build">Building at Avalanches Risk</option>
-		                        	      <option value="arisk_checkbox_area">Area at Avalanches Risk</option>
+		                        	      <option value="arisk_checkbox_pop">{% trans 'Population at Avalanches Risk'%}</option>
+		                        	      <option value="arisk_checkbox_build">{% trans 'Building at Avalanches Risk'%}</option>
+		                        	      <option value="arisk_checkbox_area">{% trans 'Area at Avalanches Risk'%}</option>
 		                        	    </select>
 
-		                        	    <label for="WMSLayer">Choose Layer :</label>
+		                        	    <label for="WMSLayer">{% trans  'Choose Layer :'%}</label>
 		                        	    <div id="WMSLayer" class="checkbox checkbox-indigo wms_check">
-		                        	        <label><input type="checkbox" data-type=wms data-layer=arisk checked>Avalanche Risk</label>
+		                        	        <label><input type="checkbox" data-type=wms data-layer=arisk checked>{% trans 'Avalanche Risk'%}</label>
 		                        	    </div>
 
-		                        	    <label for="lvl">Choose Level :</label>
+		                        	    <label for="lvl">{% trans 'Choose Level :'%}</label>
 		                        	    <div id="lvl" class="lvl_choice">
 			                        	    <div class="arisk_checkbox_pop arisk_opt">
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="arisk_checkbox" value="med_ava_population">Moderate
+		    										  <input type="checkbox" name="arisk_checkbox" value="med_ava_population">{% trans 'Moderate'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="arisk_checkbox" value="high_ava_population">High
+		    										  <input type="checkbox" name="arisk_checkbox" value="high_ava_population">{% trans 'High'%}
 		    										</label>
 		    									</div>
 		                            		</div>
 		                            		<div style='display:none;' class="arisk_checkbox_build arisk_opt">
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="arisk_checkbox" value="med_ava_buildings">Moderate
+		    										  <input type="checkbox" name="arisk_checkbox" value="med_ava_buildings">{% trans 'Moderate'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="arisk_checkbox" value="high_ava_buildings">High
+		    										  <input type="checkbox" name="arisk_checkbox" value="high_ava_buildings">{% trans 'High'%}
 		    										</label>
 		    									</div>
 		                            		</div>
 		                            		<div style='display:none;' class="arisk_checkbox_area arisk_opt">
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="arisk_checkbox" value="med_ava_area">Moderate
+		    										  <input type="checkbox" name="arisk_checkbox" value="med_ava_area">{% trans 'Moderate'%}
 		    										</label>
 		    									</div>
 		    									<div class="checkbox checkbox-indigo">
 		    										<label>
-		    										  <input type="checkbox" name="arisk_checkbox" value="high_ava_area">High
+		    										  <input type="checkbox" name="arisk_checkbox" value="high_ava_area">{% trans 'High' %}
 		    										</label>
 		    									</div>
 		                            		</div>
 		                        	    </div>
 
-	                            		<label for="themes">Pick a theme :</label>
+	                            		<label for="themes">{% trans  'Pick a theme :' %}</label>
 	                            		<div id="themes">
 	                            		    <button class="theme" data-btn="YlOrRd"></button>
 	                            		    <button class="theme" data-btn="PuRd"></button>

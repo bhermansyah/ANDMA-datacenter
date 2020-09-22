@@ -31,7 +31,7 @@
                                     <a class="close-link"><i class="fa fa-close"></i></a>
                                 </li>
                                 <li>
-                                    <a href="http://18.196.236.51/maps/706/view" class="btn btn-primary" target="_blank">Visit Interactive Maps</a>
+                                    <a href="http://18.196.236.51/maps/706/view" class="btn btn-primary" target="_blank">{% trans 'Visit Interactive Maps' %}</a>
                                 </li>
                             </ul>
                             <div class="clearfix"></div>
@@ -40,144 +40,144 @@
                             <div class="row">
                                 <div class="col-md-3 col-sm-12 col-xs-12">
                                     <div id="layercontrol">
-                                        <label for="haccessOpt">Choose Layer :</label>
+                                        <label for="haccessOpt">{% trans 'Choose Layer :'%}</label>
                                         <select id="erthqkOpt" class="form-control">
-                                          <option value="erthqk_checkbox_pop">Population Affected</option>
-                                          <option value="erthqk_checkbox_settl">Settlement Affected</option>
-                                          <option value="erthqk_checkbox_build">Building Affected</option>
+                                          <option value="erthqk_checkbox_pop">{% trans 'Population Affected' %}</option>
+                                          <option value="erthqk_checkbox_settl">{% trans 'Settlement Affected' %}</option>
+                                          <option value="erthqk_checkbox_build">{% trans 'Building Affected' %}</option>
                                         </select>
 
                                         <!-- data attribute will be used in javascript to know which layer to add or remove from the map -->
-                                        <label for="WMSLayer">WMS Layer :</label>
+                                        <label for="WMSLayer">{% trans 'WMS Layer :' %}</label>
                                         <div id="WMSLayer" class="checkbox checkbox-indigo wms_check">
-                                            <label><input type="checkbox" data-type=wms data-layer=erthqk checked>Earthquake Shakemap</label>
+                                            <label><input type="checkbox" data-type=wms data-layer=erthqk checked>{% trans 'Earthquake Shakemap'%}</label>
                                         </div>
 
-                                        <label for="lvl">Choose Level :</label>
+                                        <label for="lvl">{% trans 'Choose Level :'%}</label>
                                         <div id="lvl" class="lvl_choice erthqk_checkbox">
                                             <div class="erthqk_checkbox_pop erthqk_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_weak">Weak
+                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_weak">{% trans 'Weak'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_light">Light
+                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_light">{% trans 'Light'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_moderate">Moderate
+                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_moderate">{% trans 'Moderate'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_strong">Strong
+                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_strong">{% trans 'Strong'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_verystrong">Very-strong
+                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_verystrong">{% trans 'Very-strong'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_severe">Severe
+                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_severe">{% trans 'Severe'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_violent">Violent
+                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_violent">{% trans 'Violent' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_extreme">Extreme
+                                                      <input type="checkbox" name="erthqk_checkbox" value="pop_shake_extreme">{% trans 'Extreme' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div style='display:none;' class="erthqk_checkbox_settl erthqk_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_weak">Weak
+                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_weak">{% trans 'Weak'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_light">Light
+                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_light">{% trans 'Light'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_moderate">Moderate
+                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_moderate">{% trans 'Moderate'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_strong">Strong
+                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_strong">{% trans 'Strong'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_verystrong">Very-strong
+                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_verystrong">{% trans 'Very-strong'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_severe">Severe
+                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_severe">{% trans 'Severe'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_violent">Violent
+                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_violent">{% trans 'Violent' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_extreme">Extreme
+                                                      <input type="checkbox" name="erthqk_checkbox" value="settlement_shake_extreme">{% trans 'Extreme' %}
                                                     </label>
                                                 </div>
                                             </div>
                                             <div style='display:none;' class="erthqk_checkbox_build erthqk_opt">
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_weak">Weak
+                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_weak">{% trans 'Weak'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_light">Light
+                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_light">{% trans 'Light'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_moderate">Moderate
+                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_moderate">{% trans 'Moderate'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_strong">Strong
+                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_strong">{% trans 'Strong'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_verystrong">Very-strong
+                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_verystrong">{% trans 'Very-strong'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_severe">Severe
+                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_severe">{% trans 'Severe'%}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_violent">Violent
+                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_violent">{% trans 'Violent' %}
                                                     </label>
                                                 </div>
                                                 <div class="checkbox checkbox-indigo">
                                                     <label>
-                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_extreme">Extreme
+                                                      <input type="checkbox" name="erthqk_checkbox" value="buildings_shake_extreme">{% trans 'Extreme' %}
                                                     </label>
                                                 </div>
                                             </div>
@@ -186,89 +186,89 @@
                                         <div style='display:none;' class="erthqk_radio_pop erthqk_opt">
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="pop_shake_weak" checked>Weak
+                                                    <input type="radio" name="erthqk_radio" value="pop_shake_weak" checked>{% trans 'Weak'%}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="pop_shake_light">Light
+                                                    <input type="radio" name="erthqk_radio" value="pop_shake_light">{% trans 'Light'%}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="pop_shake_moderate">Moderate
+                                                    <input type="radio" name="erthqk_radio" value="pop_shake_moderate">{% trans 'Moderate'%}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="pop_shake_strong">Strong
+                                                    <input type="radio" name="erthqk_radio" value="pop_shake_strong">{% trans 'Strong'%}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="pop_shake_verystrong">Very-strong
+                                                    <input type="radio" name="erthqk_radio" value="pop_shake_verystrong">{% trans 'Very-strong'%}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="pop_shake_severe">Severe
+                                                    <input type="radio" name="erthqk_radio" value="pop_shake_severe">{% trans 'Severe'%}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="pop_shake_violent">Violent
+                                                    <input type="radio" name="erthqk_radio" value="pop_shake_violent">{% trans 'Violent' %}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="pop_shake_extreme">Extreme
+                                                    <input type="radio" name="erthqk_radio" value="pop_shake_extreme">{% trans 'Extreme' %}
                                                 </label>
                                             </div>
                                         </div>
                                         <div style='display:none;' class="erthqk_radio_settl erthqk_opt">
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_weak">Weak
+                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_weak">{% trans 'Weak'%}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_light">Light
+                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_light">{% trans 'Light'%}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_moderate">Moderate
+                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_moderate">{% trans 'Moderate'%}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_strong">Strong
+                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_strong">{% trans 'Strong'%}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_verystrong">Very-strong
+                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_verystrong">{% trans 'Very-strong'%}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_severe">Severe
+                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_severe">{% trans 'Severe'%}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_violent">Violent
+                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_violent">{% trans 'Violent' %}
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label>
-                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_extreme">Extreme
+                                                    <input type="radio" name="erthqk_radio" value="settlement_shake_extreme">{% trans 'Extreme' %}
                                                 </label>
                                             </div>
                                         </div>
                                         
-                                        <label for="themes">Pick a theme :</label>
+                                        <label for="themes">{% trans 'Pick a theme :'%}</label>
                                         <div id="themes">
                                             <button class="theme" data-btn="YlOrRd"></button>
                                             <button class="theme" data-btn="PuRd"></button>
