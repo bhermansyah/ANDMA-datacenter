@@ -258,7 +258,7 @@
                                       </thead>
                                       <tbody>
                                           <tr>
-                                              <td class="boldRow">{{parent_label}}</td>
+                                              <td class="boldRow">{% trans parent_label %}</td>
                                               <td class="boldRow">{{Buildings}}</td>
                                               <td class="boldRow">{{settlement}}</td>
                                               <td class="boldRow">{{built_up_pop}}</td>
@@ -272,7 +272,7 @@
                                           </tr>
                                           {% for data in lc_child %}
                                           <tr class="selectable" onclick="window.document.location='?page=baseline&code={{data.code}}';">
-                                              <td>{{data.na_en}}</td>
+                                              <td>{% trans data.na_en %}</td>
                                               <td>{{data.total_buildings}}</td>
                                               <td>{{data.settlements}}</td>
                                               <td>{{data.built_up_pop}}</td>
@@ -313,7 +313,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="boldRow">{{parent_label}}</td>
+                                                <td class="boldRow">{% trans parent_label %}</td>
                                                 <td class="boldRow">{{Buildings}}</td>
                                                 <td class="boldRow">{{settlement}}</td>
                                                 <td class="boldRow">{{built_up_pop}}</td>
@@ -327,7 +327,7 @@
                                             </tr>
                                             {% for data in lc_child %}
                                             <tr class="selectable" onclick="window.document.location='?page=baseline&code={{data.code}}';">
-                                                <td>{{data.na_en}}</td>
+                                                <td>{% trans data.na_en %}</td>
                                                 <td>{{data.total_buildings}}</td>
                                                 <td>{{data.settlements}}</td>
                                                 <td>{{data.built_up_pop}}</td>
@@ -387,7 +387,7 @@
                           		    </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow">{{hlt_h1}}</td>
                                             <td class="boldRow">{{hlt_h2}}</td>
                                             <td class="boldRow">{{hlt_h3}}</td>
@@ -399,7 +399,7 @@
                                         </tr>
                                         {% for data in additional_child %}
                                         <tr class='selectable' onclick="window.document.location='?page=baseline&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td>{{data.hlt_h1}}</td>
                                             <td>{{data.hlt_h2}}</td>
                                             <td>{{data.hlt_h3}}</td>
@@ -435,7 +435,7 @@
                                     </thead>
                                   <tbody>
                                       <tr>
-                                          <td class="boldRow">{{parent_label}}</td>
+                                          <td class="boldRow">{% trans parent_label %}</td>
                                           <td class="boldRow">{{hlt_h1}}</td>
                                           <td class="boldRow">{{hlt_h2}}</td>
                                           <td class="boldRow">{{hlt_h3}}</td>
@@ -447,7 +447,7 @@
                                       </tr>
                                       {% for data in additional_child %}
                                       <tr class='selectable' onclick="window.document.location='?page=baseline&code={{data.code}}';">
-                                          <td>{{data.na_en}}</td>
+                                          <td>{% trans data.na_en %}</td>
                                           <td>{{data.hlt_h1}}</td>
                                           <td>{{data.hlt_h2}}</td>
                                           <td>{{data.hlt_h3}}</td>
@@ -545,7 +545,7 @@
                                         </tr>
                                         {% for data in additional_child %}
                                         <tr class="selectable" onclick="window.document.location='?page=baseline&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td>{{data.road_highway}}</td>
                                             <td>{{data.road_primary}}</td>
                                             <td>{{data.road_secondary}}</td>
@@ -594,7 +594,7 @@
                                       </tr>
                                       {% for data in additional_child %}
                                       <tr class="selectable" onclick="window.document.location='?page=baseline&code={{data.code}}';">
-                                          <td>{{data.na_en}}</td>
+                                          <td>{% trans data.na_en %}</td>
                                           <td>{{data.road_highway}}</td>
                                           <td>{{data.road_primary}}</td>
                                           <td>{{data.road_secondary}}</td>

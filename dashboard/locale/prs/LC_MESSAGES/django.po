@@ -3525,3 +3525,6 @@ msgstr "جستجوی منطقه"
 
 #~ msgid "Likelihood<"
 #~ msgstr "احتمال <"
+
+msgid "Badakhshan"
+msgstr "بتخشان"

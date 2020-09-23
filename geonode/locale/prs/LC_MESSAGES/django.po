@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-22 10:51+0430\n"
+"POT-Creation-Date: 2020-09-22 21:21+0430\n"
 "PO-Revision-Date: 2020-07-19 10:05+0430\n"
 "Last-Translator: asdc.immap.org\n"
 "Language-Team: asdc.immap.org\n"
@@ -223,7 +223,7 @@ msgid "No information provided"
 msgstr "معلومات ارائه نشده"
 
 #: .\base\forms.py:47 .\base\templates\base\resourcebase_info_panel.html:61
-#: .\base\templates\v2\resourcebase_info_panel.html:74
+#: .\base\templates\v2\resourcebase_info_panel.html:75
 #: .\documents\templates\documents\document_metadata.html:58
 #: .\documents\templates\v2\document_metadata.html:81
 #: .\layers\templates\layers\layer_metadata.html:63
@@ -345,7 +345,7 @@ msgstr "توضیح کلی دانش پروسس ارقام در مورد اصل و
 #: .\base\templates\base\_resourcebase_contact_snippet.html:10
 #: .\base\templates\base\resourcebase_info_panel.html:106
 #: .\base\templates\v2\_resourcebase_contact_snippet.html:14
-#: .\base\templates\v2\resourcebase_info_panel.html:118
+#: .\base\templates\v2\resourcebase_info_panel.html:119
 msgid "Owner"
 msgstr "مالک"
 
@@ -400,7 +400,7 @@ msgstr "محدودیت های دیگر"
 #: .\base\models.py:264 .\base\templates\base\resourcebase_info_panel.html:21
 #: .\base\templates\base\resourcebase_info_panel.html:117
 #: .\base\templates\v2\resourcebase_info_panel.html:32
-#: .\base\templates\v2\resourcebase_info_panel.html:135
+#: .\base\templates\v2\resourcebase_info_panel.html:136
 msgid "License"
 msgstr "مجوز"
 
@@ -520,7 +520,7 @@ msgstr "مالک، نقطه تماس، نویسنده میتادیتا"
 #: .\base\templates\base\_resourcebase_contact_snippet.html:14
 #: .\base\templates\base\resourcebase_info_panel.html:93
 #: .\base\templates\v2\_resourcebase_contact_snippet.html:18
-#: .\base\templates\v2\resourcebase_info_panel.html:109
+#: .\base\templates\v2\resourcebase_info_panel.html:110
 #: .\documents\templates\documents\document_metadata.html:48
 #: .\documents\templates\v2\document_metadata.html:71
 #: .\layers\templates\layers\layer_metadata.html:99
@@ -596,7 +596,7 @@ msgstr "منطقه"
 
 #: .\base\templates\base\_resourcebase_snippet.html:122
 #: .\base\templates\base\resourcebase_info_panel.html:49
-#: .\base\templates\v2\resourcebase_info_panel.html:61 .\groups\models.py:44
+#: .\base\templates\v2\resourcebase_info_panel.html:62 .\groups\models.py:44
 #: .\people\templates\people\profile_detail.html:83
 #: .\people\templates\v2\profile_detail.html:67
 #: .\templates\search\_general_filters.html:27
@@ -618,7 +618,7 @@ msgstr "عنوان فرعی"
 #: .\base\templates\base\resourcebase_info_panel.html:16
 #: .\base\templates\base\resourcebase_info_panel.html:112
 #: .\base\templates\v2\resourcebase_info_panel.html:24
-#: .\base\templates\v2\resourcebase_info_panel.html:127
+#: .\base\templates\v2\resourcebase_info_panel.html:128
 msgid "SRID"
 msgstr "سیستم شناسایی منبع مکانی(SRID)"
 
@@ -628,13 +628,13 @@ msgid "Abstract"
 msgstr "خلاصه"
 
 #: .\base\templates\base\resourcebase_info_panel.html:39
-#: .\base\templates\v2\resourcebase_info_panel.html:46
+#: .\base\templates\v2\resourcebase_info_panel.html:47
 #: .\templates\search\_general_filters.html:39
 msgid "Date"
 msgstr "تاریخ"
 
 #: .\base\templates\base\resourcebase_info_panel.html:44
-#: .\base\templates\v2\resourcebase_info_panel.html:53
+#: .\base\templates\v2\resourcebase_info_panel.html:54
 #: .\layers\templates\layers\layer_detail.html:340
 #: .\layers\templates\v2\layer_detail.html:350
 #: .\templates\search\v2\_type_filters.html:8
@@ -642,21 +642,21 @@ msgid "Type"
 msgstr "نوع"
 
 #: .\base\templates\base\resourcebase_info_panel.html:71
-#: .\base\templates\v2\resourcebase_info_panel.html:83
+#: .\base\templates\v2\resourcebase_info_panel.html:84
 #: .\templates\search\_region_filter.html:6
 #: .\templates\search\v2\_region_filter.html:8
 msgid "Regions"
 msgstr "مناطق"
 
 #: .\base\templates\base\resourcebase_info_panel.html:83
-#: .\base\templates\v2\resourcebase_info_panel.html:95
+#: .\base\templates\v2\resourcebase_info_panel.html:96
 #: .\layers\templates\layers\layer_detail.html:339
 #: .\layers\templates\v2\layer_detail.html:349
 msgid "Source"
 msgstr "منبع"
 
 #: .\base\templates\base\resourcebase_info_panel.html:88
-#: .\base\templates\v2\resourcebase_info_panel.html:102
+#: .\base\templates\v2\resourcebase_info_panel.html:103
 msgid "Paper Size"
 msgstr "اندازه ورق"
 
@@ -665,48 +665,48 @@ msgid "More info"
 msgstr "معلومات بیشتر"
 
 #: .\base\templates\base\resourcebase_info_panel.html:130
-#: .\base\templates\v2\resourcebase_info_panel.html:142
+#: .\base\templates\v2\resourcebase_info_panel.html:143
 msgid "Maintenance Frequency"
 msgstr "دوران ایجاد و نگهداری"
 
 #: .\base\templates\base\resourcebase_info_panel.html:135
-#: .\base\templates\v2\resourcebase_info_panel.html:149
+#: .\base\templates\v2\resourcebase_info_panel.html:150
 msgid "Restrictions"
 msgstr "محدودیت ها"
 
 #: .\base\templates\base\resourcebase_info_panel.html:144
-#: .\base\templates\v2\resourcebase_info_panel.html:162
+#: .\base\templates\v2\resourcebase_info_panel.html:163
 msgid "Edition"
 msgstr "نسخه"
 
 #: .\base\templates\base\resourcebase_info_panel.html:149
-#: .\base\templates\v2\resourcebase_info_panel.html:169
+#: .\base\templates\v2\resourcebase_info_panel.html:170
 msgid "Purpose"
 msgstr "هدف"
 
 #: .\base\templates\base\resourcebase_info_panel.html:154
-#: .\base\templates\v2\resourcebase_info_panel.html:176
+#: .\base\templates\v2\resourcebase_info_panel.html:177
 #: .\templates\500.html:154 .\templates\base.html:125
 msgid "Language"
 msgstr "زبان"
 
 #: .\base\templates\base\resourcebase_info_panel.html:159
-#: .\base\templates\v2\resourcebase_info_panel.html:183
+#: .\base\templates\v2\resourcebase_info_panel.html:184
 msgid "Temporal Extent"
 msgstr " حد موقتی"
 
 #: .\base\templates\base\resourcebase_info_panel.html:164
-#: .\base\templates\v2\resourcebase_info_panel.html:190
+#: .\base\templates\v2\resourcebase_info_panel.html:191
 msgid "Data Quality"
 msgstr "کیفیت ارقام"
 
 #: .\base\templates\base\resourcebase_info_panel.html:169
-#: .\base\templates\v2\resourcebase_info_panel.html:197
+#: .\base\templates\v2\resourcebase_info_panel.html:198
 msgid "Supplemental Information"
 msgstr "معلومات مکمل"
 
 #: .\base\templates\base\resourcebase_info_panel.html:174
-#: .\base\templates\v2\resourcebase_info_panel.html:222
+#: .\base\templates\v2\resourcebase_info_panel.html:223
 msgid "Spatial Representation Type"
 msgstr "نوع نمایش مکانی"
 
@@ -4055,6 +4055,18 @@ msgstr "ارسال نظر"
 #: .\templates\_deliverynotes.html:28 .\templates\v2\_comments.html:28
 msgid "Posted by"
 msgstr "طراحی شده توسط"
+
+#: .\templates\_deliverynotes.html:49
+msgid "Leave a Comment"
+msgstr "پیام بگذارید"
+
+#: .\templates\_deliverynotes.html:50
+msgid ""
+"Make sure you enter the (*) required information where indicated. HTML code "
+"is not allowed"
+msgstr ""
+"اطمینان حاصل کنید که اطلاعات مورد نیاز (*) را درجایی که مشخص شده است وارد "
+"کنید. کد ایجتی یمیل مجاز نیست"
 
 #: .\templates\_permissions.html:8 .\templates\v2\_permissions.html:23
 #: .\templates\v2\_permissions_simple.html:8
@@ -8706,3 +8718,108 @@ msgstr ""
 #~ "افغانستان استفاده کرد. دسته ها خطر مدغم شده شامل بافر 25M بوده، که با مدل "
 #~ "سازی هایدرولیکی از ارقام DEM با وضاحت بالا ایجاد شده، برای اطلاعات بیشتر "
 #~ "در میتودولوژی، با NC3A Geo تماس بگیرید.\n"
+
+msgid "publication"
+ msgstr "نشریه"
+
+ msgid "Badakhshan"
+ msgstr "بدخشان"
+
+ msgid "Uruzgan"
+ msgstr "اوروزگان"
+
+ msgid "Badghis"
+ msgstr "بادغيس "
+
+ msgid "Baghlan"
+ msgstr "بغلان "
+
+ msgid "Balkh"
+ msgstr "بلخ "
+
+ msgid "Bamyan"
+ msgstr "باميان "
+
+ msgid "Takhar"
+ msgstr "تخار "
+
+ msgid "Jawzjan"
+ msgstr "جوزجان "
+
+ msgid "Khost"
+ msgstr "خوست "
+
+ msgid "Daykundi"
+ msgstr "دايکندي "
+
+ msgid "Zabul"
+ msgstr "زابل "
+
+ msgid "Sar-e-Pul"
+ msgstr "سرپل"
+
+ msgid "Samangan"
+ msgstr "سمنگان "
+
+ msgid "Ghazni"
+ msgstr "غزنى "
+
+ msgid "Ghor"
+ msgstr "غور"
+
+ msgid "Farah"
+ msgstr "فراه "
+
+ msgid "Faryab"
+ msgstr "فارياب "
+
+ msgid "Paktya"
+ msgstr "پکتيا "
+
+ msgid "Paktika"
+ msgstr "پکتيکا "
+
+ msgid "Panjsher"
+ msgstr "پنجشير "
+
+ msgid "Parwan"
+ msgstr "پروان "
+
+ msgid "Kabul"
+ msgstr "کابل "
+
+ msgid "Kandahar"
+ msgstr "کندهار "
+
+ msgid "Kapisa"
+ msgstr "کاپيسا "
+
+ msgid "Kunar"
+ msgstr "کونړ "
+
+ msgid "Kunduz"
+ msgstr "کندز "
+
+ msgid "Laghman"
+ msgstr "لغمان "
+
+ msgid "Logar"
+ msgstr "لوگر "
+
+ msgid "Nangarhar"
+ msgstr "ننگرهار "
+
+ msgid "Nuristan"
+ msgstr "نورستان "
+
+ msgid "Nimroz"
+ msgstr "نيمروز "
+
+ msgid "Wardak"
+ msgstr "وردګ "
+
+ msgid "Hirat"
+ msgstr "هرات "
+
+ msgid "Hilmand"
+ msgstr "هلمند "

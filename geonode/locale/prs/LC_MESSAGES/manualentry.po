@@ -18,3 +18,113 @@ msgstr ""
 
 msgid "Password again"
 msgstr ""
+
+msgid "publication"
+msgstr ""
+
+msgid "Uruzgan"
+
+msgstr ""
+
+msgid "Badakhshan"
+msgstr ""
+
+msgid "Badghis"
+msgstr ""
+
+msgid "Baghlan"
+msgstr ""
+
+msgid "Balkh"
+msgstr ""
+
+msgid "Bamyan"
+msgstr ""
+
+msgid "Takhar"
+msgstr ""
+
+msgid "Jawzjan"
+msgstr ""
+
+msgid "Khost"
+msgstr ""
+
+msgid "Daykundi"
+msgstr ""
+
+msgid "Zabul"
+msgstr ""
+
+msgid "Sar-e-Pul"
+msgstr ""
+
+msgid "Samangan"
+msgstr ""
+
+msgid "Ghazni"
+msgstr ""
+
+msgid  "Ghor"
+
+msgstr ""
+
+msgid "Farah"
+msgstr ""
+
+msgid "Frayab"
+msgstr ""
+
+msgid "Paktya"
+msgstr ""
+
+msgid "Paktika"
+msgstr ""
+
+msgid "Panjsher"
+msgstr ""
+
+msgid "Parwan"
+msgstr ""
+
+msgid "Kabul"
+msgstr ""
+
+msgid "Kandahar"
+msgstr ""
+
+msgid "Kapisa"
+msgstr ""
+
+msgid "Kunar"
+msgstr ""
+
+msgid "Kunduz"
+msgstr ""
+
+msgid "Laghman"
+msgstr ""
+
+msgid "Logar"
+msgstr ""
+
+msgid "Nangrahar"
+msgstr ""
+
+msgid "Nooristan"
+msgstr ""
+
+msgid "Nimroz"
+
+msgstr ""
+
+
+msgid "Wardak"
+msgstr ""
+
+msgid "Hirat"
+msgstr ""
+
+msgid "Hilmand"
+msgstr ""
+
