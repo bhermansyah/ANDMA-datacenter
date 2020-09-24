@@ -25,7 +25,7 @@ for i in all_data:
 	if 'capability' in st:
 		for style in st['capability']['styles']:
 			urlplited = list(urlsplit(style['legend']['href']))
-			urlplited[1]='18.196.236.51'
+			urlplited[1]='anhdc.andma.gov.af'
 			urlunsplited = urlunsplit(urlplited)
 			style['legend']['href'] = urlunsplited
 		# print st['capability']['styles']

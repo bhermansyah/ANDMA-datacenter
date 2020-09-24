@@ -81,7 +81,7 @@ MapOptions %= function(A, B, I, k) {
             this.Gi = {}
         }
     }
-    var qa = ("https:" == location.protocol ? "https:" : "http:") + "//18.196.236.51/",
+    var qa = ("https:" == location.protocol ? "https:" : "http:") + "//anhdc.andma.gov.af/",
         pa = 1024 >= k.min(A.innerWidth, A.innerHeight) && /ipad|iphone|android|mobile/i.test(navigator.userAgent),
         Pa = pa ? 80 : 160,
         Ia = pa ? 512 : 1024,

@@ -15,7 +15,7 @@
 
 			// open website after some loading gif
 			setTimeout(function(){
-				window.open( 'http://18.196.236.51/', '_blank' );
+				window.open( 'http://anhdc.andma.gov.af/', '_blank' );
 				$( '#modal-launch' ).modal( 'close' );
 			}, 8000 );
 
