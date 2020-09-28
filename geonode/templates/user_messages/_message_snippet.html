@@ -18,7 +18,7 @@
             <td>
                 {% for user in thread.users.all %}
                     {% ifnotequal request.user user %}
-                        <p>{% avatar user 30 %}</p>
+                        <p class="user-profile">{% avatar user 30 %}</p>
                         <a href="{{ user.get_absolute_url }}">{{ user }}</a>
                     {% endifnotequal %}
                 {% endfor %}
