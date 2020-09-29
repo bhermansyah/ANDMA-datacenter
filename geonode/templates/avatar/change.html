@@ -1,8 +1,26 @@
-{% extends "site_base.html" %}
+{% extends "v2/site_base.html" %}
 {% load i18n avatar_tags %}
 {% load bootstrap_tags %}
+{% block head_title %}{% trans "Change avatar" %}{% endblock %}
 
-{% block body %}
+{% block  body_outer %}
+<section class="title">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-md-6">
+	                <h1>{% trans "Change avatar" %}</h1>
+	            </div>
+	            <div class="col-md-6">
+	                <ul class="breadcrumb pull-right">
+	                    <li class="active">{% trans "Change avatar" %}</li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+    <section>
+    <div class="container">
+    <div class="row">
     <h4 class="page-header"><a href="{% url "profile_edit" user.username %}">{% trans "Back to edit your profile information" %}</a></h4>
     <h5>{% trans "Your current avatar: " %}</h5>
     {% avatar user %}
@@ -21,4 +39,8 @@
         <p>{% csrf_token %}<input type="submit" class="btn btn-primary" value="{% trans "Upload New Image" %}" /></p>
     </form>
     <a class="btn btn-primary btn-danger" href="{% url 'avatar_delete' %}">{% trans "Delete Your Avatar" %}</a>
+   </div>
+   </div>
+    </section>
+    
 {% endblock %}

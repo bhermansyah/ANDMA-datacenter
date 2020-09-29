@@ -1,7 +1,24 @@
-{% extends "site_base.html" %}
+{% extends "v2/site_base.html" %}
 {% load i18n avatar_tags %}
 
-{% block body %}
+{% block body_outer %}
+<section class="title">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-md-6">
+	                <h1>{% trans "Delete avatar"  %}</h1>
+	            </div>
+	            <div class="col-md-6">
+	                <ul class="breadcrumb pull-right">
+	                    <li class="active">{% trans "Delete avatar" %}</li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+    <section>
+    <div class="container">
+    <div class="row">
     <a href="{% url "profile_edit" user.username %}">{% trans "Back to edit your profile information" %}</a>
     <p>{% trans "Please select the avatars that you would like to delete." %}</p>
     {% if not avatars %}
@@ -15,4 +32,7 @@
             <p>{% csrf_token %}<input type="submit" class="btn btn-primary" value="{% trans "Delete These" %}" /></p>
         </form>
     {% endif %}
+    </div>
+    </div>
+    </section>
 {% endblock %}
