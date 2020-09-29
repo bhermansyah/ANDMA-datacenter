@@ -90,7 +90,7 @@ class ResourceBaseForm(TranslationModelForm):
 
     poc = forms.ModelChoiceField(
         empty_label="Person outside GeoNode (fill form)",
-        label="Point Of Contact",
+        label=_("Point Of Contact"),
         required=False,
         queryset=Profile.objects.exclude(
             username='AnonymousUser'),
@@ -98,7 +98,7 @@ class ResourceBaseForm(TranslationModelForm):
 
     metadata_author = forms.ModelChoiceField(
         empty_label="Person outside GeoNode (fill form)",
-        label="Metadata Author",
+        label=_("Metadata Author"),
         required=False,
         queryset=Profile.objects.exclude(
             username='AnonymousUser'),

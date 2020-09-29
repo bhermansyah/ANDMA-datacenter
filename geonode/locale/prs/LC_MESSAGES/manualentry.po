@@ -128,3 +128,1387 @@ msgstr ""
 msgid "Hilmand"
 msgstr ""
 
+
+msgid "Temporal extent start"
+
+msgstr ""
+
+
+# Distric from Badakhshan
+
+msgid  "Arghanjkhwa"
+
+msgstr ""
+
+msgid  "Argo"
+msgstr ""
+
+msgid  "Baharak"
+msgstr ""
+
+msgid  "Darayem"
+msgstr ""
+
+msgid  "Darwaz"
+msgstr ""
+
+msgid  "Darwaz-e-Balla"
+msgstr ""
+
+msgid  "Eshkmesh"
+msgstr ""
+
+msgid  "Jorm"
+msgstr ""
+
+msgid  "Keshem"
+msgstr ""
+
+msgid  "Khash"
+msgstr ""
+
+msgid  "Khwahan"
+msgstr ""
+
+msgid  "Kofab"
+msgstr ""
+
+msgid  "Kohestan"
+msgstr ""
+
+msgid  "Koran wa Monjan"
+msgstr ""
+
+msgid  "Raghestan"
+msgstr ""
+
+msgid  "Shahr-e-Buzorg"
+msgstr ""
+
+msgid  "Shaki"
+msgstr ""
+
+msgid  "Shighnan"
+msgstr ""
+
+msgid  "Shuhada"
+msgstr ""
+
+msgid  "Tagab"
+msgstr ""
+
+msgid  "Teshkan"
+msgstr ""
+
+msgid  "Wakhan"
+msgstr ""
+
+msgid  "Warduj"
+msgstr ""
+
+msgid  "Yaftal-e-Sufla"
+msgstr ""
+
+msgid  "Yamgan"
+msgstr ""
+
+msgid  "Yawan"
+msgstr ""
+
+msgid  "Zebak"
+msgstr ""
+
+
+msgid "Fayzabad"
+
+msgstr ""
+
+
+# Distric Badghis
+
+msgid  "Qadis"
+
+msgstr ""
+
+msgid  "Muqur"
+
+msgstr ""
+
+msgid  "Abkamari"
+
+msgstr ""
+
+msgid  "Jawand"
+
+msgstr ""
+
+msgid  "Balamurghab"
+
+msgstr ""
+
+msgid  "Ghormach"
+
+msgstr ""
+
+msgid  "Qala-e-Naw"
+
+msgstr ""
+
+# Distric Baghlan
+
+msgid "Andarab"
+
+msgstr ""
+
+msgid "Baghlan-e-Jadid"
+
+msgstr ""
+
+msgid "Burka"
+
+msgstr ""
+
+msgid "Dahana-e-Ghori"
+
+msgstr ""
+
+msgid "Dehsalah"
+
+msgstr ""
+
+msgid "Doshi"
+
+msgstr ""
+
+msgid "Fereng Wa Gharu"
+
+msgstr ""
+
+msgid "Guzargah-e- Nur"
+
+msgstr ""
+
+msgid "Khost Wa Fereng"
+
+msgstr ""
+
+msgid "Khwajahejran"
+
+msgstr ""
+
+msgid "Khenjan"
+
+msgstr ""
+
+msgid "Nahrin"
+
+msgstr ""
+
+msgid "Pul-e-Hesar"
+
+msgstr ""
+
+msgid "Pul-e-Khumri"
+
+msgstr ""
+
+msgid "Tala Wa barfak"
+
+msgstr ""
+
+
+#Distric Balkh
+
+
+msgid "Charbulak"
+
+msgstr ""
+
+msgid "Charkent"
+
+msgstr ""
+
+msgid "Chemtal"
+
+msgstr ""
+
+msgid "Dawlatabad"
+
+msgstr ""
+
+msgid "Dehdadi"
+
+msgstr ""
+
+msgid "Kaldar"
+
+msgstr ""
+
+msgid "Keshendeh"
+
+msgstr ""
+
+msgid "Khulm"
+
+msgstr ""
+
+msgid "Marmul"
+
+msgstr ""
+
+msgid "Mazar-e-Sharif"
+
+msgstr ""
+
+msgid "Nahr-e- Shahi"
+
+msgstr ""
+
+msgid "Sharak-e-Hayratan"
+
+msgstr ""
+
+msgid "Sholgareh"
+
+msgstr ""
+
+msgid "Shortepa"
+
+msgstr ""
+
+msgid "Zari"
+
+msgstr  ""
+
+#Distric Bamyan
+
+msgid "Shibar"
+
+msgstr ""
+
+msgid "Panjab"
+
+msgstr ""
+
+msgid "Waras"
+
+msgstr ""
+
+msgid "Sayghan"
+
+msgstr ""
+
+msgid "Kahmard"
+
+msgstr ""
+
+msgid "Yakawlang"
+
+msgstr ""
+
+#Distric Daykundi
+
+msgid "Shahrestan"
+
+msgstr ""
+
+msgid "Ashtarlay"
+
+msgstr ""
+
+msgid "kiti"
+
+msgstr ""
+
+msgid "Patoo"
+
+msgstr ""
+
+msgid "Miramor"
+
+msgstr ""
+
+msgid "Nili"
+
+msgstr ""
+
+msgid "Khadir"
+
+msgstr ""
+
+msgid "Sang-e-Takht"
+
+msgstr ""
+
+msgid "Kajran"
+
+msgstr ""
+
+msgid "Gizab"
+
+msgstr ""
+
+#Distric Farah
+
+msgid "Anardara"
+msgstr ""
+
+
+msgid "Bakwa"
+msgstr ""
+
+
+msgid "Balabuluk"
+msgstr ""
+
+
+msgid "Gulestan"
+msgstr ""
+
+
+msgid "Khak-e-Safed"
+msgstr ""
+
+
+msgid "Lash-e-Juwayn"
+msgstr ""
+
+
+msgid "Purchaman"
+msgstr ""
+
+
+msgid "Pushtrod"
+msgstr ""
+
+
+msgid "Qala-e-Kah"
+msgstr ""
+
+msgid "Shibkoh"
+msgstr ""
+
+
+msgid "Almar"
+msgstr ""
+
+msgid "Andkhoy"
+msgstr ""
+
+msgid "Bilcheragh"
+msgstr ""
+
+msgid "Dawlat Abad"
+msgstr ""
+
+msgid "Garziwan"
+msgstr ""
+
+msgid "Khan-e-Char Bagh"
+msgstr ""
+
+msgid "Khwajasabzposh"
+msgstr ""
+
+msgid "Kohistan"
+msgstr ""
+
+msgid "Maymana"
+msgstr ""
+
+msgid "Pashtunkot"
+msgstr ""
+
+msgid "Qaramqol"
+msgstr ""
+
+msgid "Qaysar"
+msgstr ""
+
+msgid "Qorghan"
+msgstr ""
+
+msgid "Shirin Tagab"
+msgstr ""
+
+#Distric Ghazni
+
+msgid  "Abband"
+msgstr ""
+
+
+msgid  "Ajrestan"
+msgstr ""
+
+
+msgid  "Andar"
+msgstr ""
+
+
+msgid  "Dehyak"
+msgstr ""
+
+
+msgid  "Gelan"
+msgstr ""
+
+
+msgid  "Giro"
+msgstr ""
+
+
+msgid  "Jaghatu"
+msgstr ""
+
+
+msgid  "Jaghuri"
+msgstr ""
+
+
+msgid  "Khwajaumari"
+msgstr ""
+
+
+msgid  "Malestan"
+msgstr ""
+
+
+msgid  "Nawa"
+msgstr ""
+
+
+msgid  "Nawur"
+msgstr ""
+
+
+msgid  "Qarabagh"
+msgstr ""
+
+
+msgid  "Rashidan"
+msgstr ""
+
+
+msgid  "Waghaz"
+msgstr ""
+
+
+msgid  "Walimuhammad-e- Shahid"
+msgstr ""
+
+
+msgid  "Zanakhan"
+msgstr ""
+
+
+#Distric Ghor
+
+msgid "Chaghcharan"
+msgstr ""
+
+msgid "Charsadra"
+msgstr ""
+
+msgid "Dawlatyar"
+msgstr ""
+
+msgid "DoLayna"
+msgstr ""
+
+msgid "Feroz Koh"
+msgstr ""
+
+msgid "Lal Wa Sarjangal"
+msgstr ""
+
+msgid "Pasaband"
+msgstr ""
+
+msgid "Saghar"
+msgstr ""
+
+msgid "Shahrak"
+msgstr ""
+
+msgid "Taywarah"
+msgstr ""
+
+msgid "Tolak"
+msgstr ""
+
+#Distric Hilmand
+
+msgid "Baghran"
+
+msgstr ""
+
+msgid "Deh-e-shu"
+
+msgstr ""
+
+
+msgid "Garmser"
+
+msgstr ""
+
+msgid "Kajaki"
+
+msgstr ""
+
+msgid "Lashkargah"
+
+msgstr ""
+
+msgid "Musa Qala"
+
+msgstr ""
+
+msgid "Nad-e-Ali"
+
+msgstr ""
+
+msgid "Nahr-e-Saraj"
+
+msgstr ""
+
+msgid "Nawa-e-Barakzaiy"
+
+msgstr ""
+
+msgid "Nawzad"
+
+msgstr ""
+
+msgid "Reg"
+
+msgstr ""
+
+msgid "Sangin"
+
+msgstr ""
+
+msgid "Washer"
+
+msgstr ""
+
+msgid "Musaqalah"
+msgstr ""
+
+#Distric herat
+
+msgid "Adraskan"
+msgstr ""
+
+
+msgid "Chisht-e-Sharif"
+msgstr ""
+
+
+msgid "Farsi"
+msgstr ""
+
+
+msgid "Ghoryan"
+msgstr ""
+
+
+msgid "Gulran"
+msgstr ""
+
+
+msgid "Guzara"
+msgstr ""
+
+
+msgid "Herat"
+msgstr ""
+
+
+msgid "Injil"
+msgstr ""
+
+
+msgid "Karukh"
+msgstr ""
+
+
+msgid "Kohsan"
+msgstr ""
+
+
+msgid "Kushk"
+msgstr ""
+
+
+msgid "Kushk-e-Kohna"
+msgstr ""
+
+
+msgid "Obe"
+msgstr ""
+
+
+msgid "Pashtunzarghun"
+msgstr ""
+
+
+msgid "Shindand"
+msgstr ""
+
+
+msgid "Zindajan"
+msgstr ""
+
+
+#Distric Jawzjan
+
+msgid "Aqcha"
+msgstr ""
+
+msgid "Darzab"
+msgstr ""
+
+
+
+msgid "Khamyab"
+msgstr ""
+
+msgid "Khanaqa"
+msgstr ""
+
+msgid "Khwajadukoh"
+msgstr ""
+
+msgid "Mardyan"
+msgstr ""
+
+msgid "Mingajik"
+msgstr ""
+
+msgid "Qarqin"
+msgstr ""
+
+msgid "Qushtepa"
+msgstr ""
+
+msgid "Shiberghan"
+msgstr ""
+
+# Distric Kabul
+
+msgid  "Bagrami"
+msgstr ""
+
+msgid  "Chaharasyab"
+msgstr ""
+
+msgid  "Dehsabz"
+msgstr ""
+
+msgid  "Estalef"
+msgstr ""
+
+msgid  "Farza"
+msgstr ""
+
+msgid  "Guldara"
+msgstr ""
+
+msgid  "Kalakan"
+msgstr ""
+
+msgid  "Khak-e- Jabbar"
+msgstr ""
+
+msgid  "Mirbachakot"
+msgstr ""
+
+msgid  "Musayi"
+msgstr ""
+
+msgid  "Paghman"
+msgstr ""
+
+msgid  "Shakardara"
+msgstr ""
+
+msgid  "Surobi"
+msgstr ""
+
+
+#Distric Kandahar
+
+msgid "Arghandab"
+msgstr ""
+
+msgid "Arghestan"
+msgstr ""
+
+msgid "Daman"
+msgstr ""
+
+msgid "Ghorak"
+msgstr ""
+
+msgid "Khakrez"
+msgstr ""
+
+msgid "Maruf"
+msgstr ""
+
+msgid "Maywand"
+msgstr ""
+
+msgid "Miyanshin"
+msgstr ""
+
+msgid "Nesh"
+msgstr ""
+
+msgid "Panjwayi"
+msgstr ""
+
+msgid "Shahwalikot"
+msgstr ""
+
+msgid "Shorabak"
+msgstr ""
+
+msgid "Spinboldak"
+msgstr ""
+
+msgid "Zheray"
+msgstr ""
+
+#Distric Kapisa
+
+msgid "Alasay"
+msgstr ""
+
+
+msgid "Hisa-e- Awal-e- Kohestan"
+msgstr ""
+
+
+msgid "Hisa-e- Duwum-e- Kohestan"
+msgstr ""
+
+
+msgid "Kohband"
+msgstr ""
+
+
+msgid "Mahmud-e- Raqi"
+msgstr ""
+
+
+msgid "Nejrab"
+msgstr ""
+
+
+# Distric Khost
+
+msgid "Bak"
+msgstr ""
+
+msgid "Gurbuz"
+msgstr ""
+
+msgid "Jajimaydan"
+msgstr ""
+
+
+msgid "Mandozayi"
+msgstr ""
+
+msgid "Khost(Matun)"
+msgstr ""
+
+msgid "Musakhel"
+msgstr ""
+
+msgid "Nadirshahkot"
+msgstr ""
+
+msgid "Qalandar"
+msgstr ""
+
+msgid "Sabari"
+msgstr ""
+
+msgid "Shamal"
+msgstr ""
+
+msgid "Spera"
+msgstr ""
+
+msgid "Tani"
+msgstr ""
+
+msgid "Terezayi"
+msgstr ""
+
+# Distric Kunar
+
+msgid "Asadabad"
+msgstr ""
+
+msgid "Barkunar"
+msgstr ""
+
+msgid "Chapadara"
+msgstr ""
+
+msgid "Chawkay"
+msgstr ""
+
+msgid "Dangam"
+msgstr ""
+
+msgid "Dara-e-Pech"
+msgstr ""
+
+msgid "Ghaziabad"
+msgstr ""
+
+msgid "Khaskunar"
+msgstr ""
+
+msgid "Marawara"
+msgstr ""
+
+msgid "Narang"
+msgstr ""
+
+msgid "Nari"
+msgstr ""
+
+msgid "Nurgal"
+msgstr ""
+
+msgid "Sarkani"
+msgstr ""
+
+msgid "Shigal Wa sheltan"
+msgstr ""
+
+msgid "Watapur"
+msgstr ""
+
+#Distric Kunduz
+
+msgid "Aliabad" 
+msgstr ""
+
+
+msgid "Chardarah" 
+msgstr ""
+
+
+msgid "Dasht-e-Archi" 
+msgstr ""
+
+
+msgid "Emamsaheb" 
+msgstr ""
+
+
+msgid "Khanabad" 
+msgstr ""
+
+
+msgid "Qala-e-Zal" 
+msgstr ""
+
+#Distric Laghman
+
+msgid "Alingar"
+msgstr ""
+
+msgid "Alishang"
+msgstr ""
+
+msgid "Dawlatshah"
+msgstr ""
+
+msgid "Mehtarlam"
+msgstr ""
+
+msgid "Qarghayi"
+msgstr ""
+
+# Distric Logar
+
+msgid "Azra"
+msgstr ""
+
+msgid "Barakibarak"
+msgstr ""
+
+msgid "Charkh"
+msgstr ""
+
+msgid "Kharwar"
+msgstr ""
+
+msgid "Khoshi"
+msgstr ""
+
+msgid "Mohammadagha"
+msgstr ""
+
+msgid "Pul-e- Alam"
+msgstr ""
+
+#Distric Nangarhar
+
+msgid "Achin"
+msgstr ""
+
+
+msgid "Batikot"
+msgstr ""
+
+
+msgid "Behsud"
+msgstr ""
+
+
+msgid "Chaparhar"
+msgstr ""
+
+
+msgid "Dara-e-Nur"
+msgstr ""
+
+
+msgid "Dehbala"
+msgstr ""
+
+
+msgid "Durbaba"
+msgstr ""
+
+
+msgid "Goshta"
+msgstr ""
+
+
+msgid "Hesarak"
+msgstr ""
+
+
+msgid "Jalalabad"
+msgstr ""
+
+
+msgid "Kama"
+msgstr ""
+
+
+msgid "Khogyani"
+msgstr ""
+
+
+msgid "Kot"
+msgstr ""
+
+
+msgid "Kuzkunar"
+msgstr ""
+
+
+msgid "Lalpur"
+msgstr ""
+
+
+msgid "Muhmand Dara"
+msgstr ""
+
+
+msgid "Nazyan"
+msgstr ""
+
+
+msgid "Pachieragam"
+msgstr ""
+
+
+msgid "Rodat"
+msgstr ""
+
+
+msgid "Sherzad"
+msgstr ""
+
+
+msgid "Shinwar"
+msgstr ""
+
+
+msgid "Surkhrod"
+msgstr ""
+
+#Distric Nimroz
+
+msgid "Chakhansur"
+msgstr ""
+
+msgid "Charburjak"
+msgstr ""
+
+msgid "Kang"
+msgstr ""
+
+msgid "Khashrod"
+msgstr ""
+
+msgid "Zaranj"
+msgstr ""
+
+#Distric Nuristan
+
+msgid "Barg-e- Matal"
+msgstr ""
+
+msgid "Duab"
+msgstr ""
+
+msgid "Kamdesh"
+msgstr ""
+
+msgid "Mandol"
+msgstr ""
+
+msgid "Nurgeram"
+msgstr ""
+
+msgid "Poruns"
+msgstr ""
+
+msgid "Wama"
+msgstr ""
+
+msgid "Waygal"
+msgstr ""
+
+
+#Distric Paktika
+
+msgid "Bermel"
+msgstr ""
+
+msgid "Dila"
+msgstr ""
+
+msgid "Gyan"
+msgstr ""
+
+msgid "Gomal"
+msgstr ""
+
+msgid "Janikhel"
+msgstr ""
+
+msgid "Matakhan"
+msgstr ""
+
+msgid "Naka"
+msgstr ""
+
+msgid "Omna"
+msgstr ""
+
+msgid "Sarrawzah(Sarhawzah)"
+msgstr ""
+
+msgid "Sarobi"
+msgstr ""
+
+msgid "Sharan"
+msgstr ""
+
+msgid "Turwo (Tarwe)"
+msgstr ""
+
+msgid "Urgun"
+msgstr ""
+
+msgid "Wazakhah"
+msgstr ""
+
+msgid "Wormamay"
+msgstr ""
+
+msgid "Yahyakhel"
+msgstr ""
+
+msgid "Yosufkhel"
+msgstr ""
+
+msgid "Zarghunshahr"
+msgstr ""
+
+msgid "Ziruk"
+msgstr ""
+
+
+# Distric Paktya
+
+msgid "Ahmadaba"
+msgstr ""
+
+msgid "Alikhel (Jaji)"
+msgstr ""
+
+msgid "Chamkani"
+msgstr ""
+
+msgid "Dand wa Patan"
+msgstr ""
+
+
+msgid "Gardez"
+msgstr ""
+
+
+msgid "Lija Ahmad Khel"
+msgstr ""
+
+msgid "Sayedkaram"
+msgstr ""
+
+msgid "Shawak"
+msgstr ""
+
+msgid "Zadran"
+msgstr ""
+
+msgid "Zurmat"
+msgstr ""
+
+# Distric Panjsher
+
+msgid "Onaba(Anawa)"
+msgstr ""
+
+msgid "Bazarak"
+msgstr ""
+
+msgid "Dara"
+msgstr ""
+
+msgid "Khenj (Hes-e- Awal)"
+msgstr ""
+
+msgid "Paryan"
+msgstr ""
+
+msgid "Rukha"
+msgstr ""
+
+msgid "Shutul"
+msgstr ""
+
+#Distric Parwan
+
+msgid "Bagram"
+msgstr ""
+
+msgid "Charikar"
+msgstr ""
+
+msgid "Ghorband"
+msgstr ""
+
+msgid "Jabalussaraj"
+msgstr ""
+
+msgid "Koh-e- Safi"
+msgstr ""
+
+msgid "Salang"
+msgstr ""
+
+msgid "Saydkhel"
+msgstr ""
+
+msgid "Shekhali"
+msgstr ""
+
+msgid "Shinwari"
+msgstr ""
+
+msgid "Surkh-e- Parsa"
+msgstr ""
+
+#Distric Samangan
+
+msgid "Aybak"
+msgstr ""
+
+msgid "Dara-e- Suf-e- Payin"
+msgstr ""
+
+msgid "Dara-e Suf-e-Bala"
+msgstr ""
+
+msgid "Feroznakhchir"
+msgstr ""
+
+msgid "Hazrat-e- Sultan"
+msgstr ""
+
+msgid "Khuram Wa Sarbagh"
+msgstr ""
+
+msgid "Ruy-e-Duab"
+msgstr ""
+
+#Distric Sare -e Pul
+
+msgid "Balkhab"
+msgstr ""
+
+msgid "Gosfandi"
+msgstr ""
+
+msgid "Kohestanat"
+msgstr ""
+
+msgid "Sancharak(sangchark)"
+msgstr ""
+
+msgid "Sayad"
+msgstr ""
+
+msgid "Sozmaqala"
+msgstr ""
+
+#Distric Takhar
+
+msgid "Bangi"
+msgstr ""
+
+msgid "Chahab"
+msgstr ""
+
+msgid "Chal"
+msgstr ""
+
+msgid "Darqad"
+msgstr ""
+
+msgid "Dasht-e- Qala"
+msgstr ""
+
+msgid "Eshkashem"
+msgstr ""
+
+msgid "Farkhar"
+msgstr ""
+
+msgid "Hazarsumuch"
+msgstr ""
+
+msgid "Kalafgan"
+msgstr ""
+
+msgid "Khwajabahawuddin"
+msgstr ""
+
+msgid "Khwajaghar"
+msgstr ""
+
+msgid "Namakab"
+msgstr ""
+
+msgid "Rostaq"
+msgstr ""
+
+msgid "Taloqan"
+msgstr ""
+
+
+msgid "Warsaj"
+msgstr ""
+
+msgid "Yangi Qala"
+msgstr ""
+
+
+#Distric Uruzgan
+
+msgid "Chora"
+msgstr ""
+
+msgid "Dehrawud"
+msgstr ""
+
+msgid "Khasuruzgan"
+msgstr ""
+
+msgid "Shahid-e-Hassas"
+msgstr ""
+
+msgid "Tirinkot"
+msgstr ""
+
+
+msgid "Chak"
+msgstr ""
+
+msgid "Daymirdad"
+msgstr ""
+
+msgid "Hesa-e- Awal-e- Behsud"
+msgstr ""
+
+msgid "Jalrez"
+msgstr ""
+
+msgid "Markaz-e-Behsud"
+msgstr ""
+
+msgid "Maydanshahr"
+msgstr ""
+
+msgid "Nerkh"
+msgstr ""
+
+msgid "Saydabad"
+msgstr ""
+
+#Distric Zabul
+
+msgid "Atghar"
+msgstr ""
+
+msgid "Daychopan"
+msgstr ""
+
+msgid "Kakar"
+msgstr ""
+
+msgid "Mizan"
+msgstr ""
+
+msgid "Nawbahar"
+msgstr ""
+
+msgid "Qalat"
+msgstr ""
+
+msgid "Shahjoy"
+msgstr ""
+
+
+msgid "Shomulzay"
+msgstr ""
+
+msgid "Shinkay"
+msgstr ""
+
+msgid "Tarnak Wa Jaldak"
+msgstr ""
+

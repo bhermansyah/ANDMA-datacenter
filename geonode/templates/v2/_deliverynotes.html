@@ -60,7 +60,7 @@
         {% if user.is_authenticated %}
           {% comment_form resource as form %}
         <div class="comment-form">
-            <h4>Log your delivery notes</h4>
+            <h4>{% trans "Log your delivery notes" %}</h4>
             <form action="{% comment_target resource %}" method="POST" id="form_post_comment">
               {% csrf_token %}
               {{ form|as_bootstrap }}
