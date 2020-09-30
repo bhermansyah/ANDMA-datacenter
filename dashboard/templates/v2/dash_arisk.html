@@ -257,7 +257,7 @@
 	                      			</thead>
 	                      			<tbody>
 	                      				<tr>
-	                      					<td class="boldRow">{{ parent_label }}</td>
+	                      					<td class="boldRow">{% trans parent_label %}</td>
 	                      					<td class="boldRow">{{ high_ava_population }}</td>
 	                      					<td class="boldRow">{{  high_ava_buildings  }}</td>
 	                      					<td class="boldRow">{{ high_ava_area }}</td>
@@ -270,7 +270,7 @@
 	                      				</tr>
 	                      				{% for data in lc_child %}
 	                      				<tr class="selectable" onclick="window.document.location='?page=avalancherisk&code={{data.code}}';">
-	                      					<td>{{ data.na_en }}</td>
+	                      					<td>{% trans data.na_en %}</td>
 	                      					<td>{{ data.high_ava_population }}</td>
 	                      					<td>{{ data.high_ava_buildings  }}</td>
 	                      					<td>{{ data.high_ava_area }}</td>
@@ -311,7 +311,7 @@
 	                      			</thead>
 	                      			<tbody>
 	                      				<tr>
-	                      					<td class="boldRow">{{ parent_label }}</td>
+	                      					<td class="boldRow">{% trans parent_label %}</td>
 	                      					<td class="boldRow">{{ high_ava_population }}</td>
 	                      					<td class="boldRow">{{ high_ava_buildings }}</td>
 	                      					<td class="boldRow">{{ high_ava_area }}</td>
@@ -324,7 +324,7 @@
 	                      				</tr>
 	                      				{% for data in lc_child %}
 	                      				<tr class="selectable" onclick="window.document.location='?page=avalancherisk&code={{data.code}}';">
-	                      					<td>{{ data.na_en }}</td>
+	                      					<td>{% trans data.na_en %}</td>
 	                      					<td>{{ data.high_ava_population }}</td>
 	                      					<td>{{ data.high_ava_buildings  }}</td>
 	                      					<td>{{ data.high_ava_area }}</td>

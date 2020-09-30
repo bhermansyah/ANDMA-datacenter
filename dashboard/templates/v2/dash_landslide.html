@@ -348,7 +348,7 @@
 	                                </thead>
 	                                <tbody>
 	                                    <tr>
-	                                        <td class="boldRow">{{parent_label}}</td>
+	                                        <td class="boldRow">{% trans parent_label %}</td>
 	                                        <td class="boldRow landslide_vhigh">{{lsi_immap_very_high}}</td>
 	                                        <td class="boldRow landslide_high">{{lsi_immap_high}}</td>
 	                                        <td class="boldRow landslide_mod">{{lsi_immap_moderate}}</td>
@@ -356,7 +356,7 @@
 	                                    </tr>
 	                                    {% for data in lc_child %}
 	                                    <tr class="selectable" onclick="window.document.location='?page=landslide&code={{data.code}}';">
-	                                        <td>{{data.na_en}}</td>
+	                                        <td>{% trans data.na_en %}</td>
 	                                        <td class="landslide_vhigh">{{data.lsi_immap_very_high}}</td>
 	                                        <td class="landslide_high">{{data.lsi_immap_high}}</td>
 	                                        <td class="landslide_mod">{{data.lsi_immap_moderate}}</td>
@@ -382,7 +382,7 @@
 	                        	    </thead>
 	                        	    <tbody>
 	                        	        <tr>
-	                        	            <td class="boldRow">{{parent_label}}</td>
+	                        	            <td class="boldRow">{% trans parent_label %}</td>
 	                        	            <td class="boldRow landslide_vhigh">{{lsi_immap_very_high}}</td>
 	                        	            <td class="boldRow landslide_high">{{lsi_immap_high}}</td>
 	                        	            <td class="boldRow landslide_mod">{{lsi_immap_moderate}}</td>
@@ -390,7 +390,7 @@
 	                        	        </tr>
 	                        	        {% for data in lc_child %}
 	                        	        <tr>
-	                        	            <td>{{data.na_en}}</td>
+	                        	            <td>{% trans data.na_en %}</td>
 	                        	            <td class="landslide_vhigh">{{data.lsi_immap_very_high}}</td>
 	                        	            <td class="landslide_high">{{data.lsi_immap_high}}</td>
 	                        	            <td class="landslide_mod">{{data.lsi_immap_moderate}}</td>
@@ -467,7 +467,7 @@
 	                                </thead>
 	                                <tbody>
 	                                    <tr>
-	                                        <td class="boldRow">{{parent_label}}</td>
+	                                        <td class="boldRow">{% trans parent_label %}</td>
 	                                        <td class="boldRow landslide_vhigh">{{lsi_ku_very_high}}</td>
 	                                        <td class="boldRow landslide_high">{{lsi_ku_high}}</td>
 	                                        <td class="boldRow landslide_mod">{{lsi_ku_moderate}}</td>
@@ -475,7 +475,7 @@
 	                                    </tr>
 	                                    {% for data in lc_child %}
 	                                    <tr class="selectable" onclick="window.document.location='?page=landslide&code={{data.code}}';">
-	                                        <td>{{data.na_en}}</td>
+	                                        <td>{% trans data.na_en %}</td>
 	                                        <td class="landslide_vhigh">{{data.lsi_ku_very_high}}</td>
 	                                        <td class="landslide_high">{{data.lsi_ku_high}}</td>
 	                                        <td class="landslide_mod">{{data.lsi_ku_moderate}}</td>
@@ -501,7 +501,7 @@
 	                        	    </thead>
 	                        	    <tbody>
 	                        	        <tr>
-	                        	            <td class="boldRow">{{parent_label}}</td>
+	                        	            <td class="boldRow">{% trans parent_label %}</td>
 	                        	            <td class="boldRow landslide_vhigh">{{lsi_ku_very_high}}</td>
 	                        	            <td class="boldRow landslide_high">{{lsi_ku_high}}</td>
 	                        	            <td class="boldRow landslide_mod">{{lsi_ku_moderate}}</td>
@@ -509,7 +509,7 @@
 	                        	        </tr>
 	                        	        {% for data in lc_child %}
 	                        	        <tr>
-	                        	            <td>{{data.na_en}}</td>
+	                        	            <td>{% trans data.na_en %}</td>
 	                        	            <td class="landslide_vhigh">{{data.lsi_ku_very_high}}</td>
 	                        	            <td class="landslide_high">{{data.lsi_ku_high}}</td>
 	                        	            <td class="landslide_mod">{{data.lsi_ku_moderate}}</td>
@@ -586,7 +586,7 @@
 	                                </thead>
 	                                <tbody>
 	                                    <tr>
-	                                        <td class="boldRow">{{parent_label}}</td>
+	                                        <td class="boldRow">{% trans parent_label %}</td>
 	                                        <td class="boldRow landslide_vhigh">{{ls_s1_wb_very_high}}</td>
 	                                        <td class="boldRow landslide_high">{{ls_s1_wb_high}}</td>
 	                                        <td class="boldRow landslide_mod">{{ls_s1_wb_moderate}}</td>
@@ -594,7 +594,7 @@
 	                                    </tr>
 	                                    {% for data in lc_child %}
 	                                    <tr class="selectable" onclick="window.document.location='?page=landslide&code={{data.code}}';">
-	                                        <td>{{data.na_en}}</td>
+	                                        <td>{% trans data.na_en %}</td>
 	                                        <td class="landslide_vhigh">{{data.ls_s1_wb_very_high}}</td>
 	                                        <td class="landslide_high">{{data.ls_s1_wb_high}}</td>
 	                                        <td class="landslide_mod">{{data.ls_s1_wb_moderate}}</td>
@@ -620,7 +620,7 @@
 	                        	    </thead>
 	                        	    <tbody>
 	                        	        <tr>
-	                        	            <td class="boldRow">{{parent_label}}</td>
+	                        	            <td class="boldRow">{% trans parent_label %}</td>
 	                        	            <td class="boldRow landslide_vhigh">{{ls_s1_wb_very_high}}</td>
 	                        	            <td class="boldRow landslide_high">{{ls_s1_wb_high}}</td>
 	                        	            <td class="boldRow landslide_mod">{{ls_s1_wb_moderate}}</td>
@@ -628,7 +628,7 @@
 	                        	        </tr>
 	                        	        {% for data in lc_child %}
 	                        	        <tr>
-	                        	            <td>{{data.na_en}}</td>
+	                        	            <td>{% trans data.na_en %}</td>
 	                        	            <td class="landslide_vhigh">{{data.ls_s1_wb_very_high}}</td>
 	                        	            <td class="landslide_high">{{data.ls_s1_wb_high}}</td>
 	                        	            <td class="landslide_mod">{{data.ls_s1_wb_moderate}}</td>
@@ -705,7 +705,7 @@
 	                                </thead>
 	                                <tbody>
 	                                    <tr>
-	                                        <td class="boldRow">{{parent_label}}</td>
+	                                        <td class="boldRow">{% trans parent_label %}</td>
 	                                        <td class="boldRow landslide_vhigh">{{ls_s2_wb_very_high}}</td>
 	                                        <td class="boldRow landslide_high">{{ls_s2_wb_high}}</td>
 	                                        <td class="boldRow landslide_mod">{{ls_s2_wb_moderate}}</td>
@@ -713,7 +713,7 @@
 	                                    </tr>
 	                                    {% for data in lc_child %}
 	                                    <tr class="selectable" onclick="window.document.location='?page=landslide&code={{data.code}}';">
-	                                        <td>{{data.na_en}}</td>
+	                                        <td>{% trans data.na_en %}</td>
 	                                        <td class="landslide_vhigh">{{data.ls_s2_wb_very_high}}</td>
 	                                        <td class="landslide_high">{{data.ls_s2_wb_high}}</td>
 	                                        <td class="landslide_mod">{{data.ls_s2_wb_moderate}}</td>
@@ -790,7 +790,7 @@
 	                                </thead>
 	                                <tbody>
 	                                    <tr>
-	                                        <td class="boldRow">{{parent_label}}</td>
+	                                        <td class="boldRow">{% trans parent_label %}</td>
 	                                        <td class="boldRow landslide_vhigh">{{ls_s3_wb_very_high}}</td>
 	                                        <td class="boldRow landslide_high">{{ls_s3_wb_high}}</td>
 	                                        <td class="boldRow landslide_mod">{{ls_s3_wb_moderate}}</td>
@@ -798,7 +798,7 @@
 	                                    </tr>
 	                                    {% for data in lc_child %}
 	                                    <tr class="selectable" onclick="window.document.location='?page=landslide&code={{data.code}}';">
-	                                        <td>{{data.na_en}}</td>
+	                                        <td>{% trans data.na_en %}</td>
 	                                        <td class="landslide_vhigh">{{data.ls_s3_wb_very_high}}</td>
 	                                        <td class="landslide_high">{{data.ls_s3_wb_high}}</td>
 	                                        <td class="landslide_mod">{{data.ls_s3_wb_moderate}}</td>
@@ -920,7 +920,7 @@
 			set_jenk_divider = 7;
 			{% for data in lc_child %}
 				if (boundary['features'][i]['properties']['code']=={{data.code}}) {
-					boundary['features'][i]['properties']['na_en']="{{data.na_en}}"
+					boundary['features'][i]['properties']['na_en']="f"
 					boundary['features'][i]['properties']['lsi_ku_low']={{data.lsi_ku_low}}
 					boundary['features'][i]['properties']['lsi_ku_moderate']={{data.lsi_ku_moderate}}
 					boundary['features'][i]['properties']['lsi_ku_high']={{data.lsi_ku_high}}

@@ -404,7 +404,7 @@
 	        		                    </thead>
 	        		                    <tbody>
 	        		                        <tr>
-	        		                            <td class="boldRow">{{parent_label}}</td>
+	        		                            <td class="boldRow">{% trans parent_label %}</td>
 	        		                            <td class="boldRow drought_ab_dry">{{ lc_data.adm_parent.risk_child.0.child.pop }}</td>
 	        		                            <td class="boldRow drought_ab_dry">{{ lc_data.adm_parent.risk_child.0.child.building }}</td>
 	        		                            <td class="boldRow drought_ab_dry">{{ lc_data.adm_parent.risk_child.0.child.area }}</td>
@@ -423,7 +423,7 @@
 	        		                        </tr>
 	        		                        {% for adm_code, adm_data in lc_data.adm_child.items %}
         		                        	<tr class="selectable" onclick="jump_url({{ adm_code }})">
-        		                        	    <td>{{ adm_data.label }}</td>
+        		                        	    <td>{% trans adm_data.label %}</td>
         		                        	    <td class="drought_ab_dry">{{ adm_data.risk_child.0.child.pop }}</td>
         		                        	    <td class="drought_ab_dry">{{ adm_data.risk_child.0.child.building }}</td>
         		                        	    <td class="drought_ab_dry">{{ adm_data.risk_child.0.child.area }}</td>
@@ -482,7 +482,7 @@
 	        		                    </thead>
 	        		                    <tbody>
 	        		                        <tr>
-	        		                            <td class="boldRow">{{parent_label}}</td>
+	        		                            <td class="boldRow">{% trans parent_label %}</td>
 	        		                            <td class="boldRow drought_ab_dry">{{ lc_data.adm_parent.risk_child.0.child.pop }}</td>
 	        		                            <td class="boldRow drought_ab_dry">{{ lc_data.adm_parent.risk_child.0.child.building }}</td>
 	        		                            <td class="boldRow drought_ab_dry">{{ lc_data.adm_parent.risk_child.0.child.area }}</td>
@@ -501,7 +501,7 @@
 	        		                        </tr>
 	        		                        {% for adm_code, adm_data in lc_data.adm_child.items %}
         		                        	<tr class="selectable" onclick="jump_url({{ adm_code }})">
-        		                        	    <td>{{ adm_data.label }}</td>
+        		                        	    <td>{% trans adm_data.label %}</td>
         		                        	    <td class="drought_ab_dry">{{ adm_data.risk_child.0.child.pop }}</td>
         		                        	    <td class="drought_ab_dry">{{ adm_data.risk_child.0.child.building }}</td>
         		                        	    <td class="drought_ab_dry">{{ adm_data.risk_child.0.child.area }}</td>

@@ -198,7 +198,7 @@
 	                      		    </thead>
 	                      		    <tbody>
 	                      		    	<tr>
-	                      		    		<td class="boldRow">{{parent_label}}</td>
+	                      		    		<td class="boldRow">{% trans parent_label %}</td>
 	                      		    		<td class="boldRow">{{ava_forecast_high_pop}}</td>
 	                      		    		<td class="boldRow">{{ava_forecast_med_pop}}</td>
 	                      		    		<td class="boldRow">{{ava_forecast_low_pop}}</td>
@@ -206,7 +206,7 @@
 	                      		    	</tr>
 	                      		    	{% for data in lc_child %}
 	                      		    	<tr class="selectable" onclick="window.document.location='?page=avalcheforecast&code={{data.code}}';">
-	                      		    		<td>{{ data.na_en }}</td>
+	                      		    		<td>{% trans data.na_en %}</td>
 	                      		    		<td>{{ data.ava_forecast_high_pop }}</td>
 	                      		    		<td>{{ data.ava_forecast_med_pop }}</td>
 	                      		    		<td>{{ data.ava_forecast_low_pop }}</td>
@@ -232,7 +232,7 @@
 	                      		    </thead>
 	                      		    <tbody>
 	                      		    	<tr>
-	                      		    		<td class="boldRow">{{parent_label}}</td>
+	                      		    		<td class="boldRow">{% trans parent_label %}</td>
 	                      		    		<td class="boldRow">{{ava_forecast_high_pop}}</td>
 	                      		    		<td class="boldRow">{{ava_forecast_med_pop}}</td>
 	                      		    		<td class="boldRow">{{ava_forecast_low_pop}}</td>
@@ -240,7 +240,7 @@
 	                      		    	</tr>
 	                      		    	{% for data in lc_child %}
 	                      		    	<tr class="selectable" onclick="window.document.location='?page=avalcheforecast&code={{data.code}}';">
-	                      		    		<td>{{ data.na_en }}</td>
+	                      		    		<td>{% trans data.na_en %}</td>
 	                      		    		<td>{{ data.ava_forecast_high_pop }}</td>
 	                      		    		<td>{{ data.ava_forecast_med_pop }}</td>
 	                      		    		<td>{{ data.ava_forecast_low_pop }}</td>

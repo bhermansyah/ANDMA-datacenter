@@ -576,7 +576,7 @@
 	                      		    </thead>
 	                      		    <tbody>
 	                      		    	<tr>
-	                      		    		<td class=" boldRow">{{parent_label}}</td>
+	                      		    		<td class=" boldRow">{% trans parent_label %}</td>
 	                      		    		<td class="weak boldRow">{{pop_shake_weak}} </td>
 	                      		    		<td class="weak boldRow">{{settlement_shake_weak}}</td>
 	                      		    		<td class="light boldRow">{{pop_shake_light}}</td>
@@ -596,7 +596,7 @@
 	                      		    	</tr>
 	                      		    	{% for data in lc_child %}
 	                      		    	<tr class="selectable" onclick="window.document.location='?page=earthquake&code={{data.code}}{{ eq_link }}';">
-	                      		    		<td>{{data.na_en}}</td>
+	                      		    		<td>{% trans data.na_en %}</td>
 	                      		    		<td class="weak">{{data.pop_shake_weak}} </td>
 	                      		    		<td class="weak">{{data.settlement_shake_weak}}</td>
 	                      		    		<td class="light">{{data.pop_shake_light}}</td>
@@ -653,7 +653,7 @@
 	                      		    </thead>
 	                      		    <tbody>
 	                      		    	<tr>
-	                      		    		<td class=" boldRow">{{parent_label}}</td>
+	                      		    		<td class=" boldRow">{% trans parent_label %}</td>
 	                      		    		<td class="weak boldRow">{{pop_shake_weak}} </td>
 	                      		    		<td class="weak boldRow">{{settlement_shake_weak}}</td>
 	                      		    		<td class="light boldRow">{{pop_shake_light}}</td>
@@ -673,7 +673,7 @@
 	                      		    	</tr>
 	                      		    	{% for data in lc_child %}
 	                      		    	<tr class="selectable" onclick="window.document.location='?page=earthquake&code={{data.code}}{{ eq_link }}';">
-	                      		    		<td>{{data.na_en}}</td>
+	                      		    		<td>{% trans data.na_en %}</td>
 	                      		    		<td class="weak">{{data.pop_shake_weak}} </td>
 	                      		    		<td class="weak">{{data.settlement_shake_weak}}</td>
 	                      		    		<td class="light">{{data.pop_shake_light}}</td>

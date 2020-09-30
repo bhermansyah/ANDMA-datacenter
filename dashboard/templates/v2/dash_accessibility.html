@@ -602,14 +602,14 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow">{{pop_on_gsm_coverage}}</td>
                                             <td class="boldRow">{{buildings_on_gsm_coverage}}</td>
                                             <td class="boldRow">{{area_on_gsm_coverage}}</td>
                                         </tr>
                                         {% for data in gsm_child %}
                                         <tr class="selectable" onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td>{{data.pop}}</td>
                                             <td>{{data.buildings}}</td>
                                             <td>{{data.area}}</td>
@@ -633,14 +633,14 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow">{{pop_on_gsm_coverage}}</td>
                                             <td class="boldRow">{{buildings_on_gsm_coverage}}</td>
                                             <td class="boldRow">{{area_on_gsm_coverage}}</td>
                                         </tr>
                                         {% for data in gsm_child %}
                                         <tr class="selectable" onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td>{{data.pop}}</td>
                                             <td>{{data.buildings}}</td>
                                             <td>{{data.area}}</td>
@@ -725,7 +725,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_airp}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_airp}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_airp}}</td>
@@ -738,7 +738,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr class="selectable" onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_airp}}</td>
                                             <td class="l2h">{{data.l2_h__near_airp}}</td>
                                             <td class="l3h">{{data.l3_h__near_airp}}</td>
@@ -774,7 +774,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_airp}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_airp}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_airp}}</td>
@@ -787,7 +787,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_airp}}</td>
                                             <td class="l2h">{{data.l2_h__near_airp}}</td>
                                             <td class="l3h">{{data.l3_h__near_airp}}</td>
@@ -863,7 +863,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_hlt1}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_hlt1}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_hlt1}}</td>
@@ -876,7 +876,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr class="selectable" onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_hlt1}}</td>
                                             <td class="l2h">{{data.l2_h__near_hlt1}}</td>
                                             <td class="l3h">{{data.l3_h__near_hlt1}}</td>
@@ -912,7 +912,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_hlt1}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_hlt1}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_hlt1}}</td>
@@ -925,7 +925,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr class="selectable" onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_hlt1}}</td>
                                             <td class="l2h">{{data.l2_h__near_hlt1}}</td>
                                             <td class="l3h">{{data.l3_h__near_hlt1}}</td>
@@ -1001,7 +1001,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_hlt2}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_hlt2}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_hlt2}}</td>
@@ -1014,7 +1014,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr class="selectable" onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_hlt2}}</td>
                                             <td class="l2h">{{data.l2_h__near_hlt2}}</td>
                                             <td class="l3h">{{data.l3_h__near_hlt2}}</td>
@@ -1050,7 +1050,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_hlt2}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_hlt2}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_hlt2}}</td>
@@ -1063,7 +1063,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_hlt2}}</td>
                                             <td class="l2h">{{data.l2_h__near_hlt2}}</td>
                                             <td class="l3h">{{data.l3_h__near_hlt2}}</td>
@@ -1139,7 +1139,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_hlt3}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_hlt3}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_hlt3}}</td>
@@ -1152,7 +1152,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr class="selectable" onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_hlt3}}</td>
                                             <td class="l2h">{{data.l2_h__near_hlt3}}</td>
                                             <td class="l3h">{{data.l3_h__near_hlt3}}</td>
@@ -1188,7 +1188,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_hlt3}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_hlt3}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_hlt3}}</td>
@@ -1201,7 +1201,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_hlt3}}</td>
                                             <td class="l2h">{{data.l2_h__near_hlt3}}</td>
                                             <td class="l3h">{{data.l3_h__near_hlt3}}</td>
@@ -1277,7 +1277,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_hltall}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_hltall}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_hltall}}</td>
@@ -1290,7 +1290,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr class="selectable" onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_hltall}}</td>
                                             <td class="l2h">{{data.l2_h__near_hltall}}</td>
                                             <td class="l3h">{{data.l3_h__near_hltall}}</td>
@@ -1326,7 +1326,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_hltall}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_hltall}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_hltall}}</td>
@@ -1339,7 +1339,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_hltall}}</td>
                                             <td class="l2h">{{data.l2_h__near_hltall}}</td>
                                             <td class="l3h">{{data.l3_h__near_hltall}}</td>
@@ -1415,7 +1415,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__itsx_prov}}</td>
                                             <td class="boldRow l2h">{{l2_h__itsx_prov}}</td>
                                             <td class="boldRow l3h">{{l3_h__itsx_prov}}</td>
@@ -1428,7 +1428,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr class="selectable" onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__itsx_prov}}</td>
                                             <td class="l2h">{{data.l2_h__itsx_prov}}</td>
                                             <td class="l3h">{{data.l3_h__itsx_prov}}</td>
@@ -1464,7 +1464,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__itsx_prov}}</td>
                                             <td class="boldRow l2h">{{l2_h__itsx_prov}}</td>
                                             <td class="boldRow l3h">{{l3_h__itsx_prov}}</td>
@@ -1477,7 +1477,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__itsx_prov}}</td>
                                             <td class="l2h">{{data.l2_h__itsx_prov}}</td>
                                             <td class="l3h">{{data.l3_h__itsx_prov}}</td>
@@ -1553,7 +1553,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_prov}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_prov}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_prov}}</td>
@@ -1566,7 +1566,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr class="selectable" onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_prov}}</td>
                                             <td class="l2h">{{data.l2_h__near_prov}}</td>
                                             <td class="l3h">{{data.l3_h__near_prov}}</td>
@@ -1602,7 +1602,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label  %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_prov}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_prov}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_prov}}</td>
@@ -1615,7 +1615,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_prov}}</td>
                                             <td class="l2h">{{data.l2_h__near_prov}}</td>
                                             <td class="l3h">{{data.l3_h__near_prov}}</td>
@@ -1689,7 +1689,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_dist}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_dist}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_dist}}</td>
@@ -1702,7 +1702,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr class="selectable" onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_dist}}</td>
                                             <td class="l2h">{{data.l2_h__near_dist}}</td>
                                             <td class="l3h">{{data.l3_h__near_dist}}</td>
@@ -1738,7 +1738,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="boldRow">{{parent_label}}</td>
+                                            <td class="boldRow">{% trans parent_label %}</td>
                                             <td class="boldRow l1h">{{l1_h__near_dist}}</td>
                                             <td class="boldRow l2h">{{l2_h__near_dist}}</td>
                                             <td class="boldRow l3h">{{l3_h__near_dist}}</td>
@@ -1751,7 +1751,7 @@
                                         </tr>
                                         {% for data in lc_child %}
                                         <tr onclick="window.document.location='?page=accessibility&code={{data.code}}';">
-                                            <td>{{data.na_en}}</td>
+                                            <td>{% trans data.na_en %}</td>
                                             <td class="l1h">{{data.l1_h__near_dist}}</td>
                                             <td class="l2h">{{data.l2_h__near_dist}}</td>
                                             <td class="l3h">{{data.l3_h__near_dist}}</td>

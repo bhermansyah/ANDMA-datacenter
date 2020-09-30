@@ -234,7 +234,7 @@
 	                      		    </thead>
 	                      		    <tbody>
 	                      		    	<tr>
-	                      		    		<td class="boldRow">{{parent_label}}</td>
+	                      		    		<td class="boldRow">{% trans parent_label %}</td>
 	                      		    		<td class="boldRow">{{total_risk_buildings}}</td>
 	                      		    		<td class="boldRow">{{settlement_at_floodrisk}}</td>
 	                      		    		<td class="boldRow">{{built_up_pop_risk}}</td>
@@ -248,7 +248,7 @@
 	                      		    	</tr>
 	                      		    	{% for data in lc_child %}
 	                      		    	<tr class="selectable" onclick="window.document.location='?page=floodrisk&code={{data.code}}';">
-	                      		    		<td>{{data.na_en}}</td>
+	                      		    		<td>{% trans data.na_en %}</td>
 	                      		    		<td>{{data.total_risk_buildings}}</td>
 	                      		    		<td>{{ data.settlements_at_risk }}</td>
 	                      		    		<td>{{ data.built_up_pop_risk }}</td>
@@ -293,7 +293,7 @@
 	                      		    </thead>
 	                      		    <tbody>
 	                      		    	<tr>
-	                      		    		<td class="boldRow">{{parent_label}}</td>
+	                      		    		<td class="boldRow">{% trans parent_label %}</td>
 	                      		    		<td class="boldRow">{{total_risk_buildings}}</td>
 	                      		    		<td class="boldRow">{{settlement_at_floodrisk}}</td>
 	                      		    		<td class="boldRow">{{built_up_pop_risk}}</td>
@@ -307,7 +307,7 @@
 	                      		    	</tr>
 	                      		    	{% for data in lc_child %}
 	                      		    	<tr class="selectable" onclick="window.document.location='?page=floodrisk&code={{data.code}}';">
-	                      		    		<td>{{data.na_en}}</td>
+	                      		    		<td>{% trans data.na_en %}</td>
 	                      		    		<td>{{data.total_risk_buildings}}</td>
 	                      		    		<td>{{ data.settlements_at_risk }}</td>
 	                      		    		<td>{{ data.built_up_pop_risk }}</td>
