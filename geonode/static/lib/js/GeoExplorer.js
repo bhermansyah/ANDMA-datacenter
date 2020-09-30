@@ -51115,7 +51115,7 @@ gxp.Viewer = Ext.extend(Ext.util.Observable, {
     initGWCAvalaible : function(){
         var conn = new Ext.data.Connection;
         conn.request({
-          url: getServerUrl() + 'geoserver/gwc/rest/layers', //'/static/gwclayers.xml',
+          url: getServerUrl() + '/static/gwclayers.xml',
           scope:this,
           callback: function(options, success, response)
           {
