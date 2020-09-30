@@ -19,6 +19,15 @@ msgstr ""
 msgid "Password again"
 msgstr ""
 
+msgid "Afghanistan"
+msgstr ""
+
+msgid "Select province"
+msgstr ""
+
+msgid "Select district"
+msgstr ""
+
 msgid "publication"
 msgstr ""
 

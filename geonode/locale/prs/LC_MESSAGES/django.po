@@ -8742,1298 +8742,1299 @@ msgstr ""
 #~ "سازی هایدرولیکی از ارقام DEM با وضاحت بالا ایجاد شده، برای اطلاعات بیشتر "
 #~ "در میتودولوژی، با NC3A Geo تماس بگیرید.\n"
 
-#~ msgid "publication"
-#~ msgstr "نشریه"
 
-#~ msgid "Badakhshan"
-#~ msgstr "بدخشان"
+  msgid "publication"
+  msgstr "نشریه"
 
-#~ msgid "Uruzgan"
-#~ msgstr "اوروزگان"
+  msgid "Badakhshan"
+  msgstr "بدخشان"
 
-#~ msgid "Badghis"
-#~ msgstr "بادغيس "
+  msgid "Uruzgan"
+  msgstr "اوروزگان"
 
-#~ msgid "Baghlan"
-#~ msgstr "بغلان "
+  msgid "Badghis"
+  msgstr "بادغيس "
 
-#~ msgid "Balkh"
-#~ msgstr "بلخ "
+  msgid "Baghlan"
+  msgstr "بغلان "
 
-#~ msgid "Bamyan"
-#~ msgstr "باميان "
+  msgid "Balkh"
+  msgstr "بلخ "
 
-#~ msgid "Takhar"
-#~ msgstr "تخار "
+  msgid "Bamyan"
+  msgstr "باميان "
 
-#~ msgid "Jawzjan"
-#~ msgstr "جوزجان "
+  msgid "Takhar"
+  msgstr "تخار "
 
-#~ msgid "Khost"
-#~ msgstr "خوست "
+  msgid "Jawzjan"
+  msgstr "جوزجان "
 
-#~ msgid "Daykundi"
-#~ msgstr "دايکندي "
+  msgid "Khost"
+  msgstr "خوست "
 
-#~ msgid "Zabul"
-#~ msgstr "زابل "
+  msgid "Daykundi"
+  msgstr "دايکندي "
 
-#~ msgid "Sar-e-Pul"
-#~ msgstr "سرپل"
+  msgid "Zabul"
+  msgstr "زابل "
 
-#~ msgid "Samangan"
-#~ msgstr "سمنگان "
+  msgid "Sar-e-Pul"
+  msgstr "سرپل"
 
-#~ msgid "Ghazni"
-#~ msgstr "غزنى "
+  msgid "Samangan"
+  msgstr "سمنگان "
 
-#~ msgid "Ghor"
-#~ msgstr "غور"
+  msgid "Ghazni"
+  msgstr "غزنى "
 
-#~ msgid "Farah"
-#~ msgstr "فراه "
+  msgid "Ghor"
+  msgstr "غور"
 
-#~ msgid "Faryab"
-#~ msgstr "فارياب "
+  msgid "Farah"
+  msgstr "فراه "
 
-#~ msgid "Paktya"
-#~ msgstr "پکتيا "
+  msgid "Faryab"
+  msgstr "فارياب "
 
-#~ msgid "Paktika"
-#~ msgstr "پکتيکا "
+  msgid "Paktya"
+  msgstr "پکتيا "
 
-#~ msgid "Panjsher"
-#~ msgstr "پنجشير "
+  msgid "Paktika"
+  msgstr "پکتيکا "
 
-#~ msgid "Parwan"
-#~ msgstr "پروان "
+  msgid "Panjsher"
+  msgstr "پنجشير "
 
-#~ msgid "Kabul"
-#~ msgstr "کابل "
+  msgid "Parwan"
+  msgstr "پروان "
 
-#~ msgid "Kandahar"
-#~ msgstr "کندهار "
+  msgid "Kabul"
+  msgstr "کابل "
 
-#~ msgid "Kapisa"
-#~ msgstr "کاپيسا "
+  msgid "Kandahar"
+  msgstr "کندهار "
 
-#~ msgid "Kunar"
-#~ msgstr "کونړ "
+  msgid "Kapisa"
+  msgstr "کاپيسا "
 
-#~ msgid "Kunduz"
-#~ msgstr "کندز "
+  msgid "Kunar"
+  msgstr "کونړ "
 
-#~ msgid "Laghman"
-#~ msgstr "لغمان "
+  msgid "Kunduz"
+  msgstr "کندز "
 
-#~ msgid "Logar"
-#~ msgstr "لوگر "
+  msgid "Laghman"
+  msgstr "لغمان "
 
-#~ msgid "Nangarhar"
-#~ msgstr "ننگرهار "
+  msgid "Logar"
+  msgstr "لوگر "
 
-#~ msgid "Nuristan"
-#~ msgstr "نورستان "
+  msgid "Nangarhar"
+  msgstr "ننگرهار "
 
-#~ msgid "Nimroz"
-#~ msgstr "نيمروز "
+  msgid "Nuristan"
+  msgstr "نورستان "
 
-#~ msgid "Wardak"
-#~ msgstr "وردګ "
+  msgid "Nimroz"
+  msgstr "نيمروز "
 
-#~ msgid "Hirat"
-#~ msgstr "هرات "
+  msgid "Wardak"
+  msgstr "وردګ "
 
-#~ msgid "Hilmand"
-#~ msgstr "هلمند "
+  msgid "Hirat"
+  msgstr "هرات "
 
-#~ msgid "Temporal extent start"
-#~ msgstr "گستره زمانی شروع می شود"
+  msgid "Hilmand"
+  msgstr "هلمند "
+
+  msgid "Temporal extent start"
+  msgstr "گستره زمانی شروع می شود"
 
 # Distric from Badakhshan
-#~ msgid "Arghanjkhwa"
-#~ msgstr "ارغنچخواه"
+  msgid "Arghanjkhwa"
+  msgstr "ارغنچخواه"
 
-#~ msgid "Argo"
-#~ msgstr "ارگو"
+  msgid "Argo"
+  msgstr "ارگو"
 
-#~ msgid "Baharak"
-#~ msgstr "بهارک"
+  msgid "Baharak"
+  msgstr "بهارک"
 
-#~ msgid "Darayem"
-#~ msgstr "درایم"
+  msgid "Darayem"
+  msgstr "درایم"
 
-#~ msgid "Darwaz"
-#~ msgstr "درواز"
+  msgid "Darwaz"
+  msgstr "درواز"
 
-#~ msgid "Darwaz-e-Balla"
-#~ msgstr "درواز بالا"
+  msgid "Darwaz-e-Balla"
+  msgstr "درواز بالا"
 
-#~ msgid "Eshkmesh"
-#~ msgstr "اشکاشم"
+  msgid "Eshkmesh"
+  msgstr "اشکاشم"
 
-#~ msgid "Jorm"
-#~ msgstr "جرم"
+  msgid "Jorm"
+  msgstr "جرم"
 
-#~ msgid "Keshem"
-#~ msgstr "کشم"
+  msgid "Keshem"
+  msgstr "کشم"
 
-#~ msgid "Khash"
-#~ msgstr "خاش"
+  msgid "Khash"
+  msgstr "خاش"
 
-#~ msgid "Khwahan"
-#~ msgstr "خواهان"
+  msgid "Khwahan"
+  msgstr "خواهان"
 
-#~ msgid "Kofab"
-#~ msgstr "کوف آب"
+  msgid "Kofab"
+  msgstr "کوف آب"
 
-#~ msgid "Kohestan"
-#~ msgstr "کوهستان"
+  msgid "Kohestan"
+  msgstr "کوهستان"
 
-#~ msgid "Koran wa Monjan"
-#~ msgstr "کران ومنجان"
+  msgid "Koran wa Monjan"
+  msgstr "کران ومنجان"
 
-#~ msgid "Raghestan"
-#~ msgstr "راغستان"
+  msgid "Raghestan"
+  msgstr "راغستان"
 
-#~ msgid "Shahr-e-Buzorg"
-#~ msgstr "شهر بزرگ"
+  msgid "Shahr-e-Buzorg"
+  msgstr "شهر بزرگ"
 
-#~ msgid "Shaki"
-#~ msgstr "شکی"
+  msgid "Shaki"
+  msgstr "شکی"
 
-#~ msgid "Shighnan"
-#~ msgstr "شغنان"
+  msgid "Shighnan"
+  msgstr "شغنان"
 
-#~ msgid "Shuhada"
-#~ msgstr "شهدا"
+  msgid "Shuhada"
+  msgstr "شهدا"
 
-#~ msgid "Tagab"
-#~ msgstr "تگاب"
+  msgid "Tagab"
+  msgstr "تگاب"
 
-#~ msgid "Teshkan"
-#~ msgstr "تشکان"
+  msgid "Teshkan"
+  msgstr "تشکان"
 
-#~ msgid "Wakhan"
-#~ msgstr "واخان"
+  msgid "Wakhan"
+  msgstr "واخان"
 
-#~ msgid "Warduj"
-#~ msgstr "وردوج"
+  msgid "Warduj"
+  msgstr "وردوج"
 
-#~ msgid "Yaftal-e-Sufla"
-#~ msgstr "یفتل سفلی"
+  msgid "Yaftal-e-Sufla"
+  msgstr "یفتل سفلی"
 
-#~ msgid "Yamgan"
-#~ msgstr "یمگان"
+  msgid "Yamgan"
+  msgstr "یمگان"
 
-#~ msgid "Yawan"
-#~ msgstr "یاوان"
+  msgid "Yawan"
+  msgstr "یاوان"
 
-#~ msgid "Zebak"
-#~ msgstr "زیباک"
+  msgid "Zebak"
+  msgstr "زیباک"
 
 # Distric Badghis
-#~ msgid "Qadis"
-#~ msgstr "قادیس"
+  msgid "Qadis"
+  msgstr "قادیس"
 
-#~ msgid "Muqur"
-#~ msgstr "مقر"
+  msgid "Muqur"
+  msgstr "مقر"
 
-#~ msgid "Abkamari"
-#~ msgstr "آب کمری"
+  msgid "Abkamari"
+  msgstr "آب کمری"
 
-#~ msgid "Jawand"
-#~ msgstr "جوند"
+  msgid "Jawand"
+  msgstr "جوند"
 
-#~ msgid "Balamurghab"
-#~ msgstr "بالا مرغاب"
+  msgid "Balamurghab"
+  msgstr "بالا مرغاب"
 
-#~ msgid "Ghormach"
-#~ msgstr "غورماچ"
+  msgid "Ghormach"
+  msgstr "غورماچ"
 
-#~ msgid "Qala-e-Naw"
-#~ msgstr "قلعه نو"
+  msgid "Qala-e-Naw"
+  msgstr "قلعه نو"
 
 # Distric Baghlan
-#~ msgid "Andarab"
-#~ msgstr "اندراب"
+  msgid "Andarab"
+  msgstr "اندراب"
 
-#~ msgid "Baghlan-e-Jadid"
-#~ msgstr "بغلان جدید"
+  msgid "Baghlan-e-Jadid"
+  msgstr "بغلان جدید"
 
-#~ msgid "Burka"
-#~ msgstr "بورکه"
+  msgid "Burka"
+  msgstr "بورکه"
 
-#~ msgid "Dahana-e-Ghori"
-#~ msgstr "دهنۀ غوری"
+  msgid "Dahana-e-Ghori"
+  msgstr "دهنۀ غوری"
 
-#~ msgid "Dehsalah"
-#~ msgstr "ده صلاح"
+  msgid "Dehsalah"
+  msgstr "ده صلاح"
 
-#~ msgid "Doshi"
-#~ msgstr "دوشی"
+  msgid "Doshi"
+  msgstr "دوشی"
 
-#~ msgid "Fereng Wa Gharu"
-#~ msgstr "فرنگ وغارو"
+  msgid "Fereng Wa Gharu"
+  msgstr "فرنگ وغارو"
 
-#~ msgid "Guzargah-e- Nur"
-#~ msgstr "گذرگاه نور"
+  msgid "Guzargah-e- Nur"
+  msgstr "گذرگاه نور"
 
-#~ msgid "Khenjan"
-#~ msgstr "خنجان"
+  msgid "Khenjan"
+  msgstr "خنجان"
 
-#~ msgid "Khost Wa Fereng"
-#~ msgstr "خوست و فرنگ"
+  msgid "Khost Wa Fereng"
+  msgstr "خوست و فرنگ"
 
-#~ msgid "Khwajahejran"
-#~ msgstr "خواجه هجران"
+  msgid "Khwajahejran"
+  msgstr "خواجه هجران"
 
-#~ msgid "Nahrin"
-#~ msgstr "نهرین"
+  msgid "Nahrin"
+  msgstr "نهرین"
 
-#~ msgid "Pul-e-Hesar"
-#~ msgstr "پل حصار"
+  msgid "Pul-e-Hesar"
+  msgstr "پل حصار"
 
-#~ msgid "Pul-e- khumri"
-#~ msgstr "پلخمری"
+  msgid "Pul-e- khumri"
+  msgstr "پلخمری"
 
-#~ msgid "Tala Wa barfak"
-#~ msgstr "تاله وبرفک"
+  msgid "Tala Wa barfak"
+  msgstr "تاله وبرفک"
 
 # Distric Balkh
-#~ msgid "Charbulak"
-#~ msgstr "چار بولک"
+  msgid "Charbulak"
+  msgstr "چار بولک"
 
-#~ msgid "Charkent"
-#~ msgstr "چار کنت"
+  msgid "Charkent"
+  msgstr "چار کنت"
 
-#~ msgid "Chemtal"
-#~ msgstr "چمتال"
+  msgid "Chemtal"
+  msgstr "چمتال"
 
-#~ msgid "Dawlatabad"
-#~ msgstr "دولت آباد"
+  msgid "Dawlatabad"
+  msgstr "دولت آباد"
 
-#~ msgid "Dehdadi"
-#~ msgstr "دهدادی"
+  msgid "Dehdadi"
+  msgstr "دهدادی"
 
-#~ msgid "Kaldar"
-#~ msgstr "کلدار"
+  msgid "Kaldar"
+  msgstr "کلدار"
 
-#~ msgid "Keshendeh"
-#~ msgstr "کشنده"
+  msgid "Keshendeh"
+  msgstr "کشنده"
 
-#~ msgid "Khulm"
-#~ msgstr "خلم"
+  msgid "Khulm"
+  msgstr "خلم"
 
-#~ msgid "Marmul"
-#~ msgstr "مارمُل"
+  msgid "Marmul"
+  msgstr "مارمُل"
 
-#~ msgid "Mazar-e-Sharif"
-#~ msgstr "مزار شریف"
+  msgid "Mazar-e-Sharif"
+  msgstr "مزار شریف"
 
-#~ msgid "Nahr-e- Shahi"
-#~ msgstr "نهر شاهی"
+  msgid "Nahr-e- Shahi"
+  msgstr "نهر شاهی"
 
-#~ msgid "Sharak-e-Hayratan"
-#~ msgstr "شهرک حیرتان"
+  msgid "Sharak-e-Hayratan"
+  msgstr "شهرک حیرتان"
 
-#~ msgid "Sholgareh"
-#~ msgstr "شولگره"
+  msgid "Sholgareh"
+  msgstr "شولگره"
 
-#~ msgid "Shortepa"
-#~ msgstr "شور تیپه"
+  msgid "Shortepa"
+  msgstr "شور تیپه"
 
-#~ msgid "Zari"
-#~ msgstr "زاری"
+  msgid "Zari"
+  msgstr "زاری"
 
 # Distric Bamyan
-#~ msgid "Shibar"
-#~ msgstr "شیبر"
+  msgid "Shibar"
+  msgstr "شیبر"
 
-#~ msgid "Panjab"
-#~ msgstr "پنجاب"
+  msgid "Panjab"
+  msgstr "پنجاب"
 
-#~ msgid "Waras"
-#~ msgstr "ورث"
+  msgid "Waras"
+  msgstr "ورث"
 
-#~ msgid "Sayghan"
-#~ msgstr "سیغان"
+  msgid "Sayghan"
+  msgstr "سیغان"
 
-#~ msgid "Kahmard"
-#~ msgstr "کهمرد"
+  msgid "Kahmard"
+  msgstr "کهمرد"
 
-#~ msgid "Yakawlang"
-#~ msgstr "یکاولنگ"
+  msgid "Yakawlang"
+  msgstr "یکاولنگ"
 
 # Distric Daykundi
-#~ msgid "Shahrestan"
-#~ msgstr "شهرستان"
+  msgid "Shahrestan"
+  msgstr "شهرستان"
 
-#~ msgid "Ashtarlay"
-#~ msgstr "اشترلی"
+  msgid "Ashtarlay"
+  msgstr "اشترلی"
 
-#~ msgid "kiti"
-#~ msgstr "کیتی"
+  msgid "kiti"
+  msgstr "کیتی"
 
-#~ msgid "Patoo"
-#~ msgstr "پاتو"
+  msgid "Patoo"
+  msgstr "پاتو"
 
-#~ msgid "Miramor"
-#~ msgstr "میرامور"
+  msgid "Miramor"
+  msgstr "میرامور"
 
-#~ msgid "Nili"
-#~ msgstr "نیلی"
+  msgid "Nili"
+  msgstr "نیلی"
 
-#~ msgid "Khadir"
-#~ msgstr "خدیر"
+  msgid "Khadir"
+  msgstr "خدیر"
 
-#~ msgid "Sang-e-Takht"
-#~ msgstr "سنگ تخت"
+  msgid "Sang-e-Takht"
+  msgstr "سنگ تخت"
 
-#~ msgid "Kajran"
-#~ msgstr "کجران"
+  msgid "Kajran"
+  msgstr "کجران"
 
-#~ msgid "Gizab"
-#~ msgstr "گیزاب"
+  msgid "Gizab"
+  msgstr "گیزاب"
 
 # Distric Farah
-#~ msgid "Anardara"
-#~ msgstr "انار دره"
+  msgid "Anardara"
+  msgstr "انار دره"
 
-#~ msgid "Bakwa"
-#~ msgstr "بکواه"
+  msgid "Bakwa"
+  msgstr "بکواه"
 
-#~ msgid "Balabuluk"
-#~ msgstr "بالا بلوک"
+  msgid "Balabuluk"
+  msgstr "بالا بلوک"
 
-#~ msgid "Gulestan"
-#~ msgstr "گلستان"
+  msgid "Gulestan"
+  msgstr "گلستان"
 
-#~ msgid "Khak-e-Safed"
-#~ msgstr "خاک سفید"
+  msgid "Khak-e-Safed"
+  msgstr "خاک سفید"
 
-#~ msgid "Lash-e-Juwayn"
-#~ msgstr "لاش جوین"
+  msgid "Lash-e-Juwayn"
+  msgstr "لاش جوین"
 
-#~ msgid "Purchaman"
-#~ msgstr "پُرچمن"
+  msgid "Purchaman"
+  msgstr "پُرچمن"
 
-#~ msgid "Pushtrod"
-#~ msgstr "پشترود"
+  msgid "Pushtrod"
+  msgstr "پشترود"
 
-#~ msgid "Qala-e-Kah"
-#~ msgstr "قلعه کاه"
+  msgid "Qala-e-Kah"
+  msgstr "قلعه کاه"
 
-#~ msgid "Shibkoh"
-#~ msgstr "شیب کوه"
+  msgid "Shibkoh"
+  msgstr "شیب کوه"
 
 # Distric Farayab
-#~ msgid "Almar"
-#~ msgstr "المار"
+  msgid "Almar"
+  msgstr "المار"
 
-#~ msgid "Andkhoy"
-#~ msgstr "اندخوی"
+  msgid "Andkhoy"
+  msgstr "اندخوی"
 
-#~ msgid "Bilcheragh"
-#~ msgstr "بلچراغ"
+  msgid "Bilcheragh"
+  msgstr "بلچراغ"
 
-#~ msgid "Dawlat Abad"
-#~ msgstr "دولت آباد"
+  msgid "Dawlat Abad"
+  msgstr "دولت آباد"
 
-#~ msgid "Garziwan"
-#~ msgstr "گرزیوان"
+  msgid "Garziwan"
+  msgstr "گرزیوان"
 
-#~ msgid "Khan-e-Char Bagh"
-#~ msgstr "خان چارباغ"
+  msgid "Khan-e-Char Bagh"
+  msgstr "خان چارباغ"
 
-#~ msgid "Khwajasabzposh"
-#~ msgstr "خواجه سبزپوش"
+  msgid "Khwajasabzposh"
+  msgstr "خواجه سبزپوش"
 
-#~ msgid "Kohistan"
-#~ msgstr "کوهستان"
+  msgid "Kohistan"
+  msgstr "کوهستان"
 
-#~ msgid "Maymana"
-#~ msgstr "میمنه"
+  msgid "Maymana"
+  msgstr "میمنه"
 
-#~ msgid "Pashtunkot"
-#~ msgstr "پشتون کوټ"
+  msgid "Pashtunkot"
+  msgstr "پشتون کوټ"
 
-#~ msgid "Qaramqol"
-#~ msgstr "قرم قل"
+  msgid "Qaramqol"
+  msgstr "قرم قل"
 
-#~ msgid "Qaysar"
-#~ msgstr "قیصار"
+  msgid "Qaysar"
+  msgstr "قیصار"
 
-#~ msgid "Qorghan"
-#~ msgstr "قرغان"
+  msgid "Qorghan"
+  msgstr "قرغان"
 
-#~ msgid "Shirintagab"
-#~ msgstr "شیرین تگاب"
+  msgid "Shirintagab"
+  msgstr "شیرین تگاب"
 
 # Distric Ghazni
-#~ msgid "Abband"
-#~ msgstr "آب بند"
+  msgid "Abband"
+  msgstr "آب بند"
 
-#~ msgid "Ajrestan"
-#~ msgstr "اجرستان"
+  msgid "Ajrestan"
+  msgstr "اجرستان"
 
-#~ msgid "Andar"
-#~ msgstr "اندړ"
+  msgid "Andar"
+  msgstr "اندړ"
 
-#~ msgid "Dehyak"
-#~ msgstr "ده یک"
+  msgid "Dehyak"
+  msgstr "ده یک"
 
-#~ msgid "Gelan"
-#~ msgstr "گیلان"
+  msgid "Gelan"
+  msgstr "گیلان"
 
-#~ msgid "Giro"
-#~ msgstr "گیرو"
+  msgid "Giro"
+  msgstr "گیرو"
 
-#~ msgid "Jaghatu"
-#~ msgstr "جغتو"
+  msgid "Jaghatu"
+  msgstr "جغتو"
 
-#~ msgid "Jaghuri"
-#~ msgstr "جاغوری"
+  msgid "Jaghuri"
+  msgstr "جاغوری"
 
-#~ msgid "Khwajaumari"
-#~ msgstr "خواجه عمری"
+  msgid "Khwajaumari"
+  msgstr "خواجه عمری"
 
-#~ msgid "Malestan"
-#~ msgstr "مالستان"
+  msgid "Malestan"
+  msgstr "مالستان"
 
-#~ msgid "Nawa"
-#~ msgstr "ناوه"
+  msgid "Nawa"
+  msgstr "ناوه"
 
-#~ msgid "Nawur"
-#~ msgstr "ناور"
+  msgid "Nawur"
+  msgstr "ناور"
 
-#~ msgid "Qarabagh"
-#~ msgstr "قره باغ"
+  msgid "Qarabagh"
+  msgstr "قره باغ"
 
-#~ msgid "Rashidan"
-#~ msgstr "رشیدان"
+  msgid "Rashidan"
+  msgstr "رشیدان"
 
-#~ msgid "Waghaz"
-#~ msgstr "واغظ"
+  msgid "Waghaz"
+  msgstr "واغظ"
 
-#~ msgid "Walimuhammad-e- Shahid"
-#~ msgstr "ولی محمد شهید"
+  msgid "Walimuhammad-e- Shahid"
+  msgstr "ولی محمد شهید"
 
-#~ msgid "Zanakhan"
-#~ msgstr "زنه خان"
+  msgid "Zanakhan"
+  msgstr "زنه خان"
 
 # Distric  Ghor
-#~ msgid "Chaghcharan"
-#~ msgstr "چغچاران"
+  msgid "Chaghcharan"
+  msgstr "چغچاران"
 
-#~ msgid "Charsadra"
-#~ msgstr "چار صد ره"
+  msgid "Charsadra"
+  msgstr "چار صد ره"
 
-#~ msgid "Dawlatyar"
-#~ msgstr "دولت یار"
+  msgid "Dawlatyar"
+  msgstr "دولت یار"
 
-#~ msgid "DoLayna"
-#~ msgstr "دو لینه"
+  msgid "DoLayna"
+  msgstr "دو لینه"
 
-#~ msgid "Feroz Koh"
-#~ msgstr "فیروزکوه"
+  msgid "Feroz Koh"
+  msgstr "فیروزکوه"
 
-#~ msgid "Lal Wa Sarjangal"
-#~ msgstr "لعل و سرجنگل"
+  msgid "Lal Wa Sarjangal"
+  msgstr "لعل و سرجنگل"
 
-#~ msgid "Pasaband"
-#~ msgstr "پسابند"
+  msgid "Pasaband"
+  msgstr "پسابند"
 
-#~ msgid "Saghar"
-#~ msgstr "ساغر"
+  msgid "Saghar"
+  msgstr "ساغر"
 
-#~ msgid "Shahrak"
-#~ msgstr "شهرک"
+  msgid "Shahrak"
+  msgstr "شهرک"
 
-#~ msgid "Taywarah"
-#~ msgstr "تیوره"
+  msgid "Taywarah"
+  msgstr "تیوره"
 
-#~ msgid "Tolak"
-#~ msgstr "تولک"
+  msgid "Tolak"
+  msgstr "تولک"
 
 # Distric Hilmand
-#~ msgid "Baghran"
-#~ msgstr "باغران "
+  msgid "Baghran"
+  msgstr "باغران "
 
-#~ msgid "Deh-e-shu"
-#~ msgstr "دیشو"
+  msgid "Deh-e-shu"
+  msgstr "دیشو"
 
-#~ msgid "Garmser"
-#~ msgstr "گرم سیر"
+  msgid "Garmser"
+  msgstr "گرم سیر"
 
-#~ msgid "Kajaki"
-#~ msgstr "کجکی"
+  msgid "Kajaki"
+  msgstr "کجکی"
 
-#~ msgid "Lashkargah"
-#~ msgstr "لشکرگاه"
+  msgid "Lashkargah"
+  msgstr "لشکرگاه"
 
-#~ msgid "Musa Qala"
-#~ msgstr "موسی قلعه"
+  msgid "Musa Qala"
+  msgstr "موسی قلعه"
 
-#~ msgid "Nad-e-Ali"
-#~ msgstr "نادعلی"
+  msgid "Nad-e-Ali"
+  msgstr "نادعلی"
 
-#~ msgid "Nahr-e-Saraj"
-#~ msgstr "نهر سراج"
+  msgid "Nahr-e-Saraj"
+  msgstr "نهر سراج"
 
-#~ msgid "Nawa-e-Barakzaiy"
-#~ msgstr "ناوه بارکزائی"
+  msgid "Nawa-e-Barakzaiy"
+  msgstr "ناوه بارکزائی"
 
-#~ msgid "Nawzad"
-#~ msgstr "نوزاد"
+  msgid "Nawzad"
+  msgstr "نوزاد"
 
-#~ msgid "Reg"
-#~ msgstr "ریگ"
+  msgid "Reg"
+  msgstr "ریگ"
 
-#~ msgid "Sangin"
-#~ msgstr "سنگین"
+  msgid "Sangin"
+  msgstr "سنگین"
 
-#~ msgid "Washer"
-#~ msgstr "واشیر"
+  msgid "Washer"
+  msgstr "واشیر"
 
-#~ msgid "Musaqalah"
-#~ msgstr "موسه قلعه"
+  msgid "Musaqalah"
+  msgstr "موسه قلعه"
 
 # Distric herat
-#~ msgid "Adraskan"
-#~ msgstr "ادرسکن"
+  msgid "Adraskan"
+  msgstr "ادرسکن"
 
-#~ msgid "Chisht-e-Sharif"
-#~ msgstr "چشت شریف"
+  msgid "Chisht-e-Sharif"
+  msgstr "چشت شریف"
 
-#~ msgid "Farsi"
-#~ msgstr "فرسی"
+  msgid "Farsi"
+  msgstr "فرسی"
 
-#~ msgid "Ghoryan"
-#~ msgstr "غوریان"
+  msgid "Ghoryan"
+  msgstr "غوریان"
 
-#~ msgid "Gulran"
-#~ msgstr "گلران"
+  msgid "Gulran"
+  msgstr "گلران"
 
-#~ msgid "Guzara"
-#~ msgstr "گذره"
+  msgid "Guzara"
+  msgstr "گذره"
 
-#~ msgid "Herat"
-#~ msgstr "هرات"
+  msgid "Herat"
+  msgstr "هرات"
 
-#~ msgid "Injil"
-#~ msgstr "انجیل"
+  msgid "Injil"
+  msgstr "انجیل"
 
-#~ msgid "Karukh"
-#~ msgstr "کرُخ"
+  msgid "Karukh"
+  msgstr "کرُخ"
 
-#~ msgid "Kohsan"
-#~ msgstr "کوهسان"
+  msgid "Kohsan"
+  msgstr "کوهسان"
 
-#~ msgid "Kushk"
-#~ msgstr "کُشک"
+  msgid "Kushk"
+  msgstr "کُشک"
 
-#~ msgid "Kushk-e-Kohna"
-#~ msgstr "کُشک کهنه"
+  msgid "Kushk-e-Kohna"
+  msgstr "کُشک کهنه"
 
-#~ msgid "Obe"
-#~ msgstr "اوبی"
+  msgid "Obe"
+  msgstr "اوبی"
 
-#~ msgid "Pashtunzarghun"
-#~ msgstr "پشتون زرغون"
+  msgid "Pashtunzarghun"
+  msgstr "پشتون زرغون"
 
-#~ msgid "Shindand"
-#~ msgstr "شیندند"
+  msgid "Shindand"
+  msgstr "شیندند"
 
-#~ msgid "Zindajan"
-#~ msgstr "زنده جان"
+  msgid "Zindajan"
+  msgstr "زنده جان"
 
-#~ msgid "Aqcha"
-#~ msgstr "آقچه"
+  msgid "Aqcha"
+  msgstr "آقچه"
 
-#~ msgid "Darzab"
-#~ msgstr "درز آب"
+  msgid "Darzab"
+  msgstr "درز آب"
 
-#~ msgid "Fayzabad"
-#~ msgstr "فیض آباد"
+  msgid "Fayzabad"
+  msgstr "فیض آباد"
 
-#~ msgid "Khamyab"
-#~ msgstr "خمیاب"
+  msgid "Khamyab"
+  msgstr "خمیاب"
 
-#~ msgid "Khanaqa"
-#~ msgstr "خانقا"
+  msgid "Khanaqa"
+  msgstr "خانقا"
 
-#~ msgid "Khwajadukoh"
-#~ msgstr "خواجه دوکوه"
+  msgid "Khwajadukoh"
+  msgstr "خواجه دوکوه"
 
-#~ msgid "Mardyan"
-#~ msgstr "مردیان"
+  msgid "Mardyan"
+  msgstr "مردیان"
 
-#~ msgid "Mingajik"
-#~ msgstr "منگجک"
+  msgid "Mingajik"
+  msgstr "منگجک"
 
-#~ msgid "Qarqin"
-#~ msgstr "قرقین"
+  msgid "Qarqin"
+  msgstr "قرقین"
 
-#~ msgid "Qushtepa"
-#~ msgstr "قوش تیپه"
+  msgid "Qushtepa"
+  msgstr "قوش تیپه"
 
-#~ msgid "Shiberghan"
-#~ msgstr "شبرغان"
+  msgid "Shiberghan"
+  msgstr "شبرغان"
 
 # Distric Kabul
-#~ msgid "Bagrami"
-#~ msgstr "بگرامی"
+  msgid "Bagrami"
+  msgstr "بگرامی"
 
-#~ msgid "Chaharasyab"
-#~ msgstr "چهار آسیاب"
+  msgid "Chaharasyab"
+  msgstr "چهار آسیاب"
 
-#~ msgid "Dehsabz"
-#~ msgstr "ده سبز"
+  msgid "Dehsabz"
+  msgstr "ده سبز"
 
-#~ msgid "Estalef"
-#~ msgstr "استالف"
+  msgid "Estalef"
+  msgstr "استالف"
 
-#~ msgid "Farza"
-#~ msgstr "فرزه"
+  msgid "Farza"
+  msgstr "فرزه"
 
-#~ msgid "Guldara"
-#~ msgstr "گلدره"
+  msgid "Guldara"
+  msgstr "گلدره"
 
-#~ msgid "Kalakan"
-#~ msgstr "کلکان"
+  msgid "Kalakan"
+  msgstr "کلکان"
 
-#~ msgid "Khak-e- Jabbar"
-#~ msgstr "خاک جبار"
+  msgid "Khak-e- Jabbar"
+  msgstr "خاک جبار"
 
-#~ msgid "Mirbachakot"
-#~ msgstr "میر بچه کوت"
+  msgid "Mirbachakot"
+  msgstr "میر بچه کوت"
 
-#~ msgid "Musayi"
-#~ msgstr "موسهی"
+  msgid "Musayi"
+  msgstr "موسهی"
 
-#~ msgid "Paghman"
-#~ msgstr "پغمان"
+  msgid "Paghman"
+  msgstr "پغمان"
 
-#~ msgid "Shakardara"
-#~ msgstr "شکردره"
+  msgid "Shakardara"
+  msgstr "شکردره"
 
-#~ msgid "Surobi"
-#~ msgstr "سروبی"
+  msgid "Surobi"
+  msgstr "سروبی"
 
 # Distric Kandahar
-#~ msgid "Arghandab"
-#~ msgstr "ارغنداب"
+  msgid "Arghandab"
+  msgstr "ارغنداب"
 
-#~ msgid "Arghestan"
-#~ msgstr "ارغستان"
+  msgid "Arghestan"
+  msgstr "ارغستان"
 
-#~ msgid "Daman"
-#~ msgstr "دامان"
+  msgid "Daman"
+  msgstr "دامان"
 
-#~ msgid "Ghorak"
-#~ msgstr "غورک"
+  msgid "Ghorak"
+  msgstr "غورک"
 
-#~ msgid "Khakrez"
-#~ msgstr "خاکریز"
+  msgid "Khakrez"
+  msgstr "خاکریز"
 
-#~ msgid "Maruf"
-#~ msgstr "معروف"
+  msgid "Maruf"
+  msgstr "معروف"
 
-#~ msgid "Maywand"
-#~ msgstr "میوند"
+  msgid "Maywand"
+  msgstr "میوند"
 
-#~ msgid "Miyanshin"
-#~ msgstr "میانشین"
+  msgid "Miyanshin"
+  msgstr "میانشین"
 
-#~ msgid "Nesh"
-#~ msgstr "نیش"
+  msgid "Nesh"
+  msgstr "نیش"
 
-#~ msgid "Panjwayi"
-#~ msgstr "پنجوائی"
+  msgid "Panjwayi"
+  msgstr "پنجوائی"
 
-#~ msgid "Shahwalikot"
-#~ msgstr "شاه ولی کوت"
+  msgid "Shahwalikot"
+  msgstr "شاه ولی کوت"
 
-#~ msgid "Shorabak"
-#~ msgstr "شور آبک"
+  msgid "Shorabak"
+  msgstr "شور آبک"
 
-#~ msgid "Spinboldak"
-#~ msgstr "سپین بولدک"
+  msgid "Spinboldak"
+  msgstr "سپین بولدک"
 
-#~ msgid "Zheray"
-#~ msgstr "ژړۍ"
+  msgid "Zheray"
+  msgstr "ژړۍ"
 
 # Distric Kapisa
-#~ msgid "Alasay"
-#~ msgstr "اله سای"
+  msgid "Alasay"
+  msgstr "اله سای"
 
-#~ msgid "Hisa-e- Awal-e- Kohestan"
-#~ msgstr "حصه اول کوهستان"
+  msgid "Hisa-e- Awal-e- Kohestan"
+  msgstr "حصه اول کوهستان"
 
-#~ msgid "Hisa-e- Duwum-e- Kohestan"
-#~ msgstr "حصه دوم کوهستان"
+  msgid "Hisa-e- Duwum-e- Kohestan"
+  msgstr "حصه دوم کوهستان"
 
-#~ msgid "Kohband"
-#~ msgstr "کوه بند"
+  msgid "Kohband"
+  msgstr "کوه بند"
 
-#~ msgid "Mahmud-e- Raqi"
-#~ msgstr "محمود راقی"
+  msgid "Mahmud-e- Raqi"
+  msgstr "محمود راقی"
 
-#~ msgid "Nejrab"
-#~ msgstr "نجراب"
+  msgid "Nejrab"
+  msgstr "نجراب"
 
 # Distric Khost
-#~ msgid "Bak"
-#~ msgstr "باک"
+  msgid "Bak"
+  msgstr "باک"
 
-#~ msgid "Gurbuz"
-#~ msgstr "گربز"
+  msgid "Gurbuz"
+  msgstr "گربز"
 
-#~ msgid "Jajimaydan"
-#~ msgstr "جاجی میدان"
+  msgid "Jajimaydan"
+  msgstr "جاجی میدان"
 
-#~ msgid "Mandozayi"
-#~ msgstr "مندوزائی"
+  msgid "Mandozayi"
+  msgstr "مندوزائی"
 
-#~ msgid "Khost(Matun)"
-#~ msgstr "خوست (متون)"
+  msgid "Khost(Matun)"
+  msgstr "خوست (متون)"
 
-#~ msgid "Musakhel"
-#~ msgstr "موسی خیل"
+  msgid "Musakhel"
+  msgstr "موسی خیل"
 
-#~ msgid "Nadirshahkot"
-#~ msgstr "نادرشاه کوت"
+  msgid "Nadirshahkot"
+  msgstr "نادرشاه کوت"
 
-#~ msgid "Qalandar"
-#~ msgstr "قلندر"
+  msgid "Qalandar"
+  msgstr "قلندر"
 
-#~ msgid "Sabari"
-#~ msgstr "صبری"
+  msgid "Sabari"
+  msgstr "صبری"
 
-#~ msgid "Shamal"
-#~ msgstr "شمل"
+  msgid "Shamal"
+  msgstr "شمل"
 
-#~ msgid "Spera"
-#~ msgstr "سپیره"
+  msgid "Spera"
+  msgstr "سپیره"
 
-#~ msgid "Tani"
-#~ msgstr "تنی"
+  msgid "Tani"
+  msgstr "تنی"
 
-#~ msgid "Terezayi"
-#~ msgstr "تری زائی"
+  msgid "Terezayi"
+  msgstr "تری زائی"
 
 # Distric Kunar
-#~ msgid "Asadabad"
-#~ msgstr "اسد آباد"
+  msgid "Asadabad"
+  msgstr "اسد آباد"
 
-#~ msgid "Barkunar"
-#~ msgstr "برکنر"
+  msgid "Barkunar"
+  msgstr "برکنر"
 
-#~ msgid "Chapadara"
-#~ msgstr "چپه دره"
+  msgid "Chapadara"
+  msgstr "چپه دره"
 
-#~ msgid "Chawkay"
-#~ msgstr "چوکی"
+  msgid "Chawkay"
+  msgstr "چوکی"
 
-#~ msgid "Dangam"
-#~ msgstr "دانگام"
+  msgid "Dangam"
+  msgstr "دانگام"
 
-#~ msgid "Dara-e-Pech"
-#~ msgstr "دره پیچ"
+  msgid "Dara-e-Pech"
+  msgstr "دره پیچ"
 
-#~ msgid "Ghaziabad"
-#~ msgstr "غازی آباد"
+  msgid "Ghaziabad"
+  msgstr "غازی آباد"
 
-#~ msgid "Khaskunar"
-#~ msgstr "خاص کنر"
+  msgid "Khaskunar"
+  msgstr "خاص کنر"
 
-#~ msgid "Marawara"
-#~ msgstr "مروره"
+  msgid "Marawara"
+  msgstr "مروره"
 
-#~ msgid "Narang"
-#~ msgstr "نرنگ"
+  msgid "Narang"
+  msgstr "نرنگ"
 
-#~ msgid "Nari"
-#~ msgstr "ناړی"
+  msgid "Nari"
+  msgstr "ناړی"
 
-#~ msgid "Nurgal"
-#~ msgstr "نورگل"
+  msgid "Nurgal"
+  msgstr "نورگل"
 
-#~ msgid "Sarkani"
-#~ msgstr "سرکانی"
+  msgid "Sarkani"
+  msgstr "سرکانی"
 
-#~ msgid "Shigal Wa sheltan"
-#~ msgstr "شیگل وشلتن"
+  msgid "Shigal Wa sheltan"
+  msgstr "شیگل وشلتن"
 
-#~ msgid "Watapur"
-#~ msgstr "وته پور"
+  msgid "Watapur"
+  msgstr "وته پور"
 
 # Distric Kunduz
-#~ msgid "Aliabad"
-#~ msgstr "علی آباد"
+  msgid "Aliabad"
+  msgstr "علی آباد"
 
-#~ msgid "Chardarah"
-#~ msgstr "چهار دره"
+  msgid "Chardarah"
+  msgstr "چهار دره"
 
-#~ msgid "Dasht-e-Archi"
-#~ msgstr "دشت ارچی"
+  msgid "Dasht-e-Archi"
+  msgstr "دشت ارچی"
 
-#~ msgid "Emamsaheb"
-#~ msgstr "امام صاحب"
+  msgid "Emamsaheb"
+  msgstr "امام صاحب"
 
-#~ msgid "Khanabad"
-#~ msgstr "خان آباد"
+  msgid "Khanabad"
+  msgstr "خان آباد"
 
-#~ msgid "Qala-e-Zal"
-#~ msgstr "قلعه ذال"
+  msgid "Qala-e-Zal"
+  msgstr "قلعه ذال"
 
 # Distric Laghman
-#~ msgid "Alingar"
-#~ msgstr "علینگار"
+  msgid "Alingar"
+  msgstr "علینگار"
 
-#~ msgid "Alishang"
-#~ msgstr "علیشنگ"
+  msgid "Alishang"
+  msgstr "علیشنگ"
 
-#~ msgid "Dawlatshah"
-#~ msgstr "دولت شاه"
+  msgid "Dawlatshah"
+  msgstr "دولت شاه"
 
-#~ msgid "Mehtarlam"
-#~ msgstr "مهتر لام"
+  msgid "Mehtarlam"
+  msgstr "مهتر لام"
 
-#~ msgid "Qarghayi"
-#~ msgstr "قرغه ئی"
+  msgid "Qarghayi"
+  msgstr "قرغه ئی"
 
 # Distric Logar
-#~ msgid "Azra"
-#~ msgstr "ازره"
+  msgid "Azra"
+  msgstr "ازره"
 
-#~ msgid "Barakibarak"
-#~ msgstr "برکی برک"
+  msgid "Barakibarak"
+  msgstr "برکی برک"
 
-#~ msgid "Charkh"
-#~ msgstr "چرخ"
+  msgid "Charkh"
+  msgstr "چرخ"
 
-#~ msgid "Kharwar"
-#~ msgstr "خروار"
+  msgid "Kharwar"
+  msgstr "خروار"
 
-#~ msgid "Khoshi"
-#~ msgstr "خوشی"
+  msgid "Khoshi"
+  msgstr "خوشی"
 
-#~ msgid "Mohammadagha"
-#~ msgstr "محمدآغه"
+  msgid "Mohammadagha"
+  msgstr "محمدآغه"
 
-#~ msgid "Pul-e- Alam"
-#~ msgstr "پل علم"
+  msgid "Pul-e- Alam"
+  msgstr "پل علم"
 
 # Distric Nangarhar
-#~ msgid "Achin"
-#~ msgstr "اچین"
+  msgid "Achin"
+  msgstr "اچین"
 
-#~ msgid "Batikot"
-#~ msgstr "بتی کوټ"
+  msgid "Batikot"
+  msgstr "بتی کوټ"
 
-#~ msgid "Behsud"
-#~ msgstr "بهسود"
+  msgid "Behsud"
+  msgstr "بهسود"
 
-#~ msgid "Chaparhar"
-#~ msgstr "چپر هار"
+  msgid "Chaparhar"
+  msgstr "چپر هار"
 
-#~ msgid "Dara-e-Nur"
-#~ msgstr "دره نور"
+  msgid "Dara-e-Nur"
+  msgstr "دره نور"
 
-#~ msgid "Dehbala"
-#~ msgstr "ده بالا"
+  msgid "Dehbala"
+  msgstr "ده بالا"
 
-#~ msgid "Durbaba"
-#~ msgstr "دُر بابا"
+  msgid "Durbaba"
+  msgstr "دُر بابا"
 
-#~ msgid "Goshta"
-#~ msgstr "گوشته"
+  msgid "Goshta"
+  msgstr "گوشته"
 
-#~ msgid "Hesarak"
-#~ msgstr "حصارک"
+  msgid "Hesarak"
+  msgstr "حصارک"
 
-#~ msgid "Jalalabad"
-#~ msgstr "جلال آباد"
+  msgid "Jalalabad"
+  msgstr "جلال آباد"
 
-#~ msgid "Kama"
-#~ msgstr "کامه"
+  msgid "Kama"
+  msgstr "کامه"
 
-#~ msgid "Khogyani"
-#~ msgstr "خوگیانی"
+  msgid "Khogyani"
+  msgstr "خوگیانی"
 
-#~ msgid "Kot"
-#~ msgstr "کوټ"
+  msgid "Kot"
+  msgstr "کوټ"
 
-#~ msgid "Kuzkunar"
-#~ msgstr "کوز کنر"
+  msgid "Kuzkunar"
+  msgstr "کوز کنر"
 
-#~ msgid "Lalpur"
-#~ msgstr "لعل پور"
+  msgid "Lalpur"
+  msgstr "لعل پور"
 
-#~ msgid "Muhmand Dara"
-#~ msgstr "مهمند دره"
+  msgid "Muhmand Dara"
+  msgstr "مهمند دره"
 
-#~ msgid "Nazyan"
-#~ msgstr "نازیان"
+  msgid "Nazyan"
+  msgstr "نازیان"
 
-#~ msgid "Pachieragam"
-#~ msgstr "پچیراگام"
+  msgid "Pachieragam"
+  msgstr "پچیراگام"
 
-#~ msgid "Rodat"
-#~ msgstr "رودات"
+  msgid "Rodat"
+  msgstr "رودات"
 
-#~ msgid "Sherzad"
-#~ msgstr "شیرزاد"
+  msgid "Sherzad"
+  msgstr "شیرزاد"
 
-#~ msgid "Shinwar"
-#~ msgstr "شینوار"
+  msgid "Shinwar"
+  msgstr "شینوار"
 
-#~ msgid "Surkhrod"
-#~ msgstr "سرخ رود"
+  msgid "Surkhrod"
+  msgstr "سرخ رود"
 
 # Distric Nimroz
-#~ msgid "Chakhansur"
-#~ msgstr "چخانسور"
+  msgid "Chakhansur"
+  msgstr "چخانسور"
 
-#~ msgid "Charburjak"
-#~ msgstr "چاربرجک"
+  msgid "Charburjak"
+  msgstr "چاربرجک"
 
-#~ msgid "Kang"
-#~ msgstr "کنگ"
+  msgid "Kang"
+  msgstr "کنگ"
 
-#~ msgid "Khashrod"
-#~ msgstr "خاش رود"
+  msgid "Khashrod"
+  msgstr "خاش رود"
 
-#~ msgid "Zaranj"
-#~ msgstr "زرنج"
+  msgid "Zaranj"
+  msgstr "زرنج"
 
 # Distric Nuristan
-#~ msgid "Barg-e- Matal"
-#~ msgstr "برگ متال"
+  msgid "Barg-e- Matal"
+  msgstr "برگ متال"
 
-#~ msgid "Duab"
-#~ msgstr "دو آب"
+  msgid "Duab"
+  msgstr "دو آب"
 
-#~ msgid "Kamdesh"
-#~ msgstr "کامدیش"
+  msgid "Kamdesh"
+  msgstr "کامدیش"
 
-#~ msgid "Mandol"
-#~ msgstr "مندول"
+  msgid "Mandol"
+  msgstr "مندول"
 
-#~ msgid "Nurgeram"
-#~ msgstr "نورگرام"
+  msgid "Nurgeram"
+  msgstr "نورگرام"
 
-#~ msgid "Poruns"
-#~ msgstr "پرونس"
+  msgid "Poruns"
+  msgstr "پرونس"
 
-#~ msgid "Wama"
-#~ msgstr "واما"
+  msgid "Wama"
+  msgstr "واما"
 
-#~ msgid "Waygal"
-#~ msgstr "وایگل"
+  msgid "Waygal"
+  msgstr "وایگل"
 
 # Distric Paktika
-#~ msgid "Bermel"
-#~ msgstr "برمل"
+  msgid "Bermel"
+  msgstr "برمل"
 
-#~ msgid "Dila"
-#~ msgstr "دیله"
+  msgid "Dila"
+  msgstr "دیله"
 
-#~ msgid "Gyan"
-#~ msgstr "گیان"
+  msgid "Gyan"
+  msgstr "گیان"
 
-#~ msgid "Gomal"
-#~ msgstr "گومل"
+  msgid "Gomal"
+  msgstr "گومل"
 
-#~ msgid "Janikhel"
-#~ msgstr "جانی خیل"
+  msgid "Janikhel"
+  msgstr "جانی خیل"
 
-#~ msgid "Matakhan"
-#~ msgstr "متاخان"
+  msgid "Matakhan"
+  msgstr "متاخان"
 
-#~ msgid "Naka"
-#~ msgstr "نیکه"
+  msgid "Naka"
+  msgstr "نیکه"
 
-#~ msgid "Omna"
-#~ msgstr "اومنه"
+  msgid "Omna"
+  msgstr "اومنه"
 
-#~ msgid "Sarrawzah(Sarhawzah)"
-#~ msgstr "سرروضه (سرحوضه)"
+  msgid "Sarrawzah(Sarhawzah)"
+  msgstr "سرروضه (سرحوضه)"
 
-#~ msgid "Sarobi"
-#~ msgstr "سروبی"
+  msgid "Sarobi"
+  msgstr "سروبی"
 
-#~ msgid "Sharan"
-#~ msgstr "شرن"
+  msgid "Sharan"
+  msgstr "شرن"
 
-#~ msgid "Turwo (Tarwe)"
-#~ msgstr "تروو"
+  msgid "Turwo (Tarwe)"
+  msgstr "تروو"
 
-#~ msgid "Urgun"
-#~ msgstr "ارگون"
+  msgid "Urgun"
+  msgstr "ارگون"
 
-#~ msgid "Wazakhah"
-#~ msgstr "وازه خواه"
+  msgid "Wazakhah"
+  msgstr "وازه خواه"
 
-#~ msgid "Wormamay"
-#~ msgstr "وړ ممی"
+  msgid "Wormamay"
+  msgstr "وړ ممی"
 
-#~ msgid "Yahyakhel"
-#~ msgstr "یحی خیل"
+  msgid "Yahyakhel"
+  msgstr "یحی خیل"
 
-#~ msgid "Yosufkhel"
-#~ msgstr "یوسف خیل"
+  msgid "Yosufkhel"
+  msgstr "یوسف خیل"
 
-#~ msgid "Zarghunshahr"
-#~ msgstr "زرغون شهر"
+  msgid "Zarghunshahr"
+  msgstr "زرغون شهر"
 
-#~ msgid "Ziruk"
-#~ msgstr "زیړوک"
+  msgid "Ziruk"
+  msgstr "زیړوک"
 
 # Distric Paktya
-#~ msgid "Ahmadaba"
-#~ msgstr "احمد آبا"
+  msgid "Ahmadaba"
+  msgstr "احمد آبا"
 
-#~ msgid "Alikhel (Jaji)"
-#~ msgstr "علی خیل"
+  msgid "Alikhel (Jaji)"
+  msgstr "علی خیل"
 
-#~ msgid "Chamkani"
-#~ msgstr "څمکنی"
+  msgid "Chamkani"
+  msgstr "څمکنی"
 
-#~ msgid "Dand wa Patan"
-#~ msgstr "دند وپټان"
+  msgid "Dand wa Patan"
+  msgstr "دند وپټان"
 
-#~ msgid "Gardez"
-#~ msgstr "گردیز"
+  msgid "Gardez"
+  msgstr "گردیز"
 
-#~ msgid "Lija Ahmad Khel"
-#~ msgstr "لجه احمد خیل"
+  msgid "Lija Ahmad Khel"
+  msgstr "لجه احمد خیل"
 
-#~ msgid "Sayedkaram"
-#~ msgstr "سیدکرم"
+  msgid "Sayedkaram"
+  msgstr "سیدکرم"
 
-#~ msgid "Shawak"
-#~ msgstr "شواک"
+  msgid "Shawak"
+  msgstr "شواک"
 
-#~ msgid "Zadran"
-#~ msgstr "حّدران"
+  msgid "Zadran"
+  msgstr "حّدران"
 
-#~ msgid "Zurmat"
-#~ msgstr "زُرمت"
+  msgid "Zurmat"
+  msgstr "زُرمت"
 
 # Distric Panjsher
-#~ msgid "Onaba(Anawa)"
-#~ msgstr "عنابه"
+  msgid "Onaba(Anawa)"
+  msgstr "عنابه"
 
-#~ msgid "Bazarak"
-#~ msgstr "بازارک"
+  msgid "Bazarak"
+  msgstr "بازارک"
 
-#~ msgid "Dara"
-#~ msgstr "دره"
+  msgid "Dara"
+  msgstr "دره"
 
-#~ msgid "Khenj (Hes-e- Awal)"
-#~ msgstr "خنج (حصه اول)"
+  msgid "Khenj (Hes-e- Awal)"
+  msgstr "خنج (حصه اول)"
 
-#~ msgid "Paryan"
-#~ msgstr "پریان"
+  msgid "Paryan"
+  msgstr "پریان"
 
-#~ msgid "Rukha"
-#~ msgstr "رُخه"
+  msgid "Rukha"
+  msgstr "رُخه"
 
-#~ msgid "Shutul"
-#~ msgstr "شُتل"
+  msgid "Shutul"
+  msgstr "شُتل"
 
 # Distric Parwan
-#~ msgid "Bagram"
-#~ msgstr "بگرام"
+  msgid "Bagram"
+  msgstr "بگرام"
 
-#~ msgid "Charikar"
-#~ msgstr "چاریکار"
+  msgid "Charikar"
+  msgstr "چاریکار"
 
-#~ msgid "Ghorband"
-#~ msgstr "غوربند"
+  msgid "Ghorband"
+  msgstr "غوربند"
 
-#~ msgid "Jabalussaraj"
-#~ msgstr "جبل السراج"
+  msgid "Jabalussaraj"
+  msgstr "جبل السراج"
 
-#~ msgid "Koh-e- Safi"
-#~ msgstr "کوه صافی"
+  msgid "Koh-e- Safi"
+  msgstr "کوه صافی"
 
-#~ msgid "Salang"
-#~ msgstr "سالنگ"
+  msgid "Salang"
+  msgstr "سالنگ"
 
-#~ msgid "Saydkhel"
-#~ msgstr "سیدخیل"
+  msgid "Saydkhel"
+  msgstr "سیدخیل"
 
-#~ msgid "Shekhali"
-#~ msgstr "شیخ علی"
+  msgid "Shekhali"
+  msgstr "شیخ علی"
 
-#~ msgid "Shinwari"
-#~ msgstr "شینواری"
+  msgid "Shinwari"
+  msgstr "شینواری"
 
-#~ msgid "Surkh-e- Parsa"
-#~ msgstr "سرخ پارسا"
+  msgid "Surkh-e- Parsa"
+  msgstr "سرخ پارسا"
 
 # Distric Samangan
-#~ msgid "Aybak"
-#~ msgstr "ایبک"
+  msgid "Aybak"
+  msgstr "ایبک"
 
-#~ msgid "Dara-e- Suf-e- Payin"
-#~ msgstr "درۀ صوف بالا"
+  msgid "Dara-e- Suf-e- Payin"
+  msgstr "درۀ صوف بالا"
 
-#~ msgid "Dara-e Suf-e-Bala"
-#~ msgstr "درۀ صوف پائین"
+  msgid "Dara-e Suf-e-Bala"
+  msgstr "درۀ صوف پائین"
 
-#~ msgid "Feroznakhchir"
-#~ msgstr "فیروز نخچیر"
+  msgid "Feroznakhchir"
+  msgstr "فیروز نخچیر"
 
-#~ msgid "Hazrat-e- Sultan"
-#~ msgstr "حضرت سلطان"
+  msgid "Hazrat-e- Sultan"
+  msgstr "حضرت سلطان"
 
-#~ msgid "Khuram Wa Sarbagh"
-#~ msgstr "خرم وسارباغ"
+  msgid "Khuram Wa Sarbagh"
+  msgstr "خرم وسارباغ"
 
-#~ msgid "Ruy-e-Duab"
-#~ msgstr "روی دو آب"
+  msgid "Ruy-e-Duab"
+  msgstr "روی دو آب"
 
 # Distric Sare -e Pul
-#~ msgid "Balkhab"
-#~ msgstr "بلخاب"
+  msgid "Balkhab"
+  msgstr "بلخاب"
 
-#~ msgid "Gosfandi"
-#~ msgstr "گوسفندی"
+  msgid "Gosfandi"
+  msgstr "گوسفندی"
 
-#~ msgid "Kohestanat"
-#~ msgstr "کوهستانات"
+  msgid "Kohestanat"
+  msgstr "کوهستانات"
 
-#~ msgid "Sancharak(sangchark)"
-#~ msgstr "سانچارك"
+  msgid "Sancharak(sangchark)"
+  msgstr "سانچارك"
 
-#~ msgid "Sayad"
-#~ msgstr "صیاد"
+  msgid "Sayad"
+  msgstr "صیاد"
 
-#~ msgid "Sozmaqala"
-#~ msgstr "سوزمه قلعه"
+  msgid "Sozmaqala"
+  msgstr "سوزمه قلعه"
 
 # Distric Takhar
-#~ msgid "Bangi"
-#~ msgstr "بنگی"
+  msgid "Bangi"
+  msgstr "بنگی"
 
-#~ msgid "Chahab"
-#~ msgstr "چاه آب"
+  msgid "Chahab"
+  msgstr "چاه آب"
 
-#~ msgid "Chal"
-#~ msgstr "چال"
+  msgid "Chal"
+  msgstr "چال"
 
-#~ msgid "Darqad"
-#~ msgstr "درقد"
+  msgid "Darqad"
+  msgstr "درقد"
 
-#~ msgid "Dasht-e- Qala"
-#~ msgstr "دشت قلعه"
+  msgid "Dasht-e- Qala"
+  msgstr "دشت قلعه"
 
-#~ msgid "Eshkashem"
-#~ msgstr "اشکمش"
+  msgid "Eshkashem"
+  msgstr "اشکمش"
 
-#~ msgid "Farkhar"
-#~ msgstr "فرخار"
+  msgid "Farkhar"
+  msgstr "فرخار"
 
-#~ msgid "Hazarsumuch"
-#~ msgstr "هزار سموچ"
+  msgid "Hazarsumuch"
+  msgstr "هزار سموچ"
 
-#~ msgid "Kalafgan"
-#~ msgstr "کلفگان"
+  msgid "Kalafgan"
+  msgstr "کلفگان"
 
-#~ msgid "Khwajabahawuddin"
-#~ msgstr "خواجه بهاوالدین"
+  msgid "Khwajabahawuddin"
+  msgstr "خواجه بهاوالدین"
 
-#~ msgid "Khwajaghar"
-#~ msgstr "خواجه غار"
+  msgid "Khwajaghar"
+  msgstr "خواجه غار"
 
-#~ msgid "Namakab"
-#~ msgstr "نمک آب"
+  msgid "Namakab"
+  msgstr "نمک آب"
 
-#~ msgid "Rostaq"
-#~ msgstr "رُستاق"
+  msgid "Rostaq"
+  msgstr "رُستاق"
 
-#~ msgid "Taloqan"
-#~ msgstr "تالقان"
+  msgid "Taloqan"
+  msgstr "تالقان"
 
-#~ msgid "Warsaj"
-#~ msgstr "ورسج"
+  msgid "Warsaj"
+  msgstr "ورسج"
 
-#~ msgid "Yangi Qala"
-#~ msgstr "ینگی قلعه"
+  msgid "Yangi Qala"
+  msgstr "ینگی قلعه"
 
 # Distric Uruzgan
-#~ msgid "Chora"
-#~ msgstr "چوره"
+  msgid "Chora"
+  msgstr "چوره"
 
-#~ msgid "Dehrawud"
-#~ msgstr "دهراود"
+  msgid "Dehrawud"
+  msgstr "دهراود"
 
-#~ msgid "Khasuruzgan"
-#~ msgstr "خاص ارزگان"
+  msgid "Khasuruzgan"
+  msgstr "خاص ارزگان"
 
-#~ msgid "Shahid-e-Hassas"
-#~ msgstr "شهید حساس"
+  msgid "Shahid-e-Hassas"
+  msgstr "شهید حساس"
 
-#~ msgid "Tirinkot"
-#~ msgstr "تیرینکوت"
+  msgid "Tirinkot"
+  msgstr "تیرینکوت"
 
 # Distric Wardak
-#~ msgid "Chak"
-#~ msgstr "چک"
+  msgid "Chak"
+  msgstr "چک"
 
-#~ msgid "Daymirdad"
-#~ msgstr "دایمیرداد"
+  msgid "Daymirdad"
+  msgstr "دایمیرداد"
 
-#~ msgid "Hesa-e- Awal-e- Behsud"
-#~ msgstr "حصه اول بهسود"
+  msgid "Hesa-e- Awal-e- Behsud"
+  msgstr "حصه اول بهسود"
 
-#~ msgid "Jalrez"
-#~ msgstr "جلریز"
+  msgid "Jalrez"
+  msgstr "جلریز"
 
-#~ msgid "Markaz-e-Behsud"
-#~ msgstr "مدکز بهسود"
+  msgid "Markaz-e-Behsud"
+  msgstr "مدکز بهسود"
 
-#~ msgid "Maydanshahr"
-#~ msgstr "میدان شهر"
+  msgid "Maydanshahr"
+  msgstr "میدان شهر"
 
-#~ msgid "Nerkh"
-#~ msgstr "نرخ"
+  msgid "Nerkh"
+  msgstr "نرخ"
 
-#~ msgid "Saydabad"
-#~ msgstr "سید آباد"
+  msgid "Saydabad"
+  msgstr "سید آباد"
 
 # Distric Zabul
-#~ msgid "Atghar"
-#~ msgstr "اتغر"
+  msgid "Atghar"
+  msgstr "اتغر"
 
-#~ msgid "Daychopan"
-#~ msgstr "دای چوپان"
+  msgid "Daychopan"
+  msgstr "دای چوپان"
 
-#~ msgid "Kakar"
-#~ msgstr "کاکړ"
+  msgid "Kakar"
+  msgstr "کاکړ"
 
-#~ msgid "Mizan"
-#~ msgstr "میزان"
+  msgid "Mizan"
+  msgstr "میزان"
 
-#~ msgid "Nawbahar"
-#~ msgstr "نوبهار"
+  msgid "Nawbahar"
+  msgstr "نوبهار"
 
-#~ msgid "Qalat"
-#~ msgstr "قلات"
+  msgid "Qalat"
+  msgstr "قلات"
 
-#~ msgid "Shahjoy"
-#~ msgstr "شاه جوی"
+  msgid "Shahjoy"
+  msgstr "شاه جوی"
 
-#~ msgid "Shomulzay"
-#~ msgstr "شملزائی"
+  msgid "Shomulzay"
+  msgstr "شملزائی"
 
-#~ msgid "Shinkay"
-#~ msgstr "شینکی"
+  msgid "Shinkay"
+  msgstr "شینکی"
 
-#~ msgid "Tarnak Wa Jaldak"
-#~ msgstr "ترنک و جلدک"
+  msgid "Tarnak Wa Jaldak"
+  msgstr "ترنک و جلدک"
