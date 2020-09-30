@@ -1,5 +1,9 @@
 <layers>
   <layer>
+    <name>geonode:Slope_Hosp_Lndcvr_NoFld_NoAva_NoUXO__4kmsq_GoNoGo</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3ASlope_Hosp_Lndcvr_NoFld_NoAva_NoUXO__4kmsq_GoNoGo.xml" type="text/xml"/>
+  </layer>
+  <layer>
     <name>geonode:afg_admbnda_adm1</name>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_admbnda_adm1.xml" type="text/xml"/>
   </layer>
@@ -60,6 +64,18 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_capa_hltfac_tierall.xml" type="text/xml"/>
   </layer>
   <layer>
+    <name>geonode:afg_elev_dem_30m_alos</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_elev_dem_30m_alos.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_elev_dem_30m_alos_hillshade</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_elev_dem_30m_alos_hillshade.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_elev_dem_30m_alos_slope</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_elev_dem_30m_alos_slope.xml" type="text/xml"/>
+  </layer>
+  <layer>
     <name>geonode:afg_elev_dem_30m_aster_hillshade</name>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_elev_dem_30m_aster_hillshade.xml" type="text/xml"/>
   </layer>
@@ -68,8 +84,8 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_eq_hzda.xml" type="text/xml"/>
   </layer>
   <layer>
-    <name>geonode:afg_faultsl_unk_cafd</name>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_faultsl_unk_cafd.xml" type="text/xml"/>
+    <name>geonode:afg_faultsl_unk_CAFD</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_faultsl_unk_CAFD.xml" type="text/xml"/>
   </layer>
   <layer>
     <name>geonode:afg_faultsl_unk_usgs</name>
@@ -116,6 +132,274 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_ls_500m_ku_lsi.xml" type="text/xml"/>
   </layer>
   <layer>
+    <name>geonode:afg_metr_climperc_1km_chelsa_prec_10_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climperc_1km_chelsa_prec_10_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climperc_1km_chelsa_prec_11_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climperc_1km_chelsa_prec_11_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climperc_1km_chelsa_prec_12_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climperc_1km_chelsa_prec_12_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climperc_1km_chelsa_prec_1_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climperc_1km_chelsa_prec_1_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climperc_1km_chelsa_prec_2_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climperc_1km_chelsa_prec_2_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climperc_1km_chelsa_prec_3_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climperc_1km_chelsa_prec_3_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climperc_1km_chelsa_prec_4_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climperc_1km_chelsa_prec_4_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climperc_1km_chelsa_prec_5_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climperc_1km_chelsa_prec_5_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climperc_1km_chelsa_prec_6_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climperc_1km_chelsa_prec_6_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climperc_1km_chelsa_prec_7_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climperc_1km_chelsa_prec_7_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climperc_1km_chelsa_prec_8_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climperc_1km_chelsa_prec_8_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climperc_1km_chelsa_prec_9_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climperc_1km_chelsa_prec_9_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_1</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_1.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_10</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_10.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_11</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_11.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_12</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_12.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_13</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_13.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_14</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_14.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_15</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_15.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_16</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_16.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_17</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_17.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_18</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_18.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_19</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_19.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_2</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_2.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_3</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_3.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_4</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_4.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_5</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_5.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_6</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_6.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_7</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_7.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_8</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_8.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_bio10_9</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_bio10_9.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempavg_10_v1_2_land_2</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempavg_10_v1_2_land_2.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempavg_11_v1_2_land_2</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempavg_11_v1_2_land_2.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempavg_12_v1_2_land_2</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempavg_12_v1_2_land_2.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempavg_1_v1_2_land_2</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempavg_1_v1_2_land_2.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempavg_2_v1_2_land_2</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempavg_2_v1_2_land_2.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempavg_3_v1_2_land_2</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempavg_3_v1_2_land_2.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempavg_4_v1_2_land_2</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempavg_4_v1_2_land_2.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempavg_5_v1_2_land_2</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempavg_5_v1_2_land_2.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempavg_6_v1_2_land_2</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempavg_6_v1_2_land_2.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempavg_7_v1_2_land_2</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempavg_7_v1_2_land_2.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempavg_8_v1_2_land_2</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempavg_8_v1_2_land_2.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempavg_9_v1_2_land_2</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempavg_9_v1_2_land_2.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmax_10_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmax_10_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmax_11_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmax_11_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmax_12_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmax_12_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmax_1_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmax_1_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmax_2_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmax_2_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmax_3_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmax_3_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmax_4_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmax_4_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmax_5_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmax_5_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmax_6_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmax_6_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmax_7_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmax_7_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmax_8_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmax_8_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmax_9_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmax_9_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmin_10_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmin_10_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmin_11_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmin_11_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmin_12_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmin_12_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmin_1_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmin_1_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmin_2_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmin_2_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmin_3_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmin_3_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmin_4_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmin_4_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmin_5_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmin_5_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmin_6_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmin_6_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmin_7_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmin_7_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmin_8_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmin_8_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_metr_climtemp_1km_chelsa_tempmin_9_v1_2_land</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_metr_climtemp_1km_chelsa_tempmin_9_v1_2_land.xml" type="text/xml"/>
+  </layer>
+  <layer>
     <name>geonode:afg_poia_buildings</name>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_poia_buildings.xml" type="text/xml"/>
   </layer>
@@ -124,12 +408,24 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_popr_1000m.xml" type="text/xml"/>
   </layer>
   <layer>
+    <name>geonode:afg_ports</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_ports.xml" type="text/xml"/>
+  </layer>
+  <layer>
     <name>geonode:afg_ppla</name>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_ppla.xml" type="text/xml"/>
   </layer>
   <layer>
     <name>geonode:afg_pplp</name>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_pplp.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_raf_unk_iom</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_raf_unk_iom.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:afg_rdsl</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_rdsl.xml" type="text/xml"/>
   </layer>
   <layer>
     <name>geonode:afg_riv</name>
@@ -144,20 +440,40 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_snowa_average_extent.xml" type="text/xml"/>
   </layer>
   <layer>
+    <name>geonode:afg_unhas_airfield</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aafg_unhas_airfield.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:boundaries</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aboundaries.xml" type="text/xml"/>
+  </layer>
+  <layer>
     <name>geonode:contour</name>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Acontour.xml" type="text/xml"/>
   </layer>
   <layer>
-    <name>geonode:fsac_geolocations_sample</name>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Afsac_geolocations_sample.xml" type="text/xml"/>
+    <name>geonode:flash_flood_prediction</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aflash_flood_prediction.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:gabionwalls_iom_201317</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Agabionwalls_iom_201317.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:geology_afghan_geology_intrusions_stratified_rocks</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Ageology_afghan_geology_intrusions_stratified_rocks.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:geology_magnetics_delineated_units_proterozoic_rocks</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Ageology_magnetics_delineated_units_proterozoic_rocks.xml" type="text/xml"/>
+  </layer>
+  <layer>
+    <name>geonode:mitigation_area_iom_201317</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Amitigation_area_iom_201317.xml" type="text/xml"/>
   </layer>
   <layer>
     <name>geonode:province_center</name>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aprovince_center.xml" type="text/xml"/>
-  </layer>
-  <layer>
-    <name>geonode:slope_hosp_lndcvr_nofld_noava_nouxo__4kmsq_gonogo</name>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://anhdc.andma.gov.af/geoserver/gwc/rest/layers/geonode%3Aslope_hosp_lndcvr_nofld_noava_nouxo__4kmsq_gonogo.xml" type="text/xml"/>
   </layer>
   <layer>
     <name>geonode:wrl_admbnda_int</name>
