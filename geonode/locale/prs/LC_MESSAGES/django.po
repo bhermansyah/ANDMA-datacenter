@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-25 22:37+0430\n"
+"POT-Creation-Date: 2020-10-03 14:15+0430\n"
 "PO-Revision-Date: 2020-07-19 10:05+0430\n"
 "Last-Translator: asdc.immap.org\n"
 "Language-Team: asdc.immap.org\n"
@@ -236,6 +236,17 @@ msgstr "دسته بندی"
 #: .\base\forms.py:56
 msgid "Category is required."
 msgstr "دسته بندی لازم است"
+
+#: .\base\forms.py:93
+#, fuzzy
+msgid "Point Of Contact"
+msgstr "نقطه تماس"
+
+#: .\base\forms.py:101
+#: .\base\templates\base\_resourcebase_contact_snippet.html:18
+#: .\base\templates\v2\_resourcebase_contact_snippet.html:22
+msgid "Metadata Author"
+msgstr "نویسنده میتادیتا"
 
 #: .\base\forms.py:109 .\groups\models.py:45 .\people\forms.py:82
 msgid "A space or comma-separated list of keywords"
@@ -529,11 +540,6 @@ msgstr "مالک، نقطه تماس، نویسنده میتادیتا"
 #: .\maps\templates\v2\map_metadata.html:77
 msgid "Point of Contact"
 msgstr "نقطه تماس"
-
-#: .\base\templates\base\_resourcebase_contact_snippet.html:18
-#: .\base\templates\v2\_resourcebase_contact_snippet.html:22
-msgid "Metadata Author"
-msgstr "نویسنده میتادیتا"
 
 #: .\base\templates\base\_resourcebase_snippet.html:13
 msgid "Select"
@@ -3498,7 +3504,6 @@ msgstr "تغییر پروفایل"
 #: .\people\templates\people\profile_detail.html:104
 #: .\people\templates\v2\profile_detail.html:86
 #: .\templates\account\password_change.html:7
-#: .\templates\account\password_change.html:11
 msgid "Change password"
 msgstr "تغییر رمز عبور"
 
@@ -3786,7 +3791,7 @@ msgid "Edit Service"
 msgstr "تنظیم خدمات"
 
 #: .\services\templates\services\service_edit.html:21
-#: .\templates\account\password_change.html:16
+#: .\templates\account\password_change.html:35
 #: .\templates\announcements\announcement_form.html:43
 msgid "Save"
 msgstr "ذخیره"
@@ -4136,55 +4141,60 @@ msgid "Choose groups..."
 msgstr "انتخاب گروه ها ..."
 
 #: .\templates\about.html:4 .\templates\about.html.py:17
-#: .\templates\training.html:4
-msgid "About ASDC"
-msgstr "درباره ASDC"
+#: .\templates\training.html:4 .\templates\v2\about.html:31
+msgid "About ANHDC"
+msgstr "درباره مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان"
 
 #: .\templates\about.html:19
+#, fuzzy
 msgid ""
-"The Afghanistan Spatial Data Center (ASDC) is developed by iMMAP in "
+"The Afghanistan Natural Hazard Data Center(ANHDC) is developed by iMMAP in "
 "Afghanistan. It is part of the iMMAP Disaster Risk Reduction Program, which "
 "is funded by the United States Agency for International Development (USAID)/"
 "Office of U.S. Foreign Disaster Assistance (OFDA)."
 msgstr ""
-"مرکز ارقام مکانی افغانستان (ASDC) توسط iMMAP در افغانستان توسعه یافته است. "
-"این بخش iMMAP  برنامه کاهش حوادث طبیعی (DRR) است ،که توسط آژانس ایالات متحده "
-"برای توسعه بین المللی ایالات متحده (USAID) و اداره همکاری به حوادث بیرونی "
-"ایالات متحده (OFDA) تمویل میشود ."
+" مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان( اطلاعات خطرات حوادث طبیعی "
+"افغانستان) توسط iMMAP در افغانستان توسعه یافته است. این بخش iMMAP  برنامه "
+"کاهش حوادث طبیعی (DRR) است ،که توسط آژانس ایالات متحده برای توسعه بین المللی "
+"ایالات متحده (USAID) و اداره همکاری به حوادث بیرونی ایالات متحده (OFDA) "
+"تمویل میشود ."
 
 #: .\templates\about.html:22
+#, fuzzy
 msgid ""
 "The Disaster Risk Reduction (DRR) program is a scientific program that "
 "supports the humanitarian community with critical information to aid "
 "decision makers in emergency response or program development. The "
-"Afghanistan Spatial Data Center (ASDC) is the dissemination platform for DRR "
-"data and other baseline information. At present the ASDC is the most "
-"advanced geoportal on Afghanistan containing comprehensive and accurate "
+"Afghanistan Natural Hazard Data Center(ANHDC) is the dissemination platform "
+"for DRR data and other baseline information. At present the ANHDC is the "
+"most advanced geoportal on Afghanistan containing comprehensive and accurate "
 "data. The iMMAP DRR program is funded by USAID and it is ready for daily "
 "usage."
 msgstr ""
 "برنامه کاهش حوادث طبیعی(DRR) یک برنامه علمی است که تصمیم گیرندگان جامعه بشری "
 "را برای اخذ  اطلاعات مهم  برای برنامه ریزی واکنش های اضطراری  حمایت میکند . "
-"مرکز ارقام مکانی افغانستان (ASDC) پلیت فرم انتشار ارقام  کاهش حوادث طبیعی "
-"DRR  و سایر اطلاعات عمومی است.در حال حاضر ASDC  پیشرفته ترین منبع دسترسی "
-"برای کسب اطلاعات  جامع و دقیق جغرافیایی در افغانستان است.برنامه DRR (کاهش "
-"حوادث طبیعی )iMMAP تمویل میشود توسط USAID و اماده است برای استفاده "
-"روزانه  .      "
+"مرکز ارقام مکانی افغانستان ( اطلاعات خطرات حوادث طبیعی افغانستان) پلیت فرم "
+"انتشار ارقام  کاهش حوادث طبیعی DRR  و سایر اطلاعات عمومی است.در حال حاضر  "
+"اطلاعات خطرات حوادث طبیعی افغانستان  پیشرفته ترین منبع دسترسی برای کسب "
+"اطلاعات  جامع و دقیق جغرافیایی در افغانستان است.برنامه DRR (کاهش حوادث "
+"طبیعی )iMMAP تمویل میشود توسط USAID و اماده است برای استفاده روزانه  .      "
 
-#: .\templates\about.html:25
+#: .\templates\about.html:25 .\templates\v2\about.html:37
 msgid ""
-"The information provided on ASDC are especially useful in regards to "
+"The information provided on ANHDC are especially useful in regards to "
 "prediction, emergency response, M&E and planning purposes."
 msgstr ""
-"اطلاعات ارائه شده در ASDC به خصوص در رابطه با پیش بینی، واکنش های اضطراری، "
-"نظارت و ارزیابی و اهداف برنامه ریزی مفید است."
+"اطلاعات ارائه شده در  اطلاعات خطرات حوادث طبیعی افغانستان به خصوص در رابطه "
+"با پیش بینی، واکنش های اضطراری، نظارت و ارزیابی و اهداف برنامه ریزی مفید است."
 
 #: .\templates\about.html:32
-msgid "ASDC Flyer - 4 pages"
+#, fuzzy
+msgid "ANHDC Flyer - 4 pages"
 msgstr "بروشور ASDC - صفحه چهارم "
 
 #: .\templates\about.html:42
-msgid "ASDC Flyer - 1 page"
+#, fuzzy
+msgid "ANHDC Flyer - 1 page"
 msgstr "بروشور ASDC - صفحه اول  "
 
 #: .\templates\about.html:52
@@ -4286,45 +4296,47 @@ msgstr ""
 msgid "Program Manager and Science Officer"
 msgstr "مدیر برنامه و مدیر علمی"
 
-#: .\templates\about.html:104
+#: .\templates\about.html:104 .\templates\v2\about.html:119
 msgid ""
-"Dr. Emlyn Hagen has led the development of the ASDC conceptually and "
+"Dr. Emlyn Hagen has led the development of the ANHDC conceptually and "
 "scientifically. At one hand creating the various unique data sets utilised "
 "by the project, as well as developing the scientific methodology for the "
 "prediction and statistics."
 msgstr ""
-"داکتر ایملین هاگن (Emlyn Hagen) از نظر علمی و نظری  توسعه ASDC را رهبری "
-"مینماید. او از یک سو ایجاد مجموعه ارقام های مختلف بینظیر که استفاده شده "
-"توسط  پروژه، و از دیگر سو  در ایجاد روش علمی برای پیش بینی و آمار و ارقام "
-"کوشش های زیاد نموده است "
+"داکتر ایملین هاگن  از نظر علمی و نظری  توسعه  اطلاعات خطرات حوادث طبیعی "
+"افغانستان را رهبری مینماید. او از یک سو ایجاد مجموعه ارقام های مختلف بینظیر "
+"که استفاده شده توسط  پروژه، و از دیگر سو  در ایجاد روش علمی برای پیش بینی و "
+"آمار و ارقام کوشش های زیاد نموده است "
 
 #: .\templates\about.html:106 .\templates\v2\about.html:127
 msgid "GeoNode Developer"
 msgstr "توسعه دهنده GeoNode"
 
 #: .\templates\about.html:107
+#, fuzzy
 msgid ""
-"Mr. Budi Hermansyah has created the ASDC GeoNode portal. Which is an "
+"Mr. Budi Hermansyah has created the ANHDC GeoNode portal. Which is an "
 "advanced and further development of the GeoNode supported by the World Bank. "
 "These advancements include the creation of all statistics and user "
 "interfaces, statistics, POI’s models, as well as automated data retrieval "
 "and analysis for forecasting purposes. Furthermore, an advanced dashboard "
 "has been created by Mr Budi Hermansyah."
 msgstr ""
-"آقای بودی هیرمنسیا (Budi Hermansyah) پورتال GeoNode سایت ANHDC را ایجاد کرده "
-"است. که این توسعه پیشرفته و بیشتر از GeoNode حمایت شده توسط بانک جهانی "
-"میباشد. این پیشرفت شامل ایجاد تمام آمار و روابط کاربر، آمار، مدل های POI، و "
-"همچنین به عنوان بازیابی خودکار ارقام و تجزیه و تحلیل برای اهداف پیش بینی "
-"میشود. علاوه بر این، مجموعه اطلاعات پیشرفته توسط آقای بودی هیرمنسیا  ایجاد "
-"شده است."
+"آقای بودی هیرمنسیا (Budi Hermansyah) پورتال GeoNode سایت مرکز ارقام اطلاعات "
+"خطرات حوادث طبیعی افغانستان را ایجاد کرده است. که این توسعه پیشرفته و بیشتر "
+"از GeoNode حمایت شده توسط بانک جهانی میباشد. این پیشرفت شامل ایجاد تمام آمار "
+"و روابط کاربر، آمار، مدل های POI، و همچنین به عنوان بازیابی خودکار ارقام و "
+"تجزیه و تحلیل برای اهداف پیش بینی میشود. علاوه بر این، مجموعه اطلاعات "
+"پیشرفته توسط آقای بودی هیرمنسیا  ایجاد شده است."
 
 #: .\templates\about.html:109 .\templates\v2\about.html:138
 msgid "Information Management Officer - Training and Outreach"
 msgstr "مدیر تنظیم معلومات - آموزش و توسعه"
 
 #: .\templates\about.html:110
+#, fuzzy
 msgid ""
-"Noor Zangana has led the dedicated training program of users on the ASDC "
+"Noor Zangana has led the dedicated training program of users on the ANHDC "
 "since July 2016. She is supported by two local nationals in this effort. The "
 "training program is further supported by videos as well as a certification "
 "process."
@@ -4610,11 +4622,12 @@ msgstr ""
 "میشود."
 
 #: .\templates\disclaimer.html:13 .\templates\v2\disclaimer.html:33
+#, fuzzy
 msgid ""
-"The Afghanistan Spatial Data Center is part of the iMMAP Disaster Risk "
-"Reduction (DRR) Program, which is a USAID/OFDA funded project to provide DRR "
-"relevant information and information management services to the humanitarian "
-"community in Afghanistan."
+"The Afghanistan Natural Hazard Data Center is part of the iMMAP Disaster "
+"Risk Reduction (DRR) Program, which is a USAID/OFDA funded project to "
+"provide DRR relevant information and information management services to the "
+"humanitarian community in Afghanistan."
 msgstr ""
 "مرکز ارقام مکانی افغانستان بخشی از پروگرام کاهش حوادث طبیعی (DRR) iMMAPاست، "
 "که توسط USAID/OFDA تمویل میشود  که اطلاعات حوادث طبیعی وخدمات مدیریت "
@@ -4625,18 +4638,19 @@ msgid "1.1       Data Disclaimer"
 msgstr "1.1 رفع مسئولیت ارقام"
 
 #: .\templates\disclaimer.html:17 .\templates\v2\disclaimer.html:40
+#, fuzzy
 msgid ""
-"The Afghanistan Spatial Data Center Data/Maps were created by the iMMAP DRR "
-"program. Some flaws and limitations of the data are described in this "
-"document. However, a degree of error is inherent in all datasets, especially "
-"modelled maps and maps of dynamic events such as floods. Accordingly, the "
-"information is distributed &quot;AS-IS&quot; without warranties of any kind, "
-"either express or implied. iMMAP shall not accept any liability or "
-"warranties for damages incurring from the use of this data, including but "
-"not limited to warranties of suitability to a particular purpose or use. No "
-"attempt has been made in either the design or production of the data to "
-"define the limits or jurisdiction of any federal, state, or local "
-"government. The map is intended for use only at the published scale."
+"The Afghanistan Natural Hazard Data Center Data/Maps were created by the "
+"iMMAP DRR program. Some flaws and limitations of the data are described in "
+"this document. However, a degree of error is inherent in all datasets, "
+"especially modelled maps and maps of dynamic events such as floods. "
+"Accordingly, the information is distributed &quot;AS-IS&quot; without "
+"warranties of any kind, either express or implied. iMMAP shall not accept "
+"any liability or warranties for damages incurring from the use of this data, "
+"including but not limited to warranties of suitability to a particular "
+"purpose or use. No attempt has been made in either the design or production "
+"of the data to define the limits or jurisdiction of any federal, state, or "
+"local government. The map is intended for use only at the published scale."
 msgstr ""
 " نقشه ها و اطلاعات مرکز ارقام مکانی افغانستان که توسط برنامه iMMAP،DRR ایجاد "
 "شده. برخی از نواقص و محدودیت های ارقام در این سند شرح شده است. با این حال "
@@ -4747,9 +4761,10 @@ msgid "1.4       Citing and Reference"
 msgstr "1.4 استناد و ماخذ"
 
 #: .\templates\disclaimer.html:32 .\templates\v2\disclaimer.html:67
+#, fuzzy
 msgid ""
-"When using the data/maps or referring to it, the Afghanistan Spatial Data "
-"Center should be referred to as following:"
+"When using the data/maps or referring to it, the Afghanistan Natural Hazard "
+"Data Center should be referred to as following:"
 msgstr ""
 "هنگام استفاده از ارقام / نقشه ها و یا رجوع به آن، مرکز ارقام مکانی "
 "افغانستان  باید به عنوان ذیل رجوع کرد:"
@@ -4797,7 +4812,9 @@ msgstr ""
 "برف و یخ افغانستان"
 
 #: .\templates\documentation.html:10
-msgid "Click here go to view Documentation for the ASDC Data and Methodologies"
+#, fuzzy
+msgid ""
+"Click here go to view Documentation for the ANHDC Data and Methodologies"
 msgstr "برای نمایش اسناد  ارقام و روش ASDC  اینجا را کلیک کنید ."
 
 #: .\templates\help.html:4 .\templates\v2\help.html:4
@@ -5035,7 +5052,8 @@ msgstr "مرورنقشه های استانیک (ساکن)"
 msgid ""
 "Explore map on the interactive mode, style and export to pdf functionality "
 "enabled"
-msgstr "جستجوی نقشه در حالت متحرک ، قابلیت طراحی و صادر به PDF فعال است "
+msgstr ""
+"جستجوی نقشه در حالت متحرک ، قابلیت طراحی و استحراج به پی دی اف فعال است "
 
 #: .\templates\index.html:38 .\templates\v2\index.html:47
 msgid "Browse Interactive Maps"
@@ -5043,13 +5061,12 @@ msgstr "مرور نقشه های تعاملی (فعال)"
 
 #: .\templates\index.html:47 .\templates\v2\index.html:54
 msgid "Analysis tools"
-msgstr "افزار تجزیه و تحلیل"
+msgstr "ابزار تجزیه و تحلیل"
 
 #: .\templates\index.html:48 .\templates\v2\index.html:55
 msgid "Populate analysis figure and export map pdf using geoexplorer"
 msgstr ""
-"از جستجوگر جغرافیایی برای بررسی افزایش رقم جمعیت و بیرو بردن نقشه به شکل پی "
-"دی اف استفاده  نمود "
+"شکل تجریه وتحلیل واستخراج نقشه به شکل پی دی اف بااستفاده از جستجوگر جغرافیایی"
 
 #: .\templates\index.html:49 .\templates\v2\index.html:56
 msgid "Open DRR Interactive Map"
@@ -5360,9 +5377,10 @@ msgstr "در باره مرکز ارقام مکانی افغانستان"
 
 #: .\templates\partners.html:11 .\templates\v2\partners.html:31
 msgid "Data Providers and Partners"
-msgstr "ارائه دهندگان اطلاعات و شرکای"
+msgstr "ارائه دهندگان اطلاعات و شرکا"
 
-#: .\templates\partners.html:12 .\templates\v2\partners.html:32
+#: .\templates\partners.html:12
+#, fuzzy
 msgid ""
 "This list provides an insight in the main partners who have provided or are "
 "providing essential data."
@@ -5371,9 +5389,13 @@ msgstr ""
 "اطلاعات ضروری میباشند."
 
 #: .\templates\partners.html:13
+#, fuzzy
 msgid ""
-"For each of the organisations the main contributions for the ASDC are listed."
-msgstr "برای هر یک از سازمان ها کمک های عمده که برای ASDC کردند ذکر شده است."
+"For each of the organisations the main contributions for the ANHDC are "
+"listed."
+msgstr ""
+"برای هر یک از سازمان ها کمک های عمده که برای مرکز ارقام اطلاعات خطرات حوادث "
+"طبیعی افغانستان کردند ذکر شده است."
 
 #: .\templates\partners.html:14 .\templates\v2\partners.html:34
 msgid ""
@@ -5725,9 +5747,10 @@ msgstr ""
 "برای جزییات و عمیقتر مدت سه روز میباشد."
 
 #: .\templates\training.html:13
+#, fuzzy
 msgid ""
 "Training is given in English by Noor Zangana, a dedicated professional "
-"trainer on the ASDC. She is supported by two local national staff. "
+"trainer on the ANHDC. She is supported by two local national staff. "
 "Alternatively, 20-30 minutes telephone walkthrough training sessions are "
 "also possible."
 msgstr ""
@@ -5735,36 +5758,39 @@ msgstr ""
 "توسط دو کارمند محلی حمایت می شود. روش دیگر 30-20 دقیقه از طریق آموزشی "
 "تیلفونی نیز امکان پذیر است."
 
-#: .\templates\training.html:23
-msgid "ASDC Professional User Certification program"
+#: .\templates\training.html:23 .\templates\v2\training.html:45
+msgid "ANHDC Professional User Certification program"
 msgstr ""
-"پروگرام صدور تصدیق نامه برای کاربران حرفه ای مرکز ارقام مکانی افغانستان "
+"پروگرام صدور تصدیق نامه برای کاربران حرفه ای مرکز ارقام اطلاعات خطرات حوادث "
+"طبیعی افغانستان"
 
-#: .\templates\training.html:24
+#: .\templates\training.html:24 .\templates\v2\training.html:46
 msgid ""
-"iMMAP has initiated the ASDC Professional User Certification program, which "
-"further expands the ASDC training program with hands-on exercises. The "
+"iMMAP has initiated the ANHDC Professional User Certification program, which "
+"further expands the ANHDC training program with hands-on exercises. The "
 "certification highlights user proficiency with the functionalities of the "
-"ASDC and the capability to independently advance this knowledge."
+"ANHDC and the capability to independently advance this knowledge."
 msgstr ""
 " iMMAP برنامه دریافت تصدیقنامه کاربران حرفوی را آغاز نموده که برای توسعه "
-"آموزش ANHDC از طریق تمرینات عملی بسیار مفید است نکات مهم مراحل دریافت  "
-"تصدیقنامه قابلیت پیش برد این دانش بطور مستقلانه نظر به تخصص کاربر و طراحی "
-"ANHDC میباشد."
+"آموزش مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان از طریق تمرینات عملی "
+"بسیار مفید است نکات مهم مراحل دریافت  تصدیقنامه قابلیت پیش برد این دانش بطور "
+"مستقلانه نظر به تخصص کاربر و طراحی مرکز ارقام اطلاعات خطرات حوادث طبیعی "
+"افغانستان میباشد."
 
 #: .\templates\training.html:25
 msgid ""
 "The certification takes place online and consist of 80 interactive questions "
 "&#40;75&#37; passing mark&#41;, tied to various scenarios. For proficient "
 "users it will take approximately 1-2 hours to complete, whereas for novice "
-"yet trained users it can take more than 3 hours. Having seen the ASDC "
+"yet trained users it can take more than 3 hours. Having seen the ANHDC "
 "Training videos is a perquisite to be able to complete."
 msgstr ""
 "پروسه بدست آوردن تصدیق نامه آنلاین صورت گرفته که شامل 80 سوال عملی میباشد  "
 "(باید 75%  سوال ها پاسخ درست گفته شود) که شامل بخش های مختلف میباشد. برای "
 "کاربر های که مهارت زیاد دارند این پروسه در حدود 1 یا 2 ساعت طول میکشد، و "
 "برای کاربران که تازه آموزش دیدن بیشتر از 3 ساعت .تکمیل نمودن این پروسه با "
-"دیدن ویدیوهای آموزشی ANHDC لازم است.  "
+"دیدن ویدیوهای آموزشی مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان لازم "
+"است.  "
 
 #: .\templates\training.html:26 .\templates\v2\training.html:48
 msgid ""
@@ -5782,18 +5808,20 @@ msgstr "برای رفتن به صفحه تصدیق نامه اینجا کلیک 
 msgid "Video Training"
 msgstr "آموزش تصویری"
 
-#: .\templates\training.html:39 .\templates\video.html:10
+#: .\templates\training.html:39
+#, fuzzy
 msgid ""
 "To facility better communication a Youtube channel has been made to host "
-"basic instruction videos on the functionalities of the Afghanistan Spatial "
-"Data Center (18.196.236.51).  The instruction videos can be found on YouTube "
-"and on the ASDC. (available in Dari and English). There are already 11 "
-"training videos, totalling 1 ½ hours of material."
+"basic instruction videos on the functionalities of the Afghanistan Natural "
+"Hazard Data Center(anhdc.andma.gov.af).  The instruction videos can be found "
+"on YouTube and on the ANHDC. (available in Dari and English). There are "
+"already 11 training videos, totalling 1 ½ hours of material."
 msgstr ""
 "برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن ویدیوهای "
 "آموزشی از مرکز ارقام مکانی افغانستان (anhdc.andma.gov.af). ویدیوهای آموزشی "
-"را می توان در یوتیوب و در ASDC پیدا نمود. (به هردو زبان دری و انگلیسی). در "
-"حال حاضر 11 ویدیویی آموزشی، در مجموع یک و نیم ساعت میباشد موجود است ."
+"را می توان در یوتیوب و در مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان "
+"پیدا نمود. (به هردو زبان دری و انگلیسی). در حال حاضر 11 ویدیویی آموزشی، در "
+"مجموع یک و نیم ساعت میباشد موجود است ."
 
 #: .\templates\training.html:40
 msgid "Click here go to youtube page"
@@ -5802,6 +5830,21 @@ msgstr "برای رفتن به صفحه یوتیوب اینجا را کلیک ک
 #: .\templates\video.html:9
 msgid "Video"
 msgstr "ویدیو"
+
+#: .\templates\video.html:10
+#, fuzzy
+msgid ""
+"To facility better communication a Youtube channel has been made to host "
+"basic instruction videos on the functionalities of the Afghanistan Natural "
+"Hazard Data Center(anhdc.andma.gov.af).  The instruction videos can be found "
+"on YouTube and on the ASDC. (available in Dari and English). There are "
+"already 11 training videos, totalling 1 ½ hours of material."
+msgstr ""
+"برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن ویدیوهای "
+"آموزشی از مرکز ارقام مکانی افغانستان (anhdc.andma.gov.af). ویدیوهای آموزشی "
+"را می توان در یوتیوب و در مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان "
+"پیدا نمود. (به هردو زبان دری و انگلیسی). در حال حاضر 11 ویدیویی آموزشی، در "
+"مجموع یک و نیم ساعت میباشد موجود است ."
 
 #: .\templates\video.html:11
 msgid "click here go to youtube channel"
@@ -5867,6 +5910,12 @@ msgstr "تا به حال  راجستر نشده اید؟"
 msgid "Are you sure you want to log out?"
 msgstr "آیا مطمئن هستید که می خواهید از سیستم خارج شوید؟"
 
+#: .\templates\account\password_change.html:15
+#: .\templates\account\password_change.html:19
+#, fuzzy
+msgid "Change Password"
+msgstr "تغییر رمز عبور"
+
 #: .\templates\account\password_reset.html:9
 #: .\templates\account\v2\forgot_pass.html:8
 msgid "Password reset"
@@ -5879,6 +5928,7 @@ msgid "Forgot Password"
 msgstr "فراموش رمز عبور؟"
 
 #: .\templates\account\password_reset.html:34
+#: .\templates\account\v2\forgot_pass.html:38
 msgid ""
 "Submit your email linked to ANHDC and we will send you an email to reset "
 "your password."
@@ -6033,14 +6083,6 @@ msgstr ""
 msgid "Confirm your email address"
 msgstr "تأیید ایمیل آدرس"
 
-#: .\templates\account\v2\forgot_pass.html:38
-msgid ""
-"Submit your email linked to ASDC and we will send you an email to reset your "
-"password."
-msgstr ""
-"ایمیل آدرس خود را در پایین وارد کنید، به خاطر اجازه تنظیم مجدد ما بر شما "
-"ایمیل میکنیم"
-
 #: .\templates\account\v2\forgot_pass.html:39
 #, fuzzy, python-format
 msgid ""
@@ -6131,36 +6173,53 @@ msgstr ""
 msgid "Announcements : %(announcement)s"
 msgstr "اطلاعات: %(announcement)s"
 
-#: .\templates\avatar\add.html:6 .\templates\avatar\change.html:6
-#: .\templates\avatar\confirm_delete.html:5
+#: .\templates\avatar\add.html:10 .\templates\avatar\add.html.py:14
+#, fuzzy
+msgid "Add avatar"
+msgstr "افزودن لایه ها"
+
+#: .\templates\avatar\add.html:23 .\templates\avatar\change.html:24
+#: .\templates\avatar\confirm_delete.html:22
 msgid "Back to edit your profile information"
 msgstr "برگشت به تنظیم معلومات نمایه خود"
 
-#: .\templates\avatar\add.html:7 .\templates\avatar\change.html:7
+#: .\templates\avatar\add.html:24 .\templates\avatar\change.html:25
 msgid "Your current avatar: "
 msgstr "تصویر فعلی تان"
 
-#: .\templates\avatar\add.html:10 .\templates\avatar\change.html:10
+#: .\templates\avatar\add.html:27 .\templates\avatar\change.html:28
 msgid "You haven't uploaded an avatar yet. Please upload one now."
 msgstr "شما تا هنوز تصویر آپلود نکرده اید . لطفا  آپلود کنید."
 
-#: .\templates\avatar\add.html:14 .\templates\avatar\change.html:21
+#: .\templates\avatar\add.html:31 .\templates\avatar\change.html:39
 msgid "Upload New Image"
 msgstr "آپلود تصویر جدید"
 
-#: .\templates\avatar\change.html:16
+#: .\templates\avatar\change.html:4 .\templates\avatar\change.html.py:11
+#: .\templates\avatar\change.html:15
+#, fuzzy
+msgid "Change avatar"
+msgstr "تغییر نماد"
+
+#: .\templates\avatar\change.html:34
 msgid "Choose new Default"
 msgstr "انتخاب پیش فرض جدید"
 
-#: .\templates\avatar\change.html:23
+#: .\templates\avatar\change.html:41
 msgid "Delete Your Avatar"
 msgstr "حذف تصویر تان"
 
-#: .\templates\avatar\confirm_delete.html:6
+#: .\templates\avatar\confirm_delete.html:9
+#: .\templates\avatar\confirm_delete.html:13
+#, fuzzy
+msgid "Delete avatar"
+msgstr "حذف تصویر تان"
+
+#: .\templates\avatar\confirm_delete.html:23
 msgid "Please select the avatars that you would like to delete."
 msgstr "لطفاً تصویر را انتخاب کنید که مایل هستین حذف شود"
 
-#: .\templates\avatar\confirm_delete.html:9
+#: .\templates\avatar\confirm_delete.html:26
 #, python-format
 msgid ""
 "You have no avatars to delete. Please <a href=\"%(avatar_change_url)s"
@@ -6169,7 +6228,7 @@ msgstr ""
 "شما هیچ تصویر برای حذف ندارید لطفاً حالا آپلود نمایید . Please <a href="
 "\"%(avatar_change_url)s\">upload one</a> now."
 
-#: .\templates\avatar\confirm_delete.html:15
+#: .\templates\avatar\confirm_delete.html:32
 msgid "Delete These"
 msgstr "حذف اینها"
 
@@ -6712,6 +6771,11 @@ msgstr ""
 msgid "Noted by"
 msgstr "متعلق به"
 
+#: .\templates\v2\_deliverynotes.html:63
+#, fuzzy
+msgid "Log your delivery notes"
+msgstr "نقطه تحویل"
+
 #: .\templates\v2\_permissions.html:7
 msgid "Privacy"
 msgstr "شخصی"
@@ -6748,22 +6812,14 @@ msgstr "کاربران ذیل:"
 msgid "Following Groups "
 msgstr "گروپ های ذیل:"
 
-#: .\templates\v2\about.html:31
-msgid "About ANHDC"
-msgstr "درباره مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان"
-
 #: .\templates\v2\about.html:35
 msgid ""
 "The Afghanistan Natural Hazard Data Center (ANHDC) is developed by iMMAP in "
 "Afghanistan. It is part of the iMMAP Disaster Risk Reduction Program, which "
 "is funded by the United States Agency for International Development (USAID)/"
 "Office of U.S. Foreign Disaster Assistance (OFDA)."
-msgstr ""
-" مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان( اطلاعات خطرات حوادث طبیعی "
-"افغانستان) توسط iMMAP در افغانستان توسعه یافته است. این بخش iMMAP  برنامه "
-"کاهش حوادث طبیعی (DRR) است ،که توسط آژانس ایالات متحده برای توسعه بین المللی "
-"ایالات متحده (USAID) و اداره همکاری به حوادث بیرونی ایالات متحده (OFDA) "
-"تمویل میشود ."
+msgstr "مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان( اطلاعات خطرات حوادث طبیعی افغانستان) توسط iMMAP در افغانستان توسعه یافته است. این بخش ازکاهش حوادث طبیعی موسسه (iMMAP) است،که توسط اداره ایالات متحده برای توسعه بین المللی  (USAID) و اداره همکاری به حوادث خارجی ایالات متحده (OFDA) تمویل میشود ."
+
 
 #: .\templates\v2\about.html:36
 msgid ""
@@ -6775,26 +6831,11 @@ msgid ""
 "most advanced geoportal on Afghanistan containing comprehensive and accurate "
 "data. The iMMAP DRR program is funded by USAID and it is ready for daily "
 "usage."
-msgstr ""
-"برنامه کاهش حوادث طبیعی(DRR) یک برنامه علمی است که تصمیم گیرندگان جامعه بشری "
-"را برای اخذ  اطلاعات مهم  برای برنامه ریزی واکنش های اضطراری  حمایت میکند . "
-"مرکز ارقام مکانی افغانستان ( اطلاعات خطرات حوادث طبیعی افغانستان) پلیت فرم "
-"انتشار ارقام  کاهش حوادث طبیعی DRR  و سایر اطلاعات عمومی است.در حال حاضر  "
-"اطلاعات خطرات حوادث طبیعی افغانستان  پیشرفته ترین منبع دسترسی برای کسب "
-"اطلاعات  جامع و دقیق جغرافیایی در افغانستان است.برنامه DRR (کاهش حوادث "
-"طبیعی )iMMAP تمویل میشود توسط USAID و اماده است برای استفاده روزانه  .      "
-
-#: .\templates\v2\about.html:37
-msgid ""
-"The information provided on ANHDC are especially useful in regards to "
-"prediction, emergency response, M&E and planning purposes."
-msgstr ""
-"اطلاعات ارائه شده در  اطلاعات خطرات حوادث طبیعی افغانستان به خصوص در رابطه "
-"با پیش بینی، واکنش های اضطراری، نظارت و ارزیابی و اهداف برنامه ریزی مفید است."
+msgstr "برنامه کاهش حوادث طبیعی(DRR) یک برنامه علمی است که تصمیم گیرندگان جامعه بشری را برای اخذ اطلاعات مهم برای برنامه ریزی واکنش های اضطراری حمایت میکند . مرکز ارقام مکانی افغانستان ( اطلاعات خطرات حوادث طبیعی افغانستان)پلتفورم انتشار ارقام کاهش حوادث طبیعی DRR و سایر اطلاعات عمومی است.در حال حاضر اطلاعات خطرات حوادث طبیعی افغانستان پیشرفته ترین منبع دسترسی برای کسب اطلاعات جامع و دقیق جغرافیایی در افغانستان است.برنامه کاهش حوادث طبیعی iMMAP توسط USAID تمویل میشود که درحال حاضر برای استفاده روزانه آماده است."
 
 #: .\templates\v2\about.html:79
 msgid "Prediction"
-msgstr "نسخه"
+msgstr "پیشبینی"
 
 #: .\templates\v2\about.html:80
 msgid "(include estimation on population at risk for each of the following):"
@@ -6809,18 +6850,6 @@ msgstr "هر 6 ساعت خطر سیلاب دریایی برای 4 روز آین�
 #: .\templates\v2\about.html:112
 msgid "ANHDC Core Team"
 msgstr "تیم اصلی مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان"
-
-#: .\templates\v2\about.html:119
-msgid ""
-"Dr. Emlyn Hagen has led the development of the ANHDC conceptually and "
-"scientifically. At one hand creating the various unique data sets utilised "
-"by the project, as well as developing the scientific methodology for the "
-"prediction and statistics."
-msgstr ""
-"داکتر ایملین هاگن  از نظر علمی و نظری  توسعه  اطلاعات خطرات حوادث طبیعی "
-"افغانستان را رهبری مینماید. او از یک سو ایجاد مجموعه ارقام های مختلف بینظیر "
-"که استفاده شده توسط  پروژه، و از دیگر سو  در ایجاد روش علمی برای پیش بینی و "
-"آمار و ارقام کوشش های زیاد نموده است "
 
 #: .\templates\v2\about.html:128
 msgid ""
@@ -6958,14 +6987,15 @@ msgid ""
 "been extensively updated and/or refined, as well as new functionalities must "
 "be added."
 msgstr ""
-"لطفا اسناد را در سمت راست پیدا کنید. این یک سند زنده است و در حال حاضر باید "
-"به عنوان پیش نویس در نظر گرفته شود. در حال حاضر بخش های پیش بینی سیل و تخمین "
+"لطفا اسناد را در سمت جپ پیدا کنید. این یک سند زنده است و در حال حاضر باید به "
+"عنوان پیش نویس در نظر گرفته شود. در حال حاضر بخش های پیش بینی سیل و تخمین "
 "های جمعیت باید مورد بازنگری قرار گیرند زیرا این موارد به روز شده ویا تصفیه "
 "گسترده ای شده اند ، همچنین باید عملکردهای جدیدی نیز به آن اضافه شود."
 
 #: .\templates\v2\doc.html:35
-msgid "Current Version: Documentation ASDC (Afghanistan Spatial Data Center)"
-msgstr "در باره مرکز ارقام مکانی افغانستان"
+msgid ""
+"Current Version: Documentation ANHDC (Afghanistan Natural Hazard Data Center)"
+msgstr "نسحه فعلی:اسناد مرکز ارقام اطلاعات خطرات حوادث افغانستان"
 
 #: .\templates\v2\doc.html:36
 msgid "Data and Methodologies - V0.9 - Emlyn Hagen, iMMAP (September 2016)"
@@ -7006,12 +7036,13 @@ msgid "Avalanches: "
 msgstr "برف کوچ ها"
 
 #: .\templates\v2\doc.html:67
+
 msgid ""
 "To facilitate better communication, a Youtube channel has been made to host "
-"basic instruction videos on the functionalities of the Afghanistan Spatial "
-"Data Center (anhdc.andma.gov.af/). The instruction videos can be found on "
-"YouTube and on the ASDC (available in Dari and English). Currently, there "
-"are 11 training videos, in total 1 ½ hours of material."
+"basic instruction videos on the functionalities of the Afghanistan Natural "
+"Hazard Data Center(anhdc.andma.gov.af). The instruction videos can be found "
+"on YouTube and on the ANHDC (available in Dari and English). Currently, "
+"there are 11 training videos, in total 1 ½ hours of material."
 msgstr ""
 "برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن ویدیوهای "
 "آموزشی از مرکز ارقام مکانی افغانستان (anhdc.andma.gov.af). ویدیوهای آموزشی "
@@ -7216,7 +7247,7 @@ msgstr ""
 
 #: .\templates\v2\index.html:105
 msgid "Current Information"
-msgstr "معلومات مکمل"
+msgstr "فعلی معلومات "
 
 #: .\templates\v2\index.html:106
 msgid "Look at some of the recent information we have"
@@ -7248,7 +7279,7 @@ msgstr ""
 
 #: .\templates\v2\index.html:139
 msgid "Latest Earthquake"
-msgstr "زلزله"
+msgstr "آخرین زلزله"
 
 #: .\templates\v2\index.html:142
 msgid "The map and statistics are updated every 30 mins."
@@ -7271,7 +7302,7 @@ msgstr "برای بررسی پوشش و عمق فعلی برف این جا کل�
 
 #: .\templates\v2\index.html:197
 msgid "Our Latest Maps"
-msgstr "آخرین نقشه های سیلاب"
+msgstr "آخرین نقشه های ما"
 
 #: .\templates\v2\index.html:198
 msgid "Look at some of the recent projects we have completed"
@@ -7283,23 +7314,23 @@ msgstr "نمایش همه"
 
 #: .\templates\v2\index.html:246
 msgid "Flood Maps"
-msgstr "سیلاب"
+msgstr "سیلاب نقشه"
 
 #: .\templates\v2\index.html:292
 msgid ""
 "New to ANHDC? Check our documentation for having a better understanding how "
 "useful our tools are."
 msgstr ""
-"تازه وارد مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان هستید؟ اسناد ما را "
-"بررسی کنید تا درک بهتری از مفید بودن ابزارهای ما داشته باشید"
+"آیا با ANHDCآشنایی دارید؟ جهت آشنایی بهتر اسناد مارا ببینید که چگونه "
+"ابزارهای ما برایتان مفید است "
 
 #: .\templates\v2\index.html:293
 msgid "Watch Tutorial"
-msgstr "آموزش تماشا کنید"
+msgstr "دیدن آموزش"
 
 #: .\templates\v2\index.html:294
 msgid "See Documentation"
-msgstr "مستندات"
+msgstr "دیدن اسناد"
 
 #: .\templates\v2\index.html:304 .\templates\v2\index.html.py:440
 msgid "OUR PARTNERS"
@@ -7312,6 +7343,14 @@ msgstr "لیست شریکی که یا داده یا مشارکت مالی را �
 #: .\templates\v2\partners.html:4
 msgid "Partners and Data Providers"
 msgstr "شرکای و ارائه دهندگان اطلاعات"
+
+#: .\templates\v2\partners.html:32
+msgid ""
+"This list provides an insight in the main partners who have provided or "
+"providing essential data."
+msgstr ""
+"این لیست نشان دهنده شرکای اصلی است که ارائه کرده اند و یا در حال ارائه "
+"اطلاعات ضروری میباشند."
 
 #: .\templates\v2\partners.html:33
 msgid ""
@@ -7476,39 +7515,19 @@ msgstr ""
 "ارقام اطلاعات خطرات حوادث طبیعی افغانستان ما انجام می شود. بنابراین می توان "
 "آموزش را به دو زبان انگلیسی و دری ارائه داد."
 
-#: .\templates\v2\training.html:45
-msgid "ANHDC Professional User Certification program"
-msgstr ""
-"پروگرام صدور تصدیق نامه برای کاربران حرفه ای مرکز ارقام اطلاعات خطرات حوادث "
-"طبیعی افغانستان"
-
-#: .\templates\v2\training.html:46
-msgid ""
-"iMMAP has initiated the ANHDC Professional User Certification program, which "
-"further expands the ANHDC training program with hands-on exercises. The "
-"certification highlights user proficiency with the functionalities of the "
-"ANHDC and the capability to independently advance this knowledge."
-msgstr ""
-" iMMAP برنامه دریافت تصدیقنامه کاربران حرفوی را آغاز نموده که برای توسعه "
-"آموزش مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان از طریق تمرینات عملی "
-"بسیار مفید است نکات مهم مراحل دریافت  تصدیقنامه قابلیت پیش برد این دانش بطور "
-"مستقلانه نظر به تخصص کاربر و طراحی مرکز ارقام اطلاعات خطرات حوادث طبیعی "
-"افغانستان میباشد."
-
 #: .\templates\v2\training.html:47
 msgid ""
 "The certification takes place online and consist of 80 interactive questions "
 "&#40;75&#37; passing mark&#41;, tied to various scenarios. For proficient "
 "users it will take approximately 1-2 hours to complete, whereas for novice "
-"yet trained users it can take more than 3 hours. Having seen the ANHDC "
+"yet trained users it can take more than 3 hours. Having seen the ASDC "
 "Training videos is a perquisite to be able to complete."
 msgstr ""
 "پروسه بدست آوردن تصدیق نامه آنلاین صورت گرفته که شامل 80 سوال عملی میباشد  "
 "(باید 75%  سوال ها پاسخ درست گفته شود) که شامل بخش های مختلف میباشد. برای "
 "کاربر های که مهارت زیاد دارند این پروسه در حدود 1 یا 2 ساعت طول میکشد، و "
 "برای کاربران که تازه آموزش دیدن بیشتر از 3 ساعت .تکمیل نمودن این پروسه با "
-"دیدن ویدیوهای آموزشی مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان لازم "
-"است.  "
+"دیدن ویدیوهای آموزشی ANHDC لازم است.  "
 
 #: .\templates\v2\training.html:49
 msgid "Go to Certification Portal"
@@ -7521,10 +7540,11 @@ msgstr ""
 "(مقدمه ای بر مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان)"
 
 #: .\templates\v2\training.html:61
+#, fuzzy
 msgid ""
 "In Collaboration with the California University of Pennsylvania and "
 "Northeastern University, under the guidance of Professor Dr. Thomas R. "
-"Mueller the ANHDC is providing testing/certification access to participating "
+"Mueller the ASDC is providing testing/certification access to participating "
 "universities."
 msgstr ""
 "با همکاری دانشگاه کالیفرنیا پنسیلوانیا و دانشگاه شمال شرقی تحت هدایت استاد "
@@ -7536,11 +7556,12 @@ msgid "Go to University Certification Portal"
 msgstr "برای رفتن به صفحه تصدیق نامه اینجا کلیک کنید"
 
 #: .\templates\v2\training.html:83
+#, fuzzy
 msgid ""
 "To facilitate better communication, a Youtube channel has been made to host "
-"basic instruction videos on the functionalities of the Afghanistan Spatial "
-"Data Center (anhdc.andma.gov.af). The instruction videos can be found on "
-"YouTube and on the ANHDC (available in Dari and English). Currently, there "
+"basic instruction videos on the functionalities of the Afghanistan Natural "
+"Hazard Data Center(anhdc.andma.gov.af). The instruction videos can be found "
+"on YouTube and on the ASDC (available in Dari and English). Currently, there "
 "are 11 training videos, in total 1 ½ hours of material."
 msgstr ""
 "برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن ویدیوهای "
@@ -7570,6 +7591,125 @@ msgid ""
 msgstr ""
 "با استفاده از مرکز ارقام اطلاعات خطرات حوادث طبیعی افغانستان جدید ، یک نمای "
 "کلی ساختار یافته و تمرین هایی را برای تجزیه و تحلیل مکان شناسی ارائه دهید."
+
+#~ msgid "About ASDC"
+#~ msgstr "درباره ASDC"
+
+#~ msgid ""
+#~ "The Afghanistan Spatial Data Center (ASDC) is developed by iMMAP in "
+#~ "Afghanistan. It is part of the iMMAP Disaster Risk Reduction Program, "
+#~ "which is funded by the United States Agency for International Development "
+#~ "(USAID)/Office of U.S. Foreign Disaster Assistance (OFDA)."
+#~ msgstr ""
+#~ "مرکز ارقام مکانی افغانستان (ASDC) توسط iMMAP در افغانستان توسعه یافته "
+#~ "است. این بخش iMMAP  برنامه کاهش حوادث طبیعی (DRR) است ،که توسط آژانس "
+#~ "ایالات متحده برای توسعه بین المللی ایالات متحده (USAID) و اداره همکاری به "
+#~ "حوادث بیرونی ایالات متحده (OFDA) تمویل میشود ."
+
+#~ msgid ""
+#~ "The Disaster Risk Reduction (DRR) program is a scientific program that "
+#~ "supports the humanitarian community with critical information to aid "
+#~ "decision makers in emergency response or program development. The "
+#~ "Afghanistan Spatial Data Center (ASDC) is the dissemination platform for "
+#~ "DRR data and other baseline information. At present the ASDC is the most "
+#~ "advanced geoportal on Afghanistan containing comprehensive and accurate "
+#~ "data. The iMMAP DRR program is funded by USAID and it is ready for daily "
+#~ "usage."
+#~ msgstr ""
+#~ "برنامه کاهش حوادث طبیعی(DRR) یک برنامه علمی است که تصمیم گیرندگان جامعه "
+#~ "بشری را برای اخذ  اطلاعات مهم  برای برنامه ریزی واکنش های اضطراری  حمایت "
+#~ "میکند . مرکز ارقام مکانی افغانستان (ASDC) پلیت فرم انتشار ارقام  کاهش "
+#~ "حوادث طبیعی DRR  و سایر اطلاعات عمومی است.در حال حاضر ASDC  پیشرفته ترین "
+#~ "منبع دسترسی برای کسب اطلاعات  جامع و دقیق جغرافیایی در افغانستان است."
+#~ "برنامه DRR (کاهش حوادث طبیعی )iMMAP تمویل میشود توسط USAID و اماده است "
+#~ "برای استفاده روزانه  .      "
+
+#~ msgid ""
+#~ "The information provided on ASDC are especially useful in regards to "
+#~ "prediction, emergency response, M&E and planning purposes."
+#~ msgstr ""
+#~ "اطلاعات ارائه شده در ASDC به خصوص در رابطه با پیش بینی، واکنش های "
+#~ "اضطراری، نظارت و ارزیابی و اهداف برنامه ریزی مفید است."
+
+#~ msgid ""
+#~ "Dr. Emlyn Hagen has led the development of the ASDC conceptually and "
+#~ "scientifically. At one hand creating the various unique data sets "
+#~ "utilised by the project, as well as developing the scientific methodology "
+#~ "for the prediction and statistics."
+#~ msgstr ""
+#~ "داکتر ایملین هاگن (Emlyn Hagen) از نظر علمی و نظری  توسعه ASDC را رهبری "
+#~ "مینماید. او از یک سو ایجاد مجموعه ارقام های مختلف بینظیر که استفاده شده "
+#~ "توسط  پروژه، و از دیگر سو  در ایجاد روش علمی برای پیش بینی و آمار و ارقام "
+#~ "کوشش های زیاد نموده است "
+
+#~ msgid ""
+#~ "Mr. Budi Hermansyah has created the ASDC GeoNode portal. Which is an "
+#~ "advanced and further development of the GeoNode supported by the World "
+#~ "Bank. These advancements include the creation of all statistics and user "
+#~ "interfaces, statistics, POI’s models, as well as automated data retrieval "
+#~ "and analysis for forecasting purposes. Furthermore, an advanced dashboard "
+#~ "has been created by Mr Budi Hermansyah."
+#~ msgstr ""
+#~ "آقای بودی هیرمنسیا (Budi Hermansyah) پورتال GeoNode سایت ANHDC را ایجاد "
+#~ "کرده است. که این توسعه پیشرفته و بیشتر از GeoNode حمایت شده توسط بانک "
+#~ "جهانی میباشد. این پیشرفت شامل ایجاد تمام آمار و روابط کاربر، آمار، مدل "
+#~ "های POI، و همچنین به عنوان بازیابی خودکار ارقام و تجزیه و تحلیل برای "
+#~ "اهداف پیش بینی میشود. علاوه بر این، مجموعه اطلاعات پیشرفته توسط آقای بودی "
+#~ "هیرمنسیا  ایجاد شده است."
+
+#~ msgid ""
+#~ "For each of the organisations the main contributions for the ASDC are "
+#~ "listed."
+#~ msgstr ""
+#~ "برای هر یک از سازمان ها کمک های عمده که برای ASDC کردند ذکر شده است."
+
+#~ msgid "ASDC Professional User Certification program"
+#~ msgstr ""
+#~ "پروگرام صدور تصدیق نامه برای کاربران حرفه ای مرکز ارقام مکانی افغانستان "
+
+#~ msgid ""
+#~ "iMMAP has initiated the ASDC Professional User Certification program, "
+#~ "which further expands the ASDC training program with hands-on exercises. "
+#~ "The certification highlights user proficiency with the functionalities of "
+#~ "the ASDC and the capability to independently advance this knowledge."
+#~ msgstr ""
+#~ " iMMAP برنامه دریافت تصدیقنامه کاربران حرفوی را آغاز نموده که برای توسعه "
+#~ "آموزش ANHDC از طریق تمرینات عملی بسیار مفید است نکات مهم مراحل دریافت  "
+#~ "تصدیقنامه قابلیت پیش برد این دانش بطور مستقلانه نظر به تخصص کاربر و طراحی "
+#~ "ANHDC میباشد."
+
+#~ msgid ""
+#~ "To facility better communication a Youtube channel has been made to host "
+#~ "basic instruction videos on the functionalities of the Afghanistan "
+#~ "Spatial Data Center (18.196.236.51).  The instruction videos can be found "
+#~ "on YouTube and on the ASDC. (available in Dari and English). There are "
+#~ "already 11 training videos, totalling 1 ½ hours of material."
+#~ msgstr ""
+#~ "برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن "
+#~ "ویدیوهای آموزشی از مرکز ارقام مکانی افغانستان (anhdc.andma.gov.af). "
+#~ "ویدیوهای آموزشی را می توان در یوتیوب و در ASDC پیدا نمود. (به هردو زبان "
+#~ "دری و انگلیسی). در حال حاضر 11 ویدیویی آموزشی، در مجموع یک و نیم ساعت "
+#~ "میباشد موجود است ."
+
+#~ msgid ""
+#~ "Submit your email linked to ASDC and we will send you an email to reset "
+#~ "your password."
+#~ msgstr ""
+#~ "ایمیل آدرس خود را در پایین وارد کنید، به خاطر اجازه تنظیم مجدد ما بر شما "
+#~ "ایمیل میکنیم"
+
+#~ msgid ""
+#~ "To facilitate better communication, a Youtube channel has been made to "
+#~ "host basic instruction videos on the functionalities of the Afghanistan "
+#~ "Spatial Data Center (anhdc.andma.gov.af/). The instruction videos can be "
+#~ "found on YouTube and on the ANHDC (available in Dari and English). "
+#~ "Currently, there are 11 training videos, in total 1 ½ hours of material."
+#~ msgstr ""
+#~ "برای امکانات بهتر ارتباط ، یک کانال یوتیوب ساخته شده است که در آن "
+#~ "ویدیوهای آموزشی از مرکز ارقام مکانی افغانستان (anhdc.andma.gov.af). "
+#~ "ویدیوهای آموزشی را می توان در یوتیوب و در مرکز ارقام اطلاعات خطرات حوادث "
+#~ "طبیعی افغانستان پیدا نمود. (به هردو زبان دری و انگلیسی). در حال حاضر 11 "
+#~ "ویدیویی آموزشی، در مجموع یک و نیم ساعت میباشد موجود است ."
 
 #~ msgid ""
 #~ "To facilitate better communication, a Youtube channel has been made to "
@@ -8741,1300 +8881,3 @@ msgstr ""
 #~ "افغانستان استفاده کرد. دسته ها خطر مدغم شده شامل بافر 25M بوده، که با مدل "
 #~ "سازی هایدرولیکی از ارقام DEM با وضاحت بالا ایجاد شده، برای اطلاعات بیشتر "
 #~ "در میتودولوژی، با NC3A Geo تماس بگیرید.\n"
-
-
-  msgid "publication"
-  msgstr "نشریه"
-
-  msgid "Badakhshan"
-  msgstr "بدخشان"
-
-  msgid "Uruzgan"
-  msgstr "اوروزگان"
-
-  msgid "Badghis"
-  msgstr "بادغيس "
-
-  msgid "Baghlan"
-  msgstr "بغلان "
-
-  msgid "Balkh"
-  msgstr "بلخ "
-
-  msgid "Bamyan"
-  msgstr "باميان "
-
-  msgid "Takhar"
-  msgstr "تخار "
-
-  msgid "Jawzjan"
-  msgstr "جوزجان "
-
-  msgid "Khost"
-  msgstr "خوست "
-
-  msgid "Daykundi"
-  msgstr "دايکندي "
-
-  msgid "Zabul"
-  msgstr "زابل "
-
-  msgid "Sar-e-Pul"
-  msgstr "سرپل"
-
-  msgid "Samangan"
-  msgstr "سمنگان "
-
-  msgid "Ghazni"
-  msgstr "غزنى "
-
-  msgid "Ghor"
-  msgstr "غور"
-
-  msgid "Farah"
-  msgstr "فراه "
-
-  msgid "Faryab"
-  msgstr "فارياب "
-
-  msgid "Paktya"
-  msgstr "پکتيا "
-
-  msgid "Paktika"
-  msgstr "پکتيکا "
-
-  msgid "Panjsher"
-  msgstr "پنجشير "
-
-  msgid "Parwan"
-  msgstr "پروان "
-
-  msgid "Kabul"
-  msgstr "کابل "
-
-  msgid "Kandahar"
-  msgstr "کندهار "
-
-  msgid "Kapisa"
-  msgstr "کاپيسا "
-
-  msgid "Kunar"
-  msgstr "کونړ "
-
-  msgid "Kunduz"
-  msgstr "کندز "
-
-  msgid "Laghman"
-  msgstr "لغمان "
-
-  msgid "Logar"
-  msgstr "لوگر "
-
-  msgid "Nangarhar"
-  msgstr "ننگرهار "
-
-  msgid "Nuristan"
-  msgstr "نورستان "
-
-  msgid "Nimroz"
-  msgstr "نيمروز "
-
-  msgid "Wardak"
-  msgstr "وردګ "
-
-  msgid "Hirat"
-  msgstr "هرات "
-
-  msgid "Hilmand"
-  msgstr "هلمند "
-
-  msgid "Temporal extent start"
-  msgstr "گستره زمانی شروع می شود"
-
-# Distric from Badakhshan
-  msgid "Arghanjkhwa"
-  msgstr "ارغنچخواه"
-
-  msgid "Argo"
-  msgstr "ارگو"
-
-  msgid "Baharak"
-  msgstr "بهارک"
-
-  msgid "Darayem"
-  msgstr "درایم"
-
-  msgid "Darwaz"
-  msgstr "درواز"
-
-  msgid "Darwaz-e-Balla"
-  msgstr "درواز بالا"
-
-  msgid "Eshkmesh"
-  msgstr "اشکاشم"
-
-  msgid "Jorm"
-  msgstr "جرم"
-
-  msgid "Keshem"
-  msgstr "کشم"
-
-  msgid "Khash"
-  msgstr "خاش"
-
-  msgid "Khwahan"
-  msgstr "خواهان"
-
-  msgid "Kofab"
-  msgstr "کوف آب"
-
-  msgid "Kohestan"
-  msgstr "کوهستان"
-
-  msgid "Koran wa Monjan"
-  msgstr "کران ومنجان"
-
-  msgid "Raghestan"
-  msgstr "راغستان"
-
-  msgid "Shahr-e-Buzorg"
-  msgstr "شهر بزرگ"
-
-  msgid "Shaki"
-  msgstr "شکی"
-
-  msgid "Shighnan"
-  msgstr "شغنان"
-
-  msgid "Shuhada"
-  msgstr "شهدا"
-
-  msgid "Tagab"
-  msgstr "تگاب"
-
-  msgid "Teshkan"
-  msgstr "تشکان"
-
-  msgid "Wakhan"
-  msgstr "واخان"
-
-  msgid "Warduj"
-  msgstr "وردوج"
-
-  msgid "Yaftal-e-Sufla"
-  msgstr "یفتل سفلی"
-
-  msgid "Yamgan"
-  msgstr "یمگان"
-
-  msgid "Yawan"
-  msgstr "یاوان"
-
-  msgid "Zebak"
-  msgstr "زیباک"
-
-# Distric Badghis
-  msgid "Qadis"
-  msgstr "قادیس"
-
-  msgid "Muqur"
-  msgstr "مقر"
-
-  msgid "Abkamari"
-  msgstr "آب کمری"
-
-  msgid "Jawand"
-  msgstr "جوند"
-
-  msgid "Balamurghab"
-  msgstr "بالا مرغاب"
-
-  msgid "Ghormach"
-  msgstr "غورماچ"
-
-  msgid "Qala-e-Naw"
-  msgstr "قلعه نو"
-
-# Distric Baghlan
-  msgid "Andarab"
-  msgstr "اندراب"
-
-  msgid "Baghlan-e-Jadid"
-  msgstr "بغلان جدید"
-
-  msgid "Burka"
-  msgstr "بورکه"
-
-  msgid "Dahana-e-Ghori"
-  msgstr "دهنۀ غوری"
-
-  msgid "Dehsalah"
-  msgstr "ده صلاح"
-
-  msgid "Doshi"
-  msgstr "دوشی"
-
-  msgid "Fereng Wa Gharu"
-  msgstr "فرنگ وغارو"
-
-  msgid "Guzargah-e- Nur"
-  msgstr "گذرگاه نور"
-
-  msgid "Khenjan"
-  msgstr "خنجان"
-
-  msgid "Khost Wa Fereng"
-  msgstr "خوست و فرنگ"
-
-  msgid "Khwajahejran"
-  msgstr "خواجه هجران"
-
-  msgid "Nahrin"
-  msgstr "نهرین"
-
-  msgid "Pul-e-Hesar"
-  msgstr "پل حصار"
-
-  msgid "Pul-e- khumri"
-  msgstr "پلخمری"
-
-  msgid "Tala Wa barfak"
-  msgstr "تاله وبرفک"
-
-# Distric Balkh
-  msgid "Charbulak"
-  msgstr "چار بولک"
-
-  msgid "Charkent"
-  msgstr "چار کنت"
-
-  msgid "Chemtal"
-  msgstr "چمتال"
-
-  msgid "Dawlatabad"
-  msgstr "دولت آباد"
-
-  msgid "Dehdadi"
-  msgstr "دهدادی"
-
-  msgid "Kaldar"
-  msgstr "کلدار"
-
-  msgid "Keshendeh"
-  msgstr "کشنده"
-
-  msgid "Khulm"
-  msgstr "خلم"
-
-  msgid "Marmul"
-  msgstr "مارمُل"
-
-  msgid "Mazar-e-Sharif"
-  msgstr "مزار شریف"
-
-  msgid "Nahr-e- Shahi"
-  msgstr "نهر شاهی"
-
-  msgid "Sharak-e-Hayratan"
-  msgstr "شهرک حیرتان"
-
-  msgid "Sholgareh"
-  msgstr "شولگره"
-
-  msgid "Shortepa"
-  msgstr "شور تیپه"
-
-  msgid "Zari"
-  msgstr "زاری"
-
-# Distric Bamyan
-  msgid "Shibar"
-  msgstr "شیبر"
-
-  msgid "Panjab"
-  msgstr "پنجاب"
-
-  msgid "Waras"
-  msgstr "ورث"
-
-  msgid "Sayghan"
-  msgstr "سیغان"
-
-  msgid "Kahmard"
-  msgstr "کهمرد"
-
-  msgid "Yakawlang"
-  msgstr "یکاولنگ"
-
-# Distric Daykundi
-  msgid "Shahrestan"
-  msgstr "شهرستان"
-
-  msgid "Ashtarlay"
-  msgstr "اشترلی"
-
-  msgid "kiti"
-  msgstr "کیتی"
-
-  msgid "Patoo"
-  msgstr "پاتو"
-
-  msgid "Miramor"
-  msgstr "میرامور"
-
-  msgid "Nili"
-  msgstr "نیلی"
-
-  msgid "Khadir"
-  msgstr "خدیر"
-
-  msgid "Sang-e-Takht"
-  msgstr "سنگ تخت"
-
-  msgid "Kajran"
-  msgstr "کجران"
-
-  msgid "Gizab"
-  msgstr "گیزاب"
-
-# Distric Farah
-  msgid "Anardara"
-  msgstr "انار دره"
-
-  msgid "Bakwa"
-  msgstr "بکواه"
-
-  msgid "Balabuluk"
-  msgstr "بالا بلوک"
-
-  msgid "Gulestan"
-  msgstr "گلستان"
-
-  msgid "Khak-e-Safed"
-  msgstr "خاک سفید"
-
-  msgid "Lash-e-Juwayn"
-  msgstr "لاش جوین"
-
-  msgid "Purchaman"
-  msgstr "پُرچمن"
-
-  msgid "Pushtrod"
-  msgstr "پشترود"
-
-  msgid "Qala-e-Kah"
-  msgstr "قلعه کاه"
-
-  msgid "Shibkoh"
-  msgstr "شیب کوه"
-
-# Distric Farayab
-  msgid "Almar"
-  msgstr "المار"
-
-  msgid "Andkhoy"
-  msgstr "اندخوی"
-
-  msgid "Bilcheragh"
-  msgstr "بلچراغ"
-
-  msgid "Dawlat Abad"
-  msgstr "دولت آباد"
-
-  msgid "Garziwan"
-  msgstr "گرزیوان"
-
-  msgid "Khan-e-Char Bagh"
-  msgstr "خان چارباغ"
-
-  msgid "Khwajasabzposh"
-  msgstr "خواجه سبزپوش"
-
-  msgid "Kohistan"
-  msgstr "کوهستان"
-
-  msgid "Maymana"
-  msgstr "میمنه"
-
-  msgid "Pashtunkot"
-  msgstr "پشتون کوټ"
-
-  msgid "Qaramqol"
-  msgstr "قرم قل"
-
-  msgid "Qaysar"
-  msgstr "قیصار"
-
-  msgid "Qorghan"
-  msgstr "قرغان"
-
-  msgid "Shirintagab"
-  msgstr "شیرین تگاب"
-
-# Distric Ghazni
-  msgid "Abband"
-  msgstr "آب بند"
-
-  msgid "Ajrestan"
-  msgstr "اجرستان"
-
-  msgid "Andar"
-  msgstr "اندړ"
-
-  msgid "Dehyak"
-  msgstr "ده یک"
-
-  msgid "Gelan"
-  msgstr "گیلان"
-
-  msgid "Giro"
-  msgstr "گیرو"
-
-  msgid "Jaghatu"
-  msgstr "جغتو"
-
-  msgid "Jaghuri"
-  msgstr "جاغوری"
-
-  msgid "Khwajaumari"
-  msgstr "خواجه عمری"
-
-  msgid "Malestan"
-  msgstr "مالستان"
-
-  msgid "Nawa"
-  msgstr "ناوه"
-
-  msgid "Nawur"
-  msgstr "ناور"
-
-  msgid "Qarabagh"
-  msgstr "قره باغ"
-
-  msgid "Rashidan"
-  msgstr "رشیدان"
-
-  msgid "Waghaz"
-  msgstr "واغظ"
-
-  msgid "Walimuhammad-e- Shahid"
-  msgstr "ولی محمد شهید"
-
-  msgid "Zanakhan"
-  msgstr "زنه خان"
-
-# Distric  Ghor
-  msgid "Chaghcharan"
-  msgstr "چغچاران"
-
-  msgid "Charsadra"
-  msgstr "چار صد ره"
-
-  msgid "Dawlatyar"
-  msgstr "دولت یار"
-
-  msgid "DoLayna"
-  msgstr "دو لینه"
-
-  msgid "Feroz Koh"
-  msgstr "فیروزکوه"
-
-  msgid "Lal Wa Sarjangal"
-  msgstr "لعل و سرجنگل"
-
-  msgid "Pasaband"
-  msgstr "پسابند"
-
-  msgid "Saghar"
-  msgstr "ساغر"
-
-  msgid "Shahrak"
-  msgstr "شهرک"
-
-  msgid "Taywarah"
-  msgstr "تیوره"
-
-  msgid "Tolak"
-  msgstr "تولک"
-
-# Distric Hilmand
-  msgid "Baghran"
-  msgstr "باغران "
-
-  msgid "Deh-e-shu"
-  msgstr "دیشو"
-
-  msgid "Garmser"
-  msgstr "گرم سیر"
-
-  msgid "Kajaki"
-  msgstr "کجکی"
-
-  msgid "Lashkargah"
-  msgstr "لشکرگاه"
-
-  msgid "Musa Qala"
-  msgstr "موسی قلعه"
-
-  msgid "Nad-e-Ali"
-  msgstr "نادعلی"
-
-  msgid "Nahr-e-Saraj"
-  msgstr "نهر سراج"
-
-  msgid "Nawa-e-Barakzaiy"
-  msgstr "ناوه بارکزائی"
-
-  msgid "Nawzad"
-  msgstr "نوزاد"
-
-  msgid "Reg"
-  msgstr "ریگ"
-
-  msgid "Sangin"
-  msgstr "سنگین"
-
-  msgid "Washer"
-  msgstr "واشیر"
-
-  msgid "Musaqalah"
-  msgstr "موسه قلعه"
-
-# Distric herat
-  msgid "Adraskan"
-  msgstr "ادرسکن"
-
-  msgid "Chisht-e-Sharif"
-  msgstr "چشت شریف"
-
-  msgid "Farsi"
-  msgstr "فرسی"
-
-  msgid "Ghoryan"
-  msgstr "غوریان"
-
-  msgid "Gulran"
-  msgstr "گلران"
-
-  msgid "Guzara"
-  msgstr "گذره"
-
-  msgid "Herat"
-  msgstr "هرات"
-
-  msgid "Injil"
-  msgstr "انجیل"
-
-  msgid "Karukh"
-  msgstr "کرُخ"
-
-  msgid "Kohsan"
-  msgstr "کوهسان"
-
-  msgid "Kushk"
-  msgstr "کُشک"
-
-  msgid "Kushk-e-Kohna"
-  msgstr "کُشک کهنه"
-
-  msgid "Obe"
-  msgstr "اوبی"
-
-  msgid "Pashtunzarghun"
-  msgstr "پشتون زرغون"
-
-  msgid "Shindand"
-  msgstr "شیندند"
-
-  msgid "Zindajan"
-  msgstr "زنده جان"
-
-  msgid "Aqcha"
-  msgstr "آقچه"
-
-  msgid "Darzab"
-  msgstr "درز آب"
-
-  msgid "Fayzabad"
-  msgstr "فیض آباد"
-
-  msgid "Khamyab"
-  msgstr "خمیاب"
-
-  msgid "Khanaqa"
-  msgstr "خانقا"
-
-  msgid "Khwajadukoh"
-  msgstr "خواجه دوکوه"
-
-  msgid "Mardyan"
-  msgstr "مردیان"
-
-  msgid "Mingajik"
-  msgstr "منگجک"
-
-  msgid "Qarqin"
-  msgstr "قرقین"
-
-  msgid "Qushtepa"
-  msgstr "قوش تیپه"
-
-  msgid "Shiberghan"
-  msgstr "شبرغان"
-
-# Distric Kabul
-  msgid "Bagrami"
-  msgstr "بگرامی"
-
-  msgid "Chaharasyab"
-  msgstr "چهار آسیاب"
-
-  msgid "Dehsabz"
-  msgstr "ده سبز"
-
-  msgid "Estalef"
-  msgstr "استالف"
-
-  msgid "Farza"
-  msgstr "فرزه"
-
-  msgid "Guldara"
-  msgstr "گلدره"
-
-  msgid "Kalakan"
-  msgstr "کلکان"
-
-  msgid "Khak-e- Jabbar"
-  msgstr "خاک جبار"
-
-  msgid "Mirbachakot"
-  msgstr "میر بچه کوت"
-
-  msgid "Musayi"
-  msgstr "موسهی"
-
-  msgid "Paghman"
-  msgstr "پغمان"
-
-  msgid "Shakardara"
-  msgstr "شکردره"
-
-  msgid "Surobi"
-  msgstr "سروبی"
-
-# Distric Kandahar
-  msgid "Arghandab"
-  msgstr "ارغنداب"
-
-  msgid "Arghestan"
-  msgstr "ارغستان"
-
-  msgid "Daman"
-  msgstr "دامان"
-
-  msgid "Ghorak"
-  msgstr "غورک"
-
-  msgid "Khakrez"
-  msgstr "خاکریز"
-
-  msgid "Maruf"
-  msgstr "معروف"
-
-  msgid "Maywand"
-  msgstr "میوند"
-
-  msgid "Miyanshin"
-  msgstr "میانشین"
-
-  msgid "Nesh"
-  msgstr "نیش"
-
-  msgid "Panjwayi"
-  msgstr "پنجوائی"
-
-  msgid "Shahwalikot"
-  msgstr "شاه ولی کوت"
-
-  msgid "Shorabak"
-  msgstr "شور آبک"
-
-  msgid "Spinboldak"
-  msgstr "سپین بولدک"
-
-  msgid "Zheray"
-  msgstr "ژړۍ"
-
-# Distric Kapisa
-  msgid "Alasay"
-  msgstr "اله سای"
-
-  msgid "Hisa-e- Awal-e- Kohestan"
-  msgstr "حصه اول کوهستان"
-
-  msgid "Hisa-e- Duwum-e- Kohestan"
-  msgstr "حصه دوم کوهستان"
-
-  msgid "Kohband"
-  msgstr "کوه بند"
-
-  msgid "Mahmud-e- Raqi"
-  msgstr "محمود راقی"
-
-  msgid "Nejrab"
-  msgstr "نجراب"
-
-# Distric Khost
-  msgid "Bak"
-  msgstr "باک"
-
-  msgid "Gurbuz"
-  msgstr "گربز"
-
-  msgid "Jajimaydan"
-  msgstr "جاجی میدان"
-
-  msgid "Mandozayi"
-  msgstr "مندوزائی"
-
-  msgid "Khost(Matun)"
-  msgstr "خوست (متون)"
-
-  msgid "Musakhel"
-  msgstr "موسی خیل"
-
-  msgid "Nadirshahkot"
-  msgstr "نادرشاه کوت"
-
-  msgid "Qalandar"
-  msgstr "قلندر"
-
-  msgid "Sabari"
-  msgstr "صبری"
-
-  msgid "Shamal"
-  msgstr "شمل"
-
-  msgid "Spera"
-  msgstr "سپیره"
-
-  msgid "Tani"
-  msgstr "تنی"
-
-  msgid "Terezayi"
-  msgstr "تری زائی"
-
-# Distric Kunar
-  msgid "Asadabad"
-  msgstr "اسد آباد"
-
-  msgid "Barkunar"
-  msgstr "برکنر"
-
-  msgid "Chapadara"
-  msgstr "چپه دره"
-
-  msgid "Chawkay"
-  msgstr "چوکی"
-
-  msgid "Dangam"
-  msgstr "دانگام"
-
-  msgid "Dara-e-Pech"
-  msgstr "دره پیچ"
-
-  msgid "Ghaziabad"
-  msgstr "غازی آباد"
-
-  msgid "Khaskunar"
-  msgstr "خاص کنر"
-
-  msgid "Marawara"
-  msgstr "مروره"
-
-  msgid "Narang"
-  msgstr "نرنگ"
-
-  msgid "Nari"
-  msgstr "ناړی"
-
-  msgid "Nurgal"
-  msgstr "نورگل"
-
-  msgid "Sarkani"
-  msgstr "سرکانی"
-
-  msgid "Shigal Wa sheltan"
-  msgstr "شیگل وشلتن"
-
-  msgid "Watapur"
-  msgstr "وته پور"
-
-# Distric Kunduz
-  msgid "Aliabad"
-  msgstr "علی آباد"
-
-  msgid "Chardarah"
-  msgstr "چهار دره"
-
-  msgid "Dasht-e-Archi"
-  msgstr "دشت ارچی"
-
-  msgid "Emamsaheb"
-  msgstr "امام صاحب"
-
-  msgid "Khanabad"
-  msgstr "خان آباد"
-
-  msgid "Qala-e-Zal"
-  msgstr "قلعه ذال"
-
-# Distric Laghman
-  msgid "Alingar"
-  msgstr "علینگار"
-
-  msgid "Alishang"
-  msgstr "علیشنگ"
-
-  msgid "Dawlatshah"
-  msgstr "دولت شاه"
-
-  msgid "Mehtarlam"
-  msgstr "مهتر لام"
-
-  msgid "Qarghayi"
-  msgstr "قرغه ئی"
-
-# Distric Logar
-  msgid "Azra"
-  msgstr "ازره"
-
-  msgid "Barakibarak"
-  msgstr "برکی برک"
-
-  msgid "Charkh"
-  msgstr "چرخ"
-
-  msgid "Kharwar"
-  msgstr "خروار"
-
-  msgid "Khoshi"
-  msgstr "خوشی"
-
-  msgid "Mohammadagha"
-  msgstr "محمدآغه"
-
-  msgid "Pul-e- Alam"
-  msgstr "پل علم"
-
-# Distric Nangarhar
-  msgid "Achin"
-  msgstr "اچین"
-
-  msgid "Batikot"
-  msgstr "بتی کوټ"
-
-  msgid "Behsud"
-  msgstr "بهسود"
-
-  msgid "Chaparhar"
-  msgstr "چپر هار"
-
-  msgid "Dara-e-Nur"
-  msgstr "دره نور"
-
-  msgid "Dehbala"
-  msgstr "ده بالا"
-
-  msgid "Durbaba"
-  msgstr "دُر بابا"
-
-  msgid "Goshta"
-  msgstr "گوشته"
-
-  msgid "Hesarak"
-  msgstr "حصارک"
-
-  msgid "Jalalabad"
-  msgstr "جلال آباد"
-
-  msgid "Kama"
-  msgstr "کامه"
-
-  msgid "Khogyani"
-  msgstr "خوگیانی"
-
-  msgid "Kot"
-  msgstr "کوټ"
-
-  msgid "Kuzkunar"
-  msgstr "کوز کنر"
-
-  msgid "Lalpur"
-  msgstr "لعل پور"
-
-  msgid "Muhmand Dara"
-  msgstr "مهمند دره"
-
-  msgid "Nazyan"
-  msgstr "نازیان"
-
-  msgid "Pachieragam"
-  msgstr "پچیراگام"
-
-  msgid "Rodat"
-  msgstr "رودات"
-
-  msgid "Sherzad"
-  msgstr "شیرزاد"
-
-  msgid "Shinwar"
-  msgstr "شینوار"
-
-  msgid "Surkhrod"
-  msgstr "سرخ رود"
-
-# Distric Nimroz
-  msgid "Chakhansur"
-  msgstr "چخانسور"
-
-  msgid "Charburjak"
-  msgstr "چاربرجک"
-
-  msgid "Kang"
-  msgstr "کنگ"
-
-  msgid "Khashrod"
-  msgstr "خاش رود"
-
-  msgid "Zaranj"
-  msgstr "زرنج"
-
-# Distric Nuristan
-  msgid "Barg-e- Matal"
-  msgstr "برگ متال"
-
-  msgid "Duab"
-  msgstr "دو آب"
-
-  msgid "Kamdesh"
-  msgstr "کامدیش"
-
-  msgid "Mandol"
-  msgstr "مندول"
-
-  msgid "Nurgeram"
-  msgstr "نورگرام"
-
-  msgid "Poruns"
-  msgstr "پرونس"
-
-  msgid "Wama"
-  msgstr "واما"
-
-  msgid "Waygal"
-  msgstr "وایگل"
-
-# Distric Paktika
-  msgid "Bermel"
-  msgstr "برمل"
-
-  msgid "Dila"
-  msgstr "دیله"
-
-  msgid "Gyan"
-  msgstr "گیان"
-
-  msgid "Gomal"
-  msgstr "گومل"
-
-  msgid "Janikhel"
-  msgstr "جانی خیل"
-
-  msgid "Matakhan"
-  msgstr "متاخان"
-
-  msgid "Naka"
-  msgstr "نیکه"
-
-  msgid "Omna"
-  msgstr "اومنه"
-
-  msgid "Sarrawzah(Sarhawzah)"
-  msgstr "سرروضه (سرحوضه)"
-
-  msgid "Sarobi"
-  msgstr "سروبی"
-
-  msgid "Sharan"
-  msgstr "شرن"
-
-  msgid "Turwo (Tarwe)"
-  msgstr "تروو"
-
-  msgid "Urgun"
-  msgstr "ارگون"
-
-  msgid "Wazakhah"
-  msgstr "وازه خواه"
-
-  msgid "Wormamay"
-  msgstr "وړ ممی"
-
-  msgid "Yahyakhel"
-  msgstr "یحی خیل"
-
-  msgid "Yosufkhel"
-  msgstr "یوسف خیل"
-
-  msgid "Zarghunshahr"
-  msgstr "زرغون شهر"
-
-  msgid "Ziruk"
-  msgstr "زیړوک"
-
-# Distric Paktya
-  msgid "Ahmadaba"
-  msgstr "احمد آبا"
-
-  msgid "Alikhel (Jaji)"
-  msgstr "علی خیل"
-
-  msgid "Chamkani"
-  msgstr "څمکنی"
-
-  msgid "Dand wa Patan"
-  msgstr "دند وپټان"
-
-  msgid "Gardez"
-  msgstr "گردیز"
-
-  msgid "Lija Ahmad Khel"
-  msgstr "لجه احمد خیل"
-
-  msgid "Sayedkaram"
-  msgstr "سیدکرم"
-
-  msgid "Shawak"
-  msgstr "شواک"
-
-  msgid "Zadran"
-  msgstr "حّدران"
-
-  msgid "Zurmat"
-  msgstr "زُرمت"
-
-# Distric Panjsher
-  msgid "Onaba(Anawa)"
-  msgstr "عنابه"
-
-  msgid "Bazarak"
-  msgstr "بازارک"
-
-  msgid "Dara"
-  msgstr "دره"
-
-  msgid "Khenj (Hes-e- Awal)"
-  msgstr "خنج (حصه اول)"
-
-  msgid "Paryan"
-  msgstr "پریان"
-
-  msgid "Rukha"
-  msgstr "رُخه"
-
-  msgid "Shutul"
-  msgstr "شُتل"
-
-# Distric Parwan
-  msgid "Bagram"
-  msgstr "بگرام"
-
-  msgid "Charikar"
-  msgstr "چاریکار"
-
-  msgid "Ghorband"
-  msgstr "غوربند"
-
-  msgid "Jabalussaraj"
-  msgstr "جبل السراج"
-
-  msgid "Koh-e- Safi"
-  msgstr "کوه صافی"
-
-  msgid "Salang"
-  msgstr "سالنگ"
-
-  msgid "Saydkhel"
-  msgstr "سیدخیل"
-
-  msgid "Shekhali"
-  msgstr "شیخ علی"
-
-  msgid "Shinwari"
-  msgstr "شینواری"
-
-  msgid "Surkh-e- Parsa"
-  msgstr "سرخ پارسا"
-
-# Distric Samangan
-  msgid "Aybak"
-  msgstr "ایبک"
-
-  msgid "Dara-e- Suf-e- Payin"
-  msgstr "درۀ صوف بالا"
-
-  msgid "Dara-e Suf-e-Bala"
-  msgstr "درۀ صوف پائین"
-
-  msgid "Feroznakhchir"
-  msgstr "فیروز نخچیر"
-
-  msgid "Hazrat-e- Sultan"
-  msgstr "حضرت سلطان"
-
-  msgid "Khuram Wa Sarbagh"
-  msgstr "خرم وسارباغ"
-
-  msgid "Ruy-e-Duab"
-  msgstr "روی دو آب"
-
-# Distric Sare -e Pul
-  msgid "Balkhab"
-  msgstr "بلخاب"
-
-  msgid "Gosfandi"
-  msgstr "گوسفندی"
-
-  msgid "Kohestanat"
-  msgstr "کوهستانات"
-
-  msgid "Sancharak(sangchark)"
-  msgstr "سانچارك"
-
-  msgid "Sayad"
-  msgstr "صیاد"
-
-  msgid "Sozmaqala"
-  msgstr "سوزمه قلعه"
-
-# Distric Takhar
-  msgid "Bangi"
-  msgstr "بنگی"
-
-  msgid "Chahab"
-  msgstr "چاه آب"
-
-  msgid "Chal"
-  msgstr "چال"
-
-  msgid "Darqad"
-  msgstr "درقد"
-
-  msgid "Dasht-e- Qala"
-  msgstr "دشت قلعه"
-
-  msgid "Eshkashem"
-  msgstr "اشکمش"
-
-  msgid "Farkhar"
-  msgstr "فرخار"
-
-  msgid "Hazarsumuch"
-  msgstr "هزار سموچ"
-
-  msgid "Kalafgan"
-  msgstr "کلفگان"
-
-  msgid "Khwajabahawuddin"
-  msgstr "خواجه بهاوالدین"
-
-  msgid "Khwajaghar"
-  msgstr "خواجه غار"
-
-  msgid "Namakab"
-  msgstr "نمک آب"
-
-  msgid "Rostaq"
-  msgstr "رُستاق"
-
-  msgid "Taloqan"
-  msgstr "تالقان"
-
-  msgid "Warsaj"
-  msgstr "ورسج"
-
-  msgid "Yangi Qala"
-  msgstr "ینگی قلعه"
-
-# Distric Uruzgan
-  msgid "Chora"
-  msgstr "چوره"
-
-  msgid "Dehrawud"
-  msgstr "دهراود"
-
-  msgid "Khasuruzgan"
-  msgstr "خاص ارزگان"
-
-  msgid "Shahid-e-Hassas"
-  msgstr "شهید حساس"
-
-  msgid "Tirinkot"
-  msgstr "تیرینکوت"
-
-# Distric Wardak
-  msgid "Chak"
-  msgstr "چک"
-
-  msgid "Daymirdad"
-  msgstr "دایمیرداد"
-
-  msgid "Hesa-e- Awal-e- Behsud"
-  msgstr "حصه اول بهسود"
-
-  msgid "Jalrez"
-  msgstr "جلریز"
-
-  msgid "Markaz-e-Behsud"
-  msgstr "مدکز بهسود"
-
-  msgid "Maydanshahr"
-  msgstr "میدان شهر"
-
-  msgid "Nerkh"
-  msgstr "نرخ"
-
-  msgid "Saydabad"
-  msgstr "سید آباد"
-
-# Distric Zabul
-  msgid "Atghar"
-  msgstr "اتغر"
-
-  msgid "Daychopan"
-  msgstr "دای چوپان"
-
-  msgid "Kakar"
-  msgstr "کاکړ"
-
-  msgid "Mizan"
-  msgstr "میزان"
-
-  msgid "Nawbahar"
-  msgstr "نوبهار"
-
-  msgid "Qalat"
-  msgstr "قلات"
-
-  msgid "Shahjoy"
-  msgstr "شاه جوی"
-
-  msgid "Shomulzay"
-  msgstr "شملزائی"
-
-  msgid "Shinkay"
-  msgstr "شینکی"
-
-  msgid "Tarnak Wa Jaldak"
-  msgstr "ترنک و جلدک"
