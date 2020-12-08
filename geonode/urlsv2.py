@@ -32,6 +32,7 @@ urlpatterns = patterns('',
                        url(r'^video/$', TemplateView.as_view(template_name='v2/video.html'), name='video'),
                        url(r'^training/$', TemplateView.as_view(template_name='v2/training.html'), name='training'),
                        url(r'^documentation/$', TemplateView.as_view(template_name='v2/doc.html'), name='documentation'),
+                       url(r'^contactus/$', TemplateView.as_view(template_name='v2/contact.html'), name='contactus'),
                        # /ubah
                        # ubah
                        (r'^layers/', include('geonode.layers.urls')),

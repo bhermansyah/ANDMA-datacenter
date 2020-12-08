@@ -64,10 +64,13 @@ v2urlpatterns = patterns('',
                        url(r'^video/$', TemplateView.as_view(template_name='v2/video.html'), name='video'),
                        url(r'^training/$', TemplateView.as_view(template_name='v2/training.html'), name='training'),
                        url(r'^documentation/$', TemplateView.as_view(template_name='v2/doc.html'), name='documentation'),
+                       url(r'^contactus/$', TemplateView.as_view(template_name='v2/contact.html'), name='contactus'),
+
 
                        url(r'^layers/$', TemplateView.as_view(template_name='v2/layer_list.html'), name='layer_browse'),
                        url(r'^maps/$', TemplateView.as_view(template_name='v2/map_list.html'), name='map_browse'),
                        url(r'^documents/$', TemplateView.as_view(template_name='v2/document_list.html'), name='document_browse'),
+                       
 
                        (r'^layers/', include('geonode.layers.urls')),
 

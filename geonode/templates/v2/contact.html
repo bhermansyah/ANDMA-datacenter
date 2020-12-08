@@ -1,0 +1,93 @@
+{% extends "v2/site_base.html" %}
+
+{% load i18n %}
+{% block title %} {% trans "Contact Us" %} — {{ block.super }} {% endblock %}
+{% block body_class %}about{% endblock %}
+{% block body_outer %}
+
+	<!-- Title -->
+	<section class="title">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-md-6">
+	                <h1>{% trans "Contact Us " %}</h1>
+	            </div>
+	            <div class="col-md-6">
+	                <ul class="breadcrumb pull-right">
+	                    <li>
+	                        <a href="#">{% trans "Contact Us" %}</a> 
+	                        <span class="divider">/</span>
+	                    </li>
+	                    <li class="active">{% trans "Contact Us" %}</li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+
+	<!-- Documentation -->
+	<section  class="container">
+        <div class="row">
+        <h2 class="text-center">if You have any suggestions or queries please contact us.</h2><br><br>
+            <div class="col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-body">
+                        <img src="{{ STATIC_URL }}v2/images/haidari.png" class="img img-circle" style="width:50%; display:block; margin:auto;">
+                        <hr>
+                       <p class="text-center"><strong>{% trans "Mohammad Qaseem Haidari" %}</strong></p>
+                        <hr>
+                        <p class="text-center">{% trans "Deputy Minister for Policy, Coordination, and Planning" %}</p><hr>
+                           <p class="text-center">{% trans "State Ministry for Disaster Management and Humanitarian affairs /ANDMA" %}
+                            {% trans "Afghanistan SFDRR focal point." %}
+                         </p><hr>
+                         <p class="text-center" ><i class="fa fa-envelope text-primary"></i> : qhaidari2007@gmail.com</p>
+                         <hr>
+                         <p class="text-center"><i class="fa fa-phone text-primary"> </i>: +93 (0)770008536</p>
+                          
+
+                     </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                 <div class="panel panel-primary">
+                    <div class="panel-body">
+                        <img src="{{ STATIC_URL }}v2/images/rahmani.png" class="img img-circle" style="width:50%; display:block; margin:auto;padding-bottom:1.6rem" ><hr>
+                        <p class="text-center"><strong>{% trans "Sayed Abdul Basit Rahmani" %}</strong></p>
+                        <hr>
+                        <p class="text-center">{% trans "Senior Adviser" %} </p><hr>
+                        <p class="text-center">{% trans "State Ministry for Disaster Management and   Humanitarian Affairs /ANDMA" %}
+                        </p><hr>
+                        <p class="text-center"><i class="fa fa-envelope text-primary"></i> :  b.rahmani@andma.gov.af </p><hr>
+                        <p class="text-center"><i class="fa fa-phone text-primary"></i> : +93 (0) 796645685</p>
+                        
+                     </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                  <div class="panel panel-primary">
+                    <div class="panel-body">
+                        <img src="{{ STATIC_URL }}v2/images/khalid.png" class="img img-circle" style="width:50%; display:block; margin:auto;padding-bottom:1.6rem"><hr>
+                        <p class="text-center"><strong>{% trans "Khalid Usman" %}</strong></p><hr>
+                        <p class="text-center"> {% trans "Software Developer" %}</p><hr>
+                        <p class="text-center">{% trans "State Ministry for Disaster Management and Humanitarian Affairs /ANDMA" %}
+                            </p><hr>
+                         <p class="text-center"><i class="fa fa-envelope text-primary"></i> :  khalid.csit1234@gmail.com </p><hr>
+                        <p class="text-center"><i class="fa fa-phone text-primary"></i> : +93 (0) 702149037</p>
+
+                     </div>
+                </div>
+            </div>
+
+
+        </div>
+		
+		
+	</section>
+
+
+	<script src="{{ STATIC_URL }}lib/js/video-ntah.js"></script>
+
+
+{% endblock %}
