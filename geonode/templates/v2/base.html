@@ -256,13 +256,16 @@
                 <div class="col-md-3">
                     <h4>{% trans 'CONTACT' %}</h4>
                     <ul class="list-unstyled address">
+
                         <li>
+                         <a href="https://mail.google.com">
                             <i class="fa fa-envelope"></i>
-                            <strong>{% trans 'Email' %}: </strong> {{ THEME_ACCOUNT_CONTACT_EMAIL }}
+                           <strong>  {% trans 'Email' %}: </strong>  {{ THEME_ACCOUNT_CONTACT_EMAIL }}</a>
                         </li>
                         <li>
+                            <a href="http://anhdc.andma.gov.af/" target="_blank">
                             <i class="fa fa-globe"></i>
-                            <strong>{% trans 'Website' %}:</strong> www.andma.gov.af
+                            <strong>{% trans 'Website' %}:</strong> www.andma.gov.af </a>
                         </li>
                     </ul>
                 </div>
@@ -277,8 +280,14 @@
     <footer id="footer">
         <div class="container">
             <div class="row">
+
                 <div class="col-md-5 cp">
-                    &copy; 2020
+                     <a id="logo" class="brand-usaid" href="{% url 'v2:home' %}">
+                    <img src="{{ STATIC_URL }}v2/images/iMMAP.png">
+                  </a> 
+
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy; 2020
                     <a target="_blank" href="http://andma.gov.af/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">{% trans "ANDMA" %}</a>.{% trans 'Powered By iMMAP'  %} 
                 </div>
                 <!--/Copyright-->
